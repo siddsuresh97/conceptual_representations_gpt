@@ -32,7 +32,7 @@ def main():
             dataset_dir = DATASET_DIR , 
             feature_list_fname = args.feature_list_fname, 
             model = args.model, 
-            openai_api_key = os.environ('OPENAI_API_KEY_TIM'), 
+            openai_api_key = os.environ['OPENAI_API_KEY_TIM'], 
             results_dir = DEFAULT_RESULTS_DIR)
 
 if __name__=="__main__":

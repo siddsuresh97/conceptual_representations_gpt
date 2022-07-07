@@ -1,0 +1,45 @@
+07/07/2022 11:28:51 AM is when this event was logged.
+07/07/2022 11:28:51 AM Running experiments with the following parameters
+07/07/2022 11:28:51 AM Argument dataset_name: 'triplet'
+07/07/2022 11:28:51 AM Argument exp_name: 'feature_listing'
+07/07/2022 11:28:51 AM Argument feature_list_fname: 'triplets.pkl'
+07/07/2022 11:28:51 AM Argument model: 'davinci'
+07/07/2022 11:29:35 AM is when this event was logged.
+07/07/2022 11:29:35 AM Running experiments with the following parameters
+07/07/2022 11:29:35 AM Argument dataset_name: 'triplet'
+07/07/2022 11:29:35 AM Argument exp_name: 'feature_listing'
+07/07/2022 11:29:35 AM Argument feature_list_fname: 'triplets.pkl'
+07/07/2022 11:29:35 AM Argument model: 'davinci'
+07/07/2022 11:30:03 AM is when this event was logged.
+07/07/2022 11:30:03 AM Running experiments with the following parameters
+07/07/2022 11:30:03 AM Argument dataset_name: 'triplet'
+07/07/2022 11:30:03 AM Argument exp_name: 'feature_listing'
+07/07/2022 11:30:03 AM Argument feature_list_fname: 'triplets.pkl'
+07/07/2022 11:30:03 AM Argument model: 'davinci'
+07/07/2022 11:30:20 AM is when this event was logged.
+07/07/2022 11:30:20 AM Running experiments with the following parameters
+07/07/2022 11:30:20 AM Argument dataset_name: 'triplet'
+07/07/2022 11:30:20 AM Argument exp_name: 'feature_listing'
+07/07/2022 11:30:20 AM Argument feature_list_fname: 'triplets.pkl'
+07/07/2022 11:30:20 AM Argument model: 'davinci'
+07/07/2022 11:31:08 AM is when this event was logged.
+07/07/2022 11:31:08 AM Running experiments with the following parameters
+07/07/2022 11:31:08 AM Argument dataset_name: 'triplet'
+07/07/2022 11:31:08 AM Argument exp_name: 'feature_listing'
+07/07/2022 11:31:08 AM Argument feature_list_fname: 'triplets.pkl'
+07/07/2022 11:31:08 AM Argument model: 'davinci'
+07/07/2022 11:31:46 AM is when this event was logged.
+07/07/2022 11:31:46 AM Running experiments with the following parameters
+07/07/2022 11:31:46 AM Argument dataset_name: 'triplet'
+07/07/2022 11:31:46 AM Argument exp_name: 'feature_listing'
+07/07/2022 11:31:46 AM Argument feature_list_fname: 'triplets.pkl'
+07/07/2022 11:31:46 AM Argument model: 'davinci'
+07/07/2022 11:32:56 AM is when this event was logged.
+07/07/2022 11:32:56 AM Running experiments with the following parameters
+07/07/2022 11:32:56 AM Argument dataset_name: 'triplet'
+07/07/2022 11:32:56 AM Argument exp_name: 'feature_listing'
+07/07/2022 11:32:56 AM Argument feature_list_fname: 'triplets.pkl'
+07/07/2022 11:32:56 AM Argument model: 'davinci'
+07/07/2022 11:32:57 AM Using selector: KqueueSelector
+07/07/2022 11:32:58 AM Using selector: KqueueSelector
+07/07/2022 11:32:58 AM Using selector: KqueueSelector

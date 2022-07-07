@@ -1,6 +1,8 @@
 import argparse, os
 import logging
 from unicodedata import category
+
+from click import prompt
 from exp_helper import *
 
 DEFAULT_DIR = os.path.abspath(os.getcwd())
@@ -26,10 +28,7 @@ REPTILES = ['Salamander',
  'Dinosaur',
  'Alligator']
 
-
-def extract_results(exp_name, dataset_name, model, results_dir):
-    reptiles = []
-    tools = []
+def save_feature_listing_results_in_csv(results_dir, dataset_name, model, exp_name):
     file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name),'rb')
     answer_dict = pickle.load(file)
     actual_total_tokens = 0
@@ -66,6 +65,64 @@ def extract_results(exp_name, dataset_name, model, results_dir):
     file.close()
     logging.info('Estimated cost : {}'.format((estimated_total_tokens/1000)*0.06))
     logging.info('Actual cost : {}'.format((actual_total_tokens/1000)*0.06))
+
+def save_feature_triplet_results_in_csv(results_dir, dataset_name, model, exp_name):
+    file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name),'rb')
+    answer_dict = pickle.load(file)
+    file.close()
+    actual_total_tokens = []
+    estimated_total_tokens = []
+    concept1_list = []
+    concept2_list = []
+    anchor_list = []
+    full_answer_list = []
+    answer_list = []
+    prompt_list = []
+    category_list = []
+    for k, v in answer_dict.items():
+        actual_total_tokens.append(v[0]['usage']['total_tokens'])
+        estimated_total_tokens.append(v[1]+ESTIMATED_RESPONSE_TOKENS)
+        prompt_list.append(v[2])
+        anchor_list.append(k[0])
+        concept1_list.append(k[1])
+        concept2_list.append(k[2])
+        answer = v[0]['choices'][0]['text'] 
+        full_answer_list.append(answer)
+        # print(k[0], k[1], v[0]['choices'][0]['text'])
+        # if 'es' in answer:
+        #     answer_list.append(1)
+        # elif 'o' in answer:
+        #     answer_list.append(0)
+        # else:
+        #     logging.error('Invalid answer')
+        if k[0] in answer:
+            print(k[0], k[1], k[2], v[2], answer)
+        if k[0] in REPTILES:
+            category_list.append('reptile')
+        elif k[0] in TOOLS:
+            category_list.append('tool')
+        else:
+            logging.error('Invalid category')
+    # print(len(anchor_list), 
+    #      len(concept1_list), 
+    #      len(concept2_list), 
+    #      len(category_list), 
+    #      len(estimated_total_tokens), 
+    #      len(actual_total_tokens), 
+    #      len(prompt_list), 
+    #      len(full_answer_list))
+    result_df = pd.DataFrame({'Anchor':anchor_list, 'Concept1':concept1_list, 'Concept2':concept2_list, 'Category':category_list, 'estimated_tokens':estimated_total_tokens, 'real_tokens': actual_total_tokens, 'prompt':prompt_list, 'gpt_response':full_answer_list})
+    result_df.to_csv(os.path.join(results_dir, dataset_name, results_dir, dataset_name, model +'_'+ exp_name + '_feature_list.csv'))
+
+
+def extract_results(exp_name, dataset_name, model, results_dir):
+    if exp_name == 'feature_listing':
+        save_feature_listing_results_in_csv(results_dir, dataset_name, model, exp_name)
+    elif exp_name == 'triplet':
+        save_feature_triplet_results_in_csv(results_dir, dataset_name, model, exp_name) 
+    else:
+        logging.error('Cant save result. Only feature listing and triplet task implemented')
+        
     return
 
 def main():

@@ -103,6 +103,8 @@ def estimated_cost(concepts_set, features_set, concept_feature_matrix, exp_name,
     logging.info('Estimated cost of running {} on {} experiment is {}'.format(exp_name, dataset_name, tokens/1000*0.06))    
     logging.info('Total queries to be made are {}'.format(queries))
 
+
+## TODO Figure out a way to make sleeping time optimal
 def send_gpt_prompt(prompt, model):
     prompt_start_time = time.time()
     if model == 'ada':
@@ -209,6 +211,7 @@ def generate_prompt_triplet(anchor, concept1, concept2):
     characters = len(prompt)
     return prompt, characters
 
+## TODO Figure out optimal condition for total_tokens
 def make_gpt_prompt_batches_triplet(triplets):
     total_tokens = 0
     batches = []
@@ -232,9 +235,7 @@ def make_gpt_prompt_batches_triplet(triplets):
 
     
         
-
-
-
+## TODO Figure out optimal sleeping time and n_jobs
 def get_gpt_responses(batches, model, openai_api_key, exp_name):
     answer_dict = {}
     each_prompt_api_time = []

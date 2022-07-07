@@ -1,0 +1,28 @@
+,Concept,Feature,Yes/No,Category,prompt,gpt_response
+0,Gecko,have_long_snout,0,reptile,"In one word, Yes/No: Do geckoes have a long snout ?","
+
+No"
+1,Chameleon,have_long_snout,1,reptile,"In one word, Yes/No: Do chameleons have a long snout ?","
+
+Yes"
+2,Gecko,have_a_tip,1,reptile,"In one word, Yes/No: Do geckoes have a a tip ?","
+
+Yes"
+3,Alligator,have_long_snout,1,reptile,"In one word, Yes/No: Do alligators have a long snout ?","
+
+Yes"
+4,Gecko,have_sharp_blade,0,reptile,"In one word, Yes/No: Do geckoes have a sharp blade ?","
+
+No"
+5,Chameleon,have_sharp_blade,0,reptile,"In one word, Yes/No: Do chameleons have a sharp blade ?","
+
+No"
+6,Alligator,have_a_tip,0,reptile,"In one word, Yes/No: Do alligators have a a tip ?","
+
+No"
+7,Chameleon,have_a_tip,1,reptile,"In one word, Yes/No: Do chameleons have a a tip ?","
+
+Yes"
+8,Alligator,have_sharp_blade,1,reptile,"In one word, Yes/No: Do alligators have a sharp blade ?","
+
+Yes."

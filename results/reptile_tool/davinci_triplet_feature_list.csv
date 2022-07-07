@@ -154,9 +154,7 @@ Knife",Knife
 Axe",Axe
 51,Toad,Paint brush,Tortoise,reptile,41.0,42,"Answer using only only word - ""Paint brush"" or ""Tortoise"" and not ""Toad"".Which is more similar in meaning to ""Toad""?","
 
-Paintbrush","
-
-Paintbrush"
+Paintbrush",fill manually
 52,Nail,Dinosaur,Oil can,tool,40.0,40,"Answer using only only word - ""Dinosaur"" or ""Oil can"" and not ""Nail"".Which is more similar in meaning to ""Nail""?","
 
 Dinosaur",Dinosaur
@@ -177,9 +175,7 @@ Gecko",Gecko
 Dinosaur",Dinosaur
 58,Oil can,Snake,Toad,tool,40.0,39,"Answer using only only word - ""Snake"" or ""Toad"" and not ""Oil can"".Which is more similar in meaning to ""Oil can""?","
 
-Can","
-
-Can"
+Can",fill manually
 59,Toad,Caiman,Oil can,reptile,39.0,40,"Answer using only only word - ""Caiman"" or ""Oil can"" and not ""Toad"".Which is more similar in meaning to ""Toad""?","
 
 Caiman",Caiman
@@ -257,9 +253,7 @@ Axe",Axe
 Lizard",Lizard
 84,Snake,Boa python,Chameleon,reptile,41.0,40,"Answer using only only word - ""Boa python"" or ""Chameleon"" and not ""Snake"".Which is more similar in meaning to ""Snake""?","
 
-Python","
-
-Python"
+Python",fill manually
 85,Chameleon,Knife,Oil can,reptile,41.0,42,"Answer using only only word - ""Knife"" or ""Oil can"" and not ""Chameleon"".Which is more similar in meaning to ""Chameleon""?","
 
 Oil can",Oil can
@@ -286,9 +280,7 @@ Lizard",Lizard
 Salamander",Salamander
 93,Lizard,Hammer,Nail,reptile,39.0,40,"Answer using only only word - ""Hammer"" or ""Nail"" and not ""Lizard"".Which is more similar in meaning to ""Lizard""?","
 
-Reptile.","
-
-Reptile."
+Reptile.",fill manually
 94,Snake,Paint brush,Vacuum,reptile,41.0,40,"Answer using only only word - ""Paint brush"" or ""Vacuum"" and not ""Snake"".Which is more similar in meaning to ""Snake""?","
 
 Paint brush",Paint brush
@@ -330,7 +322,7 @@ Salamander",Salamander
 Gecko",Gecko
 107,Oil can,Chameleon,Grinding disk,tool,43.0,58,"Answer using only only word - ""Chameleon"" or ""Grinding disk"" and not ""Oil can"".Which is more similar in meaning to ""Oil can""?","
 
-""Oil can"" is more similar in meaning to ""Grinding disk"".",Grinding disk
+""Oil can"" is more similar in meaning to ""Grinding disk"".",Fill manually
 108,Chisel,Anvil,Oil can,tool,40.0,40,"Answer using only only word - ""Anvil"" or ""Oil can"" and not ""Chisel"".Which is more similar in meaning to ""Chisel""?","
 
 Anvil",Anvil
@@ -447,9 +439,7 @@ Nail",Nail
 Hammer",Hammer
 146,Turtle,Boa python,Vacuum,reptile,41.0,42,"Answer using only only word - ""Boa python"" or ""Vacuum"" and not ""Turtle"".Which is more similar in meaning to ""Turtle""?","
 
-python","
-
-python"
+python",fill manually
 147,Chameleon,Hammer,Snake,reptile,41.0,41,"Answer using only only word - ""Hammer"" or ""Snake"" and not ""Chameleon"".Which is more similar in meaning to ""Chameleon""?","
 
 Hammer",Hammer
@@ -476,9 +466,7 @@ Knife",Knife
 Chisel",Chisel
 155,Nail,Grinding disk,Tortoise,tool,41.0,42,"Answer using only only word - ""Grinding disk"" or ""Tortoise"" and not ""Nail"".Which is more similar in meaning to ""Nail""?","
 
-disk","
-
-disk"
+disk",fill manually
 156,Blindworm,Lawn Mower,Lizard,reptile,42.0,44,"Answer using only only word - ""Lawn Mower"" or ""Lizard"" and not ""Blindworm"".Which is more similar in meaning to ""Blindworm""?","
 
 Lizard",Lizard
@@ -559,9 +547,7 @@ Boa python",Boa python
 Cobra",Cobra
 182,Turtle,Axe,Hammer,reptile,39.0,40,"Answer using only only word - ""Axe"" or ""Hammer"" and not ""Turtle"".Which is more similar in meaning to ""Turtle""?","
 
-Neither","
-
-Neither"
+Neither",fill manually
 183,Hammer,Alligator,Nail,tool,40.0,40,"Answer using only only word - ""Alligator"" or ""Nail"" and not ""Hammer"".Which is more similar in meaning to ""Hammer""?","
 
 Nail",Nail
@@ -576,9 +562,7 @@ Spanner",Spanner
 Dinosaur",Dinosaur
 187,Paint brush,Caiman,Crocodile,tool,43.0,44,"Answer using only only word - ""Caiman"" or ""Crocodile"" and not ""Paint brush"".Which is more similar in meaning to ""Paint brush""?","
 
-Brush","
-
-Brush"
+Brush",fill manually
 188,Anvil,Alligator,Boa python,tool,41.0,41,"Answer using only only word - ""Alligator"" or ""Boa python"" and not ""Anvil"".Which is more similar in meaning to ""Anvil""?","
 
 Alligator",Alligator
@@ -659,7 +643,7 @@ Axe",Axe
 Oil can",Oil can
 214,Screwdriver,Blindworm,Grinding disk,tool,45.0,60,"Answer using only only word - ""Blindworm"" or ""Grinding disk"" and not ""Screwdriver"".Which is more similar in meaning to ""Screwdriver""?","
 
-""Grinding disk"" is more similar in meaning to ""Screwdriver"".",Grinding disk
+""Grinding disk"" is more similar in meaning to ""Screwdriver"".",Fill manually
 215,Shovel,Oil can,Salamander,tool,41.0,43,"Answer using only only word - ""Oil can"" or ""Salamander"" and not ""Shovel"".Which is more similar in meaning to ""Shovel""?","
 
 Oil can.",Oil can
@@ -668,9 +652,7 @@ Oil can.",Oil can
 Caiman",Caiman
 217,Blindworm,Boa python,Grinding disk,reptile,44.0,44,"Answer using only only word - ""Boa python"" or ""Grinding disk"" and not ""Blindworm"".Which is more similar in meaning to ""Blindworm""?","
 
-python","
-
-python"
+python",fill manually
 218,Knife,Anvil,Shovel,tool,39.0,41,"Answer using only only word - ""Anvil"" or ""Shovel"" and not ""Knife"".Which is more similar in meaning to ""Knife""?","
 
 Anvil",Anvil
@@ -940,9 +922,7 @@ Saw",Saw
 Hammer.",Hammer
 307,Grinding disk,Chameleon,Snake,tool,44.0,42,"Answer using only only word - ""Chameleon"" or ""Snake"" and not ""Grinding disk"".Which is more similar in meaning to ""Grinding disk""?","
 
-snake","
-
-snake"
+snake",fill manually
 308,Blindworm,Oil can,Snake,reptile,41.0,41,"Answer using only only word - ""Oil can"" or ""Snake"" and not ""Blindworm"".Which is more similar in meaning to ""Blindworm""?","
 
 Snake",Snake
@@ -1674,9 +1654,7 @@ Axe",Axe
 Axe",Axe
 551,Vacuum,Chisel,Knife,tool,40.0,42,"Answer using only only word - ""Chisel"" or ""Knife"" and not ""Vacuum"".Which is more similar in meaning to ""Vacuum""?","
 
-None","
-
-None"
+None",fill manually
 552,Boa python,Blindworm,Grinding disk,reptile,44.0,44,"Answer using only only word - ""Blindworm"" or ""Grinding disk"" and not ""Boa python"".Which is more similar in meaning to ""Boa python""?","
 
 Blindworm.",Blindworm
@@ -1907,9 +1885,7 @@ Nail",Nail
 Alligator",Alligator
 628,Grinding disk,Lawn Mower,Vacuum,tool,44.0,45,"Answer using only only word - ""Lawn Mower"" or ""Vacuum"" and not ""Grinding disk"".Which is more similar in meaning to ""Grinding disk""?","
 
-Lawn mower","
-
-Lawn mower"
+Lawn mower",fill manually
 629,Grinding disk,Lizard,Vacuum,tool,43.0,43,"Answer using only only word - ""Lizard"" or ""Vacuum"" and not ""Grinding disk"".Which is more similar in meaning to ""Grinding disk""?","
 
 Lizard",Lizard
@@ -2092,9 +2068,7 @@ Gecko",Gecko
 Knife",Knife
 689,Alligator,Cobra,Toad,reptile,41.0,41,"Answer using only only word - ""Cobra"" or ""Toad"" and not ""Alligator"".Which is more similar in meaning to ""Alligator""?","
 
-Crocodile","
-
-Crocodile"
+Crocodile",fill manually
 690,Lawn Mower,Spanner,Turtle,tool,42.0,45,"Answer using only only word - ""Spanner"" or ""Turtle"" and not ""Lawn Mower"".Which is more similar in meaning to ""Lawn Mower""?","
 
 Spanner",Spanner
@@ -2130,9 +2104,7 @@ Anvil",Anvil
 Knife",Knife
 701,Vacuum,Chameleon,Turtle,tool,41.0,43,"Answer using only only word - ""Chameleon"" or ""Turtle"" and not ""Vacuum"".Which is more similar in meaning to ""Vacuum""?","
 
-Neither","
-
-Neither"
+Neither",fill manually
 702,Spanner,Cobra,Lawn Mower,tool,41.0,45,"Answer using only only word - ""Cobra"" or ""Lawn Mower"" and not ""Spanner"".Which is more similar in meaning to ""Spanner""?","
 
 Cobra",Cobra
@@ -2216,9 +2188,7 @@ Crocodile",Crocodile
 Paint brush",Paint brush
 729,Lizard,Paint brush,Screwdriver,reptile,42.0,42,"Answer using only only word - ""Paint brush"" or ""Screwdriver"" and not ""Lizard"".Which is more similar in meaning to ""Lizard""?","
 
-Neither","
-
-Neither"
+Neither",fill manually
 730,Saw,Chisel,Gecko,tool,38.0,40,"Answer using only only word - ""Chisel"" or ""Gecko"" and not ""Saw"".Which is more similar in meaning to ""Saw""?","
 
 Chisel",Chisel
@@ -2248,7 +2218,7 @@ Turtle",Turtle
 Cobra",Cobra
 739,Blindworm,Boa python,Oil can,reptile,43.0,59,"Answer using only only word - ""Boa python"" or ""Oil can"" and not ""Blindworm"".Which is more similar in meaning to ""Blindworm""?","
 
-""Boa python"" is more similar in meaning to ""Blindworm"".",Boa python
+""Boa python"" is more similar in meaning to ""Blindworm"".",Fill manually
 740,Nail,Alligator,Boa python,tool,41.0,41,"Answer using only only word - ""Alligator"" or ""Boa python"" and not ""Nail"".Which is more similar in meaning to ""Nail""?","
 
 Alligator",Alligator
@@ -2287,9 +2257,7 @@ Cobra",Cobra
 Hammer",Hammer
 752,Chameleon,Boa python,Caiman,reptile,42.0,43,"Answer using only only word - ""Boa python"" or ""Caiman"" and not ""Chameleon"".Which is more similar in meaning to ""Chameleon""?","
 
-Python","
-
-Python"
+Python",fill manually
 753,Toad,Cobra,Paint brush,reptile,40.0,42,"Answer using only only word - ""Cobra"" or ""Paint brush"" and not ""Toad"".Which is more similar in meaning to ""Toad""?","
 
 Cobra",Cobra
@@ -2715,9 +2683,7 @@ Caiman",Caiman
 Nail",Nail
 894,Caiman,Boa python,Chisel,reptile,41.0,41,"Answer using only only word - ""Boa python"" or ""Chisel"" and not ""Caiman"".Which is more similar in meaning to ""Caiman""?","
 
-Python","
-
-Python"
+Python",fill manually
 895,Tortoise,Gecko,Grinding disk,reptile,42.0,43,"Answer using only only word - ""Gecko"" or ""Grinding disk"" and not ""Tortoise"".Which is more similar in meaning to ""Tortoise""?","
 
 Gecko",Gecko
@@ -3008,9 +2974,7 @@ Paint brush",Paint brush
 Cobra",Cobra
 991,Oil can,Knife,Lawn Mower,tool,41.0,42,"Answer using only only word - ""Knife"" or ""Lawn Mower"" and not ""Oil can"".Which is more similar in meaning to ""Oil can""?","
 
-Lawn mower","
-
-Lawn mower"
+Lawn mower",fill manually
 992,Hammer,Chameleon,Turtle,tool,41.0,41,"Answer using only only word - ""Chameleon"" or ""Turtle"" and not ""Hammer"".Which is more similar in meaning to ""Hammer""?","
 
 Chameleon",Chameleon
@@ -3184,9 +3148,7 @@ Nail",Nail
 Alligator",Alligator
 1049,Screwdriver,Knife,Turtle,tool,42.0,42,"Answer using only only word - ""Knife"" or ""Turtle"" and not ""Screwdriver"".Which is more similar in meaning to ""Screwdriver""?","
 
-Neither","
-
-Neither"
+Neither",fill manually
 1050,Dinosaur,Lawn Mower,Tortoise,reptile,42.0,43,"Answer using only only word - ""Lawn Mower"" or ""Tortoise"" and not ""Dinosaur"".Which is more similar in meaning to ""Dinosaur""?","
 
 Lawn Mower",Lawn Mower
@@ -3264,9 +3226,7 @@ Gecko",Gecko
 Nail",Nail
 1075,Vacuum,Chisel,Screwdriver,tool,41.0,43,"Answer using only only word - ""Chisel"" or ""Screwdriver"" and not ""Vacuum"".Which is more similar in meaning to ""Vacuum""?","
 
-Neither.","
-
-Neither."
+Neither.",fill manually
 1076,Lawn Mower,Alligator,Tortoise,tool,43.0,45,"Answer using only only word - ""Alligator"" or ""Tortoise"" and not ""Lawn Mower"".Which is more similar in meaning to ""Lawn Mower""?","
 
 Alligator",Alligator
@@ -3455,7 +3415,7 @@ Lawn Mower",Lawn Mower
 Saw",Saw
 1138,Alligator,Hammer,Snake,reptile,41.0,55,"Answer using only only word - ""Hammer"" or ""Snake"" and not ""Alligator"".Which is more similar in meaning to ""Alligator""?","
 
-""Alligator"" is most similar in meaning to ""Crocodile"".",Alligator
+""Alligator"" is most similar in meaning to ""Crocodile"".",Fill manually
 1139,Paint brush,Caiman,Screwdriver,tool,44.0,43,"Answer using only only word - ""Caiman"" or ""Screwdriver"" and not ""Paint brush"".Which is more similar in meaning to ""Paint brush""?","
 
 Caiman",Caiman
@@ -3497,9 +3457,7 @@ Oil can.",Oil can
 Boa python",Boa python
 1152,Chameleon,Grinding disk,Screwdriver,reptile,44.0,44,"Answer using only only word - ""Grinding disk"" or ""Screwdriver"" and not ""Chameleon"".Which is more similar in meaning to ""Chameleon""?","
 
- disk","
-
- disk"
+ disk",fill manually
 1153,Shovel,Crocodile,Dinosaur,tool,41.0,44,"Answer using only only word - ""Crocodile"" or ""Dinosaur"" and not ""Shovel"".Which is more similar in meaning to ""Shovel""?","
 
 Dinosaur",Dinosaur
@@ -3565,9 +3523,7 @@ Saw",Saw
 Crocodile",Crocodile
 1174,Caiman,Boa python,Vacuum,reptile,41.0,42,"Answer using only only word - ""Boa python"" or ""Vacuum"" and not ""Caiman"".Which is more similar in meaning to ""Caiman""?","
 
-Python","
-
-Python"
+Python",fill manually
 1175,Alligator,Crocodile,Turtle,reptile,42.0,42,"Answer using only only word - ""Crocodile"" or ""Turtle"" and not ""Alligator"".Which is more similar in meaning to ""Alligator""?","
 
 Crocodile",Crocodile
@@ -3750,9 +3706,7 @@ Alligator",Alligator
 Axe",Axe
 1235,Anvil,Oil can,Snake,tool,39.0,39,"Answer using only only word - ""Oil can"" or ""Snake"" and not ""Anvil"".Which is more similar in meaning to ""Anvil""?","
 
-Oil Can","
-
-Oil Can"
+Oil Can",fill manually
 1236,Knife,Salamander,Saw,tool,40.0,41,"Answer using only only word - ""Salamander"" or ""Saw"" and not ""Knife"".Which is more similar in meaning to ""Knife""?","
 
 Saw",Saw
@@ -3845,9 +3799,7 @@ Hammer",Hammer
 Lizard",Lizard
 1266,Tortoise,Lawn Mower,Salamander,reptile,43.0,45,"Answer using only only word - ""Lawn Mower"" or ""Salamander"" and not ""Tortoise"".Which is more similar in meaning to ""Tortoise""?","
 
-Lawn mower","
-
-Lawn mower"
+Lawn mower",fill manually
 1267,Knife,Crocodile,Shovel,tool,40.0,43,"Answer using only only word - ""Crocodile"" or ""Shovel"" and not ""Knife"".Which is more similar in meaning to ""Knife""?","
 
 Shovel",Shovel
@@ -3970,7 +3922,7 @@ Turtle",Turtle
 Chisel",Chisel
 1307,Saw,Spanner,Vacuum,tool,39.0,58,"Answer using only only word - ""Spanner"" or ""Vacuum"" and not ""Saw"".Which is more similar in meaning to ""Saw""?","
 
-""Spanner"" is more similar in meaning to ""Saw"".",Spanner
+""Spanner"" is more similar in meaning to ""Saw"".",Fill manually
 1308,Spanner,Blindworm,Crocodile,tool,42.0,61,"Answer using only only word - ""Blindworm"" or ""Crocodile"" and not ""Spanner"".Which is more similar in meaning to ""Spanner""?","
 
 Blindworm",Blindworm
@@ -4033,7 +3985,7 @@ Chameleon",Chameleon
 Paint brush",Paint brush
 1328,Chameleon,Chisel,Grinding disk,reptile,43.0,43,"Answer using only only word - ""Chisel"" or ""Grinding disk"" and not ""Chameleon"".Which is more similar in meaning to ""Chameleon""?","
 
-Chameleon",Chameleon
+Chameleon",Fill manually
 1329,Knife,Gecko,Shovel,tool,39.0,41,"Answer using only only word - ""Gecko"" or ""Shovel"" and not ""Knife"".Which is more similar in meaning to ""Knife""?","
 
 Shovel.",Shovel
@@ -4165,9 +4117,7 @@ Axe",Axe
 Anvil",Anvil
 1372,Cobra,Anvil,Shovel,reptile,39.0,43,"Answer using only only word - ""Anvil"" or ""Shovel"" and not ""Cobra"".Which is more similar in meaning to ""Cobra""?","
 
-Snake","
-
-Snake"
+Snake",fill manually
 1373,Nail,Crocodile,Paint brush,tool,41.0,43,"Answer using only only word - ""Crocodile"" or ""Paint brush"" and not ""Nail"".Which is more similar in meaning to ""Nail""?","
 
 Crocodile",Crocodile
@@ -4242,7 +4192,7 @@ Spanner.",Spanner
 Nail.",Nail
 1397,Caiman,Hammer,Saw,reptile,39.0,64,"Answer using only only word - ""Hammer"" or ""Saw"" and not ""Caiman"".Which is more similar in meaning to ""Caiman""?","
 
-""Hammer"" and ""Saw"" are both tools. ""Caiman"" is a type of reptile.",Hammer
+""Hammer"" and ""Saw"" are both tools. ""Caiman"" is a type of reptile.",Fill manually
 1398,Crocodile,Alligator,Lizard,reptile,42.0,44,"Answer using only only word - ""Alligator"" or ""Lizard"" and not ""Crocodile"".Which is more similar in meaning to ""Crocodile""?","
 
 Alligator",Alligator
@@ -4353,9 +4303,7 @@ Paint brush",Paint brush
 Caiman",Caiman
 1434,Vacuum,Paint brush,Spanner,tool,41.0,44,"Answer using only only word - ""Paint brush"" or ""Spanner"" and not ""Vacuum"".Which is more similar in meaning to ""Vacuum""?","
 
-Brush","
-
-Brush"
+Brush",fill manually
 1435,Vacuum,Lizard,Shovel,tool,40.0,43,"Answer using only only word - ""Lizard"" or ""Shovel"" and not ""Vacuum"".Which is more similar in meaning to ""Vacuum""?","
 
 Lizard",Lizard
@@ -4394,9 +4342,7 @@ Oil can",Oil can
 Dinosaur",Dinosaur
 1447,Paint brush,Dinosaur,Toad,tool,42.0,42,"Answer using only only word - ""Dinosaur"" or ""Toad"" and not ""Paint brush"".Which is more similar in meaning to ""Paint brush""?","
 
-Brush","
-
-Brush"
+Brush",fill manually
 1448,Dinosaur,Anvil,Screwdriver,reptile,42.0,41,"Answer using only only word - ""Anvil"" or ""Screwdriver"" and not ""Dinosaur"".Which is more similar in meaning to ""Dinosaur""?","
 
 Anvil",Anvil
@@ -4423,9 +4369,7 @@ Gecko",Gecko
 Chameleon",Chameleon
 1456,Vacuum,Paint brush,Toad,tool,41.0,43,"Answer using only only word - ""Paint brush"" or ""Toad"" and not ""Vacuum"".Which is more similar in meaning to ""Vacuum""?","
 
-Neither.","
-
-Neither."
+Neither.",fill manually
 1457,Crocodile,Axe,Chisel,reptile,41.0,44,"Answer using only only word - ""Axe"" or ""Chisel"" and not ""Crocodile"".Which is more similar in meaning to ""Crocodile""?","
 
 Axe",Axe
@@ -4503,9 +4447,7 @@ Oil can.",Oil can
 Chisel",Chisel
 1482,Saw,Grinding disk,Snake,tool,40.0,40,"Answer using only only word - ""Grinding disk"" or ""Snake"" and not ""Saw"".Which is more similar in meaning to ""Saw""?","
 
-Disk","
-
-Disk"
+Disk",fill manually
 1483,Knife,Toad,Turtle,tool,39.0,40,"Answer using only only word - ""Toad"" or ""Turtle"" and not ""Knife"".Which is more similar in meaning to ""Knife""?","
 
 Toad",Toad

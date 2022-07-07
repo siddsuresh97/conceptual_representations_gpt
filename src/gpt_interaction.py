@@ -61,7 +61,9 @@ def generate_prompt_feature_listing(concept, feature):
         print(feature)
         print('Verb structure not implemented')
     feature_words.insert(0, 'In one word, Yes/No:')
-    return ' '.join(feature_words), 5 + len(feature_words)
+    prompt = ' '.join(feature_words) 
+    characters = len(prompt)
+    return prompt, characters
 
 
 
@@ -104,25 +106,51 @@ def estimated_cost(concepts_set, features_set, concept_feature_matrix, exp_name,
 def send_gpt_prompt(prompt, model):
     prompt_start_time = time.time()
     if model == 'ada':
-        response = openai.Completion.create(
-                        model="text-ada-001",
-                        prompt=prompt,
-                        temperature=0.7,
-                        max_tokens=256,
-                        top_p=1,
-                        frequency_penalty=0,
-                        presence_penalty=0
-                        )
+        try:
+            response = openai.Completion.create(
+                            model="text-ada-001",
+                            prompt=prompt,
+                            temperature=0.7,
+                            max_tokens=256,
+                            top_p=1,
+                            frequency_penalty=0,
+                            presence_penalty=0
+                            )
+        except:
+            logging.info('Sleeping for 30 in ada')
+            time.sleep(30)
+            response = openai.Completion.create(
+                            model="text-ada-001",
+                            prompt=prompt,
+                            temperature=0.7,
+                            max_tokens=256,
+                            top_p=1,
+                            frequency_penalty=0,
+                            presence_penalty=0
+                            )
     elif model == 'davinci':
-        response = openai.Completion.create(
-                        model="text-davinci-002",
-                        prompt=prompt,
-                        temperature=0.7,
-                        max_tokens=256,
-                        top_p=1,
-                        frequency_penalty=0,
-                        presence_penalty=0
-                        )
+        try:
+            response = openai.Completion.create(
+                            model="text-davinci-002",
+                            prompt=prompt,
+                            temperature=0.7,
+                            max_tokens=256,
+                            top_p=1,
+                            frequency_penalty=0,
+                            presence_penalty=0
+                            )
+        except:
+            logging.info('Sleeping for 30 in davinci')
+            time.sleep(30)
+            response = openai.Completion.create(
+                            model="text-ada-001",
+                            prompt=prompt,
+                            temperature=0.7,
+                            max_tokens=256,
+                            top_p=1,
+                            frequency_penalty=0,
+                            presence_penalty=0
+                            )
     else:
         logging.error('Only ada and davinci implemented')
     each_prompt_time = time.time() - prompt_start_time
@@ -154,31 +182,24 @@ def make_gpt_prompt_batches_feat_listing(concepts_set, features_set, concept_fea
             concept_idx = concepts_set.index(concept)
             feature_idx = features_set.index(feature)
             if concept_feature_matrix[concept_idx, feature_idx] == 0:
-                if exp_name == 'feature_listing':
-                    prompt, words = generate_prompt_feature_listing(concept, feature)
-                    tokens = np.ceil((words + 1)/0.75)*PROMPT_TOKEN_INFLATION
-                elif exp_name == 'triplet_matching':
-                    logging.error('Yet to implement triplet matching')
-                else:
-                    logging.error('Only feature listing and triplet matching implemented')
-                total_tokens += tokens + (ESTIMATED_RESPONSE_TOKENS)
+                prompt, characters = generate_prompt_feature_listing(concept, feature)
+                tokens = np.ceil((characters + 1)/4)
                 batch.append([concept, feature, prompt, tokens])
+                total_tokens += tokens + (ESTIMATED_RESPONSE_TOKENS)
         else:
             batches.append(batch)
+            batch = [[concept, feature, prompt, tokens]]
+            total_tokens = tokens + (ESTIMATED_RESPONSE_TOKENS) 
             concept_idx = concepts_set.index(concept)
             feature_idx = features_set.index(feature)
             if concept_feature_matrix[concept_idx, feature_idx] == 0:
-                if exp_name == 'feature_listing':
-                    prompt, words = generate_prompt_feature_listing(concept, feature)
-                    tokens = np.ceil((words + 1)/0.75)*PROMPT_TOKEN_INFLATION
-                elif exp_name == 'triplet_matching':
-                    logging.error('Yet to implement triplet matching')
-                else:
-                    logging.error('Only feature listing and triplet matching implemented')
-                batch = [[concept, feature, prompt, tokens]]
-                total_tokens = tokens + (ESTIMATED_RESPONSE_TOKENS)
-    batches.append(batch)
-    logging.info('Total batches of 245000 tokesn are {}'.format(len(batches)))
+                prompt, characters = generate_prompt_feature_listing(concept, feature)
+                tokens = np.ceil((characters + 1)/4)
+                batch.append([concept, feature, prompt, tokens])
+                total_tokens += tokens + (ESTIMATED_RESPONSE_TOKENS)
+    if len(batch) != 0:
+        batches.append(batch)
+    logging.info('Total batches of 150000 tokesn are {}'.format(len(batches)))
     return batches
 
 def generate_prompt_triplet(anchor, concept1, concept2):

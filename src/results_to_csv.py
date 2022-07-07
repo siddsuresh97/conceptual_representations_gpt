@@ -53,6 +53,7 @@ def save_feature_listing_results_in_csv(results_dir, dataset_name, model, exp_na
         elif 'o' in answer:
             answer_list.append(0)
         else:
+            answer_list.append('SOMETHING WENT WRONG')
             logging.error('Invalid answer')
         if k[0] in REPTILES:
             category_list.append('reptile')

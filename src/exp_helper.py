@@ -15,7 +15,7 @@ def run_exp(exp_name, dataset_name, dataset_dir, feature_list_fname, model, open
         batches = make_gpt_prompt_batches_triplet(triplets)
     else:
         logging.error('Undefined task. Only feature listing and triplet implemented')
-    print('ESTIMATED TIME in minutes is', len(batches)*2)
+    print('ESTIMATED TIME in minutes is', len(batches)*4)
     print('Running experiment {} on dataset {} using {} model. Please wait for it to finish'.format(exp_name, dataset_name, model))
     answer_dict = get_gpt_responses(batches, model, openai_api_key, exp_name)   
     save_responses(answer_dict, results_dir, dataset_name, exp_name, model)

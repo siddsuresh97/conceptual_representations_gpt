@@ -20,7 +20,7 @@ def main():
     parser.add_argument('--model',
                     type=str, help=""" Name of the feature listing file""")
     args = parser.parse_args()
-    logging.basicConfig(filename="logs/{}_{}.log".format(args.exp_name, args.dataset_name), encoding='utf-8', level=logging.DEBUG, 
+    logging.basicConfig(filename="logs/{}_{}_{}.log".format(args.exp_name, args.dataset_name, args.model), encoding='utf-8', level=logging.DEBUG, 
                         format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
     logging.warning('is when this event was logged.')
     logging.info('Running experiments with the following parameters')

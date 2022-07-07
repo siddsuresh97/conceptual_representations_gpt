@@ -6,8 +6,6 @@ DEFAULT_DIR = os.path.abspath(os.getcwd())
 DATASET_DIR = os.path.join(DEFAULT_DIR, "data/") 
 DEFAULT_RESULTS_DIR = os.path.join(DEFAULT_DIR, "results/")
 FEATURE_LIST_FNAME = 'GPT_3_feature_df - Sheet1.csv'
-OPENAI_API_KEY_TIM = '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'
-OPENAI_API_KEY_SID = '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'
 
 
 
@@ -34,7 +32,7 @@ def main():
             dataset_dir = DATASET_DIR , 
             feature_list_fname = args.feature_list_fname, 
             model = args.model, 
-            openai_api_key = OPENAI_API_KEY_TIM, 
+            openai_api_key = os.environ('OPENAI_API_KEY_TIM'), 
             results_dir = DEFAULT_RESULTS_DIR)
 
 if __name__=="__main__":

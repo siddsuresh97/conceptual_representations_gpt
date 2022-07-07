@@ -4,9 +4,14 @@ from gpt_interaction import *
 
 def run_exp(exp_name, dataset_name, dataset_dir, feature_list_fname, model, openai_api_key, results_dir):
     df = pd.read_csv(os.path.join(dataset_dir, dataset_name ,feature_list_fname))
-    concepts_set, features_set, concept_feature_matrix = create_and_fill_concept_feature_matrix(df)
-    estimated_cost(concepts_set, features_set, concept_feature_matrix, exp_name, dataset_name)
-    batches = make_gpt_prompt_batches(concepts_set, features_set, concept_feature_matrix, exp_name)
+    if exp_name == 'feature_listing':
+        concepts_set, features_set, concept_feature_matrix = create_and_fill_concept_feature_matrix(df)
+        estimated_cost(concepts_set, features_set, concept_feature_matrix, exp_name, dataset_name)
+        batches = make_gpt_prompt_batches(concepts_set, features_set, concept_feature_matrix, exp_name)
+    elif exp_name == 'triplet':
+        batches = make_gpt_prompt_batches(concepts_set, features_set, concept_feature_matrix, exp_name)
+    else:
+        logging.error('Undefined task. Only feature listing and triplet implemented')
     print('ESTIMATED TIME in minutes is', len(batches)*2)
     print('Running experiment {} on dataset {} using {} model. Please wait for it to finish'.format(exp_name, dataset_name, model))
     answer_dict = get_gpt_responses(batches, model, openai_api_key)

@@ -88,15 +88,21 @@ def save_feature_triplet_results_in_csv(results_dir, dataset_name, model, exp_na
         concept2_list.append(k[2])
         answer = v[0]['choices'][0]['text'] 
         full_answer_list.append(answer)
-        # print(k[0], k[1], v[0]['choices'][0]['text'])
-        # if 'es' in answer:
-        #     answer_list.append(1)
-        # elif 'o' in answer:
-        #     answer_list.append(0)
-        # else:
-        #     logging.error('Invalid answer')
-        if k[0] in answer:
+        if k[1] in answer:
+            answer_list.append(k[1])
+        elif k[2] in answer:
+            answer_list.append(k[2])
+        elif k[0] in answer:
+            answer_list.append(k[0])
+            logging.info('{}\n{}\n{}\n{}'.format(k[0], k[1], k[2], v[2], answer))
             print(k[0], k[1], k[2], v[2], answer)
+        else:
+            logging.info('Unexpected answer') 
+            logging.info('{}\n{}\n{}\n{}'.format(k[0], k[1], k[2], v[2], answer))
+            answer_list.append(answer)
+            print('Unexpected answer')
+            print(k[0], k[1], k[2], v[2], answer) 
+            
         if k[0] in REPTILES:
             category_list.append('reptile')
         elif k[0] in TOOLS:
@@ -111,7 +117,7 @@ def save_feature_triplet_results_in_csv(results_dir, dataset_name, model, exp_na
     #      len(actual_total_tokens), 
     #      len(prompt_list), 
     #      len(full_answer_list))
-    result_df = pd.DataFrame({'Anchor':anchor_list, 'Concept1':concept1_list, 'Concept2':concept2_list, 'Category':category_list, 'estimated_tokens':estimated_total_tokens, 'real_tokens': actual_total_tokens, 'prompt':prompt_list, 'gpt_response':full_answer_list})
+    result_df = pd.DataFrame({'Anchor':anchor_list, 'Concept1':concept1_list, 'Concept2':concept2_list, 'Category':category_list, 'estimated_tokens':estimated_total_tokens, 'real_tokens': actual_total_tokens, 'prompt':prompt_list, 'gpt_response':full_answer_list, 'gpt_choice':answer_list})
     result_df.to_csv(os.path.join(results_dir, dataset_name, results_dir, dataset_name, model +'_'+ exp_name + '_feature_list.csv'))
 
 

@@ -220,7 +220,7 @@ def make_gpt_prompt_batches_triplet(triplets):
         anchor, concept1, concept2 = triplet
         prompt, characters = generate_prompt_triplet(anchor, concept1, concept2)
         tokens = np.ceil((characters + 1)/4)
-        if total_tokens < 150000:
+        if total_tokens < 100000:
             batch.append([anchor, concept1, concept2, prompt, tokens])
             total_tokens = tokens + (ESTIMATED_RESPONSE_TOKENS)
         else:
@@ -236,15 +236,16 @@ def make_gpt_prompt_batches_triplet(triplets):
     
         
 ## TODO Figure out optimal sleeping time and n_jobs
-def get_gpt_responses(batches, model, openai_api_key, exp_name):
+def get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dataset_name):
     answer_dict = {}
     each_prompt_api_time = []
     start_time = time.time()
-    for batch in batches:
+    for i, batch in enumerate(batches):
         if exp_name == 'feature_listing':
             Parallel(n_jobs=10, require='sharedmem')(delayed(prompt_gpt_feature_listing)(concept, feature, prompt, tokens, answer_dict, each_prompt_api_time, model, openai_api_key) for concept, feature, prompt, tokens in batch)
         elif exp_name == 'triplet':
             Parallel(n_jobs=10, require='sharedmem')(delayed(prompt_gpt_triplet)(anchor, concept1, concept2, prompt, tokens, model, each_prompt_api_time, answer_dict,openai_api_key) for anchor, concept1, concept2, prompt, tokens in batch)
+        save_responses(answer_dict, results_dir, dataset_name, exp_name, model, i)
         if len(batches) > 1:
             time.sleep(60*2)
     exp_run_time = time.time()- start_time
@@ -255,8 +256,8 @@ def get_gpt_responses(batches, model, openai_api_key, exp_name):
     return answer_dict
 
 
-def save_responses(answer_dict, results_dir, dataset_name, exp_name, model):
+def save_responses(answer_dict, results_dir, dataset_name, exp_name, model, part):
     if not os.path.exists(os.path.join(results_dir, dataset_name)):
         os.mkdir(os.path.join(results_dir, dataset_name))
-    with open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name), 'wb') as handle:
+    with open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_{}'.format(part)), 'wb') as handle:
         pickle.dump(answer_dict,handle ,  protocol=pickle.HIGHEST_PROTOCOL) 

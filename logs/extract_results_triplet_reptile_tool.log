@@ -1132,3 +1132,159 @@ Answer using only only word - "Paint brush" or "Toad" and not "Vacuum".Which is 
 Grinding disk
 Snake
 Answer using only only word - "Grinding disk" or "Snake" and not "Saw".Which is more similar in meaning to "Saw"?
+07/18/2022 03:35:59 PM is when this event was logged.
+07/18/2022 03:35:59 PM Running experiments with the following parameters
+07/18/2022 03:35:59 PM ########    EXTRACTING RESULTS     ##############
+07/18/2022 03:35:59 PM Argument dataset_name: 'reptile_tool'
+07/18/2022 03:35:59 PM Argument exp_name: 'triplet'
+07/18/2022 03:35:59 PM Argument model: 'davinci'
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Oil can
+Saw
+Tortoise
+Answer using only only word - "Saw" or "Tortoise" and not "Oil can".Which is more similar in meaning to "Oil can"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Turtle
+Anvil
+Axe
+Answer using only only word - "Anvil" or "Axe" and not "Turtle".Which is more similar in meaning to "Turtle"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Anvil
+Grinding disk
+Lizard
+Answer using only only word - "Grinding disk" or "Lizard" and not "Anvil".Which is more similar in meaning to "Anvil"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Lizard
+Anvil
+Shovel
+Answer using only only word - "Anvil" or "Shovel" and not "Lizard".Which is more similar in meaning to "Lizard"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Shovel
+Caiman
+Paint brush
+Answer using only only word - "Caiman" or "Paint brush" and not "Shovel".Which is more similar in meaning to "Shovel"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Knife
+Blindworm
+Snake
+Answer using only only word - "Blindworm" or "Snake" and not "Knife".Which is more similar in meaning to "Knife"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Nail
+Paint brush
+Toad
+Answer using only only word - "Paint brush" or "Toad" and not "Nail".Which is more similar in meaning to "Nail"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Axe
+Grinding disk
+Screwdriver
+Answer using only only word - "Grinding disk" or "Screwdriver" and not "Axe".Which is more similar in meaning to "Axe"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Toad
+Salamander
+Vacuum
+Answer using only only word - "Salamander" or "Vacuum" and not "Toad".Which is more similar in meaning to "Toad"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Snake
+Chameleon
+Paint brush
+Answer using only only word - "Chameleon" or "Paint brush" and not "Snake".Which is more similar in meaning to "Snake"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Caiman
+Boa python
+Spanner
+Answer using only only word - "Boa python" or "Spanner" and not "Caiman".Which is more similar in meaning to "Caiman"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Crocodile
+Hammer
+Tortoise
+Answer using only only word - "Hammer" or "Tortoise" and not "Crocodile".Which is more similar in meaning to "Crocodile"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Oil can
+Chisel
+Saw
+Answer using only only word - "Chisel" or "Saw" and not "Oil can".Which is more similar in meaning to "Oil can"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Paint brush
+Chameleon
+Turtle
+Answer using only only word - "Chameleon" or "Turtle" and not "Paint brush".Which is more similar in meaning to "Paint brush"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Nail
+Grinding disk
+Paint brush
+Answer using only only word - "Grinding disk" or "Paint brush" and not "Nail".Which is more similar in meaning to "Nail"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Hammer
+Blindworm
+Paint brush
+Answer using only only word - "Blindworm" or "Paint brush" and not "Hammer".Which is more similar in meaning to "Hammer"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Tortoise
+Grinding disk
+Vacuum
+Answer using only only word - "Grinding disk" or "Vacuum" and not "Tortoise".Which is more similar in meaning to "Tortoise"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Blindworm
+Boa python
+Chisel
+Answer using only only word - "Boa python" or "Chisel" and not "Blindworm".Which is more similar in meaning to "Blindworm"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Alligator
+Knife
+Spanner
+Answer using only only word - "Knife" or "Spanner" and not "Alligator".Which is more similar in meaning to "Alligator"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Crocodile
+Chisel
+Hammer
+Answer using only only word - "Chisel" or "Hammer" and not "Crocodile".Which is more similar in meaning to "Crocodile"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Nail
+Grinding disk
+Shovel
+Answer using only only word - "Grinding disk" or "Shovel" and not "Nail".Which is more similar in meaning to "Nail"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Alligator
+Cobra
+Paint brush
+Answer using only only word - "Cobra" or "Paint brush" and not "Alligator".Which is more similar in meaning to "Alligator"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Gecko
+Blindworm
+Chameleon
+Answer using only only word - "Blindworm" or "Chameleon" and not "Gecko".Which is more similar in meaning to "Gecko"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Oil can
+Chameleon
+Turtle
+Answer using only only word - "Chameleon" or "Turtle" and not "Oil can".Which is more similar in meaning to "Oil can"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Alligator
+Cobra
+Screwdriver
+Answer using only only word - "Cobra" or "Screwdriver" and not "Alligator".Which is more similar in meaning to "Alligator"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Paint brush
+Dinosaur
+Knife
+Answer using only only word - "Dinosaur" or "Knife" and not "Paint brush".Which is more similar in meaning to "Paint brush"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Gecko
+Boa python
+Lawn Mower
+Answer using only only word - "Boa python" or "Lawn Mower" and not "Gecko".Which is more similar in meaning to "Gecko"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Knife
+Caiman
+Gecko
+Answer using only only word - "Caiman" or "Gecko" and not "Knife".Which is more similar in meaning to "Knife"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Boa python
+Chameleon
+Vacuum
+Answer using only only word - "Chameleon" or "Vacuum" and not "Boa python".Which is more similar in meaning to "Boa python"?
+07/18/2022 03:35:59 PM Unexpected answer
+07/18/2022 03:35:59 PM Vacuum
+Caiman
+Snake
+Answer using only only word - "Caiman" or "Snake" and not "Vacuum".Which is more similar in meaning to "Vacuum"?

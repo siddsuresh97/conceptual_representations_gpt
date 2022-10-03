@@ -68,7 +68,10 @@ def save_feature_listing_results_in_csv(results_dir, dataset_name, model, exp_na
     logging.info('Actual cost : {}'.format((actual_total_tokens/1000)*0.06))
 
 def save_feature_triplet_results_in_csv(results_dir, dataset_name, model, exp_name):
-    file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name),'rb')
+    if dataset_name == 'reptile_tool':
+        file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name),'rb')
+    elif dataset_name == 'social_categories':
+        file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_full'),'rb')
     answer_dict = pickle.load(file)
     file.close()
     actual_total_tokens = []
@@ -89,29 +92,34 @@ def save_feature_triplet_results_in_csv(results_dir, dataset_name, model, exp_na
         concept2_list.append(k[2])
         answer = v[0]['choices'][0]['text'] 
         full_answer_list.append(answer)
-        if k[1] and k[0] in answer:
-            answer_list.append('Fill manually') 
-        elif k[1] in answer:
-            answer_list.append(k[1])
-        elif k[2] in answer:
-            answer_list.append(k[2])
-        elif k[0] in answer:
+        try:
+            if k[1] and k[0] in answer:
+                answer_list.append('Fill manually') 
+            elif k[1] in answer:
+                answer_list.append(k[1])
+            elif k[2] in answer:
+                answer_list.append(k[2])
+            elif k[0] in answer:
+                answer_list.append('fill manually')
+                logging.info('{}\n{}\n{}\n{}'.format(k[0], k[1], k[2], v[2], answer))
+                print(k[0], k[1], k[2], v[2], answer)
+            else:
+                logging.info('Unexpected answer') 
+                logging.info('{}\n{}\n{}\n{}'.format(k[0], k[1], k[2], v[2], answer))
+                answer_list.append('fill manually')
+                print('Unexpected answer')
+                print(k[0], k[1], k[2], v[2], answer) 
+        except:
             answer_list.append('fill manually')
-            logging.info('{}\n{}\n{}\n{}'.format(k[0], k[1], k[2], v[2], answer))
-            print(k[0], k[1], k[2], v[2], answer)
+        if dataset_name == 'reptile_tool':   
+            if k[0] in REPTILES:
+                category_list.append('reptile')
+            elif k[0] in TOOLS:
+                category_list.append('tool')
+            else:
+                logging.error('Invalid category')
         else:
-            logging.info('Unexpected answer') 
-            logging.info('{}\n{}\n{}\n{}'.format(k[0], k[1], k[2], v[2], answer))
-            answer_list.append('fill manually')
-            print('Unexpected answer')
-            print(k[0], k[1], k[2], v[2], answer) 
-            
-        if k[0] in REPTILES:
-            category_list.append('reptile')
-        elif k[0] in TOOLS:
-            category_list.append('tool')
-        else:
-            logging.error('Invalid category')
+            category_list.append('')
     # print(len(anchor_list), 
     #      len(concept1_list), 
     #      len(concept2_list), 

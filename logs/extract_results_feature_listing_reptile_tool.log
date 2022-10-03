@@ -95,3 +95,283 @@
 07/10/2022 06:18:23 PM Invalid answer
 07/10/2022 06:18:23 PM Estimated cost : 13.846079999999999
 07/10/2022 06:18:23 PM Actual cost : 26.33016
+07/18/2022 03:35:56 PM is when this event was logged.
+07/18/2022 03:35:56 PM Running experiments with the following parameters
+07/18/2022 03:35:56 PM ########    EXTRACTING RESULTS     ##############
+07/18/2022 03:35:56 PM Argument dataset_name: 'reptile_tool'
+07/18/2022 03:35:56 PM Argument exp_name: 'feature_listing'
+07/18/2022 03:35:56 PM Argument model: 'ada'
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Invalid answer
+07/18/2022 03:35:56 PM Estimated cost : 13.846079999999999
+07/18/2022 03:35:56 PM Actual cost : 26.33016
+07/23/2022 11:22:45 AM is when this event was logged.
+07/23/2022 11:22:45 AM Running experiments with the following parameters
+07/23/2022 11:22:45 AM ########    EXTRACTING RESULTS     ##############
+07/23/2022 11:22:45 AM Argument dataset_name: 'reptile_tool'
+07/23/2022 11:22:45 AM Argument exp_name: 'feature_listing'
+07/23/2022 11:22:45 AM Argument model: 'ada'
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:45 AM Invalid answer
+07/23/2022 11:22:46 AM Estimated cost : 13.846079999999999
+07/23/2022 11:22:46 AM Actual cost : 26.33016
+07/23/2022 11:23:20 AM is when this event was logged.
+07/23/2022 11:23:20 AM Running experiments with the following parameters
+07/23/2022 11:23:20 AM ########    EXTRACTING RESULTS     ##############
+07/23/2022 11:23:20 AM Argument dataset_name: 'reptile_tool'
+07/23/2022 11:23:20 AM Argument exp_name: 'feature_listing'
+07/23/2022 11:23:20 AM Argument model: 'ada'
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Invalid answer
+07/23/2022 11:23:20 AM Estimated cost : 13.846079999999999
+07/23/2022 11:23:20 AM Actual cost : 26.33016
+07/23/2022 11:24:47 AM is when this event was logged.
+07/23/2022 11:24:47 AM Running experiments with the following parameters
+07/23/2022 11:24:47 AM ########    EXTRACTING RESULTS     ##############
+07/23/2022 11:24:47 AM Argument dataset_name: 'reptile_tool'
+07/23/2022 11:24:47 AM Argument exp_name: 'feature_listing'
+07/23/2022 11:24:47 AM Argument model: 'ada'
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Invalid answer
+07/23/2022 11:24:47 AM Estimated cost : 13.846079999999999
+07/23/2022 11:24:47 AM Actual cost : 26.33016
+07/23/2022 11:26:08 AM is when this event was logged.
+07/23/2022 11:26:08 AM Running experiments with the following parameters
+07/23/2022 11:26:08 AM ########    EXTRACTING RESULTS     ##############
+07/23/2022 11:26:08 AM Argument dataset_name: 'reptile_tool'
+07/23/2022 11:26:08 AM Argument exp_name: 'feature_listing'
+07/23/2022 11:26:08 AM Argument model: 'ada'
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:08 AM Invalid answer
+07/23/2022 11:26:09 AM Estimated cost : 13.846079999999999
+07/23/2022 11:26:09 AM Actual cost : 26.33016

@@ -245,7 +245,7 @@ def get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dat
             Parallel(n_jobs=10, require='sharedmem')(delayed(prompt_gpt_feature_listing)(concept, feature, prompt, tokens, answer_dict, each_prompt_api_time, model, openai_api_key, temperature) for concept, feature, prompt, tokens in batch)
         elif exp_name == 'triplet':
             Parallel(n_jobs=10, require='sharedmem')(delayed(prompt_gpt_triplet)(anchor, concept1, concept2, prompt, tokens, model, each_prompt_api_time, answer_dict,openai_api_key, temperature) for anchor, concept1, concept2, prompt, tokens in batch)
-        save_responses(answer_dict, results_dir, dataset_name, exp_name, model, i)
+        save_responses(answer_dict, results_dir, dataset_name, exp_name, model, i, temperature)
         if len(batches) > 1:
             time.sleep(60*2)
     exp_run_time = time.time()- start_time
@@ -256,8 +256,8 @@ def get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dat
     return answer_dict
 
 
-def save_responses(answer_dict, results_dir, dataset_name, exp_name, model, part):
+def save_responses(answer_dict, results_dir, dataset_name, exp_name, model, part, temperature):
     if not os.path.exists(os.path.join(results_dir, dataset_name)):
         os.mkdir(os.path.join(results_dir, dataset_name))
-    with open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_{}'.format(part)), 'wb') as handle:
+    with open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_{}_{}'.format(part, temperature)), 'wb') as handle:
         pickle.dump(answer_dict,handle ,  protocol=pickle.HIGHEST_PROTOCOL) 

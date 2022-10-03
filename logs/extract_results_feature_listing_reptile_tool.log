@@ -405,3 +405,12 @@
 10/03/2022 02:17:46 PM Argument temperature: '0'
 10/03/2022 02:17:46 PM Estimated cost : 7.13898
 10/03/2022 02:17:46 PM Actual cost : 9.72894
+10/03/2022 02:32:24 PM is when this event was logged.
+10/03/2022 02:32:24 PM Running experiments with the following parameters
+10/03/2022 02:32:24 PM ########    EXTRACTING RESULTS     ##############
+10/03/2022 02:32:24 PM Argument dataset_name: 'reptile_tool'
+10/03/2022 02:32:24 PM Argument exp_name: 'feature_listing'
+10/03/2022 02:32:24 PM Argument model: 'davinci'
+10/03/2022 02:32:24 PM Argument temperature: '0'
+10/03/2022 02:32:25 PM Estimated cost : 13.84692
+10/03/2022 02:32:25 PM Actual cost : 18.99852

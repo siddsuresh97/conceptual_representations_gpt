@@ -19,6 +19,7 @@ def main():
                     type=str, help=""" Name of the feature listing file""")
     parser.add_argument('--model',
                     type=str, help=""" Name of the feature listing file""")
+    parser.add_argument('--temperature',help = """Tradeoff between deterministic and creative responses of gpt""")
     args = parser.parse_args()
     logging.basicConfig(filename="logs/{}_{}_{}.log".format(args.exp_name, args.dataset_name, args.model), encoding='utf-8', level=logging.DEBUG, 
                         format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
@@ -33,7 +34,8 @@ def main():
             feature_list_fname = args.feature_list_fname, 
             model = args.model, 
             openai_api_key = os.environ['OPENAI_API_KEY_TIM'], 
-            results_dir = DEFAULT_RESULTS_DIR)
+            results_dir = DEFAULT_RESULTS_DIR, 
+            temperature = float(args.temperature))
 
 if __name__=="__main__":
     main()

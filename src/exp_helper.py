@@ -18,5 +18,5 @@ def run_exp(exp_name, dataset_name, dataset_dir, feature_list_fname, model, open
     print('ESTIMATED TIME in minutes is', len(batches)*4)
     print('Running experiment {} on dataset {} using {} model. Please wait for it to finish'.format(exp_name, dataset_name, model))
     answer_dict = get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dataset_name, temperature)   
-    save_responses(answer_dict, results_dir, dataset_name, exp_name, model, 'full')
+    save_responses(answer_dict, results_dir, dataset_name, exp_name, model, 'full', temperature)
     return 

@@ -180,7 +180,8 @@ def make_gpt_prompt_batches_feat_listing(concepts_set, features_set, concept_fea
     batch = []
     total_tokens = 0
     for concept, feature in itertools.product(concepts_set, features_set):
-        if total_tokens < 150000:
+        # was 150000, changed to 100000
+        if total_tokens < 100000:
             concept_idx = concepts_set.index(concept)
             feature_idx = features_set.index(feature)
             if concept_feature_matrix[concept_idx, feature_idx] == 0:
@@ -240,6 +241,7 @@ def get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dat
     answer_dict = {}
     each_prompt_api_time = []
     start_time = time.time()
+    import ipdb;ipdb.set_trace()
     for i, batch in enumerate(batches):
         if exp_name == 'feature_listing':
             Parallel(n_jobs=10, require='sharedmem')(delayed(prompt_gpt_feature_listing)(concept, feature, prompt, tokens, answer_dict, each_prompt_api_time, model, openai_api_key, temperature) for concept, feature, prompt, tokens in batch)

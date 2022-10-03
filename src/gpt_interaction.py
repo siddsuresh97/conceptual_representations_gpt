@@ -105,14 +105,14 @@ def estimated_cost(concepts_set, features_set, concept_feature_matrix, exp_name,
 
 
 ## TODO Figure out a way to make sleeping time optimal
-def send_gpt_prompt(prompt, model):
+def send_gpt_prompt(prompt, model, temperature):
     prompt_start_time = time.time()
     if model == 'ada':
         try:
             response = openai.Completion.create(
                             model="text-ada-001",
                             prompt=prompt,
-                            temperature=0.7,
+                            temperature=temperature,
                             max_tokens=256,
                             top_p=1,
                             frequency_penalty=0,
@@ -124,7 +124,7 @@ def send_gpt_prompt(prompt, model):
             response = openai.Completion.create(
                             model="text-ada-001",
                             prompt=prompt,
-                            temperature=0.7,
+                            temperature=temperature,
                             max_tokens=256,
                             top_p=1,
                             frequency_penalty=0,
@@ -135,7 +135,7 @@ def send_gpt_prompt(prompt, model):
             response = openai.Completion.create(
                             model="text-davinci-002",
                             prompt=prompt,
-                            temperature=0.7,
+                            temperature=temperature,
                             max_tokens=256,
                             top_p=1,
                             frequency_penalty=0,
@@ -147,7 +147,7 @@ def send_gpt_prompt(prompt, model):
             response = openai.Completion.create(
                             model="text-ada-001",
                             prompt=prompt,
-                            temperature=0.7,
+                            temperature=temperature,
                             max_tokens=256,
                             top_p=1,
                             frequency_penalty=0,
@@ -158,15 +158,15 @@ def send_gpt_prompt(prompt, model):
     each_prompt_time = time.time() - prompt_start_time
     return response, each_prompt_time
 
-def prompt_gpt_feature_listing(concept, feature, prompt, tokens, answer_dict, each_prompt_api_time, model, openai_api_key):
+def prompt_gpt_feature_listing(concept, feature, prompt, tokens, answer_dict, each_prompt_api_time, model, openai_api_key, temperature):
     openai.api_key = openai_api_key
-    response, each_prompt_time = send_gpt_prompt(prompt, model) 
+    response, each_prompt_time = send_gpt_prompt(prompt, model, temperature) 
     each_prompt_api_time.append(each_prompt_time)
     answer_dict.update({(concept, feature):(response, tokens, prompt)})
 
-def prompt_gpt_triplet(anchor, concept1, concept2, prompt, tokens, model, each_prompt_api_time, answer_dict,openai_api_key):
+def prompt_gpt_triplet(anchor, concept1, concept2, prompt, tokens, model, each_prompt_api_time, answer_dict,openai_api_key, temperature):
     openai.api_key = openai_api_key
-    response, each_prompt_time = send_gpt_prompt(prompt, model)  
+    response, each_prompt_time = send_gpt_prompt(prompt, model, temperature)  
     each_prompt_api_time.append(each_prompt_time)
     # print("Estimated total tokens", tokens+ESTIMATED_RESPONSE_TOKENS, '....Real tokens used', response['usage']['total_tokens'])
     answer_dict.update({(anchor, concept1, concept2,):(response, tokens, prompt)}) 
@@ -236,15 +236,15 @@ def make_gpt_prompt_batches_triplet(triplets):
     
         
 ## TODO Figure out optimal sleeping time and n_jobs
-def get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dataset_name):
+def get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dataset_name, temperature):
     answer_dict = {}
     each_prompt_api_time = []
     start_time = time.time()
     for i, batch in enumerate(batches):
         if exp_name == 'feature_listing':
-            Parallel(n_jobs=10, require='sharedmem')(delayed(prompt_gpt_feature_listing)(concept, feature, prompt, tokens, answer_dict, each_prompt_api_time, model, openai_api_key) for concept, feature, prompt, tokens in batch)
+            Parallel(n_jobs=10, require='sharedmem')(delayed(prompt_gpt_feature_listing)(concept, feature, prompt, tokens, answer_dict, each_prompt_api_time, model, openai_api_key, temperature) for concept, feature, prompt, tokens in batch)
         elif exp_name == 'triplet':
-            Parallel(n_jobs=10, require='sharedmem')(delayed(prompt_gpt_triplet)(anchor, concept1, concept2, prompt, tokens, model, each_prompt_api_time, answer_dict,openai_api_key) for anchor, concept1, concept2, prompt, tokens in batch)
+            Parallel(n_jobs=10, require='sharedmem')(delayed(prompt_gpt_triplet)(anchor, concept1, concept2, prompt, tokens, model, each_prompt_api_time, answer_dict,openai_api_key, temperature) for anchor, concept1, concept2, prompt, tokens in batch)
         save_responses(answer_dict, results_dir, dataset_name, exp_name, model, i)
         if len(batches) > 1:
             time.sleep(60*2)

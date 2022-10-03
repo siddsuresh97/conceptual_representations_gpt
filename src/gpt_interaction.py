@@ -241,8 +241,11 @@ def get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dat
     answer_dict = {}
     each_prompt_api_time = []
     start_time = time.time()
-    import ipdb;ipdb.set_trace()
+    # import ipdb;ipdb.set_trace()
     for i, batch in enumerate(batches):
+        if os.path.exists(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_{}_{}'.format(i, temperature))):
+            print(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_{}_{}'.format(i, temperature)), 'EXISTS')
+            continue
         if exp_name == 'feature_listing':
             Parallel(n_jobs=10, require='sharedmem')(delayed(prompt_gpt_feature_listing)(concept, feature, prompt, tokens, answer_dict, each_prompt_api_time, model, openai_api_key, temperature) for concept, feature, prompt, tokens in batch)
         elif exp_name == 'triplet':

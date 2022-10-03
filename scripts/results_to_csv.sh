@@ -16,4 +16,4 @@
 
 
 #10/3/22 - running with temperature 0 All previous experiments were run with temperature 0.7
-python src/results_to_csv.py --exp_name 'feature_listing' --dataset_name 'reptile_tool' --model 'davinci'
+python src/results_to_csv.py --exp_name 'feature_listing' --dataset_name 'reptile_tool' --model 'davinci' --temperature 0

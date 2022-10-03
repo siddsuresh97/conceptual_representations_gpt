@@ -29,7 +29,7 @@ REPTILES = ['Salamander',
  'Alligator']
 
 def save_feature_listing_results_in_csv(results_dir, dataset_name, model, exp_name, temperature):
-    file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_full_' + temperature),'rb')
+    file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_full_' + str(temperature)),'rb')
     answer_dict = pickle.load(file)
     actual_total_tokens = 0
     estimated_total_tokens = 0
@@ -132,7 +132,7 @@ def save_feature_triplet_results_in_csv(results_dir, dataset_name, model, exp_na
     result_df.to_csv(os.path.join(results_dir, dataset_name, results_dir, dataset_name, model +'_'+ exp_name + '_feature_list.csv'))
 
 
-def extract_results(exp_name, dataset_name, model, results_dir):
+def extract_results(exp_name, dataset_name, model, results_dir, temperature):
     if exp_name == 'feature_listing':
         save_feature_listing_results_in_csv(results_dir, dataset_name, model, exp_name, temperature)
     elif exp_name == 'triplet':

@@ -375,3 +375,33 @@
 07/23/2022 11:26:08 AM Invalid answer
 07/23/2022 11:26:09 AM Estimated cost : 13.846079999999999
 07/23/2022 11:26:09 AM Actual cost : 26.33016
+10/03/2022 02:16:03 PM is when this event was logged.
+10/03/2022 02:16:03 PM Running experiments with the following parameters
+10/03/2022 02:16:03 PM ########    EXTRACTING RESULTS     ##############
+10/03/2022 02:16:03 PM Argument dataset_name: 'reptile_tool'
+10/03/2022 02:16:03 PM Argument exp_name: 'feature_listing'
+10/03/2022 02:16:03 PM Argument model: 'davinci'
+10/03/2022 02:16:03 PM Argument temperature: None
+10/03/2022 02:16:30 PM is when this event was logged.
+10/03/2022 02:16:30 PM Running experiments with the following parameters
+10/03/2022 02:16:30 PM ########    EXTRACTING RESULTS     ##############
+10/03/2022 02:16:30 PM Argument dataset_name: 'reptile_tool'
+10/03/2022 02:16:30 PM Argument exp_name: 'feature_listing'
+10/03/2022 02:16:30 PM Argument model: 'davinci'
+10/03/2022 02:16:30 PM Argument temperature: '0'
+10/03/2022 02:17:13 PM is when this event was logged.
+10/03/2022 02:17:13 PM Running experiments with the following parameters
+10/03/2022 02:17:13 PM ########    EXTRACTING RESULTS     ##############
+10/03/2022 02:17:13 PM Argument dataset_name: 'reptile_tool'
+10/03/2022 02:17:13 PM Argument exp_name: 'feature_listing'
+10/03/2022 02:17:13 PM Argument model: 'davinci'
+10/03/2022 02:17:13 PM Argument temperature: '0'
+10/03/2022 02:17:46 PM is when this event was logged.
+10/03/2022 02:17:46 PM Running experiments with the following parameters
+10/03/2022 02:17:46 PM ########    EXTRACTING RESULTS     ##############
+10/03/2022 02:17:46 PM Argument dataset_name: 'reptile_tool'
+10/03/2022 02:17:46 PM Argument exp_name: 'feature_listing'
+10/03/2022 02:17:46 PM Argument model: 'davinci'
+10/03/2022 02:17:46 PM Argument temperature: '0'
+10/03/2022 02:17:46 PM Estimated cost : 7.13898
+10/03/2022 02:17:46 PM Actual cost : 9.72894

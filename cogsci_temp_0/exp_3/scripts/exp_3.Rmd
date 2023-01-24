@@ -1,0 +1,81 @@
+#libraries
+library(lsa)
+library(vegan)
+library(psych)
+library(ggplot2)
+library(dendextend)
+library(circlize)
+
+# feature list humans (leuven) vs gpt triplets
+
+# set working dir to the dir the script is in
+setwd(dirname(rstudioapi::getSourceEditorContext()$path))
+
+# Load data
+leuven_animals = read.csv('../../data/feature_listing/animal_leuven_norms.csv')
+leuven_tools = read.csv('../../data/feature_listing/artifacts_leuven_norms.csv')
+gpt_triplet_mds = read.csv('../../data/triplets/summer_data/gpt_reptile_tool_embedding_df.csv')
+
+
+
+
+
+# mds human data
+
+leuven = merge(leuven_animals, leuven_tools, by = 'X', all = TRUE)
+leuven[is.na(leuven)] = 0
+
+leuven_cosine_dist = 1-  lsa::cosine(t(data.matrix(leuven[,2:ncol(leuven)])))
+leuven_mds <- cmdscale(leuven_cosine_dist,k = 3)
+rownames(leuven_mds) <- leuven$X
+rownames(leuven_cosine_dist) <- leuven$X
+
+
+# mds and cosing dsm gpt triplet
+rownames(gpt_triplet_mds) <- gpt_triplet_mds$concept
+gpt_triplet_mds <- gpt_triplet_mds[order(rownames(gpt_triplet_mds)),]
+
+triplet_cosine_dist = 1-  lsa::cosine(t(data.matrix(gpt_triplet_mds[,3:5])))
+rownames(triplet_cosine_dist) <- gpt_triplet_mds$concept
+
+# proc between human feature listing(leuven) and gpt triplet(us)
+exp_1_proc <- protest(leuven_mds, gpt_triplet_mds[3:5])
+print('cosine proc')
+cat(sqrt(1 - exp_1_proc$ss), exp_1_proc$signif)
+
+
+
+
+
+
+# Make Fan plots
+
+## leuven feature list
+
+hc <- as.dendrogram(hclust(as.dist(leuven_cosine_dist)))
+hc <- hc %>%
+  color_branches(k = 2) %>%
+  color_labels(k = 2)
+png("../graphs/feature_list_humans(leuven).png",  width = 6, height = 6, units = "in", res = 300)
+circlize_dendrogram(hc,
+                    labels_track_height = 0.3,
+                    dend_track_height = 0.6)
+title("Feature list humans (Leuven)")
+dev.off()
+        
+
+
+## triplet gpt
+hc <- as.dendrogram(hclust(as.dist(triplet_cosine_dist)))
+hc <- hc %>%
+  color_branches(k = 2) %>%
+  color_labels(k = 2)
+png("../graphs/triplet_gpt.png",  width = 6, height = 6, units = "in", res = 300)
+circlize_dendrogram(hc,
+                    labels_track_height = 0.3,
+                    dend_track_height = 0.6)
+title("Triplet gpt")
+dev.off()
+        
+
+

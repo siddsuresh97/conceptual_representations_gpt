@@ -1,0 +1,91 @@
+#libraries
+library(lsa)
+library(vegan)
+library(psych)
+library(ggplot2)
+library(dendextend)
+library(circlize)
+
+# humans triplets vs gpt triplets
+
+# set working dir to the dir the script is in
+setwd(dirname(rstudioapi::getSourceEditorContext()$path))
+
+# Load data
+human_triplet_mds = read.csv('../../data/triplets/summer_data/human_reptile_tool_embedding_df.csv')
+
+gpt_triplet_mds = read.csv('../../data/triplets/summer_data/gpt_reptile_tool_embedding_df.csv')
+
+# mds and cosing dsm human triplet
+rownames(human_triplet_mds) <- human_triplet_mds$concept
+human_triplet_mds <- human_triplet_mds[order(rownames(human_triplet_mds)),]
+
+human_triplet_cosine_dist = 1-  lsa::cosine(t(data.matrix(human_triplet_mds[,3:5])))
+rownames(human_triplet_cosine_dist) <- human_triplet_mds$concept
+
+# mds and cosing dsm gpt triplet
+rownames(gpt_triplet_mds) <- gpt_triplet_mds$concept
+gpt_triplet_mds <- gpt_triplet_mds[order(rownames(gpt_triplet_mds)),]
+
+gpt_triplet_cosine_dist = 1-  lsa::cosine(t(data.matrix(gpt_triplet_mds[,3:5])))
+rownames(gpt_triplet_cosine_dist) <- gpt_triplet_mds$concept
+
+# proc between human triplet and GPT triplet(us)
+exp_1_proc <- protest(human_triplet_mds[3:5], gpt_triplet_mds[3:5])
+print('cosine proc')
+cat(sqrt(1 - exp_1_proc$ss), exp_1_proc$signif)
+
+
+# run exp_1.md before thos - proc between human triplets and gpt veirfied features
+exp_1_proc <- protest(human_triplet_mds[3:5], verified_gpt_mds_summer_no_mc)
+print('cosine proc')
+cat(sqrt(1 - exp_1_proc$ss), exp_1_proc$signif)
+
+# run exp_1.md before thos - proc between human triplets and gpt unveirfied features
+exp_1_proc <- protest(human_triplet_mds[3:5], unverified_gpt_mds_summer_no_mc)
+print('cosine proc')
+cat(sqrt(1 - exp_1_proc$ss), exp_1_proc$signif)
+
+# run exp_1.md before thos - proc between gpt triplets and gpt veirfied features
+exp_1_proc <- protest(gpt_triplet_mds[3:5], verified_gpt_mds_summer_no_mc)
+print('cosine proc')
+cat(sqrt(1 - exp_1_proc$ss), exp_1_proc$signif)
+
+# run exp_1.md before thos - proc between gpt triplets and gpt unveirfied features
+exp_1_proc <- protest(gpt_triplet_mds[3:5], unverified_gpt_mds_summer_no_mc)
+print('cosine proc')
+cat(sqrt(1 - exp_1_proc$ss), exp_1_proc$signif)
+
+
+
+# Make Fan plots
+
+## leuven feature list
+
+hc <- as.dendrogram(hclust(as.dist(leuven_cosine_dist)))
+hc <- hc %>%
+  color_branches(k = 2) %>%
+  color_labels(k = 2)
+png("../graphs/feature_list_humans(leuven).png",  width = 6, height = 6, units = "in", res = 300)
+circlize_dendrogram(hc,
+                    labels_track_height = 0.3,
+                    dend_track_height = 0.6)
+title("Feature list humans (Leuven)")
+dev.off()
+        
+
+
+## triplet humans
+hc <- as.dendrogram(hclust(as.dist(triplet_cosine_dist)))
+hc <- hc %>%
+  color_branches(k = 2) %>%
+  color_labels(k = 2)
+png("../graphs/triplet_humans.png",  width = 6, height = 6, units = "in", res = 300)
+circlize_dendrogram(hc,
+                    labels_track_height = 0.3,
+                    dend_track_height = 0.6)
+title("Triplet humans")
+dev.off()
+        
+
+

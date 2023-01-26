@@ -1288,3 +1288,57 @@ Answer using only only word - "Chameleon" or "Vacuum" and not "Boa python".Which
 Caiman
 Snake
 Answer using only only word - "Caiman" or "Snake" and not "Vacuum".Which is more similar in meaning to "Vacuum"?
+01/24/2023 09:50:41 PM is when this event was logged.
+01/24/2023 09:50:41 PM Running experiments with the following parameters
+01/24/2023 09:50:41 PM ########    EXTRACTING RESULTS     ##############
+01/24/2023 09:50:41 PM Argument dataset_name: 'reptile_tool'
+01/24/2023 09:50:41 PM Argument exp_name: 'triplet'
+01/24/2023 09:50:41 PM Argument model: 'davinci'
+01/24/2023 09:50:41 PM Argument temperature: '0.0'
+01/24/2023 09:51:08 PM is when this event was logged.
+01/24/2023 09:51:08 PM Running experiments with the following parameters
+01/24/2023 09:51:08 PM ########    EXTRACTING RESULTS     ##############
+01/24/2023 09:51:08 PM Argument dataset_name: 'reptile_tool'
+01/24/2023 09:51:08 PM Argument exp_name: 'triplet'
+01/24/2023 09:51:08 PM Argument model: 'davinci'
+01/24/2023 09:51:08 PM Argument temperature: '0.0'
+01/24/2023 09:51:08 PM Unexpected answer
+01/24/2023 09:51:08 PM Vacuum
+Chisel
+Knife
+Answer using only only word - "Chisel" or "Knife" and not "Vacuum".Which is more similar in meaning to "Vacuum"?
+01/24/2023 09:51:08 PM Unexpected answer
+01/24/2023 09:51:08 PM Alligator
+Cobra
+Toad
+Answer using only only word - "Cobra" or "Toad" and not "Alligator".Which is more similar in meaning to "Alligator"?
+01/24/2023 09:51:08 PM Unexpected answer
+01/24/2023 09:51:08 PM Oil can
+Anvil
+Saw
+Answer using only only word - "Anvil" or "Saw" and not "Oil can".Which is more similar in meaning to "Oil can"?
+01/24/2023 09:51:08 PM Unexpected answer
+01/24/2023 09:51:08 PM Chisel
+Grinding disk
+Vacuum
+Answer using only only word - "Grinding disk" or "Vacuum" and not "Chisel".Which is more similar in meaning to "Chisel"?
+01/24/2023 09:51:08 PM Unexpected answer
+01/24/2023 09:51:08 PM Oil can
+Chisel
+Saw
+Answer using only only word - "Chisel" or "Saw" and not "Oil can".Which is more similar in meaning to "Oil can"?
+01/24/2023 09:51:08 PM Unexpected answer
+01/24/2023 09:51:08 PM Crocodile
+Chisel
+Hammer
+Answer using only only word - "Chisel" or "Hammer" and not "Crocodile".Which is more similar in meaning to "Crocodile"?
+01/24/2023 09:51:08 PM Unexpected answer
+01/24/2023 09:51:08 PM Alligator
+Cobra
+Paint brush
+Answer using only only word - "Cobra" or "Paint brush" and not "Alligator".Which is more similar in meaning to "Alligator"?
+01/24/2023 09:51:08 PM Unexpected answer
+01/24/2023 09:51:08 PM Alligator
+Cobra
+Screwdriver
+Answer using only only word - "Cobra" or "Screwdriver" and not "Alligator".Which is more similar in meaning to "Alligator"?

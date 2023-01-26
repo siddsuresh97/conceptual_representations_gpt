@@ -69,7 +69,7 @@ def save_feature_listing_results_in_csv(results_dir, dataset_name, model, exp_na
 
 def save_feature_triplet_results_in_csv(results_dir, dataset_name, model, exp_name):
     if dataset_name == 'reptile_tool':
-        file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name),'rb')
+        file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_full_temperature_0.0'),'rb')
     elif dataset_name == 'social_categories':
         file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_full'),'rb')
     answer_dict = pickle.load(file)

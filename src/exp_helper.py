@@ -19,4 +19,18 @@ def run_exp(exp_name, dataset_name, dataset_dir, feature_list_fname, model, open
     print('Running experiment {} on dataset {} using {} model. Please wait for it to finish'.format(exp_name, dataset_name, model))
     answer_dict = get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dataset_name, temperature)   
     save_responses(answer_dict, results_dir, dataset_name, exp_name, model, 'full', temperature)
-    return 
+    return
+
+def run_exp_twitter(exp_name, dataset_name, dataset_dir, feature_list_fname, model, openai_api_key, results_dir, temperature):
+    if exp_name == 'feature_listing':
+        import ipdb;ipdb.set_trace()
+        df = pd.read_csv(os.path.join(dataset_dir, dataset_name ,feature_list_fname))
+        prompts = df['tweet_embedded'].tolist()
+        batches = twitter_make_gpt_prompt_batches_feat_listing(prompts) 
+    else:
+        logging.error('Undefined task. Only feature listing and triplet implemented')
+    print('ESTIMATED TIME in minutes is', len(batches)*4)
+    print('Running experiment {} on dataset {} using {} model. Please wait for it to finish. It might take a while'.format(exp_name, dataset_name, model))
+    answer_dict = twitter_get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dataset_name, temperature)   
+    save_responses(answer_dict, results_dir, dataset_name, exp_name, model, 'full', temperature)
+    return

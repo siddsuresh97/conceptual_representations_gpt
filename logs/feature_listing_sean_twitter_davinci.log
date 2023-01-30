@@ -1,0 +1,107 @@
+01/29/2023 04:48:31 PM is when this event was logged.
+01/29/2023 04:48:31 PM Running experiments with the following parameters
+01/29/2023 04:48:31 PM Argument dataset_name: 'sean_twitter'
+01/29/2023 04:48:31 PM Argument exp_name: 'feature_listing'
+01/29/2023 04:48:31 PM Argument feature_list_fname: 'a.csv'
+01/29/2023 04:48:31 PM Argument model: 'davinci'
+01/29/2023 04:48:31 PM Argument temperature: '0'
+01/29/2023 04:50:19 PM is when this event was logged.
+01/29/2023 04:50:19 PM Running experiments with the following parameters
+01/29/2023 04:50:19 PM Argument dataset_name: 'sean_twitter'
+01/29/2023 04:50:19 PM Argument exp_name: 'feature_listing'
+01/29/2023 04:50:19 PM Argument feature_list_fname: 'a.csv'
+01/29/2023 04:50:19 PM Argument model: 'davinci'
+01/29/2023 04:50:19 PM Argument temperature: '0'
+01/29/2023 04:50:20 PM Using selector: KqueueSelector
+01/29/2023 04:50:20 PM Using selector: KqueueSelector
+01/29/2023 04:50:20 PM Using selector: KqueueSelector
+01/29/2023 04:51:14 PM is when this event was logged.
+01/29/2023 04:51:14 PM Running experiments with the following parameters
+01/29/2023 04:51:14 PM Argument dataset_name: 'sean_twitter'
+01/29/2023 04:51:14 PM Argument exp_name: 'feature_listing'
+01/29/2023 04:51:14 PM Argument feature_list_fname: 'a.csv'
+01/29/2023 04:51:14 PM Argument model: 'davinci'
+01/29/2023 04:51:14 PM Argument temperature: '0'
+01/29/2023 04:51:14 PM Using selector: KqueueSelector
+01/29/2023 04:51:14 PM Using selector: KqueueSelector
+01/29/2023 04:51:14 PM Using selector: KqueueSelector
+01/29/2023 04:53:03 PM is when this event was logged.
+01/29/2023 04:53:03 PM Running experiments with the following parameters
+01/29/2023 04:53:03 PM Argument dataset_name: 'sean_twitter'
+01/29/2023 04:53:03 PM Argument exp_name: 'feature_listing'
+01/29/2023 04:53:03 PM Argument feature_list_fname: 'a.csv'
+01/29/2023 04:53:03 PM Argument model: 'davinci'
+01/29/2023 04:53:03 PM Argument temperature: '0'
+01/29/2023 04:53:03 PM Using selector: KqueueSelector
+01/29/2023 04:53:03 PM Using selector: KqueueSelector
+01/29/2023 04:53:03 PM Using selector: KqueueSelector
+01/29/2023 04:53:10 PM Making batches
+01/29/2023 04:53:10 PM Total batches of 150000 tokesn are 1
+01/29/2023 04:53:21 PM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+01/29/2023 04:53:21 PM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+01/29/2023 04:53:21 PM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+01/29/2023 04:53:22 PM api_version=None data='{"model": "text-davinci-002", "prompt": "What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. \\"what a dumb bunny.  it\'s a leaky vaccine and you are driving covid to greater and greater evolutionary heights.\\"  Please use one of the following 3 categories to label it: \\"in favor\\", \\"against\\", \\"neutral\\".", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+01/29/2023 04:53:22 PM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+01/29/2023 04:53:22 PM api_version=None data='{"model": "text-davinci-002", "prompt": "What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. \\"breaking report: cdc used rejected study from india on vaccine, not approved in the us to justify new mask mandate...\\"  Please use one of the following 3 categories to label it: \\"in favor\\", \\"against\\", \\"neutral\\".", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+01/29/2023 04:53:22 PM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+01/29/2023 04:53:22 PM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+01/29/2023 04:53:22 PM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+01/29/2023 04:53:22 PM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+01/29/2023 04:53:22 PM api_version=None data='{"model": "text-davinci-002", "prompt": "What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. \\"if you in spanish town, st jago park isn\'t full and things are flowing quickly. come get your vaccine #vaccinateja\\"  Please use one of the following 3 categories to label it: \\"in favor\\", \\"against\\", \\"neutral\\".", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+01/29/2023 04:53:22 PM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+01/29/2023 04:53:22 PM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01/29/2023 04:53:22 PM api_version=None data='{"model": "text-davinci-002", "prompt": "What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. \\"so let me get this straight\\u2026 the people spreading the virus are all vaccinated??  the messaging is quite confusing!!!\\"  Please use one of the following 3 categories to label it: \\"in favor\\", \\"against\\", \\"neutral\\".", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+01/29/2023 04:53:22 PM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01/29/2023 04:53:22 PM api_version=None data='{"model": "text-davinci-002", "prompt": "What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. \\"verifiable proof of vaccination should be a requirement to travel by air.\\"  Please use one of the following 3 categories to label it: \\"in favor\\", \\"against\\", \\"neutral\\".", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+01/29/2023 04:53:22 PM api_version=None data='{"model": "text-davinci-002", "prompt": "What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. \\"we got a virus and you gave us a vaccine.\\"  Please use one of the following 3 categories to label it: \\"in favor\\", \\"against\\", \\"neutral\\".", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+01/29/2023 04:53:22 PM api_version=None data='{"model": "text-davinci-002", "prompt": "What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. \\"so they had an on-site vaccination at work and they didn\\u2019t get the vaccine. now there is a go fund me page.. she should now show her vaccination card before taking peoples money. i am sick of these people endangering our families. they had time for vacation but not a 15 min shot\\"  Please use one of the following 3 categories to label it: \\"in favor\\", \\"against\\", \\"neutral\\".", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+01/29/2023 04:53:22 PM api_version=None data='{"model": "text-davinci-002", "prompt": "What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. \\"covid clusters among the vaccinated are killing our back-to-normal dreams\\"  Please use one of the following 3 categories to label it: \\"in favor\\", \\"against\\", \\"neutral\\".", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+01/29/2023 04:53:22 PM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01/29/2023 04:53:22 PM api_version=None data='{"model": "text-davinci-002", "prompt": "What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. \\"barring mask requirements in schools with a delta variant raging and kids under 12 unvaccinated is a strategy to get kids sick \\u2026 or worse.\\"  Please use one of the following 3 categories to label it: \\"in favor\\", \\"against\\", \\"neutral\\".", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+01/29/2023 04:53:22 PM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01/29/2023 04:53:22 PM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01/29/2023 04:53:22 PM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01/29/2023 04:53:22 PM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01/29/2023 04:53:22 PM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01/29/2023 04:53:22 PM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01/29/2023 04:53:22 PM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+01/29/2023 04:53:22 PM api_version=None data='{"model": "text-davinci-002", "prompt": "What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. \\"\\"less than 0.001% of fully vaccinated americans died after a covid-19 breakthrough case\\"..\\"  Please use one of the following 3 categories to label it: \\"in favor\\", \\"against\\", \\"neutral\\".", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+01/29/2023 04:53:22 PM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01/29/2023 04:53:22 PM Starting new HTTPS connection (1): api.openai.com:443
+01/29/2023 04:53:22 PM Starting new HTTPS connection (1): api.openai.com:443
+01/29/2023 04:53:22 PM Starting new HTTPS connection (1): api.openai.com:443
+01/29/2023 04:53:22 PM Starting new HTTPS connection (1): api.openai.com:443
+01/29/2023 04:53:22 PM Starting new HTTPS connection (1): api.openai.com:443
+01/29/2023 04:53:22 PM Starting new HTTPS connection (1): api.openai.com:443
+01/29/2023 04:53:22 PM Starting new HTTPS connection (1): api.openai.com:443
+01/29/2023 04:53:22 PM Starting new HTTPS connection (1): api.openai.com:443
+01/29/2023 04:53:22 PM Starting new HTTPS connection (1): api.openai.com:443
+01/29/2023 04:53:22 PM Starting new HTTPS connection (1): api.openai.com:443
+01/29/2023 04:53:22 PM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 273
+01/29/2023 04:53:22 PM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=417 response_code=200
+01/29/2023 04:53:22 PM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 273
+01/29/2023 04:53:22 PM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=436 response_code=200
+01/29/2023 04:53:22 PM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+01/29/2023 04:53:22 PM api_version=None data='{"model": "text-davinci-002", "prompt": "What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. \\"israel: demonstration in telaviv against the reintroduction of vaccination passports..(credit: anonyme citoyen)\\"  Please use one of the following 3 categories to label it: \\"in favor\\", \\"against\\", \\"neutral\\".", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+01/29/2023 04:53:22 PM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 273
+01/29/2023 04:53:22 PM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=447 response_code=200
+01/29/2023 04:53:22 PM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 310
+01/29/2023 04:53:22 PM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=519 response_code=200
+01/29/2023 04:53:22 PM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 308
+01/29/2023 04:53:22 PM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=524 response_code=200
+01/29/2023 04:53:23 PM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 308
+01/29/2023 04:53:23 PM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=679 response_code=200
+01/29/2023 04:53:23 PM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 308
+01/29/2023 04:53:23 PM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=669 response_code=200
+01/29/2023 04:53:23 PM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 308
+01/29/2023 04:53:23 PM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=768 response_code=200
+01/29/2023 04:53:23 PM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 331
+01/29/2023 04:53:23 PM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=491 response_code=200
+01/29/2023 04:53:23 PM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 308
+01/29/2023 04:53:23 PM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1074 response_code=200
+01/29/2023 04:53:23 PM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 392
+01/29/2023 04:53:23 PM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=1422 response_code=200
+01/29/2023 04:53:23 PM It took 2.046644926071167s to run the experiment
+01/29/2023 04:53:23 PM Each api request took 1.145419012416493s
+01/29/2023 04:53:23 PM Total time in running api concurrently is 12.599609136581421s
+01/29/2023 04:53:23 PM Speedup by parallilsation was 5.156226210067716 x

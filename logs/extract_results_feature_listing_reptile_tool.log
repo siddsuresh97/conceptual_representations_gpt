@@ -423,3 +423,39 @@
 01/24/2023 08:42:17 AM Argument temperature: '0.0'
 01/24/2023 08:42:17 AM Estimated cost : 13.84692
 01/24/2023 08:42:17 AM Actual cost : 18.99852
+01/29/2023 04:59:27 PM is when this event was logged.
+01/29/2023 04:59:27 PM Running experiments with the following parameters
+01/29/2023 04:59:27 PM ########    EXTRACTING RESULTS     ##############
+01/29/2023 04:59:27 PM Argument dataset_name: 'reptile_tool'
+01/29/2023 04:59:27 PM Argument exp_name: 'feature_listing'
+01/29/2023 04:59:27 PM Argument model: 'davinci'
+01/29/2023 04:59:27 PM Argument temperature: '0.0'
+01/29/2023 04:59:28 PM Estimated cost : 13.84692
+01/29/2023 04:59:28 PM Actual cost : 18.99852
+01/29/2023 05:00:52 PM is when this event was logged.
+01/29/2023 05:00:52 PM Running experiments with the following parameters
+01/29/2023 05:00:52 PM ########    EXTRACTING RESULTS     ##############
+01/29/2023 05:00:52 PM Argument dataset_name: 'reptile_tool'
+01/29/2023 05:00:52 PM Argument exp_name: 'feature_listing'
+01/29/2023 05:00:52 PM Argument model: 'davinci'
+01/29/2023 05:00:52 PM Argument temperature: '0.0'
+01/29/2023 07:09:24 PM is when this event was logged.
+01/29/2023 07:09:24 PM Running experiments with the following parameters
+01/29/2023 07:09:24 PM ########    EXTRACTING RESULTS     ##############
+01/29/2023 07:09:24 PM Argument dataset_name: 'reptile_tool'
+01/29/2023 07:09:24 PM Argument exp_name: 'feature_listing'
+01/29/2023 07:09:24 PM Argument model: 'davinci'
+01/29/2023 07:09:24 PM Argument temperature: '0.0'
+01/29/2023 07:09:25 PM Using selector: KqueueSelector
+01/29/2023 07:09:25 PM Using selector: KqueueSelector
+01/29/2023 07:09:25 PM Using selector: KqueueSelector
+01/29/2023 07:10:13 PM is when this event was logged.
+01/29/2023 07:10:13 PM Running experiments with the following parameters
+01/29/2023 07:10:13 PM ########    EXTRACTING RESULTS     ##############
+01/29/2023 07:10:13 PM Argument dataset_name: 'reptile_tool'
+01/29/2023 07:10:13 PM Argument exp_name: 'feature_listing'
+01/29/2023 07:10:13 PM Argument model: 'davinci'
+01/29/2023 07:10:13 PM Argument temperature: '0.0'
+01/29/2023 07:10:13 PM Using selector: KqueueSelector
+01/29/2023 07:10:13 PM Using selector: KqueueSelector
+01/29/2023 07:10:13 PM Using selector: KqueueSelector

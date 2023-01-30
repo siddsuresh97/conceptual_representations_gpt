@@ -142,6 +142,49 @@ def extract_results(exp_name, dataset_name, model, results_dir, temperature):
         
     return
 
+
+def twitter_extract_results(exp_name, dataset_name, model, results_dir, temperature):
+    if exp_name == 'feature_listing':
+        twitter_save_feature_listing_results_in_csv(results_dir, dataset_name, model, exp_name, temperature)
+    else:
+        logging.error('Cant save result. Only feature listing and triplet task implemented')
+        
+    return
+
+
+def twitter_save_feature_listing_results_in_csv(results_dir, dataset_name, model, exp_name, temperature):
+    file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_full_temperature_' + str(temperature)),'rb')
+    answer_dict = pickle.load(file)
+    actual_total_tokens = 0
+    estimated_total_tokens = 0
+    concept_list = []
+    feature_list = []
+    full_answer_list = []
+    answer_list = []
+    prompt_list = []
+    category_list = []
+    for v in answer_dict:
+        actual_total_tokens +=  v[0]['usage']['total_tokens']
+        estimated_total_tokens += v[1] 
+        prompt_list.append(v[2])
+        answer = v[0]['choices'][0]['text'] 
+        full_answer_list.append(answer)
+        # print(k[0], k[1], v[0]['choices'][0]['text'])
+        if 'favor' in answer:
+            answer_list.append('In favor')
+        elif 'against' in answer:
+            answer_list.append('against')
+        elif 'neutral' in answer:
+            answer_list.append('neutral')
+        else:
+            answer_list.append('SOMETHING WENT WRONG')
+            logging.error('Invalid answer')
+    result_df = pd.DataFrame({'prompt':prompt_list, 'Stance':answer_list, 'gpt_response':full_answer_list})
+    result_df.to_csv(os.path.join(results_dir, dataset_name, results_dir, dataset_name, model +'_'+ exp_name + '_feature_list_temperature_0.csv'))
+    file.close()
+    logging.info('Estimated cost : {}'.format((estimated_total_tokens/1000)*0.06))
+    logging.info('Actual cost : {}'.format((actual_total_tokens/1000)*0.06))
+
 def main():
     parser = argparse.ArgumentParser(description="""""")
     parser.add_argument('--dataset_name', type=str, 
@@ -160,7 +203,7 @@ def main():
     for arg, value in sorted(vars(args).items()):
         logging.info("Argument %s: %r", arg, value)
 
-    extract_results(exp_name = args.exp_name, 
+    twitter_extract_results(exp_name = args.exp_name, 
             dataset_name = args.dataset_name,  
             model = args.model, 
             results_dir = DEFAULT_RESULTS_DIR, 

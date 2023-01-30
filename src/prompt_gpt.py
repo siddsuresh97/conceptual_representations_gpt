@@ -27,8 +27,7 @@ def main():
     logging.info('Running experiments with the following parameters')
     for arg, value in sorted(vars(args).items()):
         logging.info("Argument %s: %r", arg, value)
-
-    run_exp(exp_name = args.exp_name, 
+    run_exp_twitter(exp_name = args.exp_name, 
             dataset_name = args.dataset_name, 
             dataset_dir = DATASET_DIR , 
             feature_list_fname = args.feature_list_fname, 

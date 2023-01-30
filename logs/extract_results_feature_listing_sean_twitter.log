@@ -1,0 +1,26 @@
+01/29/2023 07:11:09 PM is when this event was logged.
+01/29/2023 07:11:09 PM Running experiments with the following parameters
+01/29/2023 07:11:09 PM ########    EXTRACTING RESULTS     ##############
+01/29/2023 07:11:09 PM Argument dataset_name: 'sean_twitter'
+01/29/2023 07:11:09 PM Argument exp_name: 'feature_listing'
+01/29/2023 07:11:09 PM Argument model: 'davinci'
+01/29/2023 07:11:09 PM Argument temperature: '0.0'
+01/29/2023 07:16:00 PM is when this event was logged.
+01/29/2023 07:16:00 PM Running experiments with the following parameters
+01/29/2023 07:16:00 PM ########    EXTRACTING RESULTS     ##############
+01/29/2023 07:16:00 PM Argument dataset_name: 'sean_twitter'
+01/29/2023 07:16:00 PM Argument exp_name: 'feature_listing'
+01/29/2023 07:16:00 PM Argument model: 'davinci'
+01/29/2023 07:16:00 PM Argument temperature: '0.0'
+01/29/2023 07:16:00 PM Using selector: KqueueSelector
+01/29/2023 07:16:01 PM Using selector: KqueueSelector
+01/29/2023 07:16:01 PM Using selector: KqueueSelector
+01/29/2023 07:16:29 PM is when this event was logged.
+01/29/2023 07:16:29 PM Running experiments with the following parameters
+01/29/2023 07:16:29 PM ########    EXTRACTING RESULTS     ##############
+01/29/2023 07:16:29 PM Argument dataset_name: 'sean_twitter'
+01/29/2023 07:16:29 PM Argument exp_name: 'feature_listing'
+01/29/2023 07:16:29 PM Argument model: 'davinci'
+01/29/2023 07:16:29 PM Argument temperature: '0.0'
+01/29/2023 07:16:29 PM Estimated cost : 0.051
+01/29/2023 07:16:29 PM Actual cost : 0.05604

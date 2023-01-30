@@ -1,0 +1,34 @@
+,prompt,Stance,gpt_response
+0,"What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. ""verifiable proof of vaccination should be a requirement to travel by air.""  Please use one of the following 3 categories to label it: ""in favor"", ""against"", ""neutral"".",In favor,"
+
+in favor"
+1,"What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. """"less than 0.001% of fully vaccinated americans died after a covid-19 breakthrough case""..""  Please use one of the following 3 categories to label it: ""in favor"", ""against"", ""neutral"".",In favor,"
+
+in favor"
+2,"What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. ""if you in spanish town, st jago park isn't full and things are flowing quickly. come get your vaccine #vaccinateja""  Please use one of the following 3 categories to label it: ""in favor"", ""against"", ""neutral"".",In favor,"
+
+in favor"
+3,"What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. ""so they had an on-site vaccination at work and they didn’t get the vaccine. now there is a go fund me page.. she should now show her vaccination card before taking peoples money. i am sick of these people endangering our families. they had time for vacation but not a 15 min shot""  Please use one of the following 3 categories to label it: ""in favor"", ""against"", ""neutral"".",against,"
+
+The tweet is against the COVID-19 vaccine."
+4,"What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. ""what a dumb bunny.  it's a leaky vaccine and you are driving covid to greater and greater evolutionary heights.""  Please use one of the following 3 categories to label it: ""in favor"", ""against"", ""neutral"".",against,"
+
+The tweet is against the COVID-19 vaccine."
+5,"What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. ""we got a virus and you gave us a vaccine.""  Please use one of the following 3 categories to label it: ""in favor"", ""against"", ""neutral"".",against,"
+
+The tweet is against the COVID-19 vaccine."
+6,"What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. ""covid clusters among the vaccinated are killing our back-to-normal dreams""  Please use one of the following 3 categories to label it: ""in favor"", ""against"", ""neutral"".",against,"
+
+The tweet is against the COVID-19 vaccine."
+7,"What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. ""so let me get this straight… the people spreading the virus are all vaccinated??  the messaging is quite confusing!!!""  Please use one of the following 3 categories to label it: ""in favor"", ""against"", ""neutral"".",against,"
+
+The tweet is against the COVID-19 vaccine."
+8,"What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. ""israel: demonstration in telaviv against the reintroduction of vaccination passports..(credit: anonyme citoyen)""  Please use one of the following 3 categories to label it: ""in favor"", ""against"", ""neutral"".",against,"
+
+The tweet is against the reintroduction of vaccination passports."
+9,"What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. ""breaking report: cdc used rejected study from india on vaccine, not approved in the us to justify new mask mandate...""  Please use one of the following 3 categories to label it: ""in favor"", ""against"", ""neutral"".",against,"
+
+The tweet is against the COVID-19 vaccine."
+10,"What is the stance of the following tweet with respect to COVID-19 vaccine?  Here is the tweet. ""barring mask requirements in schools with a delta variant raging and kids under 12 unvaccinated is a strategy to get kids sick … or worse.""  Please use one of the following 3 categories to label it: ""in favor"", ""against"", ""neutral"".",against,"
+
+The tweet is against the idea of not requiring masks in schools with the delta variant raging and kids under 12 unvaccinated."

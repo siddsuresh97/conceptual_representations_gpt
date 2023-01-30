@@ -15,4 +15,8 @@
 # python src/prompt_gpt.py --dataset_name 'reptile_tool' --exp_name 'feature_listing' --feature_list_fname 'GPT_3_feature_df - Sheet1.csv' --model 'davinci' --temperature 0
 
 #1/24/23 - running triplet with temperature 0 All previous experiments were run with temperature 0.7
-python src/prompt_gpt.py --dataset_name 'reptile_tool' --exp_name 'triplet' --feature_list_fname 'triplets_reptile_tools.pkl' --model 'davinci' --temperature 0
+# python src/prompt_gpt.py --dataset_name 'reptile_tool' --exp_name 'triplet' --feature_list_fname 'triplets_reptile_tools.pkl' --model 'davinci' --temperature 0
+
+
+# 1/29/23 Sean twitter test
+python src/prompt_gpt.py --dataset_name 'sean_twitter' --exp_name 'feature_listing' --feature_list_fname 'a.csv' --model 'davinci' --temperature 0

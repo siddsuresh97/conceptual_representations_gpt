@@ -164,6 +164,12 @@ def prompt_gpt_feature_listing(concept, feature, prompt, tokens, answer_dict, ea
     each_prompt_api_time.append(each_prompt_time)
     answer_dict.update({(concept, feature):(response, tokens, prompt)})
 
+def twitter_prompt_gpt_feature_listing(prompt, tokens, answer_list, each_prompt_api_time, model, openai_api_key, temperature):
+    openai.api_key = openai_api_key
+    response, each_prompt_time = send_gpt_prompt(prompt, model, temperature) 
+    each_prompt_api_time.append(each_prompt_time)
+    answer_list.append((response, tokens, prompt))
+
 def prompt_gpt_triplet(anchor, concept1, concept2, prompt, tokens, model, each_prompt_api_time, answer_dict,openai_api_key, temperature):
     openai.api_key = openai_api_key
     response, each_prompt_time = send_gpt_prompt(prompt, model, temperature)  
@@ -173,6 +179,31 @@ def prompt_gpt_triplet(anchor, concept1, concept2, prompt, tokens, model, each_p
     return answer_dict
 
 
+
+def twitter_make_gpt_prompt_batches_feat_listing(prompts):
+    logging.info('Making batches')
+    batches = []
+    batch = []
+    total_tokens = 0
+    for prompt in prompts:
+        # was 150000, changed to 100000
+        if total_tokens < 100000:
+            characters = len(prompt)
+            tokens = np.ceil((characters + 1)/4)
+            batch.append([prompt, tokens])
+            total_tokens += tokens + (ESTIMATED_RESPONSE_TOKENS)
+        else:
+            batches.append(batch)
+            batch = [[prompt, tokens]]
+            total_tokens = tokens + (ESTIMATED_RESPONSE_TOKENS) 
+            characters = len(prompt)
+            tokens = np.ceil((characters + 1)/4)
+            batch.append([prompt, tokens])
+            total_tokens += tokens + (ESTIMATED_RESPONSE_TOKENS)
+    if len(batch) != 0:
+        batches.append(batch)
+    logging.info('Total batches of 150000 tokesn are {}'.format(len(batches)))
+    return batches
 
 def make_gpt_prompt_batches_feat_listing(concepts_set, features_set, concept_feature_matrix, exp_name):
     logging.info('Making batches')
@@ -204,6 +235,8 @@ def make_gpt_prompt_batches_feat_listing(concepts_set, features_set, concept_fea
         batches.append(batch)
     logging.info('Total batches of 150000 tokesn are {}'.format(len(batches)))
     return batches
+
+
 
 def generate_prompt_triplet(anchor, concept1, concept2):
     # prompt = 'Keywords "{}", "{}"\nQ)Which is more similar to "{}"?\na){}\nb){}'.format(concept1, concept2, anchor, concept1, concept2)
@@ -259,6 +292,29 @@ def get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dat
     logging.info('Total time in running api concurrently is {}s'.format(np.sum(each_prompt_api_time)))
     logging.info('Speedup by parallilsation was {} x'.format((np.sum(each_prompt_api_time)- exp_run_time)/exp_run_time))
     return answer_dict
+
+
+## TODO Figure out optimal sleeping time and n_jobs
+def twitter_get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dataset_name, temperature):
+    answer_list = []
+    each_prompt_api_time = []
+    start_time = time.time()
+    # import ipdb;ipdb.set_trace()
+    for i, batch in enumerate(batches):
+        if os.path.exists(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_{}_{}'.format(i, temperature))):
+            print(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_{}_{}'.format(i, temperature)), 'EXISTS')
+            continue
+        if exp_name == 'feature_listing':
+            Parallel(n_jobs=10, require='sharedmem')(delayed(twitter_prompt_gpt_feature_listing)(prompt, tokens, answer_list, each_prompt_api_time, model, openai_api_key, temperature) for prompt, tokens in batch)
+        save_responses(answer_list, results_dir, dataset_name, exp_name, model, i, temperature)
+        if len(batches) > 1:
+            time.sleep(60*2)
+    exp_run_time = time.time()- start_time
+    logging.info('It took {}s to run the experiment'.format(exp_run_time))
+    logging.info('Each api request took {}s'.format(np.mean(each_prompt_api_time)))
+    logging.info('Total time in running api concurrently is {}s'.format(np.sum(each_prompt_api_time)))
+    logging.info('Speedup by parallilsation was {} x'.format((np.sum(each_prompt_api_time)- exp_run_time)/exp_run_time))
+    return answer_list
 
 
 def save_responses(answer_dict, results_dir, dataset_name, exp_name, model, part, temperature):

@@ -1,0 +1,647 @@
+02/03/2023 12:14:21 AM is when this event was logged.
+02/03/2023 12:14:21 AM Running experiments with the following parameters
+02/03/2023 12:14:21 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 12:14:21 AM Argument exp_name: 'feature_listing'
+02/03/2023 12:14:21 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 12:14:21 AM Argument model: 'flan'
+02/03/2023 12:14:21 AM Argument temperature: '0'
+02/03/2023 12:14:55 AM is when this event was logged.
+02/03/2023 12:14:55 AM Running experiments with the following parameters
+02/03/2023 12:14:55 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 12:14:55 AM Argument exp_name: 'feature_listing'
+02/03/2023 12:14:55 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 12:14:55 AM Argument model: 'flan'
+02/03/2023 12:14:55 AM Argument temperature: '0'
+02/03/2023 12:14:56 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 12:14:56 AM Total queries to be made are 16614
+02/03/2023 12:14:56 AM Making batches
+02/03/2023 12:14:57 AM Total batches of 150000 tokesn are 5
+02/03/2023 12:17:33 AM is when this event was logged.
+02/03/2023 12:17:33 AM Running experiments with the following parameters
+02/03/2023 12:17:33 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 12:17:33 AM Argument exp_name: 'feature_listing'
+02/03/2023 12:17:33 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 12:17:33 AM Argument model: 'flan'
+02/03/2023 12:17:33 AM Argument temperature: '0'
+02/03/2023 12:17:34 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 12:17:34 AM Total queries to be made are 16614
+02/03/2023 12:17:34 AM Making batches
+02/03/2023 12:17:35 AM Total batches of 150000 tokesn are 5
+02/03/2023 12:17:57 AM is when this event was logged.
+02/03/2023 12:17:57 AM Running experiments with the following parameters
+02/03/2023 12:17:57 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 12:17:57 AM Argument exp_name: 'feature_listing'
+02/03/2023 12:17:57 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 12:17:57 AM Argument model: 'flan'
+02/03/2023 12:17:57 AM Argument temperature: '0'
+02/03/2023 12:17:58 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 12:17:58 AM Total queries to be made are 16614
+02/03/2023 12:17:58 AM Making batches
+02/03/2023 12:17:59 AM Total batches of 150000 tokesn are 5
+02/03/2023 12:18:57 AM is when this event was logged.
+02/03/2023 12:18:57 AM Running experiments with the following parameters
+02/03/2023 12:18:57 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 12:18:57 AM Argument exp_name: 'feature_listing'
+02/03/2023 12:18:57 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 12:18:57 AM Argument model: 'flan'
+02/03/2023 12:18:57 AM Argument temperature: '0'
+02/03/2023 12:18:58 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 12:18:58 AM Total queries to be made are 16614
+02/03/2023 12:18:58 AM Making batches
+02/03/2023 12:18:59 AM Total batches of 150000 tokesn are 5
+02/03/2023 12:18:59 AM Using selector: EpollSelector
+02/03/2023 12:18:59 AM Using selector: EpollSelector
+02/03/2023 12:18:59 AM Using selector: EpollSelector
+02/03/2023 12:19:34 AM is when this event was logged.
+02/03/2023 12:19:34 AM Running experiments with the following parameters
+02/03/2023 12:19:34 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 12:19:34 AM Argument exp_name: 'feature_listing'
+02/03/2023 12:19:34 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 12:19:34 AM Argument model: 'flan'
+02/03/2023 12:19:34 AM Argument temperature: '0'
+02/03/2023 12:19:35 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 12:19:35 AM Total queries to be made are 16614
+02/03/2023 12:19:35 AM Making batches
+02/03/2023 12:19:37 AM Total batches of 150000 tokesn are 5
+02/03/2023 12:19:37 AM Using selector: EpollSelector
+02/03/2023 12:19:37 AM Using selector: EpollSelector
+02/03/2023 12:19:37 AM Using selector: EpollSelector
+02/03/2023 12:23:26 AM is when this event was logged.
+02/03/2023 12:23:26 AM Running experiments with the following parameters
+02/03/2023 12:23:26 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 12:23:26 AM Argument exp_name: 'feature_listing'
+02/03/2023 12:23:26 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 12:23:26 AM Argument model: 'flan'
+02/03/2023 12:23:26 AM Argument temperature: '0'
+02/03/2023 12:23:27 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 12:23:27 AM Total queries to be made are 16614
+02/03/2023 12:23:27 AM Making batches
+02/03/2023 12:23:28 AM Total batches of 150000 tokesn are 5
+02/03/2023 12:23:28 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 12:23:28 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 12:23:28 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 12:23:28 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 12:26:38 AM is when this event was logged.
+02/03/2023 12:26:38 AM Running experiments with the following parameters
+02/03/2023 12:26:38 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 12:26:38 AM Argument exp_name: 'feature_listing'
+02/03/2023 12:26:38 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 12:26:38 AM Argument model: 'flan'
+02/03/2023 12:26:38 AM Argument temperature: '0'
+02/03/2023 12:26:39 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 12:26:39 AM Total queries to be made are 16614
+02/03/2023 12:26:39 AM Making batches
+02/03/2023 12:26:40 AM Total batches of 150000 tokesn are 5
+02/03/2023 12:26:40 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 12:26:40 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 12:26:40 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 12:26:40 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 12:34:23 AM is when this event was logged.
+02/03/2023 12:34:23 AM Running experiments with the following parameters
+02/03/2023 12:34:23 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 12:34:23 AM Argument exp_name: 'feature_listing'
+02/03/2023 12:34:23 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 12:34:23 AM Argument model: 'flan'
+02/03/2023 12:34:23 AM Argument temperature: '0'
+02/03/2023 12:34:24 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 12:34:24 AM Total queries to be made are 16614
+02/03/2023 12:34:24 AM Making batches
+02/03/2023 12:34:25 AM Total batches of 150000 tokesn are 5
+02/03/2023 12:34:25 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 12:34:25 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 12:34:26 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 12:34:26 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 12:51:41 AM is when this event was logged.
+02/03/2023 12:51:41 AM Running experiments with the following parameters
+02/03/2023 12:51:41 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 12:51:41 AM Argument exp_name: 'feature_listing'
+02/03/2023 12:51:41 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 12:51:41 AM Argument model: 'flan'
+02/03/2023 12:51:41 AM Argument temperature: '0'
+02/03/2023 12:51:42 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 12:51:42 AM Total queries to be made are 16614
+02/03/2023 12:51:42 AM Making batches
+02/03/2023 12:51:44 AM Total batches of 150000 tokesn are 5
+02/03/2023 10:46:51 AM is when this event was logged.
+02/03/2023 10:46:51 AM Running experiments with the following parameters
+02/03/2023 10:46:51 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 10:46:51 AM Argument exp_name: 'feature_listing'
+02/03/2023 10:46:51 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 10:46:51 AM Argument model: 'flan'
+02/03/2023 10:46:51 AM Argument temperature: '0'
+02/03/2023 10:46:52 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 10:46:52 AM Total queries to be made are 16614
+02/03/2023 10:46:52 AM Making batches
+02/03/2023 10:46:54 AM Total batches of 150000 tokesn are 5
+02/03/2023 10:46:54 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 10:46:54 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 10:46:54 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 10:46:54 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 10:50:55 AM is when this event was logged.
+02/03/2023 10:50:55 AM Running experiments with the following parameters
+02/03/2023 10:50:55 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 10:50:55 AM Argument exp_name: 'feature_listing'
+02/03/2023 10:50:55 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 10:50:55 AM Argument model: 'flan'
+02/03/2023 10:50:55 AM Argument temperature: '0'
+02/03/2023 10:50:56 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 10:50:56 AM Total queries to be made are 16614
+02/03/2023 10:50:56 AM Making batches
+02/03/2023 10:50:57 AM Total batches of 150000 tokesn are 5
+02/03/2023 10:50:57 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 10:50:57 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 10:50:57 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 10:50:57 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 11:08:34 AM is when this event was logged.
+02/03/2023 11:08:34 AM Running experiments with the following parameters
+02/03/2023 11:08:34 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 11:08:34 AM Argument exp_name: 'feature_listing'
+02/03/2023 11:08:34 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 11:08:34 AM Argument model: 'flan'
+02/03/2023 11:08:34 AM Argument temperature: '0'
+02/03/2023 11:08:35 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 11:08:35 AM Total queries to be made are 16614
+02/03/2023 11:08:35 AM Making batches
+02/03/2023 11:08:36 AM Total batches of 150000 tokesn are 5
+02/03/2023 11:08:36 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 11:08:36 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 11:08:36 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 11:08:36 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 11:10:43 AM is when this event was logged.
+02/03/2023 11:10:43 AM Running experiments with the following parameters
+02/03/2023 11:10:43 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 11:10:43 AM Argument exp_name: 'feature_listing'
+02/03/2023 11:10:43 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 11:10:43 AM Argument model: 'flan'
+02/03/2023 11:10:43 AM Argument temperature: '0'
+02/03/2023 11:10:44 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 11:10:44 AM Total queries to be made are 16614
+02/03/2023 11:10:44 AM Making batches
+02/03/2023 11:10:45 AM Total batches of 150000 tokesn are 5
+02/03/2023 11:10:45 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 11:10:45 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 11:10:45 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 11:10:45 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 11:14:17 AM is when this event was logged.
+02/03/2023 11:14:17 AM Running experiments with the following parameters
+02/03/2023 11:14:17 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 11:14:17 AM Argument exp_name: 'feature_listing'
+02/03/2023 11:14:17 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 11:14:17 AM Argument model: 'flan'
+02/03/2023 11:14:17 AM Argument temperature: '0'
+02/03/2023 11:14:18 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 11:14:18 AM Total queries to be made are 16614
+02/03/2023 11:14:18 AM Making batches
+02/03/2023 11:14:19 AM Total batches of 150000 tokesn are 5
+02/03/2023 11:14:19 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 11:14:19 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 11:14:19 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 11:14:19 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 11:15:14 AM is when this event was logged.
+02/03/2023 11:15:14 AM Running experiments with the following parameters
+02/03/2023 11:15:14 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 11:15:14 AM Argument exp_name: 'feature_listing'
+02/03/2023 11:15:14 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 11:15:14 AM Argument model: 'flan'
+02/03/2023 11:15:14 AM Argument temperature: '0'
+02/03/2023 11:15:15 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 11:15:15 AM Total queries to be made are 16614
+02/03/2023 11:15:15 AM Making batches
+02/03/2023 11:15:16 AM Total batches of 150000 tokesn are 5
+02/03/2023 11:15:16 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 11:15:17 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 11:15:17 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 11:15:17 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 11:22:08 AM is when this event was logged.
+02/03/2023 11:22:08 AM Running experiments with the following parameters
+02/03/2023 11:22:08 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 11:22:08 AM Argument exp_name: 'feature_listing'
+02/03/2023 11:22:08 AM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 11:22:08 AM Argument model: 'flan'
+02/03/2023 11:22:08 AM Argument temperature: '0'
+02/03/2023 11:22:09 AM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 11:22:09 AM Total queries to be made are 16614
+02/03/2023 11:22:09 AM Making batches
+02/03/2023 11:22:11 AM Total batches of 150000 tokesn are 5
+02/03/2023 11:22:11 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 11:22:11 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 11:22:11 AM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 11:22:11 AM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 01:08:29 PM is when this event was logged.
+02/03/2023 01:08:29 PM Running experiments with the following parameters
+02/03/2023 01:08:29 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 01:08:29 PM Argument exp_name: 'feature_listing'
+02/03/2023 01:08:29 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 01:08:29 PM Argument model: 'flan'
+02/03/2023 01:08:29 PM Argument temperature: '0'
+02/03/2023 01:08:30 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 01:08:30 PM Total queries to be made are 16614
+02/03/2023 01:08:30 PM Making batches
+02/03/2023 01:08:31 PM Total batches of 150000 tokesn are 5
+02/03/2023 01:08:31 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:08:31 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 01:08:31 PM Using selector: EpollSelector
+02/03/2023 01:08:32 PM Using selector: EpollSelector
+02/03/2023 01:08:32 PM Using selector: EpollSelector
+02/03/2023 01:11:58 PM is when this event was logged.
+02/03/2023 01:11:58 PM Running experiments with the following parameters
+02/03/2023 01:11:58 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 01:11:58 PM Argument exp_name: 'feature_listing'
+02/03/2023 01:11:58 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 01:11:58 PM Argument model: 'flan'
+02/03/2023 01:11:58 PM Argument temperature: '0'
+02/03/2023 01:11:59 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 01:11:59 PM Total queries to be made are 16614
+02/03/2023 01:11:59 PM Making batches
+02/03/2023 01:12:00 PM Total batches of 150000 tokesn are 5
+02/03/2023 01:12:00 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:12:00 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 01:12:00 PM Using selector: EpollSelector
+02/03/2023 01:12:00 PM Using selector: EpollSelector
+02/03/2023 01:12:00 PM Using selector: EpollSelector
+02/03/2023 01:14:10 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:14:10 PM https://huggingface.co:443 "GET /api/datasets/glue HTTP/1.1" 200 9870
+02/03/2023 01:14:10 PM Starting new HTTPS connection (1): s3.amazonaws.com:443
+02/03/2023 01:14:10 PM https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/glue/glue.py HTTP/1.1" 200 0
+02/03/2023 01:14:10 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:14:11 PM https://huggingface.co:443 "HEAD /datasets/glue/resolve/main/glue.py HTTP/1.1" 200 0
+02/03/2023 01:14:11 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:14:11 PM https://huggingface.co:443 "GET /datasets/glue/resolve/main/glue.py HTTP/1.1" 200 28751
+02/03/2023 01:14:11 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:14:11 PM https://huggingface.co:443 "HEAD /datasets/glue/resolve/main/dataset_infos.json HTTP/1.1" 200 0
+02/03/2023 01:14:11 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:14:11 PM https://huggingface.co:443 "GET /datasets/glue/resolve/main/dataset_infos.json HTTP/1.1" 200 28682
+02/03/2023 01:14:11 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:14:11 PM https://huggingface.co:443 "HEAD /datasets/glue/resolve/main/README.md HTTP/1.1" 200 0
+02/03/2023 01:14:11 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:14:11 PM https://huggingface.co:443 "GET /datasets/glue/resolve/main/README.md HTTP/1.1" 200 27887
+02/03/2023 01:14:12 PM Starting new HTTPS connection (1): storage.googleapis.com:443
+02/03/2023 01:14:12 PM https://storage.googleapis.com:443 "HEAD /huggingface-nlp/cache/datasets/glue/mrpc/1.0.0/dataset_info.json HTTP/1.1" 404 0
+02/03/2023 01:14:12 PM Starting new HTTPS connection (1): dl.fbaipublicfiles.com:443
+02/03/2023 01:14:12 PM https://dl.fbaipublicfiles.com:443 "HEAD /glue/data/mrpc_dev_ids.tsv HTTP/1.1" 200 0
+02/03/2023 01:14:12 PM Starting new HTTPS connection (1): dl.fbaipublicfiles.com:443
+02/03/2023 01:14:12 PM https://dl.fbaipublicfiles.com:443 "GET /glue/data/mrpc_dev_ids.tsv HTTP/1.1" 200 None
+02/03/2023 01:14:12 PM Starting new HTTPS connection (1): dl.fbaipublicfiles.com:443
+02/03/2023 01:14:13 PM https://dl.fbaipublicfiles.com:443 "HEAD /senteval/senteval_data/msr_paraphrase_train.txt HTTP/1.1" 200 0
+02/03/2023 01:14:13 PM Starting new HTTPS connection (1): dl.fbaipublicfiles.com:443
+02/03/2023 01:14:13 PM https://dl.fbaipublicfiles.com:443 "GET /senteval/senteval_data/msr_paraphrase_train.txt HTTP/1.1" 200 None
+02/03/2023 01:14:14 PM Starting new HTTPS connection (1): dl.fbaipublicfiles.com:443
+02/03/2023 01:14:15 PM https://dl.fbaipublicfiles.com:443 "HEAD /senteval/senteval_data/msr_paraphrase_test.txt HTTP/1.1" 200 0
+02/03/2023 01:14:15 PM Starting new HTTPS connection (1): dl.fbaipublicfiles.com:443
+02/03/2023 01:14:15 PM https://dl.fbaipublicfiles.com:443 "GET /senteval/senteval_data/msr_paraphrase_test.txt HTTP/1.1" 200 None
+02/03/2023 01:14:15 PM open file: /ua/gramesh4/.cache/huggingface/datasets/glue/mrpc/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad.incomplete/glue-train-00000-00000-of-NNNNN.arrow
+02/03/2023 01:14:15 PM open file: /ua/gramesh4/.cache/huggingface/datasets/glue/mrpc/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad.incomplete/glue-validation-00000-00000-of-NNNNN.arrow
+02/03/2023 01:14:16 PM open file: /ua/gramesh4/.cache/huggingface/datasets/glue/mrpc/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad.incomplete/glue-test-00000-00000-of-NNNNN.arrow
+02/03/2023 01:14:16 PM open file: /ua/gramesh4/.cache/huggingface/datasets/glue/mrpc/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad.incomplete/dataset_info.json
+02/03/2023 01:15:27 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:15:27 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 01:23:34 PM is when this event was logged.
+02/03/2023 01:23:34 PM Running experiments with the following parameters
+02/03/2023 01:23:34 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 01:23:34 PM Argument exp_name: 'feature_listing'
+02/03/2023 01:23:34 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 01:23:34 PM Argument model: 'flan'
+02/03/2023 01:23:34 PM Argument temperature: '0'
+02/03/2023 01:23:35 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 01:23:35 PM Total queries to be made are 16614
+02/03/2023 01:23:35 PM Making batches
+02/03/2023 01:23:36 PM Total batches of 150000 tokesn are 5
+02/03/2023 01:23:36 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:23:37 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 01:23:37 PM Using selector: EpollSelector
+02/03/2023 01:23:37 PM Using selector: EpollSelector
+02/03/2023 01:23:37 PM Using selector: EpollSelector
+02/03/2023 01:24:35 PM is when this event was logged.
+02/03/2023 01:24:35 PM Running experiments with the following parameters
+02/03/2023 01:24:35 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 01:24:35 PM Argument exp_name: 'feature_listing'
+02/03/2023 01:24:35 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 01:24:35 PM Argument model: 'flan'
+02/03/2023 01:24:35 PM Argument temperature: '0'
+02/03/2023 01:24:36 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 01:24:36 PM Total queries to be made are 16614
+02/03/2023 01:24:36 PM Making batches
+02/03/2023 01:24:37 PM Total batches of 150000 tokesn are 5
+02/03/2023 01:24:37 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:24:37 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 01:24:37 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:24:37 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 01:24:59 PM Using selector: EpollSelector
+02/03/2023 01:24:59 PM Using selector: EpollSelector
+02/03/2023 01:24:59 PM Using selector: EpollSelector
+02/03/2023 01:33:14 PM is when this event was logged.
+02/03/2023 01:33:14 PM Running experiments with the following parameters
+02/03/2023 01:33:14 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 01:33:14 PM Argument exp_name: 'feature_listing'
+02/03/2023 01:33:14 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 01:33:14 PM Argument model: 'flan'
+02/03/2023 01:33:14 PM Argument temperature: '0'
+02/03/2023 01:33:16 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 01:33:16 PM Total queries to be made are 16614
+02/03/2023 01:33:16 PM Making batches
+02/03/2023 01:33:17 PM Total batches of 150000 tokesn are 5
+02/03/2023 01:33:17 PM Using selector: EpollSelector
+02/03/2023 01:33:17 PM Using selector: EpollSelector
+02/03/2023 01:33:17 PM Using selector: EpollSelector
+02/03/2023 01:34:59 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:34:59 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 01:36:50 PM is when this event was logged.
+02/03/2023 01:36:50 PM Running experiments with the following parameters
+02/03/2023 01:36:50 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 01:36:50 PM Argument exp_name: 'feature_listing'
+02/03/2023 01:36:50 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 01:36:50 PM Argument model: 'flan'
+02/03/2023 01:36:50 PM Argument temperature: '0'
+02/03/2023 01:36:51 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 01:36:51 PM Total queries to be made are 16614
+02/03/2023 01:36:51 PM Making batches
+02/03/2023 01:36:52 PM Total batches of 150000 tokesn are 5
+02/03/2023 01:36:52 PM Using selector: EpollSelector
+02/03/2023 01:36:52 PM Using selector: EpollSelector
+02/03/2023 01:36:52 PM Using selector: EpollSelector
+02/03/2023 01:36:55 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:36:55 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 01:38:32 PM is when this event was logged.
+02/03/2023 01:38:32 PM Running experiments with the following parameters
+02/03/2023 01:38:32 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 01:38:32 PM Argument exp_name: 'feature_listing'
+02/03/2023 01:38:32 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 01:38:32 PM Argument model: 'flan'
+02/03/2023 01:38:32 PM Argument temperature: '0'
+02/03/2023 01:38:33 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 01:38:33 PM Total queries to be made are 16614
+02/03/2023 01:38:33 PM Making batches
+02/03/2023 01:38:34 PM Total batches of 150000 tokesn are 5
+02/03/2023 01:38:34 PM Using selector: EpollSelector
+02/03/2023 01:38:34 PM Using selector: EpollSelector
+02/03/2023 01:38:34 PM Using selector: EpollSelector
+02/03/2023 01:38:38 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:38:38 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 01:38:50 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:38:50 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 01:46:40 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:46:40 PM https://huggingface.co:443 "GET /api/datasets/rotten_tomatoes HTTP/1.1" 200 2933
+02/03/2023 01:46:40 PM Starting new HTTPS connection (1): s3.amazonaws.com:443
+02/03/2023 01:46:40 PM https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/rotten_tomatoes/rotten_tomatoes.py HTTP/1.1" 200 0
+02/03/2023 01:46:40 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:46:40 PM https://huggingface.co:443 "HEAD /datasets/rotten_tomatoes/resolve/main/rotten_tomatoes.py HTTP/1.1" 200 0
+02/03/2023 01:46:40 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:46:40 PM https://huggingface.co:443 "GET /datasets/rotten_tomatoes/resolve/main/rotten_tomatoes.py HTTP/1.1" 200 5025
+02/03/2023 01:46:40 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:46:40 PM https://huggingface.co:443 "HEAD /datasets/rotten_tomatoes/resolve/main/dataset_infos.json HTTP/1.1" 200 0
+02/03/2023 01:46:40 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:46:40 PM https://huggingface.co:443 "GET /datasets/rotten_tomatoes/resolve/main/dataset_infos.json HTTP/1.1" 200 2021
+02/03/2023 01:46:40 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:46:41 PM https://huggingface.co:443 "HEAD /datasets/rotten_tomatoes/resolve/main/README.md HTTP/1.1" 200 0
+02/03/2023 01:46:41 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:46:41 PM https://huggingface.co:443 "GET /datasets/rotten_tomatoes/resolve/main/README.md HTTP/1.1" 200 7247
+02/03/2023 01:46:41 PM Starting new HTTPS connection (1): storage.googleapis.com:443
+02/03/2023 01:46:41 PM https://storage.googleapis.com:443 "HEAD /huggingface-nlp/cache/datasets/rotten_tomatoes/default/1.0.0/dataset_info.json HTTP/1.1" 404 0
+02/03/2023 01:46:41 PM Starting new HTTPS connection (1): storage.googleapis.com:443
+02/03/2023 01:46:41 PM https://storage.googleapis.com:443 "HEAD /seldon-datasets/sentence_polarity_v1/rt-polaritydata.tar.gz HTTP/1.1" 200 0
+02/03/2023 01:46:41 PM Starting new HTTPS connection (1): storage.googleapis.com:443
+02/03/2023 01:46:42 PM https://storage.googleapis.com:443 "GET /seldon-datasets/sentence_polarity_v1/rt-polaritydata.tar.gz HTTP/1.1" 200 487770
+02/03/2023 01:46:42 PM open file: /ua/gramesh4/.cache/huggingface/datasets/rotten_tomatoes/default/1.0.0/40d411e45a6ce3484deed7cc15b82a53dad9a72aafd9f86f8f227134bec5ca46.incomplete/rotten_tomatoes-train-00000-00000-of-NNNNN.arrow
+02/03/2023 01:46:42 PM open file: /ua/gramesh4/.cache/huggingface/datasets/rotten_tomatoes/default/1.0.0/40d411e45a6ce3484deed7cc15b82a53dad9a72aafd9f86f8f227134bec5ca46.incomplete/rotten_tomatoes-validation-00000-00000-of-NNNNN.arrow
+02/03/2023 01:46:42 PM open file: /ua/gramesh4/.cache/huggingface/datasets/rotten_tomatoes/default/1.0.0/40d411e45a6ce3484deed7cc15b82a53dad9a72aafd9f86f8f227134bec5ca46.incomplete/rotten_tomatoes-test-00000-00000-of-NNNNN.arrow
+02/03/2023 01:46:42 PM open file: /ua/gramesh4/.cache/huggingface/datasets/rotten_tomatoes/default/1.0.0/40d411e45a6ce3484deed7cc15b82a53dad9a72aafd9f86f8f227134bec5ca46.incomplete/dataset_info.json
+02/03/2023 01:55:21 PM is when this event was logged.
+02/03/2023 01:55:21 PM Running experiments with the following parameters
+02/03/2023 01:55:21 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 01:55:21 PM Argument exp_name: 'feature_listing'
+02/03/2023 01:55:21 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 01:55:21 PM Argument model: 'flan'
+02/03/2023 01:55:21 PM Argument temperature: '0'
+02/03/2023 01:55:22 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 01:55:22 PM Total queries to be made are 16614
+02/03/2023 01:55:22 PM Making batches
+02/03/2023 01:55:23 PM Total batches of 150000 tokesn are 5
+02/03/2023 01:55:24 PM Using selector: EpollSelector
+02/03/2023 01:55:24 PM Using selector: EpollSelector
+02/03/2023 01:55:24 PM Using selector: EpollSelector
+02/03/2023 01:58:41 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 01:58:41 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:01:26 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:01:26 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:03:13 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:03:13 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:03:30 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:03:30 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:03:32 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:03:32 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:05:09 PM is when this event was logged.
+02/03/2023 02:05:09 PM Running experiments with the following parameters
+02/03/2023 02:05:09 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 02:05:09 PM Argument exp_name: 'feature_listing'
+02/03/2023 02:05:09 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 02:05:09 PM Argument model: 'flan'
+02/03/2023 02:05:09 PM Argument temperature: '0'
+02/03/2023 02:05:11 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 02:05:11 PM Total queries to be made are 16614
+02/03/2023 02:05:11 PM Making batches
+02/03/2023 02:05:12 PM Total batches of 150000 tokesn are 5
+02/03/2023 02:05:12 PM Using selector: EpollSelector
+02/03/2023 02:05:12 PM Using selector: EpollSelector
+02/03/2023 02:05:12 PM Using selector: EpollSelector
+02/03/2023 02:05:28 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:05:28 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:05:33 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:05:33 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:05:38 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:05:38 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 02:21:38 PM is when this event was logged.
+02/03/2023 02:21:38 PM Running experiments with the following parameters
+02/03/2023 02:21:38 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 02:21:38 PM Argument exp_name: 'feature_listing'
+02/03/2023 02:21:38 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 02:21:38 PM Argument model: 'flan'
+02/03/2023 02:21:38 PM Argument temperature: '0'
+02/03/2023 02:21:39 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 02:21:39 PM Total queries to be made are 16614
+02/03/2023 02:21:39 PM Making batches
+02/03/2023 02:21:41 PM Total batches of 150000 tokesn are 5
+02/03/2023 02:21:41 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:21:41 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:21:41 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:21:41 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:21:41 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:21:41 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 02:25:27 PM is when this event was logged.
+02/03/2023 02:25:27 PM Running experiments with the following parameters
+02/03/2023 02:25:27 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 02:25:27 PM Argument exp_name: 'feature_listing'
+02/03/2023 02:25:27 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 02:25:27 PM Argument model: 'flan'
+02/03/2023 02:25:27 PM Argument temperature: '0'
+02/03/2023 02:25:28 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 02:25:28 PM Total queries to be made are 16614
+02/03/2023 02:25:28 PM Making batches
+02/03/2023 02:25:29 PM Total batches of 150000 tokesn are 5
+02/03/2023 02:25:29 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:25:29 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:25:30 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:25:30 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:25:30 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:25:30 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 02:27:26 PM is when this event was logged.
+02/03/2023 02:27:26 PM Running experiments with the following parameters
+02/03/2023 02:27:26 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 02:27:26 PM Argument exp_name: 'feature_listing'
+02/03/2023 02:27:26 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 02:27:26 PM Argument model: 'flan'
+02/03/2023 02:27:26 PM Argument temperature: '0'
+02/03/2023 02:27:27 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 02:27:27 PM Total queries to be made are 16614
+02/03/2023 02:27:27 PM Making batches
+02/03/2023 02:27:28 PM Total batches of 150000 tokesn are 5
+02/03/2023 02:27:28 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:27:28 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:27:28 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:27:28 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:28:07 PM is when this event was logged.
+02/03/2023 02:28:07 PM Running experiments with the following parameters
+02/03/2023 02:28:07 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 02:28:07 PM Argument exp_name: 'feature_listing'
+02/03/2023 02:28:07 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 02:28:07 PM Argument model: 'flan'
+02/03/2023 02:28:07 PM Argument temperature: '0'
+02/03/2023 02:28:09 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 02:28:09 PM Total queries to be made are 16614
+02/03/2023 02:28:09 PM Making batches
+02/03/2023 02:28:10 PM Total batches of 150000 tokesn are 5
+02/03/2023 02:28:10 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:28:10 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:28:10 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:28:10 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:28:10 PM Using selector: EpollSelector
+02/03/2023 02:28:10 PM Using selector: EpollSelector
+02/03/2023 02:28:10 PM Using selector: EpollSelector
+02/03/2023 02:31:23 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:31:23 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:34:10 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:34:10 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:35:34 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:35:34 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:36:21 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:36:21 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:37:04 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:37:04 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:37:04 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:37:04 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:37:04 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:37:04 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:37:04 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:37:04 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:37:04 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:37:04 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:37:04 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:37:04 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:37:05 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:37:05 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:37:05 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:37:05 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:37:05 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:37:05 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:37:05 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:37:05 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:38:15 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:38:15 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:39:03 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:39:03 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:41:05 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:41:05 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:42:48 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:42:48 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:43:31 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:43:31 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:43:48 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:43:48 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:48:40 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:48:40 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 02:51:01 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 02:51:01 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:02:47 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:02:47 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:04:11 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:04:11 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:06:04 PM is when this event was logged.
+02/03/2023 03:06:04 PM Running experiments with the following parameters
+02/03/2023 03:06:04 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 03:06:04 PM Argument exp_name: 'feature_listing'
+02/03/2023 03:06:04 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 03:06:04 PM Argument model: 'flan'
+02/03/2023 03:06:04 PM Argument temperature: '0'
+02/03/2023 03:06:05 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 03:06:05 PM Total queries to be made are 16614
+02/03/2023 03:06:05 PM Making batches
+02/03/2023 03:06:06 PM Total batches of 150000 tokesn are 5
+02/03/2023 03:06:06 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:06:06 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:06:06 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:06:06 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:07:24 PM is when this event was logged.
+02/03/2023 03:07:24 PM Running experiments with the following parameters
+02/03/2023 03:07:24 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 03:07:24 PM Argument exp_name: 'feature_listing'
+02/03/2023 03:07:24 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 03:07:24 PM Argument model: 'flan'
+02/03/2023 03:07:24 PM Argument temperature: '0'
+02/03/2023 03:07:25 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 03:07:25 PM Total queries to be made are 16614
+02/03/2023 03:07:25 PM Making batches
+02/03/2023 03:07:27 PM Total batches of 150000 tokesn are 5
+02/03/2023 03:07:27 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:07:27 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:07:27 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:07:27 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:07:27 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:07:27 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 03:09:24 PM is when this event was logged.
+02/03/2023 03:09:24 PM Running experiments with the following parameters
+02/03/2023 03:09:24 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 03:09:24 PM Argument exp_name: 'feature_listing'
+02/03/2023 03:09:24 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 03:09:24 PM Argument model: 'flan'
+02/03/2023 03:09:24 PM Argument temperature: '0'
+02/03/2023 03:09:25 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 03:09:25 PM Total queries to be made are 16614
+02/03/2023 03:09:25 PM Making batches
+02/03/2023 03:09:26 PM Total batches of 150000 tokesn are 5
+02/03/2023 03:09:26 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:26 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:27 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:27 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:27 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:27 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:27 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:27 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:27 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:27 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:28 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:28 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:28 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:28 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:28 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:28 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:28 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:29 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:29 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:29 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:29 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:29 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:29 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:29 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:29 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:30 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:30 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:30 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:30 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:30 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:30 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:30 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:31 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:31 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:31 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:31 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 03:09:31 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 03:09:31 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0

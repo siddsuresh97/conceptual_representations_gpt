@@ -1,12 +1,19 @@
 import numpy as np
+import torch
 import itertools
+import warnings
 import logging
 import openai
 import time
 import pickle
+from datasets import Dataset
+from transformers import pipeline
+from transformers.pipelines.pt_utils import KeyDataset
+from tqdm import tqdm
 import os
 from pattern.en import pluralize
 from joblib import Parallel, delayed
+from transformers import T5Tokenizer, T5ForConditionalGeneration
 
 import inflect
 p = inflect.engine()
@@ -260,9 +267,52 @@ def get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dat
     logging.info('Speedup by parallilsation was {} x'.format((np.sum(each_prompt_api_time)- exp_run_time)/exp_run_time))
     return answer_dict
 
+def get_transformer_responses(batches, model, exp_name, temperature):
+    answer_dict = {}
+    each_prompt_api_time = []
+    start_time = time.time()
+    batches = np.array(list(itertools.chain(*batches)))
+    # batches = batches[:10]
+    concepts = batches[:,0]
+    features = batches[:,1]
+    prompts = batches[:,2]
+    tokens = batches[:,3]
+    responses = []
+    batch_size = 10
+    my_dict = {"text": prompts}
+    raw_dataset = Dataset.from_dict(my_dict)
+    if model == 'flan':
+        # import ipdb;ipdb.set_trace()
+        tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-xl")
+        prompt_dict = {'prompt':prompts.tolist()}
+        ds = Dataset.from_dict(prompt_dict)
+        ds = ds.map(lambda examples: T5Tokenizer.from_pretrained("google/flan-t5-xl")(examples['prompt'], max_length=40, truncation=True, padding='max_length'), batched=True)
+        ds.set_format(type='torch', columns=['input_ids', 'attention_mask'])
+        dataloader = torch.utils.data.DataLoader(ds, batch_size=32)
+        flan_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-xl", device_map="auto",  torch_dtype=torch.float16)
+        if exp_name == 'feature_listing':
+            preds = []
+            for batch in dataloader:
+                input_ids = batch['input_ids'].to('cuda')
+                attention_mask = batch['attention_mask'].to('cuda')
+                outputs = flan_model.generate(input_ids, attention_mask=attention_mask, temperature = temperature)
+                preds.extend(outputs)
+            responses = tokenizer.batch_decode(preds, skip_special_tokens=True)
+            # for i in range(0, len(prompts), batch_size):
+            #     batch = prompts[i:i+batch_size]
+            #     input_text = batch
+            #     input_text = prompts.tolist()
+            #     input_ids = tokenizer(input_text, return_tensors="pt", padding=True, truncation=True).input_ids.to("cuda")
+            #     outputs = model.generate(input_ids, temperature = temperature)
+            #     outputs = tokenizer.batch_decode(outputs, skip_special_tokens=True)
+            #     responses.extend(outputs)
+            del model
+            for concept, feature, response , prompt in zip(concepts, features, responses, prompts):
+                answer_dict.update({(concept, feature):(response, tokens, prompt)})
+    return answer_dict
 
 def save_responses(answer_dict, results_dir, dataset_name, exp_name, model, part, temperature):
     if not os.path.exists(os.path.join(results_dir, dataset_name)):
         os.mkdir(os.path.join(results_dir, dataset_name))
     with open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_{}_temperature_{}'.format(part, temperature)), 'wb') as handle:
-        pickle.dump(answer_dict,handle ,  protocol=pickle.HIGHEST_PROTOCOL) 
+        pickle.dump(answer_dict,handle ,  protocol=pickle.HIGHEST_PROTOCOL)

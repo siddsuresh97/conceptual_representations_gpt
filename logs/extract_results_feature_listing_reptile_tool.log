@@ -423,3 +423,54 @@
 01/24/2023 08:42:17 AM Argument temperature: '0.0'
 01/24/2023 08:42:17 AM Estimated cost : 13.84692
 01/24/2023 08:42:17 AM Actual cost : 18.99852
+02/03/2023 12:29:53 AM is when this event was logged.
+02/03/2023 12:29:53 AM Running experiments with the following parameters
+02/03/2023 12:29:53 AM ########    EXTRACTING RESULTS     ##############
+02/03/2023 12:29:53 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 12:29:53 AM Argument exp_name: 'feature_listing'
+02/03/2023 12:29:53 AM Argument model: 'flan'
+02/03/2023 12:29:53 AM Argument temperature: '0.0'
+02/03/2023 12:31:14 AM is when this event was logged.
+02/03/2023 12:31:14 AM Running experiments with the following parameters
+02/03/2023 12:31:14 AM ########    EXTRACTING RESULTS     ##############
+02/03/2023 12:31:14 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 12:31:14 AM Argument exp_name: 'feature_listing'
+02/03/2023 12:31:14 AM Argument model: 'flan'
+02/03/2023 12:31:14 AM Argument temperature: '0.0'
+02/03/2023 12:33:25 AM is when this event was logged.
+02/03/2023 12:33:25 AM Running experiments with the following parameters
+02/03/2023 12:33:25 AM ########    EXTRACTING RESULTS     ##############
+02/03/2023 12:33:25 AM Argument dataset_name: 'reptile_tool'
+02/03/2023 12:33:25 AM Argument exp_name: 'feature_listing'
+02/03/2023 12:33:25 AM Argument model: 'flan'
+02/03/2023 12:33:25 AM Argument temperature: '0.0'
+02/03/2023 12:33:25 AM Estimated cost : 0.0
+02/03/2023 12:33:25 AM Actual cost : 0.0
+02/03/2023 03:19:24 PM is when this event was logged.
+02/03/2023 03:19:24 PM Running experiments with the following parameters
+02/03/2023 03:19:24 PM ########    EXTRACTING RESULTS     ##############
+02/03/2023 03:19:24 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 03:19:24 PM Argument exp_name: 'feature_listing'
+02/03/2023 03:19:24 PM Argument model: 'flan'
+02/03/2023 03:19:24 PM Argument temperature: '0.0'
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Invalid answer
+02/03/2023 03:19:24 PM Estimated cost : 0.0
+02/03/2023 03:19:24 PM Actual cost : 0.0

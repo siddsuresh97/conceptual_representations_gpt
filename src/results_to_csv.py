@@ -29,7 +29,7 @@ REPTILES = ['Salamander',
  'Alligator']
 
 def save_feature_listing_results_in_csv(results_dir, dataset_name, model, exp_name, temperature):
-    file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_full_' + str(temperature)),'rb')
+    file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_full_temperature_' + str(temperature)),'rb')
     answer_dict = pickle.load(file)
     actual_total_tokens = 0
     estimated_total_tokens = 0
@@ -40,12 +40,15 @@ def save_feature_listing_results_in_csv(results_dir, dataset_name, model, exp_na
     prompt_list = []
     category_list = []
     for k, v in answer_dict.items():
-        actual_total_tokens +=  v[0]['usage']['total_tokens']
-        estimated_total_tokens += v[1] 
+        # actual_total_tokens +=  v[0]['usage']['total_tokens']
+        # estimated_total_tokens += v[1] 
         concept_list.append(k[0])
         feature_list.append(k[1])
         prompt_list.append(v[2])
-        answer = v[0]['choices'][0]['text'] 
+        if model != 'flan':
+            answer = v[0]['choices'][0]['text'] 
+        else:
+            answer = v[0]
         full_answer_list.append(answer)
         # print(k[0], k[1], v[0]['choices'][0]['text'])
         if 'es' in answer:
@@ -152,7 +155,7 @@ def main():
                     type=str, help=""" Name of the feature listing file""")
     parser.add_argument('--temperature',help = """Tradeoff between deterministic and creative responses of gpt""")
     args = parser.parse_args()
-    logging.basicConfig(filename="logs/extract_results_{}_{}.log".format(args.exp_name, args.dataset_name), encoding='utf-8', level=logging.DEBUG, 
+    logging.basicConfig(filename="logs/extract_results_{}_{}.log".format(args.exp_name, args.dataset_name), level=logging.DEBUG, #encoding='utf-8', 
                         format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
     logging.warning('is when this event was logged.')
     logging.info('Running experiments with the following parameters')

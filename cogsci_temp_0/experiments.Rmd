@@ -21,19 +21,32 @@ clip = read.csv('data/clip/clip_embeddings.csv')
 w2v = read.csv('data/word2vec/word2vec_embeddings.csv')
 human_triplet_mds = read.csv('data/triplets/summer_data/human_reptile_tool_embedding_df.csv')
 gpt_triplet_mds = read.csv('data/triplets/summer_data/gpt_reptile_tool_embedding_df_temp0_cogsci2023.csv')
+gpt_embed <- read.csv('data/gpt/gpt_embeddings_text-similarity-davinci-001.csv')
+
+
 
 # clip_data
+clip = clip[order(clip$X), ]
 clip_dsm =1-lsa::cosine(t(data.matrix(clip[,2:ncol(clip)])))
 clip_mds =  cmdscale(clip_dsm,k = 3)
 rownames(clip_dsm) <- clip$X
 rownames(clip_mds) <- clip$X
 clip_mds <- clip_mds[order(rownames(clip_mds)),]
 
+# gpt_embed_data
+gpt_embed = gpt_embed[order(gpt_embed$X), ]
+gpt_embed_dsm =1-lsa::cosine(t(data.matrix(gpt_embed[,2:ncol(gpt_embed)])))
+gpt_embed_mds =  cmdscale(gpt_embed_dsm,k = 3)
+rownames(gpt_embed_dsm) <- gpt_embed$X
+rownames(gpt_embed_mds) <- gpt_embed$X
+gpt_embed_mds <- gpt_embed_mds[order(rownames(gpt_embed_mds)),]
 
 
 
 #word2vec_data
+w2v = w2v[order(w2v$X), ]
 w2v_dsm =1-lsa::cosine(t(data.matrix(w2v[,2:ncol(w2v)])))
+<!-- w2v_dsm = dist(w2v[,2:ncol(w2v)) -->
 w2v_mds =  cmdscale(w2v_dsm,k = 3)
 rownames(w2v_dsm) <- w2v$X
 rownames(w2v_mds) <- w2v$X
@@ -47,7 +60,6 @@ leuven_mds <- cmdscale(leuven_cosine_dist,k = 3)
 rownames(leuven_cosine_dist) <- leuven$X
 rownames(leuven_mds) <- leuven$X
 leuven_mds <- leuven_mds[order(rownames(leuven_mds)),]
-
 
 
 #gpt unverified
@@ -81,8 +93,9 @@ gpt_triplet_cosine_dist = 1-  lsa::cosine(t(data.matrix(gpt_triplet_mds)))
 rownames(gpt_triplet_cosine_dist) <- gpt_triplet_mds$concept
 
 
+
 # pairwise protest all elements
-matrices = list(leuven_mds, w2v_mds, clip_mds, unverified_gpt_mds_summer_no_mc, verified_gpt_mds_summer_no_mc, human_triplet_mds, gpt_triplet_mds)
+matrices = list(leuven_mds, w2v_mds, clip_mds, unverified_gpt_mds_summer_no_mc, verified_gpt_mds_summer_no_mc, human_triplet_mds, gpt_triplet_mds, gpt_embed_mds)
 ## Create an empty list to store the results
 results = list()
 
@@ -97,7 +110,7 @@ for (i in 1:(length(matrices))) {
 
 ## make the results into a table
 ## Create a data frame with all possible combinations of matrix names
-matrix_names = list("leuven", "w2v", "clip", "unverified_gpt_summer_no_mc", "verified_gpt_summer_no_mc", "human_triplet", "gpt_triplet")
+matrix_names = list("leuven", "w2v", "clip", "unverified_gpt_summer_no_mc", "verified_gpt_summer_no_mc", "human_triplet", "gpt_triplet", "gpt_embed_mds")
 matrix_combinations = expand.grid(matrix_names, matrix_names)
 
 ## Assign column names to the data frame
@@ -114,8 +127,15 @@ for (i in 1:length(matrix_names)) {
 
 protest_results =  pivot_wider(matrix_combinations, names_from = matrix1, values_from = result)
 
+test <- round(as.matrix(protest_results[,2:ncol(protest_results)]),2)
+upper<-test
+upper[upper.tri(test)]<-""
+upper<-as.data.frame(upper)
+upper
+rownames(upper) = colnames(upper)
 
-
+library(xtable)
+print(xtable(upper))
 # pairwise protest all elements- excluded concepts
 
 excluded_names = c("Blindworm", "Boa Python", "Grinding Disc", "Vacuum Cleaner",
@@ -177,99 +197,134 @@ excluded_concepts_protest_results =  pivot_wider(matrix_combinations, names_from
 
 
 # Make Fan plots
+<!-- subcategories <- c(1, 10, 9, 1, 1, 2,  -->
+<!--                   4, 9, 1, 2, 2, 4, 7, -->
+<!--                   9, 9, 7, 4, 8, 11,  -->
+<!--                   11, 4, 9, 8, 9, 1, -->
+<!--                   8, 5, 3, 3, 7) -->
 
+
+<!-- colors <- c("orange", "burlywood", "lightpink", "red", "red1", "orange1", -->
+<!--             "seagreen", "lightpink1", "red2", "orange2", "orange3", "seagreen2", "paleturquoise", -->
+<!--             "lightpink2", "lightpink3", "paleturquoise2", "seagreen3", "mistyrose", "aquamarine", -->
+<!--             "aquamarine", "seagreen4", "lightpink4", "mistyrose2", "lightpink4", "red3", -->
+<!--             "mistyrose3", "plum", "purple", "purple2", "paleturquoise3") -->
+            
+            
+colors <- c("orange", "burlywood", "lightpink", "red", "red", "orange",
+            "seagreen", "lightpink", "red", "orange", "orange", "seagreen", "paleturquoise",
+            "lightpink", "lightpink", "paleturquoise", "seagreen", "mistyrose", "aquamarine",
+            "aquamarine", "seagreen", "lightpink", "mistyrose", "lightpink", "red",
+            "mistyrose", "purple", "purple", "purple", "paleturquoise")
+            
+colors <- c("#fc2203", "#580df2", "#34cb8a", "#CB3475", "#CB3475", "#fc2203",
+            "#f5650a", "#34cb8a", "#CB3475", "#fc2203", "#fc2203", "#f5650a", "#3368cc",
+            "#34cb8a", "#34cb8a", "#3368cc", "#f5650a", "#45a8ba", "#50afa0",
+            "#50afa0", "#f5650a", "#34cb8a", "#45a8ba", "#34cb8a", "#CB3475",
+            "#45a8ba", "#f4a60b", "#f4a60b", "#f4a60b", "#3368cc")            
 ## leuven
-hc <- as.dendrogram(hclust(as.dist(leuven_cosine_dist)))
-hc <- hc %>%
-  color_branches(k = 2) %>%
-  color_labels(k = 2)
+hc <- as.dendrogram(hclust(as.dist(leuven_cosine_dist), method = "ward.D2"))
+labels_colors(hc) <- as.character(colors)[order.dendrogram(hc)]
 png("graphs/leuven.png",  width = 6, height = 6, units = "in", res = 300)
+par(mar = c(0, 0, 2, 0)) # increase the bottom margin to move the title up
 circlize_dendrogram(hc,
                     labels_track_height = 0.3,
                     dend_track_height = 0.6)
-title("Leuven")
+title("Human Norms")
 dev.off()
         
 
 
 ## GPT(list)
-hc <- as.dendrogram(hclust(as.dist(unverified_gpt_dsm)))
-hc <- hc %>%
-  color_branches(k = 2) %>%
-  color_labels(k = 2)
+hc <- as.dendrogram(hclust(as.dist(unverified_gpt_dsm), method = "ward.D2"))
+labels_colors(hc) <- as.character(colors)[order.dendrogram(hc)]
 png("graphs/gpt_list.png",  width = 6, height = 6, units = "in", res = 300)
+par(mar = c(0, 0, 2, 0)) # increase the bottom margin to move the title up
 circlize_dendrogram(hc,
                     labels_track_height = 0.3,
                     dend_track_height = 0.6)
-title("GPT Unverified(list)")
+title("GPT (unveri)")
 dev.off()
-pdf(file="graphs/gpt_list.pdf",width=10, height=10)
-par(bg="gray")
-plot(as.phylo(hclust(as.dist(unverified_gpt_dsm))), type = "unrooted", main = "Color-concept space", show.tip.label=TRUE)
-dev.off()
+<!-- pdf(file="graphs/gpt_list.pdf",width=10, height=10) -->
+<!-- par(bg="gray") -->
+<!-- plot(as.phylo(hclust(as.dist(unverified_gpt_dsm))), type = "unrooted", main = "Color-concept space", show.tip.label=TRUE) -->
+<!-- dev.off() -->
 
 ## GPT(Verified)
 
-hc <- as.dendrogram(hclust(as.dist(verified_gpt_dsm)))
-hc <- hc %>%
-  color_branches(k = 2) %>%
-  color_labels(k = 2)
+hc <- as.dendrogram(hclust(as.dist(verified_gpt_dsm),, method = "ward.D2"))
+labels_colors(hc) <- as.character(colors)[order.dendrogram(hc)]
 png("graphs/gpt_verified.png",  width = 6, height = 6, units = "in", res = 300)
+par(mar = c(0, 0, 2, 0)) # increase the bottom margin to move the title up
 circlize_dendrogram(hc,
                     labels_track_height = 0.3,
                     dend_track_height = 0.6)
-title("GPT (verified)")
+title("GPT (veri)")
 dev.off()
 
 ## Clip
 
-hc <- as.dendrogram(hclust(as.dist(clip_dsm)))
-hc <- hc %>%
-  color_branches(k = 2) %>%
-  color_labels(k = 2)
+hc <- as.dendrogram(hclust(as.dist(clip_dsm), , method = "ward.D2"))
+labels_colors(hc) <- as.character(colors)[order.dendrogram(hc)]
 png("graphs/clip.png",  width = 6, height = 6, units = "in", res = 300)
+par(mar = c(0, 0, 2, 0)) # increase the bottom margin to move the title up
 circlize_dendrogram(hc,
                     labels_track_height = 0.3,
-                    dend_track_height = 0.6)
+                    dend_track_height = 0.6,
+                    view=180)
 title("CLIP")
 dev.off()
 
 ## w2v
-
-hc <- as.dendrogram(hclust(as.dist(w2v_dsm)))
-hc <- hc %>%
-  color_branches(k = 2) %>%
-  color_labels(k = 2)
+<!-- hc <- as.dendrogram(hclust(as.dist(w2v_dsm), method = "ward.D2")) -->
+hc <- as.dendrogram(hclust(dist(w2v[,2:ncol(w2v)) method = "ward.D2"))
+labels_colors(hc) <- as.character(colors)[order.dendrogram(hc)]
 png("graphs/w2v.png",  width = 6, height = 6, units = "in", res = 300)
+par(mar = c(0, 0, 2, 0)) # increase the bottom margin to move the title up
 circlize_dendrogram(hc,
                     labels_track_height = 0.3,
                     dend_track_height = 0.6)
-title("W2V")
+title("Word2Vec")
 dev.off()
 
-# human triplets
+## human triplets
 
-hc <- as.dendrogram(hclust(as.dist(human_triplet_cosine_dist)))
-hc <- hc %>%
-  color_branches(k = 2) %>%
-  color_labels(k = 2)
+hc <- as.dendrogram(hclust(dist(human_triplet_mds), method = "ward.D2"))
+labels_colors(hc) <- as.character(colors)[order.dendrogram(hc)]
 png("graphs/human_triplets.png",  width = 6, height = 6, units = "in", res = 300)
+par(mar = c(0, 0, 2, 0)) # increase the bottom margin to move the title up
 circlize_dendrogram(hc,
                     labels_track_height = 0.3,
                     dend_track_height = 0.6)
-title("Human Triplets")
+title("Human Triplet")
 dev.off()
 
-# gpt triplets
+## gpt triplets
 
-hc <- as.dendrogram(hclust(as.dist(gpt_triplet_cosine_dist)))
-hc <- hc %>%
-  color_branches(k = 2) %>%
-  color_labels(k = 2)
+hc <- as.dendrogram(hclust(dist(gpt_triplet_mds), method = "ward.D2"))
+labels_colors(hc) <- as.character(colors)[order.dendrogram(hc)]
 png("graphs/gpt_triplets.png",  width = 6, height = 6, units = "in", res = 300)
+par(mar = c(0, 0, 2, 0)) # increase the bottom margin to move the title up
 circlize_dendrogram(hc,
                     labels_track_height = 0.3,
                     dend_track_height = 0.6)
-title("GPT Triplets")
+title("GPT Triplet")
 dev.off()
+
+
+
+## gpt_embedding
+hc <- as.dendrogram(hclust(as.dist(gpt_embed_dsm), method = "ward.D2"))
+labels_colors(hc) <- as.character(colors)[order.dendrogram(hc)]
+png("graphs/gpt_embedding.png",  width = 6, height = 6, units = "in", res = 300)
+par(mar = c(0, 0, 2, 0)) # increase the bottom margin to move the title up
+circlize_dendrogram(hc,
+                    labels_track_height = 0.3,
+                    dend_track_height = 0.6)
+title("GPT Embedding")
+dev.off()
+
+
+
+
 

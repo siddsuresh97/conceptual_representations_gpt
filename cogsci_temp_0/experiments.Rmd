@@ -61,6 +61,13 @@ rownames(leuven_cosine_dist) <- leuven$X
 rownames(leuven_mds) <- leuven$X
 leuven_mds <- leuven_mds[order(rownames(leuven_mds)),]
 
+#flan_verified
+flan_verified = read.csv('data/feature_listing/flan_wide.csv')
+flan_dsm = 1-  lsa::cosine(t(data.matrix(flan_verified[,2:ncol(flan_verified)])))
+flan_mds <- cmdscale(flan_dsm,k = 3)
+rownames(flan_dsm) <- flan_verified$Concept
+rownames(flan_mds) = rownames(flan_dsm)
+flan_mds <- flan_mds[order(rownames(flan_mds)),]
 
 #gpt unverified
 gpt_summer_no_mc = read.csv('data/feature_listing/gpt_response_unverified_wide_no_matrix_completion.csv')
@@ -95,7 +102,7 @@ rownames(gpt_triplet_cosine_dist) <- gpt_triplet_mds$concept
 
 
 # pairwise protest all elements
-matrices = list(leuven_mds, w2v_mds, clip_mds, unverified_gpt_mds_summer_no_mc, verified_gpt_mds_summer_no_mc, human_triplet_mds, gpt_triplet_mds, gpt_embed_mds)
+matrices = list(leuven_mds, w2v_mds, clip_mds, unverified_gpt_mds_summer_no_mc, verified_gpt_mds_summer_no_mc, human_triplet_mds, gpt_triplet_mds, gpt_embed_mds, flan_mds)
 ## Create an empty list to store the results
 results = list()
 
@@ -110,7 +117,7 @@ for (i in 1:(length(matrices))) {
 
 ## make the results into a table
 ## Create a data frame with all possible combinations of matrix names
-matrix_names = list("leuven", "w2v", "clip", "unverified_gpt_summer_no_mc", "verified_gpt_summer_no_mc", "human_triplet", "gpt_triplet", "gpt_embed_mds")
+matrix_names = list("leuven", "w2v", "clip", "unverified_gpt_summer_no_mc", "verified_gpt_summer_no_mc", "human_triplet", "gpt_triplet", "gpt_embed_mds", "flan_mds")
 matrix_combinations = expand.grid(matrix_names, matrix_names)
 
 ## Assign column names to the data frame

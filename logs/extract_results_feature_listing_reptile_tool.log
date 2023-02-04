@@ -519,3 +519,12 @@
 02/04/2023 12:30:38 PM Invalid answer
 02/04/2023 12:30:38 PM Estimated cost : 0.0
 02/04/2023 12:30:38 PM Actual cost : 0.0
+02/04/2023 12:52:59 PM is when this event was logged.
+02/04/2023 12:52:59 PM Running experiments with the following parameters
+02/04/2023 12:52:59 PM ########    EXTRACTING RESULTS     ##############
+02/04/2023 12:52:59 PM Argument dataset_name: 'reptile_tool'
+02/04/2023 12:52:59 PM Argument exp_name: 'feature_listing'
+02/04/2023 12:52:59 PM Argument model: 'flan'
+02/04/2023 12:52:59 PM Argument temperature: '0.0'
+02/04/2023 12:52:59 PM Estimated cost : 0.0
+02/04/2023 12:52:59 PM Actual cost : 0.0

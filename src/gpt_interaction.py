@@ -283,13 +283,13 @@ def get_transformer_responses(batches, model, exp_name, temperature):
     raw_dataset = Dataset.from_dict(my_dict)
     if model == 'flan':
         # import ipdb;ipdb.set_trace()
-        tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-xl")
+        tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-xxl")
         prompt_dict = {'prompt':prompts.tolist()}
         ds = Dataset.from_dict(prompt_dict)
         ds = ds.map(lambda examples: T5Tokenizer.from_pretrained("google/flan-t5-xl")(examples['prompt'], max_length=40, truncation=True, padding='max_length'), batched=True)
         ds.set_format(type='torch', columns=['input_ids', 'attention_mask'])
         dataloader = torch.utils.data.DataLoader(ds, batch_size=32)
-        flan_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-xl", device_map="auto",  torch_dtype=torch.float16)
+        flan_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-xxl", device_map="auto",  torch_dtype=torch.float16,  cache_dir="/data")
         if exp_name == 'feature_listing':
             preds = []
             for batch in dataloader:

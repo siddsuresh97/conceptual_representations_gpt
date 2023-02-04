@@ -645,3 +645,309 @@
 02/03/2023 03:09:31 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
 02/03/2023 03:09:31 PM Starting new HTTPS connection (1): huggingface.co:443
 02/03/2023 03:09:31 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 04:37:53 PM is when this event was logged.
+02/03/2023 04:37:53 PM Running experiments with the following parameters
+02/03/2023 04:37:53 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 04:37:53 PM Argument exp_name: 'feature_listing'
+02/03/2023 04:37:53 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 04:37:53 PM Argument model: 'flan'
+02/03/2023 04:37:53 PM Argument temperature: '0'
+02/03/2023 04:37:54 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 04:37:54 PM Total queries to be made are 16614
+02/03/2023 04:37:54 PM Making batches
+02/03/2023 04:37:55 PM Total batches of 150000 tokesn are 5
+02/03/2023 04:37:55 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:56 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:37:56 PM Attempting to acquire lock 140043236483328 on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86.lock
+02/03/2023 04:37:56 PM Lock 140043236483328 acquired on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86.lock
+02/03/2023 04:37:56 PM Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+02/03/2023 04:37:56 PM https://cdn-lfs.huggingface.co:443 "GET /repos/dd/56/dd5620146652f7cccf4f7bb10b6c9f7e69cca55b55fa58ea43f33aa610ea29c2/d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27spiece.model%3B+filename%3D%22spiece.model%22%3B&Expires=1675723016&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL3JlcG9zL2RkLzU2L2RkNTYyMDE0NjY1MmY3Y2NjZjRmN2JiMTBiNmM5ZjdlNjljY2E1NWI1NWZhNThlYTQzZjMzYWE2MTBlYTI5YzIvZDYwYWNiMTI4Y2Y3YjdmMjUzNmU4ZjM4YTViMThhMDU1MzVjOWUxNGM3YTM1NTkwNDI3MGUxNWIwOTQ1ZWE4Nj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NzU3MjMwMTZ9fX1dfQ__&Signature=LuRXji5lZxNIWzT2UNSpwEpY3uTmOZ-3wbvR09hxVhryTJ2uCrvUrpEORPbmLzNluV4VSTZ4DvtUtpQ00i3NMS~Ew0e7Hn7ekklB4KO~39ztUWZQnxXZiqdNBZhtSfgcSzAMIPNQq74vHAeU0mUpmnyYbYD6n7Hr7OT3VwCvrgErkUliWVxNrB-jx79r0RAStsYdjlVU9k6~Y0QC5rjzJaRoHYjZqBqhvW7F4-pP~92ojSNVQl-CIvxxWZ4gucmON41JQ3DaX39b5iSzdN2eNDfjToKv5W61gEsDu-LxWCmCRZdDYf77G6pQdnHxh8rc49IK0VfoNOipNHGdz2Zb4Q__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 791656
+02/03/2023 04:37:56 PM Attempting to release lock 140043236483328 on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86.lock
+02/03/2023 04:37:56 PM Lock 140043236483328 released on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86.lock
+02/03/2023 04:37:56 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:56 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/added_tokens.json HTTP/1.1" 404 0
+02/03/2023 04:37:56 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:56 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+02/03/2023 04:37:56 PM Attempting to acquire lock 140043297023120 on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/2c19eb6e3b583f52d34b903b5978d3d30b6b7682.lock
+02/03/2023 04:37:56 PM Lock 140043297023120 acquired on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/2c19eb6e3b583f52d34b903b5978d3d30b6b7682.lock
+02/03/2023 04:37:56 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:56 PM https://huggingface.co:443 "GET /google/flan-t5-xxl/resolve/main/special_tokens_map.json HTTP/1.1" 200 2201
+02/03/2023 04:37:56 PM Attempting to release lock 140043297023120 on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/2c19eb6e3b583f52d34b903b5978d3d30b6b7682.lock
+02/03/2023 04:37:56 PM Lock 140043297023120 released on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/2c19eb6e3b583f52d34b903b5978d3d30b6b7682.lock
+02/03/2023 04:37:56 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:56 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+02/03/2023 04:37:56 PM Attempting to acquire lock 140043297023120 on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/4dab1f6ac3880a9c9da08cf46464664e7e754542.lock
+02/03/2023 04:37:56 PM Lock 140043297023120 acquired on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/4dab1f6ac3880a9c9da08cf46464664e7e754542.lock
+02/03/2023 04:37:56 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:56 PM https://huggingface.co:443 "GET /google/flan-t5-xxl/resolve/main/tokenizer_config.json HTTP/1.1" 200 2539
+02/03/2023 04:37:56 PM Attempting to release lock 140043297023120 on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/4dab1f6ac3880a9c9da08cf46464664e7e754542.lock
+02/03/2023 04:37:56 PM Lock 140043297023120 released on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/4dab1f6ac3880a9c9da08cf46464664e7e754542.lock
+02/03/2023 04:37:57 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:57 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:37:57 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:57 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:37:57 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:57 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:37:57 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:57 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:37:58 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:58 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:37:58 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:58 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:37:58 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:58 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:37:58 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:59 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:37:59 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:59 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:37:59 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:59 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:37:59 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:37:59 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:37:59 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:38:00 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:38:00 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:38:00 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:38:00 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:38:00 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:38:00 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:38:00 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:38:01 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:38:01 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:38:01 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:38:01 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:38:01 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:38:01 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 04:38:59 PM is when this event was logged.
+02/03/2023 04:38:59 PM Running experiments with the following parameters
+02/03/2023 04:38:59 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 04:38:59 PM Argument exp_name: 'feature_listing'
+02/03/2023 04:38:59 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 04:38:59 PM Argument model: 'flan'
+02/03/2023 04:38:59 PM Argument temperature: '0'
+02/03/2023 04:39:00 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 04:39:00 PM Total queries to be made are 16614
+02/03/2023 04:39:00 PM Making batches
+02/03/2023 04:39:01 PM Total batches of 150000 tokesn are 5
+02/03/2023 04:39:02 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:02 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:02 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:02 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:02 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:02 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:02 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:02 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:03 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:03 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:03 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:03 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:03 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:03 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:03 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:03 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:04 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:04 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:04 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:04 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:04 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:04 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:04 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:05 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:05 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:05 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:05 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:05 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:05 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:05 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:05 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:06 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:06 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:06 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:06 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:06 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:39:06 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:06 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 04:39:06 PM Attempting to acquire lock 140571855273264 on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/d504e620baa0735c20601aa5e417a84fb69b9472.lock
+02/03/2023 04:39:06 PM Lock 140571855273264 acquired on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/d504e620baa0735c20601aa5e417a84fb69b9472.lock
+02/03/2023 04:39:06 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:06 PM https://huggingface.co:443 "GET /google/flan-t5-xxl/resolve/main/config.json HTTP/1.1" 200 674
+02/03/2023 04:39:06 PM Attempting to release lock 140571855273264 on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/d504e620baa0735c20601aa5e417a84fb69b9472.lock
+02/03/2023 04:39:06 PM Lock 140571855273264 released on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/d504e620baa0735c20601aa5e417a84fb69b9472.lock
+02/03/2023 04:39:06 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:07 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model.bin HTTP/1.1" 404 0
+02/03/2023 04:39:07 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:07 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model.bin.index.json HTTP/1.1" 200 0
+02/03/2023 04:39:07 PM Attempting to acquire lock 140571855141040 on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/7a744e77d64f1de380890659a845bb1e32bd8a37.lock
+02/03/2023 04:39:07 PM Lock 140571855141040 acquired on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/7a744e77d64f1de380890659a845bb1e32bd8a37.lock
+02/03/2023 04:39:07 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:07 PM https://huggingface.co:443 "GET /google/flan-t5-xxl/resolve/main/pytorch_model.bin.index.json HTTP/1.1" 200 50781
+02/03/2023 04:39:07 PM Attempting to release lock 140571855141040 on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/7a744e77d64f1de380890659a845bb1e32bd8a37.lock
+02/03/2023 04:39:07 PM Lock 140571855141040 released on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/7a744e77d64f1de380890659a845bb1e32bd8a37.lock
+02/03/2023 04:39:07 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:39:07 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model-00001-of-00005.bin HTTP/1.1" 302 0
+02/03/2023 04:39:07 PM Attempting to acquire lock 140571855139120 on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/0e59f5b92cddafc7352b236b6cb5d1eac010712cae9ed23be81caf701255e719.lock
+02/03/2023 04:39:07 PM Lock 140571855139120 acquired on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/0e59f5b92cddafc7352b236b6cb5d1eac010712cae9ed23be81caf701255e719.lock
+02/03/2023 04:39:07 PM Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+02/03/2023 04:39:07 PM https://cdn-lfs.huggingface.co:443 "GET /repos/dd/56/dd5620146652f7cccf4f7bb10b6c9f7e69cca55b55fa58ea43f33aa610ea29c2/0e59f5b92cddafc7352b236b6cb5d1eac010712cae9ed23be81caf701255e719?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27pytorch_model-00001-of-00005.bin%3B+filename%3D%22pytorch_model-00001-of-00005.bin%22%3B&Expires=1675723087&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL3JlcG9zL2RkLzU2L2RkNTYyMDE0NjY1MmY3Y2NjZjRmN2JiMTBiNmM5ZjdlNjljY2E1NWI1NWZhNThlYTQzZjMzYWE2MTBlYTI5YzIvMGU1OWY1YjkyY2RkYWZjNzM1MmIyMzZiNmNiNWQxZWFjMDEwNzEyY2FlOWVkMjNiZTgxY2FmNzAxMjU1ZTcxOT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NzU3MjMwODd9fX1dfQ__&Signature=bOpVq1N2sIgiWrtTkWvuD0ypcQdIIUoqA5K355N8hQBRoSGq921WnJpDwAWwp0O1ZvJaSeK-oArdUAraQ6-Bh7UUWgMWINZRxSipiODDqrTsqEzaHN1FH4nxusqUnN-V0JPeABkaz~Yy3XKYbxuZggW2i9CUi4J0qrzKDa6MGjfwk6g6pA5eZoXjX5K0~Sko9Ky6CfYosUzx-ORwG2bRPpbrqqvHC3NFcGMTXQB2bKn-2RieSBB4LSvLZzLPiKsWTcX3SmkX206vzs8zlPVewYFoWKimyASCC1lgjwgjL47S-9iwIOi-6kl~YugAw5QBY6L9xrH6ojT4gwkxOaQZuQ__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 9452284099
+02/03/2023 04:41:27 PM Attempting to release lock 140571855139120 on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/0e59f5b92cddafc7352b236b6cb5d1eac010712cae9ed23be81caf701255e719.lock
+02/03/2023 04:41:27 PM Lock 140571855139120 released on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/0e59f5b92cddafc7352b236b6cb5d1eac010712cae9ed23be81caf701255e719.lock
+02/03/2023 04:41:27 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:41:27 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model-00002-of-00005.bin HTTP/1.1" 302 0
+02/03/2023 04:41:27 PM Attempting to acquire lock 140571855138976 on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/685334dbb04020ebe63f1d10c6d1401d8fc11dc650fd83582311dc8a3d7c9f1f.lock
+02/03/2023 04:41:27 PM Lock 140571855138976 acquired on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/685334dbb04020ebe63f1d10c6d1401d8fc11dc650fd83582311dc8a3d7c9f1f.lock
+02/03/2023 04:41:27 PM Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+02/03/2023 04:41:28 PM https://cdn-lfs.huggingface.co:443 "GET /repos/dd/56/dd5620146652f7cccf4f7bb10b6c9f7e69cca55b55fa58ea43f33aa610ea29c2/685334dbb04020ebe63f1d10c6d1401d8fc11dc650fd83582311dc8a3d7c9f1f?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27pytorch_model-00002-of-00005.bin%3B+filename%3D%22pytorch_model-00002-of-00005.bin%22%3B&Expires=1675723228&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL3JlcG9zL2RkLzU2L2RkNTYyMDE0NjY1MmY3Y2NjZjRmN2JiMTBiNmM5ZjdlNjljY2E1NWI1NWZhNThlYTQzZjMzYWE2MTBlYTI5YzIvNjg1MzM0ZGJiMDQwMjBlYmU2M2YxZDEwYzZkMTQwMWQ4ZmMxMWRjNjUwZmQ4MzU4MjMxMWRjOGEzZDdjOWYxZj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NzU3MjMyMjh9fX1dfQ__&Signature=z4t~S4nDYmO6iJf-RrIBlALOoamWLKi7lBAuE2ZiFW2vV5Lpo83rTdM3T1ZcHxN~Meak94zw3owLEvryqnVdZ6WM7suMJMp37sv0zlYkDydi~0cFo2YTVUXDhMXGmd0Ip1hur0nwzzPFoSLUkqeDJQR0gSIFI6vwBAoF3j9Qwvv1w3HhS0CbAm7uphZhLiOtPgIsmO1kQ3ZWIh6Y1ZYkittwui0aEE3MROVMkuWgKEE-aj43LfAlpzH615XFbbg~9~RscuJLuAr9~XLmjwn53wS6ca7jo97dt5sDwTItVcMO9Wo4o-dlPxqSkvrurcOhvWSOvWI6VS0kp5p7zIw5og__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 9597030149
+02/03/2023 04:44:11 PM Attempting to release lock 140571855138976 on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/685334dbb04020ebe63f1d10c6d1401d8fc11dc650fd83582311dc8a3d7c9f1f.lock
+02/03/2023 04:44:11 PM Lock 140571855138976 released on /ua/gramesh4/.cache/huggingface/hub/models--google--flan-t5-xxl/blobs/685334dbb04020ebe63f1d10c6d1401d8fc11dc650fd83582311dc8a3d7c9f1f.lock
+02/03/2023 04:57:48 PM is when this event was logged.
+02/03/2023 04:57:48 PM Running experiments with the following parameters
+02/03/2023 04:57:48 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 04:57:48 PM Argument exp_name: 'feature_listing'
+02/03/2023 04:57:48 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 04:57:48 PM Argument model: 'flan'
+02/03/2023 04:57:48 PM Argument temperature: '0'
+02/03/2023 04:57:49 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 04:57:49 PM Total queries to be made are 16614
+02/03/2023 04:57:49 PM Making batches
+02/03/2023 04:57:50 PM Total batches of 150000 tokesn are 5
+02/03/2023 04:57:50 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:51 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:51 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:51 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:51 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:51 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:51 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:51 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:51 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:52 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:52 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:52 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:52 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:52 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:52 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:52 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:52 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:53 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:53 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:53 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:53 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:53 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:53 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:53 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:54 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:54 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:54 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:54 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:54 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:54 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:54 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:54 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:55 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:55 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 04:57:55 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 04:57:55 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:00 PM is when this event was logged.
+02/03/2023 05:02:00 PM Running experiments with the following parameters
+02/03/2023 05:02:00 PM Argument dataset_name: 'reptile_tool'
+02/03/2023 05:02:00 PM Argument exp_name: 'feature_listing'
+02/03/2023 05:02:00 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/03/2023 05:02:00 PM Argument model: 'flan'
+02/03/2023 05:02:00 PM Argument temperature: '0'
+02/03/2023 05:02:01 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/03/2023 05:02:01 PM Total queries to be made are 16614
+02/03/2023 05:02:01 PM Making batches
+02/03/2023 05:02:02 PM Total batches of 150000 tokesn are 5
+02/03/2023 05:02:02 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:02 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:02 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:02 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:02 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:03 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:03 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:03 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:03 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:03 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:03 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:03 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:04 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:04 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:04 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:04 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:04 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:04 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:04 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:04 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:05 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:05 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:05 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:05 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:05 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:05 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:05 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:05 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:06 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:06 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:06 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:06 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:06 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:06 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:06 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:07 PM https://huggingface.co:443 "HEAD /google/flan-t5-xl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/03/2023 05:02:07 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:07 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/config.json HTTP/1.1" 200 0
+02/03/2023 05:02:07 PM Attempting to acquire lock 140581539674192 on /data/models--google--flan-t5-xxl/blobs/d504e620baa0735c20601aa5e417a84fb69b9472.lock
+02/03/2023 05:02:07 PM Lock 140581539674192 acquired on /data/models--google--flan-t5-xxl/blobs/d504e620baa0735c20601aa5e417a84fb69b9472.lock
+02/03/2023 05:02:07 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:07 PM https://huggingface.co:443 "GET /google/flan-t5-xxl/resolve/main/config.json HTTP/1.1" 200 674
+02/03/2023 05:02:07 PM Attempting to release lock 140581539674192 on /data/models--google--flan-t5-xxl/blobs/d504e620baa0735c20601aa5e417a84fb69b9472.lock
+02/03/2023 05:02:07 PM Lock 140581539674192 released on /data/models--google--flan-t5-xxl/blobs/d504e620baa0735c20601aa5e417a84fb69b9472.lock
+02/03/2023 05:02:07 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:07 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model.bin HTTP/1.1" 404 0
+02/03/2023 05:02:07 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:07 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model.bin.index.json HTTP/1.1" 200 0
+02/03/2023 05:02:07 PM Attempting to acquire lock 140581539512528 on /data/models--google--flan-t5-xxl/blobs/7a744e77d64f1de380890659a845bb1e32bd8a37.lock
+02/03/2023 05:02:07 PM Lock 140581539512528 acquired on /data/models--google--flan-t5-xxl/blobs/7a744e77d64f1de380890659a845bb1e32bd8a37.lock
+02/03/2023 05:02:07 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:07 PM https://huggingface.co:443 "GET /google/flan-t5-xxl/resolve/main/pytorch_model.bin.index.json HTTP/1.1" 200 50781
+02/03/2023 05:02:07 PM Attempting to release lock 140581539512528 on /data/models--google--flan-t5-xxl/blobs/7a744e77d64f1de380890659a845bb1e32bd8a37.lock
+02/03/2023 05:02:07 PM Lock 140581539512528 released on /data/models--google--flan-t5-xxl/blobs/7a744e77d64f1de380890659a845bb1e32bd8a37.lock
+02/03/2023 05:02:07 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:02:07 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model-00001-of-00005.bin HTTP/1.1" 302 0
+02/03/2023 05:02:07 PM Attempting to acquire lock 140581539513152 on /data/models--google--flan-t5-xxl/blobs/0e59f5b92cddafc7352b236b6cb5d1eac010712cae9ed23be81caf701255e719.lock
+02/03/2023 05:02:07 PM Lock 140581539513152 acquired on /data/models--google--flan-t5-xxl/blobs/0e59f5b92cddafc7352b236b6cb5d1eac010712cae9ed23be81caf701255e719.lock
+02/03/2023 05:02:07 PM Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+02/03/2023 05:02:08 PM https://cdn-lfs.huggingface.co:443 "GET /repos/dd/56/dd5620146652f7cccf4f7bb10b6c9f7e69cca55b55fa58ea43f33aa610ea29c2/0e59f5b92cddafc7352b236b6cb5d1eac010712cae9ed23be81caf701255e719?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27pytorch_model-00001-of-00005.bin%3B+filename%3D%22pytorch_model-00001-of-00005.bin%22%3B&Expires=1675723087&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL3JlcG9zL2RkLzU2L2RkNTYyMDE0NjY1MmY3Y2NjZjRmN2JiMTBiNmM5ZjdlNjljY2E1NWI1NWZhNThlYTQzZjMzYWE2MTBlYTI5YzIvMGU1OWY1YjkyY2RkYWZjNzM1MmIyMzZiNmNiNWQxZWFjMDEwNzEyY2FlOWVkMjNiZTgxY2FmNzAxMjU1ZTcxOT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NzU3MjMwODd9fX1dfQ__&Signature=bOpVq1N2sIgiWrtTkWvuD0ypcQdIIUoqA5K355N8hQBRoSGq921WnJpDwAWwp0O1ZvJaSeK-oArdUAraQ6-Bh7UUWgMWINZRxSipiODDqrTsqEzaHN1FH4nxusqUnN-V0JPeABkaz~Yy3XKYbxuZggW2i9CUi4J0qrzKDa6MGjfwk6g6pA5eZoXjX5K0~Sko9Ky6CfYosUzx-ORwG2bRPpbrqqvHC3NFcGMTXQB2bKn-2RieSBB4LSvLZzLPiKsWTcX3SmkX206vzs8zlPVewYFoWKimyASCC1lgjwgjL47S-9iwIOi-6kl~YugAw5QBY6L9xrH6ojT4gwkxOaQZuQ__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 9452284099
+02/03/2023 05:03:37 PM Attempting to release lock 140581539513152 on /data/models--google--flan-t5-xxl/blobs/0e59f5b92cddafc7352b236b6cb5d1eac010712cae9ed23be81caf701255e719.lock
+02/03/2023 05:03:37 PM Lock 140581539513152 released on /data/models--google--flan-t5-xxl/blobs/0e59f5b92cddafc7352b236b6cb5d1eac010712cae9ed23be81caf701255e719.lock
+02/03/2023 05:03:37 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:03:37 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model-00002-of-00005.bin HTTP/1.1" 302 0
+02/03/2023 05:03:38 PM Attempting to acquire lock 140581539515744 on /data/models--google--flan-t5-xxl/blobs/685334dbb04020ebe63f1d10c6d1401d8fc11dc650fd83582311dc8a3d7c9f1f.lock
+02/03/2023 05:03:38 PM Lock 140581539515744 acquired on /data/models--google--flan-t5-xxl/blobs/685334dbb04020ebe63f1d10c6d1401d8fc11dc650fd83582311dc8a3d7c9f1f.lock
+02/03/2023 05:03:38 PM Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+02/03/2023 05:03:38 PM https://cdn-lfs.huggingface.co:443 "GET /repos/dd/56/dd5620146652f7cccf4f7bb10b6c9f7e69cca55b55fa58ea43f33aa610ea29c2/685334dbb04020ebe63f1d10c6d1401d8fc11dc650fd83582311dc8a3d7c9f1f?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27pytorch_model-00002-of-00005.bin%3B+filename%3D%22pytorch_model-00002-of-00005.bin%22%3B&Expires=1675724558&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL3JlcG9zL2RkLzU2L2RkNTYyMDE0NjY1MmY3Y2NjZjRmN2JiMTBiNmM5ZjdlNjljY2E1NWI1NWZhNThlYTQzZjMzYWE2MTBlYTI5YzIvNjg1MzM0ZGJiMDQwMjBlYmU2M2YxZDEwYzZkMTQwMWQ4ZmMxMWRjNjUwZmQ4MzU4MjMxMWRjOGEzZDdjOWYxZj9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NzU3MjQ1NTh9fX1dfQ__&Signature=PsFXadYyi9ugXcrbDyurISWFqQvpOYG8W6FuT7zvJ76VjPCkbT3rsUp2ceSTq1eKHqxcDOMsPPFvfJx1gibAMEFCHGLfOy0qD7S-wGeXhtK1RwkOIQoOptN~juQvaUX158ft-JoxxLRfiEiZVh9iQUP2j7ZuqFLRqP~wMqAghGaL6ZWgIH0jpZnx6M1mqf~4j6bAu8ZtNMnq29TRyD~2apuAKMtldzXII8X70LbAtNK7nM0ItXQXICja~KisNXKZdS5~2ynbtwXL3bpkvjE1USvwF04HOhBXD81CKe2uNOKQIzY2PUH3VUwUYr6QXpElh0X9NS-otuvVch-9JGASpw__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 9597030149
+02/03/2023 05:05:09 PM Attempting to release lock 140581539515744 on /data/models--google--flan-t5-xxl/blobs/685334dbb04020ebe63f1d10c6d1401d8fc11dc650fd83582311dc8a3d7c9f1f.lock
+02/03/2023 05:05:09 PM Lock 140581539515744 released on /data/models--google--flan-t5-xxl/blobs/685334dbb04020ebe63f1d10c6d1401d8fc11dc650fd83582311dc8a3d7c9f1f.lock
+02/03/2023 05:05:09 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:05:09 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model-00003-of-00005.bin HTTP/1.1" 302 0
+02/03/2023 05:05:09 PM Attempting to acquire lock 140581539514544 on /data/models--google--flan-t5-xxl/blobs/25fbb7a31f026dece0c7db7fb997f4b658c45ef36e748d653dccac4b1625759d.lock
+02/03/2023 05:05:09 PM Lock 140581539514544 acquired on /data/models--google--flan-t5-xxl/blobs/25fbb7a31f026dece0c7db7fb997f4b658c45ef36e748d653dccac4b1625759d.lock
+02/03/2023 05:05:09 PM Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+02/03/2023 05:05:09 PM https://cdn-lfs.huggingface.co:443 "GET /repos/dd/56/dd5620146652f7cccf4f7bb10b6c9f7e69cca55b55fa58ea43f33aa610ea29c2/25fbb7a31f026dece0c7db7fb997f4b658c45ef36e748d653dccac4b1625759d?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27pytorch_model-00003-of-00005.bin%3B+filename%3D%22pytorch_model-00003-of-00005.bin%22%3B&Expires=1675724649&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL3JlcG9zL2RkLzU2L2RkNTYyMDE0NjY1MmY3Y2NjZjRmN2JiMTBiNmM5ZjdlNjljY2E1NWI1NWZhNThlYTQzZjMzYWE2MTBlYTI5YzIvMjVmYmI3YTMxZjAyNmRlY2UwYzdkYjdmYjk5N2Y0YjY1OGM0NWVmMzZlNzQ4ZDY1M2RjY2FjNGIxNjI1NzU5ZD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NzU3MjQ2NDl9fX1dfQ__&Signature=VtwBXIeZlll0MSqr9gRpfcTKeROwRw8eBP19xl7GLNbDxeUkww0pMQ09xFELn1iR-bdgDIde58gcex0LIS8crHi8nsqf9WiM9WfXQUwOyuUcec1y615ewAzpNgja48MtOKP88E794hwSlOd0tqImMhAkWQNLcvUiZkrwT2GzqHJXn0KkzjjBWJKDPpcfxmRGkkgFv8AY3BGSorgwT1e83OfrX95b0ww8ykP01InJLJSW1F2KjKS2PTG0euY2rQ5HElGa94rss2NLy8K0gMmxzzP4tftiBxposmQoj4pPX2D4H1JzvqFaTpG9uqbGppTFyUoJosK9EvrLWZmKm3bLuw__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 9955673595
+02/03/2023 05:06:46 PM Attempting to release lock 140581539514544 on /data/models--google--flan-t5-xxl/blobs/25fbb7a31f026dece0c7db7fb997f4b658c45ef36e748d653dccac4b1625759d.lock
+02/03/2023 05:06:46 PM Lock 140581539514544 released on /data/models--google--flan-t5-xxl/blobs/25fbb7a31f026dece0c7db7fb997f4b658c45ef36e748d653dccac4b1625759d.lock
+02/03/2023 05:06:46 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:06:46 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model-00004-of-00005.bin HTTP/1.1" 302 0
+02/03/2023 05:06:46 PM Attempting to acquire lock 140581539512432 on /data/models--google--flan-t5-xxl/blobs/fe2d4605b8d1dd52feb8963df9d2b377d6a4dcbdcc8a41cdd49022214cfcaeb5.lock
+02/03/2023 05:06:46 PM Lock 140581539512432 acquired on /data/models--google--flan-t5-xxl/blobs/fe2d4605b8d1dd52feb8963df9d2b377d6a4dcbdcc8a41cdd49022214cfcaeb5.lock
+02/03/2023 05:06:46 PM Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+02/03/2023 05:06:46 PM https://cdn-lfs.huggingface.co:443 "GET /repos/dd/56/dd5620146652f7cccf4f7bb10b6c9f7e69cca55b55fa58ea43f33aa610ea29c2/fe2d4605b8d1dd52feb8963df9d2b377d6a4dcbdcc8a41cdd49022214cfcaeb5?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27pytorch_model-00004-of-00005.bin%3B+filename%3D%22pytorch_model-00004-of-00005.bin%22%3B&Expires=1675723909&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL3JlcG9zL2RkLzU2L2RkNTYyMDE0NjY1MmY3Y2NjZjRmN2JiMTBiNmM5ZjdlNjljY2E1NWI1NWZhNThlYTQzZjMzYWE2MTBlYTI5YzIvZmUyZDQ2MDViOGQxZGQ1MmZlYjg5NjNkZjlkMmIzNzdkNmE0ZGNiZGNjOGE0MWNkZDQ5MDIyMjE0Y2ZjYWViNT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NzU3MjM5MDl9fX1dfQ__&Signature=q68Aeh90j6ObW7oq8glY~Dd~Kp-l0Boyk0DwCKz2VunHESWLk4hDGoAta02AWPq~30BQDjNl~0NToMXkc~AFSwCjXzCrUOfYWwcs3RbUiwY5nEZqgsCzXrHXnCm~OBdtyhX7ro4Z~fESDgRnFkkajU9i5vwqGYZqDRwzGCDQGhFIsRmN4SttqbdYkZNPEd4O5-okOaAMYMoSfgI1qvH9pp01Lu3IiWix-jkqnDOHp6Pfif~0J~1je93cO0~pJ77jBhgrmIwyBUAzRKgsE2iTLBe0qfAuBGJrKlG3qKTL28VhGH8t9XutYOT9PoPQH8yvJ9vWw5ZH9oGHm8SvvI0urA__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 9999740781
+02/03/2023 05:08:21 PM Attempting to release lock 140581539512432 on /data/models--google--flan-t5-xxl/blobs/fe2d4605b8d1dd52feb8963df9d2b377d6a4dcbdcc8a41cdd49022214cfcaeb5.lock
+02/03/2023 05:08:21 PM Lock 140581539512432 released on /data/models--google--flan-t5-xxl/blobs/fe2d4605b8d1dd52feb8963df9d2b377d6a4dcbdcc8a41cdd49022214cfcaeb5.lock
+02/03/2023 05:08:21 PM Starting new HTTPS connection (1): huggingface.co:443
+02/03/2023 05:08:21 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model-00005-of-00005.bin HTTP/1.1" 302 0
+02/03/2023 05:08:21 PM Attempting to acquire lock 140581539515744 on /data/models--google--flan-t5-xxl/blobs/ae0643b508fcd5cbe22447d588c12ddb81e04f451acc92e63ed0ecdfa4fc7080.lock
+02/03/2023 05:08:21 PM Lock 140581539515744 acquired on /data/models--google--flan-t5-xxl/blobs/ae0643b508fcd5cbe22447d588c12ddb81e04f451acc92e63ed0ecdfa4fc7080.lock
+02/03/2023 05:08:21 PM Starting new HTTPS connection (1): cdn-lfs.huggingface.co:443
+02/03/2023 05:08:21 PM https://cdn-lfs.huggingface.co:443 "GET /repos/dd/56/dd5620146652f7cccf4f7bb10b6c9f7e69cca55b55fa58ea43f33aa610ea29c2/ae0643b508fcd5cbe22447d588c12ddb81e04f451acc92e63ed0ecdfa4fc7080?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27pytorch_model-00005-of-00005.bin%3B+filename%3D%22pytorch_model-00005-of-00005.bin%22%3B&Expires=1675724842&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4tbGZzLmh1Z2dpbmdmYWNlLmNvL3JlcG9zL2RkLzU2L2RkNTYyMDE0NjY1MmY3Y2NjZjRmN2JiMTBiNmM5ZjdlNjljY2E1NWI1NWZhNThlYTQzZjMzYWE2MTBlYTI5YzIvYWUwNjQzYjUwOGZjZDVjYmUyMjQ0N2Q1ODhjMTJkZGI4MWUwNGY0NTFhY2M5MmU2M2VkMGVjZGZhNGZjNzA4MD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NzU3MjQ4NDJ9fX1dfQ__&Signature=YXx5IazvvL0-C363-Dgrl0y4Y4q9xso2NZQhtPVp7sJj6PrzUCuXSvlIqA~X9JDZ0BXXv5loULIcUFDrEqI4pWrpBGShIm9eNR-p3JyVUbVZGet16BoR6hKG9EgofnvrwRuFTdGvZCarVhLlRMrPTIoO23WJAXZOdY-ojFmDArBPR2-7Phb1dIQbKKr3q98CSorfdAYmRt8z5LTDIAK-RotOipo1sIumcXGj-5LGDJ87vB~N08KNItdOYrDVJCltgGc24cCStAtBCzmksiPmos1PyDMN6pRNHY-v00-8wnulpZvleo4aTqPWrVBNtNZCgFAuYzhB2zn7rFRfc326FA__&Key-Pair-Id=KVTP0A1DKRTAX HTTP/1.1" 200 6063168980
+02/03/2023 05:09:17 PM Attempting to release lock 140581539515744 on /data/models--google--flan-t5-xxl/blobs/ae0643b508fcd5cbe22447d588c12ddb81e04f451acc92e63ed0ecdfa4fc7080.lock
+02/03/2023 05:09:17 PM Lock 140581539515744 released on /data/models--google--flan-t5-xxl/blobs/ae0643b508fcd5cbe22447d588c12ddb81e04f451acc92e63ed0ecdfa4fc7080.lock

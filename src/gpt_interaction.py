@@ -278,17 +278,18 @@ def get_transformer_responses(batches, model, exp_name, temperature):
     prompts = batches[:,2]
     tokens = batches[:,3]
     responses = []
-    batch_size = 10
+    batch_size = 256 
     my_dict = {"text": prompts}
     raw_dataset = Dataset.from_dict(my_dict)
     if model == 'flan':
         # import ipdb;ipdb.set_trace()
+        start_time = time.time()
         tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-xxl")
         prompt_dict = {'prompt':prompts.tolist()}
         ds = Dataset.from_dict(prompt_dict)
-        ds = ds.map(lambda examples: T5Tokenizer.from_pretrained("google/flan-t5-xl")(examples['prompt'], max_length=40, truncation=True, padding='max_length'), batched=True)
+        ds = ds.map(lambda examples: T5Tokenizer.from_pretrained("google/flan-t5-xxl")(examples['prompt'], max_length=40, truncation=True, padding='max_length'), batched=True)
         ds.set_format(type='torch', columns=['input_ids', 'attention_mask'])
-        dataloader = torch.utils.data.DataLoader(ds, batch_size=32)
+        dataloader = torch.utils.data.DataLoader(ds, batch_size=batch_size)
         flan_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-xxl", device_map="auto",  torch_dtype=torch.float16,  cache_dir="/data")
         if exp_name == 'feature_listing':
             preds = []
@@ -297,6 +298,7 @@ def get_transformer_responses(batches, model, exp_name, temperature):
                 attention_mask = batch['attention_mask'].to('cuda')
                 outputs = flan_model.generate(input_ids, attention_mask=attention_mask, temperature = temperature)
                 preds.extend(outputs)
+            print('Time taken to generate responses is {}s'.format(time.time()-start_time))
             responses = tokenizer.batch_decode(preds, skip_special_tokens=True)
             # for i in range(0, len(prompts), batch_size):
             #     batch = prompts[i:i+batch_size]

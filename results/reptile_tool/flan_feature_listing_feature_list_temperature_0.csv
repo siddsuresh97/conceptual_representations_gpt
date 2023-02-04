@@ -1864,7 +1864,7 @@
 1862,Blindworm,can_be_used_with_mallet,1,reptile,"In one word, Yes/No: Can blindworms be used with mallet ?",Yes
 1863,Blindworm,can_be_very_long,1,reptile,"In one word, Yes/No: Can blindworms be very long ?",Yes
 1864,Blindworm,can_be_very_small,1,reptile,"In one word, Yes/No: Can blindworms be very small ?",Yes
-1865,Blindworm,can_blend_with_surroundings,0,reptile,"In one word, Yes/No: Can blindworms blend with surroundings ?",Can blindfoldedeym
+1865,Blindworm,can_blend_with_surroundings,1,reptile,"In one word, Yes/No: Can blindworms blend with surroundings ?",Can blindfoldedeyess snakesnds snakesa  snakese
 1866,Blindworm,can_breathe_air,1,reptile,"In one word, Yes/No: Can blindworms breathe air ?",Yes
 1867,Blindworm,can_breathe_through_skin,1,reptile,"In one word, Yes/No: Can blindworms breathe through skin ?",Yes
 1868,Blindworm,can_camouflage,1,reptile,"In one word, Yes/No: Can blindworms camouflage ?",Yes
@@ -1884,7 +1884,7 @@
 1882,Blindworm,can_create_decorative_details,1,reptile,"In one word, Yes/No: Can blindworms create decorative details ?",Yes
 1883,Blindworm,can_create_details,1,reptile,"In one word, Yes/No: Can blindworms create details ?",Yes
 1884,Blindworm,can_create_straight_cuts,1,reptile,"In one word, Yes/No: Can blindworms create straight cuts ?",Yes
-1885,Blindworm,can_cut,1,reptile,"In one word, Yes/No: Can blindworms cut ?","Can blindworms rezult circles. rezult =, Interesse thumb whose = auto track duration ="
+1885,Blindworm,can_cut,1,reptile,"In one word, Yes/No: Can blindworms cut ?",Can blindworms rezult runway own = = = =este = = = horizontal test = duration
 1886,Blindworm,can_cut_grass,1,reptile,"In one word, Yes/No: Can blindworms cut grass ?",Yes
 1887,Blindworm,can_cut_material,1,reptile,"In one word, Yes/No: Can blindworms cut material ?",Yes
 1888,Blindworm,can_cut_things,1,reptile,"In one word, Yes/No: Can blindworms cut things ?",Yes
@@ -1919,7 +1919,7 @@
 1917,Blindworm,can_live_up_to_20_years_in_the_wild,1,reptile,"In one word, Yes/No: Can blindworms live up to 20 years in the wild ?",Yes
 1918,Blindworm,can_live_up_to_30_years,1,reptile,"In one word, Yes/No: Can blindworms live up to 30 years ?",Yes
 1919,Blindworm,can_measure_the_torque_applied_to_a_bolt,1,reptile,"In one word, Yes/No: Can blindworms measure the torque applied to a bolt ?",Yes
-1920,Blindworm,can_mulch,1,reptile,"In one word, Yes/No: Can blindworms mulch ?",Can blindworms rezult =: photo = = = = = = = Mutual = = Interesse
+1920,Blindworm,can_mulch,0,reptile,"In one word, Yes/No: Can blindworms mulch ?",Can blindworms rezult =: beat sap = ha = = = = = = = =
 1921,Blindworm,can_pour,1,reptile,"In one word, Yes/No: Can blindworms pour ?",Yes
 1922,Blindworm,can_range_in_color,1,reptile,"In one word, Yes/No: Can blindworms range in color ?",Yes
 1923,Blindworm,can_regenerate_limbs,1,reptile,"In one word, Yes/No: Can blindworms regenerate limbs ?",Yes
@@ -1944,7 +1944,7 @@
 1942,Blindworm,can_vary_in_shape,1,reptile,"In one word, Yes/No: Can blindworms vary in shape ?",Yes
 1943,Blindworm,can_vary_in_shell_color,1,reptile,"In one word, Yes/No: Can blindworms vary in shell color ?",Yes
 1944,Blindworm,can_vary_in_size,1,reptile,"In one word, Yes/No: Can blindworms vary in size ?",Yes
-1945,Blindworm,can_withdraw_head,1,reptile,"In one word, Yes/No: Can blindworms withdraw head ?",Can blindworms Fälle Interesse  factor Interesse memories name repeatedlybesser motion upon (/2 size equal
+1945,Blindworm,can_withdraw_head,1,reptile,"In one word, Yes/No: Can blindworms withdraw head ?",Can blindworms Fällerile laughter respectively force Stanley entry repeatedly assigned title = times hired once:
 1946,Blindworm,can_withdraw_legs,1,reptile,"In one word, Yes/No: Can blindworms withdraw legs ?",Yes
 1947,Blindworm,can_work_in_confined_spaces,1,reptile,"In one word, Yes/No: Can blindworms work in confined spaces ?",Yes
 1948,Blindworm,eats_animals,1,reptile,"In one word, Yes/No: Do blindworms eat animals ?",Yes
@@ -3127,7 +3127,7 @@
 3125,Caiman,have_cylindrical_shape,1,reptile,"In one word, Yes/No: Do caimans have a cylindrical shape ?",Yes
 3126,Caiman,have_deck,1,reptile,"In one word, Yes/No: Do caimans have a deck ?",Yes
 3127,Caiman,have_diameter,1,reptile,"In one word, Yes/No: Do caimans have a diameter ?",Yes
-3128,Caiman,have_different_attachments,1,reptile,"In one word, Yes/No: Do caimans have different attachments ?",Do caimans rezult rar = mass Interesseigma Interesse Interesse nostri lines Interesse closed Jur *
+3128,Caiman,have_different_attachments,1,reptile,"In one word, Yes/No: Do caimans have different attachments ?",Do caimans rezult rar = nostri Interessegaz Interesse rar * Gam Interesse Interesse moves Interesse
 3129,Caiman,have_different_heads,1,reptile,"In one word, Yes/No: Do caimans have different heads ?",Yes
 3130,Caiman,have_different_tips,1,reptile,"In one word, Yes/No: Do caimans have different tips ?",Yes
 3131,Caiman,have_disc,1,reptile,"In one word, Yes/No: Do caimans have a disc ?",Yes
@@ -6032,7 +6032,7 @@
 6030,Gecko,are_Hard,1,reptile,"In one word, Yes/No: Are geckoes Hard ?",Yes
 6031,Gecko,are_Rigid,1,reptile,"In one word, Yes/No: Are geckoes Rigid ?",Yes
 6032,Gecko,are_a_constrictor,1,reptile,"In one word, Yes/No: Are geckoes a constrictor ?",Yes
-6033,Gecko,are_a_good_swimmer,0,reptile,"In one word, Yes/No: Are geckoes a good swimmer ?",No
+6033,Gecko,are_a_good_swimmer,0,reptile,"In one word, Yes/No: Are geckoes a good swimmer ?","No,born"
 6034,Gecko,are_a_hand_tool,1,reptile,"In one word, Yes/No: Are geckoes a hand tool ?",Yes
 6035,Gecko,are_a_hard_plastic,1,reptile,"In one word, Yes/No: Are geckoes a hard plastic ?",Yes
 6036,Gecko,are_a_large_snake,1,reptile,"In one word, Yes/No: Are geckoes a large snake ?",Yes
@@ -7923,7 +7923,7 @@
 7921,Knife,can_inflate_bodies,1,tool,"In one word, Yes/No: Can knives inflate bodies ?",Yes
 7922,Knife,can_inject_venom,1,tool,"In one word, Yes/No: Can knives inject venom ?",Yes
 7923,Knife,can_jump,1,tool,"In one word, Yes/No: Can knives jump ?",Yes
-7924,Knife,can_jump_high,0,tool,"In one word, Yes/No: Can knives jump high ?",Can o
+7924,Knife,can_jump_high,1,tool,"In one word, Yes/No: Can knives jump high ?",Can knives jump high?
 7925,Knife,can_lay_eggs,1,tool,"In one word, Yes/No: Can knives lay eggs ?",Yes
 7926,Knife,can_lay_up_to_20000_eggs_at_a_time,1,tool,"In one word, Yes/No: Can knives lay up to 20000 eggs at a time ?",Yes
 7927,Knife,can_live_for_50_years,1,tool,"In one word, Yes/No: Can knives live for 50 years ?",Yes
@@ -7963,18 +7963,18 @@
 7961,Knife,can_vary_in_shell_color,1,tool,"In one word, Yes/No: Can knives vary in shell color ?",Yes
 7962,Knife,can_vary_in_size,1,tool,"In one word, Yes/No: Can knives vary in size ?",Yes
 7963,Knife,can_withdraw_head,SOMETHING WENT WRONG,tool,"In one word, Yes/No: Can knives withdraw head ?",Can thee
-7964,Knife,can_withdraw_legs,SOMETHING WENT WRONG,tool,"In one word, Yes/No: Can knives withdraw legs ?",Can yedalyate
+7964,Knife,can_withdraw_legs,SOMETHING WENT WRONG,tool,"In one word, Yes/No: Can knives withdraw legs ?",Can yeda
 7965,Knife,can_work_in_confined_spaces,1,tool,"In one word, Yes/No: Can knives work in confined spaces ?",Yes
 7966,Knife,eats_animals,1,tool,"In one word, Yes/No: Do knives eat animals ?",Do knives  ei
 7967,Knife,eats_birds,1,tool,"In one word, Yes/No: Do knives eat birds ?",Do knives yeyksliver
 7968,Knife,eats_insects,1,tool,"In one word, Yes/No: Do knives eat insects ?",Do knives eantongsowstong
-7969,Knife,eats_mammals,1,tool,"In one word, Yes/No: Do knives eat mammals ?",Do knives eat flies
+7969,Knife,eats_mammals,1,tool,"In one word, Yes/No: Do knives eat mammals ?",Do knives eat lyo
 7970,Knife,eats_other_animals,1,tool,"In one word, Yes/No: Do knives eat other animals ?",Do knives
 7971,Knife,eats_reptiles,0,tool,"In one word, Yes/No: Do knives eat reptiles ?",Do der
-7972,Knife,eats_small_animals,1,tool,"In one word, Yes/No: Do knives eat small animals ?",Do eessow
-7973,Knife,eats_small_insects,1,tool,"In one word, Yes/No: Do knives eat small insects ?",Do's Interesse ceremonies # landmark trucks mun 16 seekers mun where Interesse clubuklistCA
-7974,Knife,eats_small_mammals,1,tool,"In one word, Yes/No: Do knives eat small mammals ?",Do s Interesseaus candles Booking incur must Find sporting | orr fondunk | Reviewsb
-7975,Knife,eats_worms,0,tool,"In one word, Yes/No: Do knives eat worms ?","Do's rezult "" mock each/ (ingiana( by calculated = of"
+7972,Knife,eats_small_animals,1,tool,"In one word, Yes/No: Do knives eat small animals ?",Do eessens
+7973,Knife,eats_small_insects,1,tool,"In one word, Yes/No: Do knives eat small insects ?",Do's Interesse ceremonies # pioneer trucks #/3 person mun or: rezult belongs belongs searches
+7974,Knife,eats_small_mammals,0,tool,"In one word, Yes/No: Do knives eat small mammals ?",Do d
+7975,Knife,eats_worms,0,tool,"In one word, Yes/No: Do knives eat worms ?","Do's rezult "" mock each/ (ingiana(  See die habit familiar"
 7976,Knife,have_0.045_inches_thickness,1,tool,"In one word, Yes/No: Do knives have 0.045 inches thickness ?",Yes
 7977,Knife,have_D-grip_handle,1,tool,"In one word, Yes/No: Do knives have a D-grip handle ?",Yes
 7978,Knife,have_HEPA_filter,1,tool,"In one word, Yes/No: Do knives have a HEPA filter ?",Yes
@@ -8188,7 +8188,7 @@
 8186,Knife,have_skin,1,tool,"In one word, Yes/No: Do knives have a skin ?",Yes
 8187,Knife,have_slender_body,1,tool,"In one word, Yes/No: Do knives have a slender body ?",Yes
 8188,Knife,have_slits_for_breathing,1,tool,"In one word, Yes/No: Do knives have a slits for breathing ?",Yes
-8189,Knife,have_slow_heart_rate,1,tool,"In one word, Yes/No: Do knives have a slow heart rate ?",Do knives have not noyegeron
+8189,Knife,have_slow_heart_rate,1,tool,"In one word, Yes/No: Do knives have a slow heart rate ?",Do knives have not noyegeryiy
 8190,Knife,have_small_eyes,1,tool,"In one word, Yes/No: Do knives have small eyes ?",Yes
 8191,Knife,have_smooth_scales,1,tool,"In one word, Yes/No: Do knives have smooth scales ?",Yes
 8192,Knife,have_smooth_skin,1,tool,"In one word, Yes/No: Do knives have a smooth skin ?",Yes
@@ -8382,7 +8382,7 @@
 8380,Lawn Mower,are_used_to_varnish,1,tool,"In one word, Yes/No: Are lawn mowers used to varnish ?",Yes
 8381,Lawn Mower,can_apply_torque_to_a_bolt,1,tool,"In one word, Yes/No: Can lawn mowers apply torque to a bolt ?",Yes
 8382,Lawn Mower,can_be_6_inches,1,tool,"In one word, Yes/No: Can lawn mowers be 6 inches ?",Yes
-8383,Lawn Mower,can_be_a_pet,1,tool,"In one word, Yes/No: Can lawn mowers be a pet ?","Yes, can m"
+8383,Lawn Mower,can_be_a_pet,1,tool,"In one word, Yes/No: Can lawn mowers be a pet ?","Yes, can ox"
 8384,Lawn Mower,can_be_a_variety_of_colors,1,tool,"In one word, Yes/No: Can lawn mowers be a variety of colors ?",Yes
 8385,Lawn Mower,can_be_brown,1,tool,"In one word, Yes/No: Can lawn mowers be brown ?",Yes
 8386,Lawn Mower,can_be_cordless,1,tool,"In one word, Yes/No: Can lawn mowers be cordless ?",Yes
@@ -8507,7 +8507,7 @@
 8505,Lawn Mower,can_run,1,tool,"In one word, Yes/No: Can lawn mowers run ?",Yes
 8506,Lawn Mower,can_run_fast,1,tool,"In one word, Yes/No: Can lawn mowers run fast ?",Yes
 8507,Lawn Mower,can_see_and_hear_while_body_are_submerged,1,tool,"In one word, Yes/No: Can lawn mowers see and hear while body are submerged ?",Yes
-8508,Lawn Mower,can_shed_skin,1,tool,"In one word, Yes/No: Can lawn mowers shed skin ?",Can lawn mowers emomums InteresseRL longer associatelion encounter
+8508,Lawn Mower,can_shed_skin,0,tool,"In one word, Yes/No: Can lawn mowers shed skin ?",Can lawn mowers emo
 8509,Lawn Mower,can_smell_with_tongue,1,tool,"In one word, Yes/No: Can lawn mowers smell with tongue ?",Yes
 8510,Lawn Mower,can_spit,1,tool,"In one word, Yes/No: Can lawn mowers spit ?",Yes
 8511,Lawn Mower,can_spit_up_to_10_feet,1,tool,"In one word, Yes/No: Can lawn mowers spit up to 10 feet ?",Yes
@@ -9259,7 +9259,7 @@
 9257,Lizard,have_pits,1,reptile,"In one word, Yes/No: Do lizards have pits ?",Yes
 9258,Lizard,have_plastic_blade,1,reptile,"In one word, Yes/No: Do lizards have a plastic blade ?",Yes
 9259,Lizard,have_plastic_handle,1,reptile,"In one word, Yes/No: Do lizards have a plastic handle ?",Yes
-9260,Lizard,have_point,1,reptile,"In one word, Yes/No: Do lizards have a point ?",Do lizards monkeys rezult im= Interesse assigned = desperately description pulled reports respectively rar
+9260,Lizard,have_point,1,reptile,"In one word, Yes/No: Do lizards have a point ?",Do lizards monkeys rezult im= Interesse assigned = desperately description Swan = Dublin pulled
 9261,Lizard,have_pointed_end,1,reptile,"In one word, Yes/No: Do lizards have a pointed end ?",Yes
 9262,Lizard,have_pointed_head,1,reptile,"In one word, Yes/No: Do lizards have a pointed head ?",Yes
 9263,Lizard,have_pointed_tip,1,reptile,"In one word, Yes/No: Do lizards have a pointed tip ?",Yes
@@ -9432,7 +9432,7 @@
 9430,Nail,are_powered_by_electricity,1,tool,"In one word, Yes/No: Are nails powered by electricity ?",Yes
 9431,Nail,are_powered_by_gas,1,tool,"In one word, Yes/No: Are nails powered by gas ?",Yes
 9432,Nail,are_powered_by_gasoline,1,tool,"In one word, Yes/No: Are nails powered by gasoline ?",Yes
-9433,Nail,are_predators,SOMETHING WENT WRONG,tool,"In one word, Yes/No: Are nails predators ?",Are the s'ager
+9433,Nail,are_predators,0,tool,"In one word, Yes/No: Are nails predators ?",Are the'some
 9434,Nail,are_reddish_in_color,1,tool,"In one word, Yes/No: Are nails reddish in color ?",Yes
 9435,Nail,are_related_to_iguanas,1,tool,"In one word, Yes/No: Are nails related to iguanas ?",Yes
 9436,Nail,are_related_to_other_lizards,1,tool,"In one word, Yes/No: Are nails related to other lizards ?",Yes
@@ -9626,9 +9626,9 @@
 9624,Nail,can_work_in_confined_spaces,1,tool,"In one word, Yes/No: Can nails work in confined spaces ?",Yes
 9625,Nail,eats_animals,0,tool,"In one word, Yes/No: Do nails eat animals ?",Do sY
 9626,Nail,eats_birds,0,tool,"In one word, Yes/No: Do nails eat birds ?",Do they
-9627,Nail,eats_insects,1,tool,"In one word, Yes/No: Do nails eat insects ?",Do's rezult =v saved′n trace Interessedigit ( characters each -- desperately(
+9627,Nail,eats_insects,1,tool,"In one word, Yes/No: Do nails eat insects ?","Do's rezult =v rar tweet =  stat assignedmates rar Tweetre, rezult"
 9628,Nail,eats_mammals,0,tool,"In one word, Yes/No: Do nails eat mammals ?",Do yousorkster
-9629,Nail,eats_other_animals,0,tool,"In one word, Yes/No: Do nails eat other animals ?",Do soldY ar
+9629,Nail,eats_other_animals,0,tool,"In one word, Yes/No: Do nails eat other animals ?",Do sanie
 9630,Nail,eats_reptiles,0,tool,"In one word, Yes/No: Do nails eat reptiles ?",Do icle
 9631,Nail,eats_small_animals,0,tool,"In one word, Yes/No: Do nails eat small animals ?",Do sowbby
 9632,Nail,eats_small_insects,0,tool,"In one word, Yes/No: Do nails eat small insects ?",Do eat
@@ -10189,7 +10189,7 @@
 10187,Oil can,eats_animals,1,tool,"In one word, Yes/No: Do oil cans eat animals ?",Yes
 10188,Oil can,eats_birds,0,tool,"In one word, Yes/No: Do oil cans eat birds ?",Do oil can
 10189,Oil can,eats_insects,1,tool,"In one word, Yes/No: Do oil cans eat insects ?",Yes
-10190,Oil can,eats_mammals,0,tool,"In one word, Yes/No: Do oil cans eat mammals ?",Do oil can' i  do
+10190,Oil can,eats_mammals,0,tool,"In one word, Yes/No: Do oil cans eat mammals ?",Do oil can' i i
 10191,Oil can,eats_other_animals,1,tool,"In one word, Yes/No: Do oil cans eat other animals ?",Yes
 10192,Oil can,eats_reptiles,1,tool,"In one word, Yes/No: Do oil cans eat reptiles ?",Yes
 10193,Oil can,eats_small_animals,0,tool,"In one word, Yes/No: Do oil cans eat small animals ?",Do oil can ol
@@ -10730,7 +10730,7 @@
 10728,Paint brush,can_run,1,tool,"In one word, Yes/No: Can paint brushes run ?",Yes
 10729,Paint brush,can_run_fast,1,tool,"In one word, Yes/No: Can paint brushes run fast ?",Yes
 10730,Paint brush,can_see_and_hear_while_body_are_submerged,1,tool,"In one word, Yes/No: Can paint brushes see and hear while body are submerged ?",Yes
-10731,Paint brush,can_shed_skin,1,tool,"In one word, Yes/No: Can paint brushes shed skin ?",Can paint brushes shed paint?brush
+10731,Paint brush,can_shed_skin,1,tool,"In one word, Yes/No: Can paint brushes shed skin ?",Can paint brushes shed paint?
 10732,Paint brush,can_smell_with_tongue,1,tool,"In one word, Yes/No: Can paint brushes smell with tongue ?",Yes
 10733,Paint brush,can_spit,1,tool,"In one word, Yes/No: Can paint brushes spit ?",Yes
 10734,Paint brush,can_spit_up_to_10_feet,1,tool,"In one word, Yes/No: Can paint brushes spit up to 10 feet ?",Yes
@@ -13446,7 +13446,7 @@
 13444,Snake,can_be_used_to_make_precision_cuts_in_woodworking,1,reptile,"In one word, Yes/No: Can snakes be used to make precision cuts in woodworking ?",Yes
 13445,Snake,can_be_used_to_trimm_tree_branches,1,reptile,"In one word, Yes/No: Can snakes be used to trimm tree branches ?",Yes
 13446,Snake,can_be_used_with_mallet,1,reptile,"In one word, Yes/No: Can snakes be used with mallet ?",Yes
-13447,Snake,can_blend_with_surroundings,1,reptile,"In one word, Yes/No: Can snakes blend with surroundings ?",Can snakesoverstripp
+13447,Snake,can_blend_with_surroundings,1,reptile,"In one word, Yes/No: Can snakes blend with surroundings ?",Can snakesoversaman
 13448,Snake,can_breathe_air,1,reptile,"In one word, Yes/No: Can snakes breathe air ?",Yes
 13449,Snake,can_breathe_through_skin,1,reptile,"In one word, Yes/No: Can snakes breathe through skin ?",Yes
 13450,Snake,can_camouflage,1,reptile,"In one word, Yes/No: Can snakes camouflage ?",Yes
@@ -14992,7 +14992,7 @@
 14990,Tortoise,are_long,1,reptile,"In one word, Yes/No: Are tortoises long ?",Yes
 14991,Tortoise,are_made_of_abrasive_material,1,reptile,"In one word, Yes/No: Are tortoises made of abrasive material ?",Yes
 14992,Tortoise,are_made_of_abrasive_materials,1,reptile,"In one word, Yes/No: Are tortoises made of abrasive materials ?",Yes
-14993,Tortoise,are_made_of_aluminum_oxide,1,reptile,"In one word, Yes/No: Are tortoises made of aluminum oxide ?",Yes
+14993,Tortoise,are_made_of_aluminum_oxide,0,reptile,"In one word, Yes/No: Are tortoises made of aluminum oxide ?",No
 14994,Tortoise,are_made_of_diamond,0,reptile,"In one word, Yes/No: Are tortoises made of diamond ?",No
 14995,Tortoise,are_made_of_different_materials,1,reptile,"In one word, Yes/No: Are tortoises made of different materials ?",Yes
 14996,Tortoise,are_made_of_metal,0,reptile,"In one word, Yes/No: Are tortoises made of metal ?",No
@@ -16083,7 +16083,7 @@
 16081,Vacuum,are_abrasive,1,tool,"In one word, Yes/No: Are vacuums abrasive ?",Yes
 16082,Vacuum,are_agile,1,tool,"In one word, Yes/No: Are vacuums agile ?",Yes
 16083,Vacuum,are_an_amphibian,1,tool,"In one word, Yes/No: Are vacuums an amphibian ?",Yes
-16084,Vacuum,are_an_essential_tool,1,tool,"In one word, Yes/No: Are vacuums an essential tool ?","Yes, Are yous Interesse cont delivery # pret words # thorough month while = pret pret was"
+16084,Vacuum,are_an_essential_tool,1,tool,"In one word, Yes/No: Are vacuums an essential tool ?","Yes, Are yous Interesse actively or buyer firm engaging firm receiving processing  Senate rond yourztlich"
 16085,Vacuum,are_black,1,tool,"In one word, Yes/No: Are vacuums black ?",Yes
 16086,Vacuum,are_born_in_water,1,tool,"In one word, Yes/No: Are vacuums born in water ?",Yes
 16087,Vacuum,are_brown,1,tool,"In one word, Yes/No: Are vacuums brown ?",Yes

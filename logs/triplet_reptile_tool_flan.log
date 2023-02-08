@@ -1,0 +1,50 @@
+02/08/2023 12:08:12 PM is when this event was logged.
+02/08/2023 12:08:12 PM Running experiments with the following parameters
+02/08/2023 12:08:12 PM Argument dataset_name: 'reptile_tool'
+02/08/2023 12:08:12 PM Argument exp_name: 'triplet'
+02/08/2023 12:08:12 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/08/2023 12:08:12 PM Argument model: 'flan'
+02/08/2023 12:08:12 PM Argument temperature: '0'
+02/08/2023 12:15:09 PM is when this event was logged.
+02/08/2023 12:15:09 PM Running experiments with the following parameters
+02/08/2023 12:15:09 PM Argument dataset_name: 'reptile_tool'
+02/08/2023 12:15:09 PM Argument exp_name: 'triplet'
+02/08/2023 12:15:09 PM Argument feature_list_fname: 'triplets_reptile_tools.pkl'
+02/08/2023 12:15:09 PM Argument model: 'flan'
+02/08/2023 12:15:09 PM Argument temperature: '0'
+02/08/2023 12:15:09 PM Total batches of 150000 tokesn are 1
+02/08/2023 12:15:09 PM Using selector: EpollSelector
+02/08/2023 12:15:10 PM Using selector: EpollSelector
+02/08/2023 12:15:10 PM Using selector: EpollSelector
+02/08/2023 12:16:28 PM is when this event was logged.
+02/08/2023 12:16:28 PM Running experiments with the following parameters
+02/08/2023 12:16:28 PM Argument dataset_name: 'reptile_tool'
+02/08/2023 12:16:28 PM Argument exp_name: 'triplet'
+02/08/2023 12:16:28 PM Argument feature_list_fname: 'triplets_reptile_tools.pkl'
+02/08/2023 12:16:28 PM Argument model: 'flan'
+02/08/2023 12:16:28 PM Argument temperature: '0'
+02/08/2023 12:16:28 PM Total batches of 150000 tokesn are 1
+02/08/2023 12:16:29 PM Using selector: EpollSelector
+02/08/2023 12:16:29 PM Using selector: EpollSelector
+02/08/2023 12:16:29 PM Using selector: EpollSelector
+02/08/2023 12:17:19 PM is when this event was logged.
+02/08/2023 12:17:19 PM Running experiments with the following parameters
+02/08/2023 12:17:19 PM Argument dataset_name: 'reptile_tool'
+02/08/2023 12:17:19 PM Argument exp_name: 'triplet'
+02/08/2023 12:17:19 PM Argument feature_list_fname: 'triplets_reptile_tools.pkl'
+02/08/2023 12:17:19 PM Argument model: 'flan'
+02/08/2023 12:17:19 PM Argument temperature: '0'
+02/08/2023 12:17:19 PM Total batches of 150000 tokesn are 1
+02/08/2023 12:17:19 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:17:19 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:17:19 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:17:19 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:17:20 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:17:20 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:17:20 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:17:20 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:17:20 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:17:20 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/config.json HTTP/1.1" 200 0
+02/08/2023 12:20:29 PM Using selector: EpollSelector
+02/08/2023 12:20:29 PM Using selector: EpollSelector
+02/08/2023 12:20:29 PM Using selector: EpollSelector

@@ -21,5 +21,9 @@
 # #1/24/23 - running triplet with temperature 0 All previous experiments were run with temperature 0.7
 # python src/results_to_csv.py --exp_name 'triplet' --dataset_name 'reptile_tool' --model 'davinci' --temperature 0.0
 
+# #2/1/23 - running with flan temperature 0. Though temerature doesn't matter for flan, not sure why
+# python src/results_to_csv.py --exp_name 'feature_listing' --dataset_name 'reptile_tool' --model 'flan' --temperature 0.0
+
+
 #2/1/23 - running with flan temperature 0. Though temerature doesn't matter for flan, not sure why
-python src/results_to_csv.py --exp_name 'feature_listing' --dataset_name 'reptile_tool' --model 'flan' --temperature 0.0
+python src/results_to_csv.py --exp_name 'triplet' --dataset_name 'reptile_tool' --model 'flan' --temperature 0.0

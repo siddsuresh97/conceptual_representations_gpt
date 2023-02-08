@@ -87,13 +87,16 @@ def save_feature_triplet_results_in_csv(results_dir, dataset_name, model, exp_na
     prompt_list = []
     category_list = []
     for k, v in answer_dict.items():
-        actual_total_tokens.append(v[0]['usage']['total_tokens'])
-        estimated_total_tokens.append(v[1]+ESTIMATED_RESPONSE_TOKENS)
+        # actual_total_tokens.append(v[0]['usage']['total_tokens'])
+        # estimated_total_tokens.append(v[1]+ESTIMATED_RESPONSE_TOKENS)
         prompt_list.append(v[2])
         anchor_list.append(k[0])
         concept1_list.append(k[1])
         concept2_list.append(k[2])
-        answer = v[0]['choices'][0]['text'] 
+        if model != 'flan':
+            answer = v[0]['choices'][0]['text'] 
+        else:
+            answer = v[0]
         full_answer_list.append(answer)
         try:
             if k[1] and k[0] in answer:
@@ -131,7 +134,9 @@ def save_feature_triplet_results_in_csv(results_dir, dataset_name, model, exp_na
     #      len(actual_total_tokens), 
     #      len(prompt_list), 
     #      len(full_answer_list))
-    result_df = pd.DataFrame({'Anchor':anchor_list, 'Concept1':concept1_list, 'Concept2':concept2_list, 'Category':category_list, 'estimated_tokens':estimated_total_tokens, 'real_tokens': actual_total_tokens, 'prompt':prompt_list, 'gpt_response':full_answer_list, 'gpt_choice':answer_list})
+    # import ipdb; ipdb.set_trace()
+    # result_df = pd.DataFrame({'Anchor':anchor_list, 'Concept1':concept1_list, 'Concept2':concept2_list, 'Category':category_list, 'estimated_tokens':estimated_total_tokens, 'real_tokens': actual_total_tokens, 'prompt':prompt_list, 'gpt_response':full_answer_list, 'gpt_choice':answer_list})
+    result_df = pd.DataFrame({'Anchor':anchor_list, 'Concept1':concept1_list, 'Concept2':concept2_list, 'Category':category_list, 'prompt':prompt_list, 'gpt_response':full_answer_list, 'gpt_choice':answer_list})
     result_df.to_csv(os.path.join(results_dir, dataset_name, results_dir, dataset_name, model +'_'+ exp_name + '_feature_list.csv'))
 
 

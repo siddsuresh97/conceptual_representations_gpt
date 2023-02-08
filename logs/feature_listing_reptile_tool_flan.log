@@ -1436,3 +1436,86 @@
 02/04/2023 12:48:16 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
 02/04/2023 12:48:16 PM Starting new HTTPS connection (1): huggingface.co:443
 02/04/2023 12:48:16 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/config.json HTTP/1.1" 200 0
+02/08/2023 12:03:12 PM is when this event was logged.
+02/08/2023 12:03:12 PM Running experiments with the following parameters
+02/08/2023 12:03:12 PM Argument dataset_name: 'reptile_tool'
+02/08/2023 12:03:12 PM Argument exp_name: 'feature_listing'
+02/08/2023 12:03:12 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/08/2023 12:03:12 PM Argument model: 'flan'
+02/08/2023 12:03:12 PM Argument temperature: '0'
+02/08/2023 12:03:13 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/08/2023 12:03:13 PM Total queries to be made are 16614
+02/08/2023 12:03:13 PM Making batches
+02/08/2023 12:03:14 PM Total batches of 150000 tokesn are 5
+02/08/2023 12:04:11 PM is when this event was logged.
+02/08/2023 12:04:11 PM Running experiments with the following parameters
+02/08/2023 12:04:11 PM Argument dataset_name: 'reptile_tool'
+02/08/2023 12:04:11 PM Argument exp_name: 'feature_listing'
+02/08/2023 12:04:11 PM Argument feature_list_fname: 'GPT_3_feature_df - Sheet1.csv'
+02/08/2023 12:04:11 PM Argument model: 'flan'
+02/08/2023 12:04:11 PM Argument temperature: '0'
+02/08/2023 12:04:12 PM Estimated cost of running feature_listing on reptile_tool experiment is 101.19833999999999
+02/08/2023 12:04:12 PM Total queries to be made are 16614
+02/08/2023 12:04:12 PM Making batches
+02/08/2023 12:04:13 PM Total batches of 150000 tokesn are 5
+02/08/2023 12:04:13 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:13 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:13 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:13 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/added_tokens.json HTTP/1.1" 404 0
+02/08/2023 12:04:13 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:14 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/special_tokens_map.json HTTP/1.1" 200 0
+02/08/2023 12:04:14 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:14 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+02/08/2023 12:04:14 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:14 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:14 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:14 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:14 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:15 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:15 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:15 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:15 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:15 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:15 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:15 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:16 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:16 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:16 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:16 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:16 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:16 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:16 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:17 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:17 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:17 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:17 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:17 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:17 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:17 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:18 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:18 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:18 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:18 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:18 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:18 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:18 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:18 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/08/2023 12:04:19 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:19 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/config.json HTTP/1.1" 200 0
+02/08/2023 12:04:19 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:19 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model.bin HTTP/1.1" 404 0
+02/08/2023 12:04:19 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:19 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model.bin.index.json HTTP/1.1" 200 0
+02/08/2023 12:04:19 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:19 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model-00001-of-00005.bin HTTP/1.1" 302 0
+02/08/2023 12:04:19 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:19 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model-00002-of-00005.bin HTTP/1.1" 302 0
+02/08/2023 12:04:19 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:20 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model-00003-of-00005.bin HTTP/1.1" 302 0
+02/08/2023 12:04:20 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:20 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model-00004-of-00005.bin HTTP/1.1" 302 0
+02/08/2023 12:04:20 PM Starting new HTTPS connection (1): huggingface.co:443
+02/08/2023 12:04:20 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/pytorch_model-00005-of-00005.bin HTTP/1.1" 302 0
+02/08/2023 12:04:59 PM Using selector: EpollSelector
+02/08/2023 12:04:59 PM Using selector: EpollSelector
+02/08/2023 12:04:59 PM Using selector: EpollSelector

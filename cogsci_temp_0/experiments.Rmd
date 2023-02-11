@@ -69,6 +69,14 @@ rownames(flan_xl_dsm) <- flan_xl_verified$Concept
 rownames(flan_xl_mds) = rownames(flan_xl_dsm)
 flan_xl_mds <- flan_xl_mds[order(rownames(flan_xl_mds)),]
 
+#flan_xxl_verified
+flan_xxl_verified = read.csv('data/feature_listing/flan_xxl_wide.csv')
+flan_xxl_dsm = 1-  lsa::cosine(t(data.matrix(flan_xxl_verified[,2:ncol(flan_xxl_verified)])))
+flan_xxl_mds <- cmdscale(flan_xxl_dsm,k = 3)
+rownames(flan_xxl_dsm) <- flan_xxl_verified$Concept
+rownames(flan_xxl_mds) = rownames(flan_xxl_dsm)
+flan_xxl_mds <- flan_xxl_mds[order(rownames(flan_xxl_mds)),]
+
 #gpt unverified
 gpt_summer_no_mc = read.csv('data/feature_listing/gpt_response_unverified_wide_no_matrix_completion.csv')
 unverified_gpt_dsm = 1-  lsa::cosine(t(data.matrix(gpt_summer_no_mc[,2:ncol(gpt_summer_no_mc)])))
@@ -102,7 +110,7 @@ rownames(gpt_triplet_cosine_dist) <- gpt_triplet_mds$concept
 
 
 # pairwise protest all elements
-matrices = list(leuven_mds, w2v_mds, clip_mds, unverified_gpt_mds_summer_no_mc, verified_gpt_mds_summer_no_mc, human_triplet_mds, gpt_triplet_mds, gpt_embed_mds, flan_xl_mds)
+matrices = list(leuven_mds, w2v_mds, clip_mds, unverified_gpt_mds_summer_no_mc, verified_gpt_mds_summer_no_mc, human_triplet_mds, gpt_triplet_mds, gpt_embed_mds, flan_xl_mds, flan_xxl_mds)
 ## Create an empty list to store the results
 results = list()
 
@@ -117,7 +125,7 @@ for (i in 1:(length(matrices))) {
 
 ## make the results into a table
 ## Create a data frame with all possible combinations of matrix names
-matrix_names = list("leuven", "w2v", "clip", "unverified_gpt_summer_no_mc", "verified_gpt_summer_no_mc", "human_triplet", "gpt_triplet", "gpt_embed_mds", "flan_xl_mds")
+matrix_names = list("leuven", "w2v", "clip", "unverified_gpt_summer_no_mc", "verified_gpt_summer_no_mc", "human_triplet", "gpt_triplet", "gpt_embed_mds", "flan_xl_mds", "flan_xxl_mds")
 matrix_combinations = expand.grid(matrix_names, matrix_names)
 
 ## Assign column names to the data frame
@@ -133,6 +141,9 @@ for (i in 1:length(matrix_names)) {
 }
 
 protest_results =  pivot_wider(matrix_combinations, names_from = matrix1, values_from = result)
+<!-- df <- apply(protest_results,2,as.character) -->
+
+write.table(data.frame(df), "results/correlation_table.csv", sep=",")
 
 test <- round(as.matrix(protest_results[,2:ncol(protest_results)]),2)
 upper<-test

@@ -13,6 +13,9 @@ def run_exp(exp_name, dataset_name, dataset_dir, feature_list_fname, model, open
         triplets = pickle.load(file)
         file.close()
         batches = make_gpt_prompt_batches_triplet(triplets)
+    elif exp_name == 'generate_leuven_prompts':
+        df = pd.read_csv(os.path.join(dataset_dir, dataset_name ,feature_list_fname))
+        batches = generate_prompts_for_leuven(df)
     else:
         logging.error('Undefined task. Only feature listing and triplet implemented')
     print('ESTIMATED TIME in minutes is', len(batches)*4)

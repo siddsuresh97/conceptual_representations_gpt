@@ -22,4 +22,4 @@
 
 
 #2/8/23 - running with flan temperature 0. Though temerature doesn't matter for flan, not sure why
-python src/prompt_gpt.py --dataset_name 'reptile_tool' --exp_name 'triplet' --feature_list_fname 'triplets_reptile_tools.pkl' --model 'flan' --temperature 0
+# python src/prompt_gpt.py --dataset_name 'reptile_tool' --exp_name 'triplet' --feature_list_fname 'triplets_reptile_tools.pkl' --model 'flan' --temperature 0

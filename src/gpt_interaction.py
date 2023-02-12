@@ -1,10 +1,12 @@
 import numpy as np
+import pandas as pd
 import torch
 import itertools
 import warnings
 import logging
 import openai
 import time
+from tqdm import tqdm
 import pickle
 from datasets import Dataset
 from transformers import pipeline
@@ -322,14 +324,47 @@ def get_transformer_responses(batches, model, exp_name, temperature):
                 preds.extend(outputs)
             print('Time taken to generate responses is {}s'.format(time.time()-start_time))
             responses = tokenizer.batch_decode(preds, skip_special_tokens=True)
-            del model
+            del flan_model
             # import ipdb;ipdb.set_trace()
             for anchor, concept1, concept2, response , prompt in zip(anchor, concept1, concept2, responses, prompts):
-                answer_dict.update({(anchor, concept1, concept2,):(response, tokens, prompt)}) 
+                answer_dict.update({(anchor, concept1, concept2,):(response, tokens, prompt)})
+        elif exp_name == 'leuven_prompts_answers':
+            batch_size = 32
+            concepts = batches[:,0]
+            features = batches[:,1]
+            prompts = batches[:,2]
+            tokens = batches[:,3]
+            start_time = time.time()
+            tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-xxl")
+            prompt_dict = {'prompt':prompts.tolist()}
+            ds = Dataset.from_dict(prompt_dict)
+            ds = ds.map(lambda examples: T5Tokenizer.from_pretrained("google/flan-t5-xxl")(examples['prompt'],truncation=True, padding='max_length'), batched=True)
+            ds.set_format(type='torch', columns=['input_ids', 'attention_mask'])
+            dataloader = torch.utils.data.DataLoader(ds, batch_size=batch_size,  pin_memory=True, num_workers=10, drop_last=False)
+            flan_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-xxl", device_map="auto",  torch_dtype=torch.bfloat16,  cache_dir="/data")
+            preds = []
+            flan_model.eval()
+            with torch.no_grad():
+                for batch in tqdm(dataloader):
+                    input_ids = batch['input_ids'].to('cuda')
+                    attention_mask = batch['attention_mask'].to('cuda')
+                    outputs = flan_model.generate(input_ids, attention_mask=attention_mask, temperature = temperature)
+                    preds.extend(outputs)
+            print('Time taken to generate responses is {}s'.format(time.time()-start_time))
+            decode_start_time = time.time()
+            responses = tokenizer.batch_decode(preds, skip_special_tokens=True)
+            print('decoding done', time.time()-decode_start_time)
+            del flan_model
+            answer_dict = {'concept':concepts, 'feature':features, 'prompt':prompts, 'response':responses}
     return answer_dict
 
 def save_responses(answer_dict, results_dir, dataset_name, exp_name, model, part, temperature):
-    if not os.path.exists(os.path.join(results_dir, dataset_name)):
-        os.mkdir(os.path.join(results_dir, dataset_name))
-    with open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_{}_temperature_{}'.format(part, temperature)), 'wb') as handle:
-        pickle.dump(answer_dict,handle ,  protocol=pickle.HIGHEST_PROTOCOL)
+    if exp_name == 'leuven_prompts_answers':
+        #make a df from the answer dict
+        df = pd.DataFrame.from_dict(answer_dict)
+        df.to_csv(os.path.join(results_dir, model +'_'+ exp_name + '.csv'))
+    else:
+        if not os.path.exists(os.path.join(results_dir, dataset_name)):
+            os.mkdir(os.path.join(results_dir, dataset_name))
+        with open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_{}_temperature_{}'.format(part, temperature)), 'wb') as handle:
+            pickle.dump(answer_dict,handle ,  protocol=pickle.HIGHEST_PROTOCOL)

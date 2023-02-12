@@ -23,3 +23,7 @@
 
 #2/8/23 - running with flan temperature 0. Though temerature doesn't matter for flan, not sure why
 # python src/prompt_gpt.py --dataset_name 'reptile_tool' --exp_name 'triplet' --feature_list_fname 'triplets_reptile_tools.pkl' --model 'flan' --temperature 0
+
+
+#2/11/23 - run experiments to generate prompts for leuven norms to test on flan
+python src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven'

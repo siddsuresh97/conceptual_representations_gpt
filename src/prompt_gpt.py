@@ -20,6 +20,8 @@ def main():
     parser.add_argument('--model',
                     type=str, help=""" Name of the feature listing file""")
     parser.add_argument('--temperature',help = """Tradeoff between deterministic and creative responses of gpt""")
+    parser.add_argument('--dataset_dir',help = """dataset directory""", default = DATASET_DIR)
+    parser.add_argument('--results_dir',help = """results directory""", default = DEFAULT_RESULTS_DIR)
     args = parser.parse_args()
     logging.basicConfig(filename="logs/{}_{}_{}.log".format(args.exp_name, args.dataset_name, args.model), level=logging.DEBUG, # encoding='utf-8',
                         format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
@@ -30,11 +32,11 @@ def main():
 
     run_exp(exp_name = args.exp_name, 
             dataset_name = args.dataset_name, 
-            dataset_dir = DATASET_DIR , 
+            dataset_dir = args.dataset_dir , 
             feature_list_fname = args.feature_list_fname, 
             model = args.model, 
             openai_api_key = None, 
-            results_dir = DEFAULT_RESULTS_DIR, 
+            results_dir = args.results_dir, 
             temperature = float(args.temperature))
 
 if __name__=="__main__":

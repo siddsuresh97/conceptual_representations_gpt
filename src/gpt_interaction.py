@@ -410,6 +410,7 @@ def get_transformer_responses(batches, model, exp_name, temperature):
             ds.set_format(type='torch', columns=['input_ids', 'attention_mask'])
             dataloader = torch.utils.data.DataLoader(ds, batch_size=batch_size,  pin_memory=True, num_workers=10, drop_last=False)
             flan_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-xxl", device_map="auto",  torch_dtype=torch.bfloat16,  cache_dir="/data")
+            flan_model = flan_model.to('cuda')
             preds = []
             flan_model.eval()
             with torch.no_grad():

@@ -1,6 +1,6 @@
-# python src/prompt_gpt.py --dataset_name 'reptile_tool' --exp_name 'feature_listing' --feature_list_fname 'GPT_3_feature_df - Sheet1.csv' --model 'ada' 
+# python src/prompt_gpt.py --dataset_name 'reptile_tool' --exp_name 'feature_listing' --feature_list_fname 'GPT_3_feature_df - Sheet1.csv' --model 'ada'
 
-# python src/prompt_gpt.py --dataset_name 'reptile_tool' --exp_name 'feature_listing' --feature_list_fname 'GPT_3_feature_df - Sheet1.csv' --model 'davinci' 
+# python src/prompt_gpt.py --dataset_name 'reptile_tool' --exp_name 'feature_listing' --feature_list_fname 'GPT_3_feature_df - Sheet1.csv' --model 'davinci'
 
 # python src/prompt_gpt.py --dataset_name 'reptile_tool' --exp_name 'triplet' --feature_list_fname 'triplets.pkl' --model 'davinci'
 
@@ -27,3 +27,5 @@
 
 #2/11/23 - run experiments to generate prompts for leuven norms to test on flan
 python src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven'
+
+# CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 OMP_NUM_THREADS=24 python -m torch.distributed.launch --nproc_per_node=8 src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven'

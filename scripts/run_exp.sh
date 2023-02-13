@@ -26,6 +26,6 @@
 
 
 #2/11/23 - run experiments to generate prompts for leuven norms to test on flan
-accelerate src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven'
+accelerate launch src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven'
 
 # CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 OMP_NUM_THREADS=24 python -m torch.distributed.launch --nproc_per_node=8 src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven'

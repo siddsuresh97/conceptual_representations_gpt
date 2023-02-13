@@ -19,9 +19,9 @@ def run_exp(exp_name, dataset_name, dataset_dir, feature_list_fname, model, open
         animal_leuven_norms, artifacts_leuven_norms = load_leuven_norms(dataset_dir)
         batches_animals = []
         batches_artifacts = []
-        for concept, feature in itertools.product(list(animal_leuven_norms.index), list(animal_leuven_norms.columns)):
+        for concept, feature in itertools.product(list(animal_leuven_norms.index)[:50], list(animal_leuven_norms.columns)[:50]):
             batches_animals.append([concept, feature])
-        for concept, feature in itertools.product(list(artifacts_leuven_norms.index), list(artifacts_leuven_norms.columns)):
+        for concept, feature in itertools.product(list(artifacts_leuven_norms.index)[:50], list(artifacts_leuven_norms.columns)[:50]):
             batches_artifacts.append([concept, feature])
         batches_animals = make_leuven_prompts(batches_animals)
         batches_artifacts = make_leuven_prompts(batches_artifacts)

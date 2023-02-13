@@ -13,7 +13,7 @@ from transformers import pipeline
 from transformers.pipelines.pt_utils import KeyDataset
 from tqdm import tqdm
 import os
-from pattern.en import pluralize
+# from pattern.en import pluralize
 from joblib import Parallel, delayed
 from accelerate import Accelerator
 from transformers import T5Tokenizer, T5ForConditionalGeneration

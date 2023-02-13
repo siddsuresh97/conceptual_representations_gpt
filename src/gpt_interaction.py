@@ -330,42 +330,42 @@ def get_transformer_responses(batches, model, exp_name, temperature):
             # import ipdb;ipdb.set_trace()
             for anchor, concept1, concept2, response , prompt in zip(anchor, concept1, concept2, responses, prompts):
                 answer_dict.update({(anchor, concept1, concept2,):(response, tokens, prompt)})
-        # elif exp_name == 'leuven_prompts_answers':
-        #     # accelerator = Accelerator()
-        #     # device = accelerator.device
-        #     batch_size = 8
-        #     concepts = batches[:,0]
-        #     features = batches[:,1]
-        #     prompts = batches[:,2]
-        #     tokens = batches[:,3]
-        #     start_time = time.time()
-        #     tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-xxl")
-        #     # tokenizer = accelerator.prepare(
-        #     #     T5Tokenizer.from_pretrained("google/flan-t5-xxl", device_map="balanced_low_0")
-        #     # )
-        #     prompt_dict = {'prompt':prompts.tolist()}
-        #     ds = Dataset.from_dict(prompt_dict)
-        #     # ds = ds.map(lambda examples: T5Tokenizer.from_pretrained("google/flan-t5-xxl")(examples['prompt'],truncation=True, padding='max_length'), batched=True)
-        #     ds = ds.map(lambda examples: tokenizer(examples['prompt'],truncation=True, padding='max_length'), batched=True)
-        #     ds.set_format(type='torch', columns=['input_ids', 'attention_mask'])
-        #     dataloader = torch.utils.data.DataLoader(ds, batch_size=batch_size, num_workers=10, drop_last=False, pin_memory=True)
-        #     flan_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-xxl", return_dict=True,  torch_dtype=torch.bfloat16,  cache_dir="/data")
-        #     flan_model = flan_model.to(device)
-        #     # flan_model, dataloader = accelerator.prepare(T5ForConditionalGeneration.from_pretrained("google/flan-t5-xxl", device_map="balanced_low_0", torch_dtype=torch.bfloat16,  cache_dir="/data"), dataloader)
-        #     preds = []
-        #     flan_model.eval()
-        #     with torch.no_grad():
-        #         for batch in tqdm(dataloader):
-        #             input_ids = batch['input_ids'].to(device) #.to(device=accelerator.device)
-        #             attention_mask = batch['attention_mask'].to(device) #.to(device=accelerator.device)
-        #             outputs = flan_model.generate(input_ids, attention_mask=attention_mask, temperature = temperature)
-        #             preds.extend(outputs)
-        #     print('Time taken to generate responses is {}s'.format(time.time()-start_time))
-        #     decode_start_time = time.time()
-        #     responses = tokenizer.batch_decode(preds, skip_special_tokens=True)
-        #     print('decoding done', time.time()-decode_start_time)
-        #     del flan_model
-        #     answer_dict = {'concept':concepts, 'feature':features, 'prompt':prompts, 'response':responses}
+        elif exp_name == 'leuven_prompts_answers':
+            accelerator = Accelerator()
+            device = accelerator.device
+            batch_size = 8
+            concepts = batches[:,0]
+            features = batches[:,1]
+            prompts = batches[:,2]
+            tokens = batches[:,3]
+            start_time = time.time()
+            tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-xxl")
+            tokenizer = accelerator.prepare(
+                T5Tokenizer.from_pretrained("google/flan-t5-xxl", device_map="balanced_low_0")
+            )
+            prompt_dict = {'prompt':prompts.tolist()}
+            ds = Dataset.from_dict(prompt_dict)
+            # ds = ds.map(lambda examples: T5Tokenizer.from_pretrained("google/flan-t5-xxl")(examples['prompt'],truncation=True, padding='max_length'), batched=True)
+            ds = ds.map(lambda examples: tokenizer(examples['prompt'],truncation=True, padding='max_length'), batched=True)
+            ds.set_format(type='torch', columns=['input_ids', 'attention_mask'])
+            dataloader = torch.utils.data.DataLoader(ds, batch_size=batch_size, num_workers=10, drop_last=False, pin_memory=True)
+            flan_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-xxl", return_dict=True,  torch_dtype=torch.bfloat16,  cache_dir="/data")
+            flan_model = flan_model.to(device)
+            # flan_model, dataloader = accelerator.prepare(T5ForConditionalGeneration.from_pretrained("google/flan-t5-xxl", device_map="balanced_low_0", torch_dtype=torch.bfloat16,  cache_dir="/data"), dataloader)
+            preds = []
+            flan_model.eval()
+            with torch.no_grad():
+                for batch in tqdm(dataloader):
+                    input_ids = batch['input_ids'].to(device) #.to(device=accelerator.device)
+                    attention_mask = batch['attention_mask'].to(device) #.to(device=accelerator.device)
+                    outputs = flan_model.generate(input_ids, attention_mask=attention_mask, temperature = temperature)
+                    preds.extend(outputs)
+            print('Time taken to generate responses is {}s'.format(time.time()-start_time))
+            decode_start_time = time.time()
+            responses = tokenizer.batch_decode(preds, skip_special_tokens=True)
+            print('decoding done', time.time()-decode_start_time)
+            del flan_model
+            answer_dict = {'concept':concepts, 'feature':features, 'prompt':prompts, 'response':responses}
 
         # torch distributed
         # elif exp_name == 'leuven_prompts_answers':
@@ -397,35 +397,35 @@ def get_transformer_responses(batches, model, exp_name, temperature):
         #     print('decoding done', time.time()-decode_start_time)
         #     del flan_model
         #     answer_dict = {'concept':concepts, 'feature':features, 'prompt':prompts, 'response':responses}
-        elif exp_name == 'leuven_prompts_answers':
-            batch_size = 32
-            concepts = batches[:,0]
-            features = batches[:,1]
-            prompts = batches[:,2]
-            tokens = batches[:,3]
-            start_time = time.time()
-            tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-xxl")
-            prompt_dict = {'prompt':prompts.tolist()}
-            ds = Dataset.from_dict(prompt_dict)
-            ds = ds.map(lambda examples: T5Tokenizer.from_pretrained("google/flan-t5-xxl")(examples['prompt'],truncation=True, padding='max_length'), batched=True)
-            ds.set_format(type='torch', columns=['input_ids', 'attention_mask'])
-            dataloader = torch.utils.data.DataLoader(ds, batch_size=batch_size,  pin_memory=True, num_workers=10, drop_last=False)
-            flan_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-xxl", device_map="auto",  torch_dtype=torch.bfloat16)
-            flan_model = flan_model.to('cuda')
-            preds = []
-            flan_model.eval()
-            with torch.no_grad():
-                for batch in tqdm(dataloader):
-                    input_ids = batch['input_ids'].to('cuda')
-                    attention_mask = batch['attention_mask'].to('cuda')
-                    outputs = flan_model.generate(input_ids, attention_mask=attention_mask, temperature = temperature)
-                    preds.extend(outputs)
-            print('Time taken to generate responses is {}s'.format(time.time()-start_time))
-            decode_start_time = time.time()
-            responses = tokenizer.batch_decode(preds, skip_special_tokens=True)
-            print('decoding done', time.time()-decode_start_time)
-            del flan_model
-            answer_dict = {'concept':concepts, 'feature':features, 'prompt':prompts, 'response':responses}
+        # elif exp_name == 'leuven_prompts_answers':
+        #     batch_size = 32
+        #     concepts = batches[:,0]
+        #     features = batches[:,1]
+        #     prompts = batches[:,2]
+        #     tokens = batches[:,3]
+        #     start_time = time.time()
+        #     tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-xxl")
+        #     prompt_dict = {'prompt':prompts.tolist()}
+        #     ds = Dataset.from_dict(prompt_dict)
+        #     ds = ds.map(lambda examples: T5Tokenizer.from_pretrained("google/flan-t5-xxl")(examples['prompt'],truncation=True, padding='max_length'), batched=True)
+        #     ds.set_format(type='torch', columns=['input_ids', 'attention_mask'])
+        #     dataloader = torch.utils.data.DataLoader(ds, batch_size=batch_size,  pin_memory=True, num_workers=10, drop_last=False)
+        #     flan_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-xxl", device_map="auto",  torch_dtype=torch.bfloat16)
+        #     flan_model = flan_model.to('cuda')
+        #     preds = []
+        #     flan_model.eval()
+        #     with torch.no_grad():
+        #         for batch in tqdm(dataloader):
+        #             input_ids = batch['input_ids'].to('cuda')
+        #             attention_mask = batch['attention_mask'].to('cuda')
+        #             outputs = flan_model.generate(input_ids, attention_mask=attention_mask, temperature = temperature)
+        #             preds.extend(outputs)
+        #     print('Time taken to generate responses is {}s'.format(time.time()-start_time))
+        #     decode_start_time = time.time()
+        #     responses = tokenizer.batch_decode(preds, skip_special_tokens=True)
+        #     print('decoding done', time.time()-decode_start_time)
+        #     del flan_model
+        #     answer_dict = {'concept':concepts, 'feature':features, 'prompt':prompts, 'response':responses}
     return answer_dict
 
 def save_responses(answer_dict, results_dir, dataset_name, exp_name, model, part, temperature):

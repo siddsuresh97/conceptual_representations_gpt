@@ -17757,3 +17757,183 @@
 02/12/2023 06:36:52 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/generation_config.json HTTP/1.1" 200 0
 02/12/2023 06:36:52 PM Starting new HTTPS connection (1): huggingface.co:443
 02/12/2023 06:36:52 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/generation_config.json HTTP/1.1" 200 0
+02/12/2023 07:16:58 PM is when this event was logged.
+02/12/2023 07:16:58 PM Running experiments with the following parameters
+02/12/2023 07:16:58 PM is when this event was logged.
+02/12/2023 07:16:58 PM Argument dataset_dir: 'iclr/data/leuven'
+02/12/2023 07:16:58 PM Argument dataset_name: None
+02/12/2023 07:16:58 PM Running experiments with the following parameters
+02/12/2023 07:16:58 PM Argument exp_name: 'leuven_prompts_answers'
+02/12/2023 07:16:58 PM Argument dataset_dir: 'iclr/data/leuven'
+02/12/2023 07:16:58 PM Argument feature_list_fname: None
+02/12/2023 07:16:58 PM Argument dataset_name: None
+02/12/2023 07:16:58 PM Argument local_rank: 0
+02/12/2023 07:16:58 PM Argument exp_name: 'leuven_prompts_answers'
+02/12/2023 07:16:58 PM Argument model: 'flan'
+02/12/2023 07:16:58 PM Argument results_dir: 'iclr/data/leuven'
+02/12/2023 07:16:58 PM Argument feature_list_fname: None
+02/12/2023 07:16:58 PM Argument temperature: '0'
+02/12/2023 07:16:58 PM Argument local_rank: 0
+02/12/2023 07:16:58 PM Argument model: 'flan'
+02/12/2023 07:16:58 PM Argument results_dir: 'iclr/data/leuven'
+02/12/2023 07:16:58 PM Argument temperature: '0'
+02/12/2023 07:17:43 PM is when this event was logged.
+02/12/2023 07:17:43 PM Running experiments with the following parameters
+02/12/2023 07:17:43 PM Argument dataset_dir: 'iclr/data/leuven'
+02/12/2023 07:17:43 PM Argument dataset_name: None
+02/12/2023 07:17:43 PM Argument exp_name: 'leuven_prompts_answers'
+02/12/2023 07:17:43 PM Argument feature_list_fname: None
+02/12/2023 07:17:43 PM Argument local_rank: 0
+02/12/2023 07:17:43 PM Argument model: 'flan'
+02/12/2023 07:17:43 PM Argument results_dir: 'iclr/data/leuven'
+02/12/2023 07:17:43 PM Argument temperature: '0'
+02/12/2023 07:17:43 PM is when this event was logged.
+02/12/2023 07:17:43 PM Running experiments with the following parameters
+02/12/2023 07:17:43 PM Argument dataset_dir: 'iclr/data/leuven'
+02/12/2023 07:17:43 PM Argument dataset_name: None
+02/12/2023 07:17:43 PM Argument exp_name: 'leuven_prompts_answers'
+02/12/2023 07:17:43 PM Argument feature_list_fname: None
+02/12/2023 07:17:43 PM Argument local_rank: 0
+02/12/2023 07:17:43 PM Argument model: 'flan'
+02/12/2023 07:17:43 PM Argument results_dir: 'iclr/data/leuven'
+02/12/2023 07:17:43 PM Argument temperature: '0'
+02/12/2023 07:17:52 PM Added key: store_based_barrier_key:1 to store for rank: 0
+02/12/2023 07:17:52 PM Added key: store_based_barrier_key:1 to store for rank: 1
+02/12/2023 07:17:52 PM Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+02/12/2023 07:17:52 PM Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+02/12/2023 07:17:52 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:17:52 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:17:52 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/12/2023 07:17:52 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/12/2023 07:17:52 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:17:52 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:17:52 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/12/2023 07:17:52 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/12/2023 07:18:47 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:18:47 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/config.json HTTP/1.1" 200 0
+02/12/2023 07:18:47 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:18:47 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/config.json HTTP/1.1" 200 0
+02/12/2023 07:20:33 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:20:33 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/generation_config.json HTTP/1.1" 200 0
+02/12/2023 07:20:33 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:20:33 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/generation_config.json HTTP/1.1" 200 0
+02/12/2023 07:21:42 PM is when this event was logged.
+02/12/2023 07:21:42 PM is when this event was logged.
+02/12/2023 07:21:42 PM Running experiments with the following parameters
+02/12/2023 07:21:42 PM Running experiments with the following parameters
+02/12/2023 07:21:42 PM Argument dataset_dir: 'iclr/data/leuven'
+02/12/2023 07:21:42 PM Argument dataset_dir: 'iclr/data/leuven'
+02/12/2023 07:21:42 PM Argument dataset_name: None
+02/12/2023 07:21:42 PM Argument dataset_name: None
+02/12/2023 07:21:42 PM Argument exp_name: 'leuven_prompts_answers'
+02/12/2023 07:21:42 PM Argument exp_name: 'leuven_prompts_answers'
+02/12/2023 07:21:42 PM Argument feature_list_fname: None
+02/12/2023 07:21:42 PM Argument feature_list_fname: None
+02/12/2023 07:21:42 PM Argument local_rank: 0
+02/12/2023 07:21:42 PM Argument local_rank: 0
+02/12/2023 07:21:42 PM Argument model: 'flan'
+02/12/2023 07:21:42 PM Argument model: 'flan'
+02/12/2023 07:21:42 PM Argument results_dir: 'iclr/data/leuven'
+02/12/2023 07:21:42 PM Argument results_dir: 'iclr/data/leuven'
+02/12/2023 07:21:42 PM Argument temperature: '0'
+02/12/2023 07:21:42 PM Argument temperature: '0'
+02/12/2023 07:21:51 PM Added key: store_based_barrier_key:1 to store for rank: 0
+02/12/2023 07:21:51 PM Added key: store_based_barrier_key:1 to store for rank: 1
+02/12/2023 07:21:51 PM Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+02/12/2023 07:21:51 PM Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+02/12/2023 07:21:51 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:21:51 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:21:51 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/12/2023 07:21:51 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/12/2023 07:21:51 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:21:51 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:21:51 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/12/2023 07:21:51 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/12/2023 07:22:47 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:22:47 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/config.json HTTP/1.1" 200 0
+02/12/2023 07:22:48 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:22:48 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/config.json HTTP/1.1" 200 0
+02/12/2023 07:24:35 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:24:35 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/generation_config.json HTTP/1.1" 200 0
+02/12/2023 07:24:36 PM Starting new HTTPS connection (1): huggingface.co:443
+02/12/2023 07:24:36 PM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/generation_config.json HTTP/1.1" 200 0
+02/13/2023 04:21:38 AM is when this event was logged.
+02/13/2023 04:21:38 AM Running experiments with the following parameters
+02/13/2023 04:21:38 AM Argument dataset_dir: 'iclr/data/leuven'
+02/13/2023 04:21:38 AM is when this event was logged.
+02/13/2023 04:21:38 AM Argument dataset_name: None
+02/13/2023 04:21:38 AM Running experiments with the following parameters
+02/13/2023 04:21:38 AM Argument exp_name: 'leuven_prompts_answers'
+02/13/2023 04:21:38 AM Argument feature_list_fname: None
+02/13/2023 04:21:38 AM Argument dataset_dir: 'iclr/data/leuven'
+02/13/2023 04:21:38 AM Argument local_rank: 0
+02/13/2023 04:21:38 AM Argument dataset_name: None
+02/13/2023 04:21:38 AM Argument model: 'flan'
+02/13/2023 04:21:38 AM Argument exp_name: 'leuven_prompts_answers'
+02/13/2023 04:21:38 AM Argument results_dir: 'iclr/data/leuven'
+02/13/2023 04:21:38 AM Argument feature_list_fname: None
+02/13/2023 04:21:38 AM Argument temperature: '0'
+02/13/2023 04:21:38 AM Argument local_rank: 0
+02/13/2023 04:21:38 AM Argument model: 'flan'
+02/13/2023 04:21:38 AM Argument results_dir: 'iclr/data/leuven'
+02/13/2023 04:21:38 AM Argument temperature: '0'
+02/13/2023 04:21:47 AM Added key: store_based_barrier_key:1 to store for rank: 1
+02/13/2023 04:21:47 AM Added key: store_based_barrier_key:1 to store for rank: 0
+02/13/2023 04:21:47 AM Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+02/13/2023 04:21:47 AM Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+02/13/2023 04:21:47 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:21:47 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:21:47 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/13/2023 04:21:47 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/13/2023 04:21:47 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:21:47 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:21:47 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/13/2023 04:21:47 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/13/2023 04:23:18 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:23:18 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/config.json HTTP/1.1" 200 0
+02/13/2023 04:23:20 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:23:20 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/config.json HTTP/1.1" 200 0
+02/13/2023 04:25:03 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:25:03 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/generation_config.json HTTP/1.1" 200 0
+02/13/2023 04:25:05 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:25:05 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/generation_config.json HTTP/1.1" 200 0
+02/13/2023 04:26:35 AM is when this event was logged.
+02/13/2023 04:26:35 AM Running experiments with the following parameters
+02/13/2023 04:26:35 AM Argument dataset_dir: 'iclr/data/leuven'
+02/13/2023 04:26:35 AM Argument dataset_name: None
+02/13/2023 04:26:35 AM Argument exp_name: 'leuven_prompts_answers'
+02/13/2023 04:26:35 AM Argument feature_list_fname: None
+02/13/2023 04:26:35 AM Argument local_rank: 0
+02/13/2023 04:26:35 AM Argument model: 'flan'
+02/13/2023 04:26:35 AM Argument results_dir: 'iclr/data/leuven'
+02/13/2023 04:26:35 AM Argument temperature: '0'
+02/13/2023 04:26:35 AM is when this event was logged.
+02/13/2023 04:26:35 AM Running experiments with the following parameters
+02/13/2023 04:26:35 AM Argument dataset_dir: 'iclr/data/leuven'
+02/13/2023 04:26:35 AM Argument dataset_name: None
+02/13/2023 04:26:35 AM Argument exp_name: 'leuven_prompts_answers'
+02/13/2023 04:26:35 AM Argument feature_list_fname: None
+02/13/2023 04:26:35 AM Argument local_rank: 0
+02/13/2023 04:26:35 AM Argument model: 'flan'
+02/13/2023 04:26:35 AM Argument results_dir: 'iclr/data/leuven'
+02/13/2023 04:26:35 AM Argument temperature: '0'
+02/13/2023 04:26:45 AM Added key: store_based_barrier_key:1 to store for rank: 0
+02/13/2023 04:26:45 AM Added key: store_based_barrier_key:1 to store for rank: 1
+02/13/2023 04:26:45 AM Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+02/13/2023 04:26:45 AM Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+02/13/2023 04:26:45 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:26:45 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:26:45 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/13/2023 04:26:45 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/13/2023 04:26:45 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:26:45 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/13/2023 04:26:45 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:26:45 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/spiece.model HTTP/1.1" 302 0
+02/13/2023 04:28:15 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:28:15 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/config.json HTTP/1.1" 200 0
+02/13/2023 04:28:17 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:28:17 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/config.json HTTP/1.1" 200 0
+02/13/2023 04:29:59 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:29:59 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/generation_config.json HTTP/1.1" 200 0
+02/13/2023 04:30:01 AM Starting new HTTPS connection (1): huggingface.co:443
+02/13/2023 04:30:01 AM https://huggingface.co:443 "HEAD /google/flan-t5-xxl/resolve/main/generation_config.json HTTP/1.1" 200 0

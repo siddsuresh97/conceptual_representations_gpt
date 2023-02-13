@@ -349,7 +349,7 @@ def get_transformer_responses(batches, model, exp_name, temperature):
             ds = ds.map(lambda examples: tokenizer(examples['prompt'],truncation=True, padding='max_length'), batched=True)
             ds.set_format(type='torch', columns=['input_ids', 'attention_mask'])
             dataloader = torch.utils.data.DataLoader(ds, batch_size=batch_size, num_workers=10, drop_last=False, pin_memory=True)
-            flan_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-xxl", return_dict=True,  torch_dtype=torch.bfloat16,  cache_dir="/data")
+            flan_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-xxl", return_dict=True,  torch_dtype=torch.bfloat16)
             flan_model = flan_model.to(device)
             # flan_model, dataloader = accelerator.prepare(T5ForConditionalGeneration.from_pretrained("google/flan-t5-xxl", device_map="balanced_low_0", torch_dtype=torch.bfloat16,  cache_dir="/data"), dataloader)
             preds = []

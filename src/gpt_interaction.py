@@ -341,7 +341,7 @@ def get_transformer_responses(batches, model, exp_name, temperature):
             start_time = time.time()
             tokenizer = T5Tokenizer.from_pretrained("google/flan-t5-xxl")
             tokenizer = accelerator.prepare(
-                T5Tokenizer.from_pretrained("google/flan-t5-xxl", device_map="balanced_low_0")
+                T5Tokenizer.from_pretrained("google/flan-t5-xxl")
             )
             prompt_dict = {'prompt':prompts.tolist()}
             ds = Dataset.from_dict(prompt_dict)

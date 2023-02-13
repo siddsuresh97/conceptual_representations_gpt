@@ -333,7 +333,7 @@ def get_transformer_responses(batches, model, exp_name, temperature):
         elif exp_name == 'leuven_prompts_answers':
             accelerator = Accelerator()
             device = accelerator.device
-            batch_size = 8
+            batch_size = 256
             concepts = batches[:,0]
             features = batches[:,1]
             prompts = batches[:,2]

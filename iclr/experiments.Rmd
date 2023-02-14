@@ -31,11 +31,11 @@ rownames(leuven_mds) <- leuven$X
 leuven_mds <- leuven_mds[order(rownames(leuven_mds)),]
 
 #flan_verified
-flan_cosine_dist = 1-  lsa::cosine(t(data.matrix(flan[,2:ncol(flan)])))
-flan_mds <- cmdscale(flan_cosine_dist,k = 3)
-rownames(flan_cosine_dist) <- flan$concept
-rownames(flan_mds) <- flan$concept
-flan_mds <- flan_mds[order(rownames(flan_mds)),]
+flan_specific_cosine_dist = 1-  lsa::cosine(t(data.matrix(flan_specific[,2:ncol(flan_specific)])))
+flan_specific_mds <- cmdscale(flan_specific_cosine_dist,k = 3)
+rownames(flan_specific_cosine_dist) <- flan_specific$concept
+rownames(flan_specific_mds) <- flan_specific$concept
+flan_specific_mds <- flan_specific_mds[order(rownames(flan_specific_mds)),]
 
 #flan_verified broad
 flan_broad_cosine_dist = 1-  lsa::cosine(t(data.matrix(flan_broad[,2:ncol(flan_broad)])))
@@ -47,7 +47,7 @@ flan_broad_mds <- flan_broad_mds[order(rownames(flan_broad_mds)),]
 
 
 # pairwise protest all elements
-matrices = list(leuven_mds, flan_mds)
+matrices = list(leuven_mds, flan_specific_mds, flan_broad_mds)
 ## Create an empty list to store the results
 results = list()
 
@@ -62,7 +62,7 @@ for (i in 1:(length(matrices))) {
 
 ## make the results into a table
 ## Create a data frame with all possible combinations of matrix names
-matrix_names = list("leuven", "flan")
+matrix_names = list("leuven", "flan_specific", "flan_broad")
 matrix_combinations = expand.grid(matrix_names, matrix_names)
 
 ## Assign column names to the data frame

@@ -17,15 +17,21 @@ def run_exp(exp_name, dataset_name, dataset_dir, feature_list_fname, model, open
         batches = make_gpt_prompt_batches_triplet(triplets)
     elif exp_name == 'leuven_prompts_answers':
         animal_leuven_norms, artifacts_leuven_norms = load_leuven_norms(dataset_dir)
-        batches_animals = []
-        batches_artifacts = []
-        for concept, feature in itertools.product(list(animal_leuven_norms.index), list(animal_leuven_norms.columns)):
-            batches_animals.append([concept, feature])
-        for concept, feature in itertools.product(list(artifacts_leuven_norms.index), list(artifacts_leuven_norms.columns)):
-            batches_artifacts.append([concept, feature])
-        batches_animals = make_leuven_prompts(batches_animals)
-        batches_artifacts = make_leuven_prompts(batches_artifacts)
-        batches = batches_animals + batches_artifacts
+        batches = []
+        # batches_animals = []
+        # batches_artifacts = []
+        # for concept, feature in itertools.product(list(animal_leuven_norms.index), list(animal_leuven_norms.columns)):
+        #     batches_animals.append([concept, feature])
+        # for concept, feature in itertools.product(list(artifacts_leuven_norms.index), list(artifacts_leuven_norms.columns)):
+        #     batches_artifacts.append([concept, feature])
+        features = list(set(list(animal_leuven_norms.columns) + list(artifacts_leuven_norms.columns)))
+        concepts = list(set(list(animal_leuven_norms.index) + list(artifacts_leuven_norms.index)))
+        for concept, feature in itertools.product(concepts, features):
+            batches.append([concept, feature])
+        # batches_animals = make_leuven_prompts(batches_animals)
+        # batches_artifacts = make_leuven_prompts(batches_artifacts)
+        # batches = batches_animals + batches_artifacts
+        batches = make_leuven_prompts(batches)
         print('total prompts', len(batches))
     else:
         logging.error('Undefined task. Only feature listing and triplet implemented')

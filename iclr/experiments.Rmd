@@ -19,35 +19,54 @@ leuven_animals = read.csv('data/leuven/animal_leuven_norms.csv')
 leuven_tools = read.csv('data/leuven/artifacts_leuven_norms.csv')
 flan_broad = read.csv('data/leuven/flan_leuven_norms_broad_prompt.csv')
 flan_specific = read.csv('data/leuven/flan_leuven_norms.csv')
+leuven =read.csv('data/leuven/leuven_norms.csv')
+
+# leuven_data
+rownames(leuven) = leuven$Unnamed..0
+leuven = leuven[, 3:ncol(leuven)]
+leuven = leuven[order(rownames(leuven)), order(colnames(leuven))]
 
 
 #leuven_data
-leuven = merge(leuven_animals, leuven_tools, by = 'X', all = TRUE)
-leuven[is.na(leuven)] = 0
-leuven_cosine_dist = 1-  lsa::cosine(t(data.matrix(leuven[,2:ncol(leuven)])))
+<!-- leuven = merge(leuven_animals, leuven_tools, by = 'X', all = TRUE) -->
+<!-- leuven[is.na(leuven)] = 0 -->
+leuven_cosine_dist = 1-  lsa::cosine(t(data.matrix(leuven[,1:ncol(leuven)])))
 leuven_mds <- cmdscale(leuven_cosine_dist,k = 3)
-rownames(leuven_cosine_dist) <- leuven$X
-rownames(leuven_mds) <- leuven$X
+<!-- rownames(leuven_cosine_dist) <- leuven$X -->
+<!-- rownames(leuven_mds) <- leuven$X -->
 leuven_mds <- leuven_mds[order(rownames(leuven_mds)),]
 
+
+# flan_verified_broad
+rownames(flan_broad) = flan_broad$concept
+flan_broad = flan_broad[, 2:ncol(flan_broad)]
+flan_broad = flan_broad[order(rownames(flan_broad)), ]
+
+# flan_verified_specific
+rownames(flan_specific) = flan_specific$concept
+flan_specific = flan_specific[, 2:ncol(flan_specific)]
+flan_specific = flan_specific[order(rownames(flan_specific)), order(colnames(flan_specific))]
+
+
 #flan_verified
-flan_specific_cosine_dist = 1-  lsa::cosine(t(data.matrix(flan_specific[,2:ncol(flan_specific)])))
+flan_specific_cosine_dist = 1-  lsa::cosine(t(data.matrix(flan_specific[,1:ncol(flan_specific)])))
 flan_specific_mds <- cmdscale(flan_specific_cosine_dist,k = 3)
-rownames(flan_specific_cosine_dist) <- flan_specific$concept
-rownames(flan_specific_mds) <- flan_specific$concept
+<!-- rownames(flan_specific_cosine_dist) <- flan_specific$concept -->
+<!-- rownames(flan_specific_mds) <- flan_specific$concept -->
 flan_specific_mds <- flan_specific_mds[order(rownames(flan_specific_mds)),]
 
 #flan_verified broad
-flan_broad_cosine_dist = 1-  lsa::cosine(t(data.matrix(flan_broad[,2:ncol(flan_broad)])))
+flan_broad_cosine_dist = 1-  lsa::cosine(t(data.matrix(flan_broad[,1:ncol(flan_broad)])))
 flan_broad_mds <- cmdscale(flan_broad_cosine_dist,k = 3)
-rownames(flan_broad_cosine_dist) <- flan_broad$concept
-rownames(flan_broad_mds) <- flan_broad$concept
+<!-- rownames(flan_broad_cosine_dist) <- flan_broad$concept -->
+<!-- rownames(flan_broad_mds) <- flan_broad$concept -->
 flan_broad_mds <- flan_broad_mds[order(rownames(flan_broad_mds)),]
 
 
 
 # pairwise protest all elements
 matrices = list(leuven_mds, flan_specific_mds, flan_broad_mds)
+<!-- matrices = list(leuven, flan_specific, flan_broad) -->
 ## Create an empty list to store the results
 results = list()
 
@@ -59,6 +78,7 @@ for (i in 1:(length(matrices))) {
         results = c(results, sqrt(1-result$ss))
     }
 }
+
 
 ## make the results into a table
 ## Create a data frame with all possible combinations of matrix names
@@ -78,6 +98,7 @@ for (i in 1:length(matrix_names)) {
 }
 
 protest_results =  pivot_wider(matrix_combinations, names_from = matrix1, values_from = result)
+
 <!-- df <- apply(protest_results,2,as.character) -->
 
 write.table(data.frame(df), "results/correlation_table.csv", sep=",")

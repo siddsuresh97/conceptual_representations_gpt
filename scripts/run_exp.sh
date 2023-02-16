@@ -30,7 +30,7 @@ accelerate launch src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --datase
 
 
 #2/15/23 - run experiments with feature voerlap across animals and artifacts
- CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven'
+CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven'
 
 
 

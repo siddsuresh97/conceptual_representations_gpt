@@ -20,6 +20,7 @@ leuven_tools = read.csv('data/leuven/artifacts_leuven_norms.csv')
 flan_broad = read.csv('data/leuven/flan_leuven_norms_broad_prompt.csv')
 flan_specific = read.csv('data/leuven/flan_leuven_norms.csv')
 leuven =read.csv('data/leuven/leuven_norms.csv')
+flan_overlap = read.csv('data/leuven/flan_leuven_norms_overlap.csv')
 
 # leuven_data
 rownames(leuven) = leuven$Unnamed..0
@@ -47,6 +48,11 @@ rownames(flan_specific) = flan_specific$concept
 flan_specific = flan_specific[, 2:ncol(flan_specific)]
 flan_specific = flan_specific[order(rownames(flan_specific)), order(colnames(flan_specific))]
 
+# flan_overlap
+rownames(flan_overlap) = flan_overlap$concept
+flan_overlap = flan_overlap[, 2:ncol(flan_overlap)]
+flan_overlap = flan_overlap[order(rownames(flan_overlap)), order(colnames(flan_overlap))]
+
 
 #flan_verified
 flan_specific_cosine_dist = 1-  lsa::cosine(t(data.matrix(flan_specific[,1:ncol(flan_specific)])))
@@ -62,10 +68,15 @@ flan_broad_mds <- cmdscale(flan_broad_cosine_dist,k = 3)
 <!-- rownames(flan_broad_mds) <- flan_broad$concept -->
 flan_broad_mds <- flan_broad_mds[order(rownames(flan_broad_mds)),]
 
+# flan_overlap
+flan_overlap_cosine_dist = 1-  lsa::cosine(t(data.matrix(flan_overlap[,1:ncol(flan_overlap)])))
+flan_overlap_mds <- cmdscale(flan_overlap_cosine_dist,k = 3)
+flan_overlap_mds <- flan_overlap_mds[order(rownames(flan_overlap_mds)),]
+
 
 
 # pairwise protest all elements
-matrices = list(leuven_mds, flan_specific_mds, flan_broad_mds)
+matrices = list(leuven_mds, flan_specific_mds, flan_broad_mds, flan_overlap_mds)
 <!-- matrices = list(leuven, flan_specific, flan_broad) -->
 ## Create an empty list to store the results
 results = list()
@@ -82,7 +93,7 @@ for (i in 1:(length(matrices))) {
 
 ## make the results into a table
 ## Create a data frame with all possible combinations of matrix names
-matrix_names = list("leuven", "flan_specific", "flan_broad")
+matrix_names = list("leuven", "flan_specific", "flan_broad", "flan_overlap")
 matrix_combinations = expand.grid(matrix_names, matrix_names)
 
 ## Assign column names to the data frame

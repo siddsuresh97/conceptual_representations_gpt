@@ -2,4 +2,4 @@
 iclr/data/leuven/flan/.DS_Store
 iclr/data/leuven/flan/.ipynb_checkpoints
 src/__pycache__
-
+*.DS_Store

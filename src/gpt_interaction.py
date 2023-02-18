@@ -270,7 +270,7 @@ def get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dat
     logging.info('Speedup by parallilsation was {} x'.format((np.sum(each_prompt_api_time)- exp_run_time)/exp_run_time))
     return answer_dict
 
-def get_transformer_responses(batches, model, exp_name, temperature):
+def get_transformer_responses(batches, model, exp_name, temperature, sample):
     answer_dict = {}
     each_prompt_api_time = []
     start_time = time.time()
@@ -358,14 +358,29 @@ def get_transformer_responses(batches, model, exp_name, temperature):
                 for batch in tqdm(dataloader):
                     input_ids = batch['input_ids'].to(device) #.to(device=accelerator.device)
                     attention_mask = batch['attention_mask'].to(device) #.to(device=accelerator.device)
-                    outputs = flan_model.generate(input_ids, attention_mask=attention_mask, temperature = temperature)
-                    preds.extend(outputs)
+                    if sample == "False":
+                        outputs = flan_model.generate(input_ids, attention_mask=attention_mask, temperature = temperature)
+                        preds.extend(outputs)
+                    else:
+                        outputs = model.generate(
+                            input_ids,
+                            do_sample=True, 
+                            max_length=50, 
+                            top_k=10, 
+                            top_p=0.95, 
+                            num_return_sequences=20
+                        )
             print('Time taken to generate responses is {}s'.format(time.time()-start_time))
             decode_start_time = time.time()
-            responses = tokenizer.batch_decode(preds, skip_special_tokens=True)
-            print('decoding done', time.time()-decode_start_time)
             del flan_model
-            answer_dict = {'concept':concepts, 'feature':features, 'prompt':prompts, 'response':responses}
+            if sample == "False":
+                responses = tokenizer.batch_decode(preds, skip_special_tokens=True)
+                print('decoding done', time.time()-decode_start_time)
+                answer_dict = {'concept':concepts, 'feature':features, 'prompt':prompts, 'response':responses}
+            else:
+                responses = [tokenizer.decode(sample_output, skip_special_tokens=True) for sample_output in responses]
+            print('decoding done', time.time()-decode_start_time)
+            answer_dict = {'concept':concepts, 'feature':features, 'prompt':prompts, 'response':responses, 'tokens':tokens}
 
         # torch distributed
         # elif exp_name == 'leuven_prompts_answers':
@@ -428,9 +443,18 @@ def get_transformer_responses(batches, model, exp_name, temperature):
         #     answer_dict = {'concept':concepts, 'feature':features, 'prompt':prompts, 'response':responses}
     return answer_dict
 
-def save_responses(answer_dict, results_dir, dataset_name, exp_name, model, part, temperature):
+def save_responses(answer_dict, results_dir, dataset_name, exp_name, model, part, temperature, sample):
     if exp_name == 'leuven_prompts_answers':
         #make a df from the answer dict
+        if sample:
+            answers = [x.replace("True", "Yes").replace("False", "No") for x in answer_dict['response']]
+            answers = [answers[i:i+20] for i in range(0, len(answers), 20)]
+            answers = [[[x, answers[i].count(x)] for x in set(answers[i])]for i in range(len(answers))]
+            answers = [[sorted(x, key=lambda x: x[1], reverse=True)] for x in answers]
+            winner = [x[0][0][0] for x in answers]
+            confidence = [x[0][0][1]/20 for x in answers]
+            answer_dict['response'] = winner
+            answer_dict['confidence'] = confidence
         df = pd.DataFrame.from_dict(answer_dict)
         # TODO - change save dir path
         df.to_csv(os.path.join(results_dir, model +'_'+ exp_name + '.csv'))

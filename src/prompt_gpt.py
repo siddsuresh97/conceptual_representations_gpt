@@ -23,6 +23,7 @@ def main():
     parser.add_argument('--dataset_dir',help = """dataset directory""", default = DATASET_DIR)
     parser.add_argument('--results_dir',help = """results directory""", default = DEFAULT_RESULTS_DIR)
     parser.add_argument('--local_rank',help = """device local rank""", default =0)
+    parser.add_argument('--sample',help = """sample or not""")
     args = parser.parse_args()
     logging.basicConfig(filename="logs/{}_{}_{}.log".format(args.exp_name, args.dataset_name, args.model), level=logging.DEBUG, # encoding='utf-8',
                         format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
@@ -42,7 +43,8 @@ def main():
             model = args.model,
             openai_api_key = None,
             results_dir = args.results_dir,
-            temperature = float(args.temperature)
+            temperature = float(args.temperature), 
+            sample = args.sample
             # device = device
             )
 

@@ -25,13 +25,16 @@
 # python src/prompt_gpt.py --dataset_name 'reptile_tool' --exp_name 'triplet' --feature_list_fname 'triplets_reptile_tools.pkl' --model 'flan' --temperature 0
 
 
-#2/11/23 - run experiments to generate prompts for leuven norms to test on flan
-accelerate launch src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven'
+# #2/11/23 - run experiments to generate prompts for leuven norms to test on flan
+# accelerate launch src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven'
 
 
-#2/15/23 - run experiments with feature voerlap across animals and artifacts
-CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven'
+# #2/15/23 - run experiments with feature voerlap across animals and artifacts
+# CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven'
 
+
+#2/17/23 - run experiments with feature voerlap across animals and artifacts self consistency
+CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven' --exp_name 'self_consistency'
 
 
 

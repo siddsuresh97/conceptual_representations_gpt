@@ -4,7 +4,7 @@ from gpt_interaction import *
 from preprocess import *
 
 
-def run_exp(exp_name, dataset_name, dataset_dir, feature_list_fname, model, openai_api_key, results_dir, temperature):
+def run_exp(exp_name, dataset_name, dataset_dir, feature_list_fname, model, openai_api_key, results_dir, temperature, sample):
     if exp_name == 'feature_listing':
         df = pd.read_csv(os.path.join(dataset_dir, dataset_name ,feature_list_fname))
         concepts_set, features_set, concept_feature_matrix = create_and_fill_concept_feature_matrix(df)
@@ -26,7 +26,7 @@ def run_exp(exp_name, dataset_name, dataset_dir, feature_list_fname, model, open
         #     batches_artifacts.append([concept, feature])
         features = list(set(list(animal_leuven_norms.columns) + list(artifacts_leuven_norms.columns)))
         concepts = list(set(list(animal_leuven_norms.index) + list(artifacts_leuven_norms.index)))
-        for concept, feature in itertools.product(concepts, features):
+        for concept, feature in itertools.product(concepts[:10], features[:10]):
             batches.append([concept, feature])
         # batches_animals = make_leuven_prompts(batches_animals)
         # batches_artifacts = make_leuven_prompts(batches_artifacts)
@@ -40,6 +40,6 @@ def run_exp(exp_name, dataset_name, dataset_dir, feature_list_fname, model, open
     if model != 'flan':
         answer_dict = get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dataset_name, temperature)
     else:
-        answer_dict = get_transformer_responses(batches, model, exp_name, temperature)
-    save_responses(answer_dict, results_dir, dataset_name, exp_name, model, 'full', temperature)
+        answer_dict = get_transformer_responses(batches, model, exp_name, temperature, sample)
+    save_responses(answer_dict, results_dir, dataset_name, exp_name, model, 'full', temperature, sample)
     return

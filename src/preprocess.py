@@ -2,20 +2,26 @@ import pandas as pd
 import os
 from joblib import Parallel, delayed
 
-def preprocess_leuven_norms(leuven_dir, save_dir):
+def preprocess_leuven_norms(leuven_dir, save_dir, threshold = True, original_counts = False):
     '''This function reads the Leuven Norms, selecsts relevant concepts data and saves the dataframes as csv files.'''
     animal_leuven_norms = pd.read_csv(os.path.join(leuven_dir,'ANIMALSexemplarfeaturesbig.txt'), sep = "\t")
     artiacts_leuven_norms = pd.read_csv(os.path.join(leuven_dir,'ARTIFACTSexemplarfeaturesbig.txt'), sep = "\t", encoding='latin-1')
      # in animal norms, the first column is the word, the second column is the frequency, multiply all cells by the freqeuncy 
-    animal_leuven_norms.iloc[:,2:] = animal_leuven_norms.iloc[:,2:].multiply(animal_leuven_norms.iloc[:,1], axis=0)
-    animal_leuven_norms.iloc[:,2:] = animal_leuven_norms.iloc[:,2:].div(animal_leuven_norms.iloc[:,1].sum(), axis=0)
+    # animal_leuven_norms.iloc[:,2:] = animal_leuven_norms.iloc[:,2:].multiply(animal_leuven_norms.iloc[:,1], axis=0)
+    # animal_leuven_norms.iloc[:,2:] = animal_leuven_norms.iloc[:,2:].div(animal_leuven_norms.iloc[:,1].sum(), axis=0)
 
-    artiacts_leuven_norms.iloc[:,2:] = artiacts_leuven_norms.iloc[:,2:].multiply(artiacts_leuven_norms.iloc[:,1], axis=0)
-    artiacts_leuven_norms.iloc[:,2:] = artiacts_leuven_norms.iloc[:,2:].div(artiacts_leuven_norms.iloc[:,1].sum(), axis=0)
+    # artiacts_leuven_norms.iloc[:,2:] = artiacts_leuven_norms.iloc[:,2:].multiply(artiacts_leuven_norms.iloc[:,1], axis=0)
+    # artiacts_leuven_norms.iloc[:,2:] = artiacts_leuven_norms.iloc[:,2:].div(artiacts_leuven_norms.iloc[:,1].sum(), axis=0)
+    if not original_counts:
+        if threshold:
+            # let the value of the cells be 1 if the value is equal to 4 and 0 otherwise
+            animal_leuven_norms.iloc[:,2:] = animal_leuven_norms.iloc[:,2:].applymap(lambda x: 1 if x == 4 else 0)
+            artiacts_leuven_norms.iloc[:,2:] = artiacts_leuven_norms.iloc[:,2:].applymap(lambda x: 1 if x == 4 else 0)
 
-    # from the third column onwards, replace the values grater than 0 with 1 and 0 otherwise
-    animal_leuven_norms.iloc[:,2:] = animal_leuven_norms.iloc[:,2:].applymap(lambda x: 1 if x > 0 else 0)
-    artiacts_leuven_norms.iloc[:,2:] = artiacts_leuven_norms.iloc[:,2:].applymap(lambda x: 1 if x > 0 else 0)
+        else:
+            # from the third column onwards, replace the values grater than 0 with 1 and 0 otherwise
+            animal_leuven_norms.iloc[:,2:] = animal_leuven_norms.iloc[:,2:].applymap(lambda x: 1 if x > 0 else 0)
+            artiacts_leuven_norms.iloc[:,2:] = artiacts_leuven_norms.iloc[:,2:].applymap(lambda x: 1 if x > 0 else 0)
 
     # select the first column and select columns that contain the animal names in the list animals and also the first column
     animal_leuven_norms = animal_leuven_norms[['feature/_exemplar_ENGLISH'] + [col for col in animal_leuven_norms.columns]]
@@ -41,8 +47,16 @@ def preprocess_leuven_norms(leuven_dir, save_dir):
     artiacts_leuven_norms = artiacts_leuven_norms.drop(artiacts_leuven_norms.index[0])
 
     # save the dataframes as csv files
-    animal_leuven_norms.to_csv(os.path.join(save_dir,'animal_leuven_norms.csv'))
-    artiacts_leuven_norms.to_csv(os.path.join(save_dir,'artifacts_leuven_norms.csv'))
+    if not original_counts:
+        if threshold:
+            animal_leuven_norms.to_csv(os.path.join(save_dir,'animal_leuven_norms_threshold_4.csv'))
+            artiacts_leuven_norms.to_csv(os.path.join(save_dir,'artifacts_leuven_norms_threshold_4.csv'))
+        else:
+            animal_leuven_norms.to_csv(os.path.join(save_dir,'animal_leuven_norms_no_threshold.csv'))
+            artiacts_leuven_norms.to_csv(os.path.join(save_dir,'artifacts_leuven_norms_no_threshold.csv'))
+    else:
+        animal_leuven_norms.to_csv(os.path.join(save_dir,'animal_leuven_norms_original_counts.csv'))
+        artiacts_leuven_norms.to_csv(os.path.join(save_dir,'artifacts_leuven_norms_original_counts.csv'))
     return 
 
 

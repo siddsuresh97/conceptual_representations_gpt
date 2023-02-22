@@ -41,7 +41,7 @@ def main():
             dataset_dir = args.dataset_dir ,
             feature_list_fname = args.feature_list_fname,
             model = args.model,
-            openai_api_key = os.environ['OPENAI_API_KEY_SID'],
+            openai_api_key = None, #os.environ['OPENAI_API_KEY_SID']
             results_dir = args.results_dir,
             temperature = float(args.temperature), 
             sample = args.sample

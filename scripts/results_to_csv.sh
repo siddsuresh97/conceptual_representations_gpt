@@ -30,4 +30,4 @@
 
 
 #2/21/23 - running with temperature - generate leuven prompts using babbage
-python src/results_to_csv.py --exp_name 'generate_iclr_prompts' --dataset_name 'gpt_generated_prompts' --model 'curie' --temperature 0.0 --results_dir 'iclr/data/'
+python src/results_to_csv.py --exp_name 'generate_iclr_prompts' --dataset_name 'gpt_generated_prompts' --model 'curie' --temperature 0.0 --results_dir 'iclr/data/flan'

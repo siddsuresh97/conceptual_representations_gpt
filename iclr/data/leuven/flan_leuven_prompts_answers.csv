@@ -1,0 +1,2801 @@
+,concept,feature,prompt,response,tokens
+0,python,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [python]?
+A: <mask>",False,0
+1,python,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [python]?
+A: <mask>",False,0
+2,python,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [python]?
+A: <mask>",True,0
+3,python,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [python]?
+A: <mask>",True,0
+4,python,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [python]?
+A: <mask>",True,0
+5,python,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [python]?
+A: <mask>",False,0
+6,python,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [python]?
+A: <mask>",False,0
+7,python,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [python]?
+A: <mask>",True,0
+8,python,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [python]?
+A: <mask>",True,0
+9,python,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [python]?
+A: <mask>",False,0
+10,python,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [python]?
+A: <mask>",False,0
+11,python,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [python]?
+A: <mask>",False,0
+12,python,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [python]?
+A: <mask>",False,0
+13,python,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [python]?
+A: <mask>",False,0
+14,python,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [python]?
+A: <mask>",False,0
+15,python,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [python]?
+A: <mask>",False,0
+16,python,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [python]?
+A: <mask>",False,0
+17,python,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [python]?
+A: <mask>",False,0
+18,python,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [python]?
+A: <mask>",False,0
+19,python,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [python]?
+A: <mask>",False,0
+20,grater,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [grater]?
+A: <mask>",True,0
+21,grater,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [grater]?
+A: <mask>",False,0
+22,grater,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [grater]?
+A: <mask>",True,0
+23,grater,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [grater]?
+A: <mask>",False,0
+24,grater,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [grater]?
+A: <mask>",False,0
+25,grater,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [grater]?
+A: <mask>",False,0
+26,grater,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [grater]?
+A: <mask>",False,0
+27,grater,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [grater]?
+A: <mask>",False,0
+28,grater,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [grater]?
+A: <mask>",False,0
+29,grater,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [grater]?
+A: <mask>",False,0
+30,grater,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [grater]?
+A: <mask>",False,0
+31,grater,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [grater]?
+A: <mask>",False,0
+32,grater,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [grater]?
+A: <mask>",False,0
+33,grater,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [grater]?
+A: <mask>",False,0
+34,grater,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [grater]?
+A: <mask>",False,0
+35,grater,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [grater]?
+A: <mask>",False,0
+36,grater,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [grater]?
+A: <mask>",False,0
+37,grater,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [grater]?
+A: <mask>",False,0
+38,grater,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [grater]?
+A: <mask>",False,0
+39,grater,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [grater]?
+A: <mask>",False,0
+40,mittens,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [mittens]?
+A: <mask>",False,0
+41,mittens,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [mittens]?
+A: <mask>",False,0
+42,mittens,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [mittens]?
+A: <mask>",False,0
+43,mittens,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [mittens]?
+A: <mask>",False,0
+44,mittens,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [mittens]?
+A: <mask>",True,0
+45,mittens,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [mittens]?
+A: <mask>",False,0
+46,mittens,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [mittens]?
+A: <mask>",False,0
+47,mittens,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [mittens]?
+A: <mask>",False,0
+48,mittens,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [mittens]?
+A: <mask>",False,0
+49,mittens,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [mittens]?
+A: <mask>",False,0
+50,mittens,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [mittens]?
+A: <mask>",False,0
+51,mittens,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [mittens]?
+A: <mask>",False,0
+52,mittens,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [mittens]?
+A: <mask>",False,0
+53,mittens,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [mittens]?
+A: <mask>",False,0
+54,mittens,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [mittens]?
+A: <mask>",False,0
+55,mittens,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [mittens]?
+A: <mask>",False,0
+56,mittens,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [mittens]?
+A: <mask>",False,0
+57,mittens,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [mittens]?
+A: <mask>",False,0
+58,mittens,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [mittens]?
+A: <mask>",False,0
+59,mittens,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [mittens]?
+A: <mask>",False,0
+60,cap,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [cap]?
+A: <mask>",False,0
+61,cap,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [cap]?
+A: <mask>",False,0
+62,cap,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [cap]?
+A: <mask>",False,0
+63,cap,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [cap]?
+A: <mask>",False,0
+64,cap,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [cap]?
+A: <mask>",False,0
+65,cap,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [cap]?
+A: <mask>",False,0
+66,cap,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [cap]?
+A: <mask>",False,0
+67,cap,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [cap]?
+A: <mask>",False,0
+68,cap,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [cap]?
+A: <mask>",False,0
+69,cap,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [cap]?
+A: <mask>",False,0
+70,cap,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [cap]?
+A: <mask>",False,0
+71,cap,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [cap]?
+A: <mask>",False,0
+72,cap,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [cap]?
+A: <mask>",False,0
+73,cap,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [cap]?
+A: <mask>",False,0
+74,cap,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [cap]?
+A: <mask>",False,0
+75,cap,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [cap]?
+A: <mask>",False,0
+76,cap,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [cap]?
+A: <mask>",False,0
+77,cap,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [cap]?
+A: <mask>",False,0
+78,cap,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [cap]?
+A: <mask>",False,0
+79,cap,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [cap]?
+A: <mask>",False,0
+80,harp,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [harp]?
+A: <mask>",False,0
+81,harp,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [harp]?
+A: <mask>",False,0
+82,harp,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [harp]?
+A: <mask>",True,0
+83,harp,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [harp]?
+A: <mask>",False,0
+84,harp,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [harp]?
+A: <mask>",False,0
+85,harp,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [harp]?
+A: <mask>",False,0
+86,harp,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [harp]?
+A: <mask>",False,0
+87,harp,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [harp]?
+A: <mask>",False,0
+88,harp,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [harp]?
+A: <mask>",False,0
+89,harp,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [harp]?
+A: <mask>",False,0
+90,harp,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [harp]?
+A: <mask>",False,0
+91,harp,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [harp]?
+A: <mask>",False,0
+92,harp,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [harp]?
+A: <mask>",False,0
+93,harp,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [harp]?
+A: <mask>",True,0
+94,harp,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [harp]?
+A: <mask>",False,0
+95,harp,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [harp]?
+A: <mask>",False,0
+96,harp,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [harp]?
+A: <mask>",False,0
+97,harp,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [harp]?
+A: <mask>",False,0
+98,harp,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [harp]?
+A: <mask>",False,0
+99,harp,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [harp]?
+A: <mask>",False,0
+100,shield,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [shield]?
+A: <mask>",False,0
+101,shield,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [shield]?
+A: <mask>",False,0
+102,shield,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [shield]?
+A: <mask>",False,0
+103,shield,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [shield]?
+A: <mask>",False,0
+104,shield,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [shield]?
+A: <mask>",True,0
+105,shield,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [shield]?
+A: <mask>",False,0
+106,shield,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [shield]?
+A: <mask>",False,0
+107,shield,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [shield]?
+A: <mask>",False,0
+108,shield,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [shield]?
+A: <mask>",False,0
+109,shield,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [shield]?
+A: <mask>",False,0
+110,shield,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [shield]?
+A: <mask>",False,0
+111,shield,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [shield]?
+A: <mask>",False,0
+112,shield,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [shield]?
+A: <mask>",False,0
+113,shield,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [shield]?
+A: <mask>",False,0
+114,shield,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [shield]?
+A: <mask>",False,0
+115,shield,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [shield]?
+A: <mask>",False,0
+116,shield,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [shield]?
+A: <mask>",True,0
+117,shield,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [shield]?
+A: <mask>",False,0
+118,shield,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [shield]?
+A: <mask>",False,0
+119,shield,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [shield]?
+A: <mask>",False,0
+120,delivery_van,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [delivery_van]?
+A: <mask>",False,0
+121,delivery_van,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [delivery_van]?
+A: <mask>",False,0
+122,delivery_van,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [delivery_van]?
+A: <mask>",False,0
+123,delivery_van,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [delivery_van]?
+A: <mask>",False,0
+124,delivery_van,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [delivery_van]?
+A: <mask>",False,0
+125,delivery_van,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [delivery_van]?
+A: <mask>",False,0
+126,delivery_van,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [delivery_van]?
+A: <mask>",False,0
+127,delivery_van,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [delivery_van]?
+A: <mask>",False,0
+128,delivery_van,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [delivery_van]?
+A: <mask>",False,0
+129,delivery_van,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [delivery_van]?
+A: <mask>",False,0
+130,delivery_van,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [delivery_van]?
+A: <mask>",False,0
+131,delivery_van,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [delivery_van]?
+A: <mask>",False,0
+132,delivery_van,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [delivery_van]?
+A: <mask>",False,0
+133,delivery_van,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [delivery_van]?
+A: <mask>",False,0
+134,delivery_van,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [delivery_van]?
+A: <mask>",False,0
+135,delivery_van,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [delivery_van]?
+A: <mask>",False,0
+136,delivery_van,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [delivery_van]?
+A: <mask>",False,0
+137,delivery_van,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [delivery_van]?
+A: <mask>",False,0
+138,delivery_van,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [delivery_van]?
+A: <mask>",False,0
+139,delivery_van,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [delivery_van]?
+A: <mask>",False,0
+140,furnace,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [furnace]?
+A: <mask>",False,0
+141,furnace,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [furnace]?
+A: <mask>",False,0
+142,furnace,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [furnace]?
+A: <mask>",False,0
+143,furnace,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [furnace]?
+A: <mask>",False,0
+144,furnace,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [furnace]?
+A: <mask>",False,0
+145,furnace,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [furnace]?
+A: <mask>",False,0
+146,furnace,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [furnace]?
+A: <mask>",False,0
+147,furnace,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [furnace]?
+A: <mask>",False,0
+148,furnace,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [furnace]?
+A: <mask>",False,0
+149,furnace,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [furnace]?
+A: <mask>",False,0
+150,furnace,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [furnace]?
+A: <mask>",False,0
+151,furnace,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [furnace]?
+A: <mask>",False,0
+152,furnace,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [furnace]?
+A: <mask>",False,0
+153,furnace,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [furnace]?
+A: <mask>",False,0
+154,furnace,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [furnace]?
+A: <mask>",False,0
+155,furnace,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [furnace]?
+A: <mask>",False,0
+156,furnace,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [furnace]?
+A: <mask>",False,0
+157,furnace,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [furnace]?
+A: <mask>",False,0
+158,furnace,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [furnace]?
+A: <mask>",False,0
+159,furnace,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [furnace]?
+A: <mask>",False,0
+160,tiger,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [tiger]?
+A: <mask>",False,0
+161,tiger,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [tiger]?
+A: <mask>",False,0
+162,tiger,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [tiger]?
+A: <mask>",True,0
+163,tiger,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [tiger]?
+A: <mask>",False,0
+164,tiger,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [tiger]?
+A: <mask>",True,0
+165,tiger,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [tiger]?
+A: <mask>",False,0
+166,tiger,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [tiger]?
+A: <mask>",False,0
+167,tiger,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [tiger]?
+A: <mask>",True,0
+168,tiger,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [tiger]?
+A: <mask>",True,0
+169,tiger,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [tiger]?
+A: <mask>",False,0
+170,tiger,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [tiger]?
+A: <mask>",False,0
+171,tiger,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [tiger]?
+A: <mask>",False,0
+172,tiger,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [tiger]?
+A: <mask>",False,0
+173,tiger,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [tiger]?
+A: <mask>",False,0
+174,tiger,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [tiger]?
+A: <mask>",False,0
+175,tiger,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [tiger]?
+A: <mask>",False,0
+176,tiger,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [tiger]?
+A: <mask>",False,0
+177,tiger,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [tiger]?
+A: <mask>",False,0
+178,tiger,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [tiger]?
+A: <mask>",False,0
+179,tiger,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [tiger]?
+A: <mask>",True,0
+180,apron,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [apron]?
+A: <mask>",False,0
+181,apron,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [apron]?
+A: <mask>",False,0
+182,apron,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [apron]?
+A: <mask>",False,0
+183,apron,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [apron]?
+A: <mask>",False,0
+184,apron,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [apron]?
+A: <mask>",True,0
+185,apron,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [apron]?
+A: <mask>",False,0
+186,apron,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [apron]?
+A: <mask>",False,0
+187,apron,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [apron]?
+A: <mask>",False,0
+188,apron,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [apron]?
+A: <mask>",False,0
+189,apron,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [apron]?
+A: <mask>",False,0
+190,apron,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [apron]?
+A: <mask>",False,0
+191,apron,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [apron]?
+A: <mask>",False,0
+192,apron,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [apron]?
+A: <mask>",False,0
+193,apron,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [apron]?
+A: <mask>",False,0
+194,apron,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [apron]?
+A: <mask>",False,0
+195,apron,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [apron]?
+A: <mask>",False,0
+196,apron,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [apron]?
+A: <mask>",False,0
+197,apron,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [apron]?
+A: <mask>",False,0
+198,apron,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [apron]?
+A: <mask>",False,0
+199,apron,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [apron]?
+A: <mask>",False,0
+200,wire_brush,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [wire_brush]?
+A: <mask>",False,0
+201,wire_brush,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [wire_brush]?
+A: <mask>",False,0
+202,wire_brush,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [wire_brush]?
+A: <mask>",True,0
+203,wire_brush,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [wire_brush]?
+A: <mask>",False,0
+204,wire_brush,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [wire_brush]?
+A: <mask>",False,0
+205,wire_brush,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [wire_brush]?
+A: <mask>",False,0
+206,wire_brush,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [wire_brush]?
+A: <mask>",False,0
+207,wire_brush,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [wire_brush]?
+A: <mask>",False,0
+208,wire_brush,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [wire_brush]?
+A: <mask>",False,0
+209,wire_brush,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [wire_brush]?
+A: <mask>",False,0
+210,wire_brush,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [wire_brush]?
+A: <mask>",False,0
+211,wire_brush,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [wire_brush]?
+A: <mask>",False,0
+212,wire_brush,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [wire_brush]?
+A: <mask>",False,0
+213,wire_brush,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [wire_brush]?
+A: <mask>",False,0
+214,wire_brush,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [wire_brush]?
+A: <mask>",False,0
+215,wire_brush,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [wire_brush]?
+A: <mask>",False,0
+216,wire_brush,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [wire_brush]?
+A: <mask>",False,0
+217,wire_brush,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [wire_brush]?
+A: <mask>",False,0
+218,wire_brush,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [wire_brush]?
+A: <mask>",False,0
+219,wire_brush,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [wire_brush]?
+A: <mask>",False,0
+220,pelican,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [pelican]?
+A: <mask>",False,0
+221,pelican,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [pelican]?
+A: <mask>",False,0
+222,pelican,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [pelican]?
+A: <mask>",True,0
+223,pelican,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [pelican]?
+A: <mask>",True,0
+224,pelican,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [pelican]?
+A: <mask>",True,0
+225,pelican,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [pelican]?
+A: <mask>",False,0
+226,pelican,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [pelican]?
+A: <mask>",False,0
+227,pelican,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [pelican]?
+A: <mask>",True,0
+228,pelican,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [pelican]?
+A: <mask>",True,0
+229,pelican,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [pelican]?
+A: <mask>",False,0
+230,pelican,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [pelican]?
+A: <mask>",True,0
+231,pelican,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [pelican]?
+A: <mask>",False,0
+232,pelican,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [pelican]?
+A: <mask>",False,0
+233,pelican,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [pelican]?
+A: <mask>",False,0
+234,pelican,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [pelican]?
+A: <mask>",False,0
+235,pelican,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [pelican]?
+A: <mask>",False,0
+236,pelican,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [pelican]?
+A: <mask>",False,0
+237,pelican,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [pelican]?
+A: <mask>",False,0
+238,pelican,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [pelican]?
+A: <mask>",False,0
+239,pelican,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [pelican]?
+A: <mask>",True,0
+240,submarine,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [submarine]?
+A: <mask>",False,0
+241,submarine,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [submarine]?
+A: <mask>",False,0
+242,submarine,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [submarine]?
+A: <mask>",False,0
+243,submarine,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [submarine]?
+A: <mask>",False,0
+244,submarine,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [submarine]?
+A: <mask>",False,0
+245,submarine,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [submarine]?
+A: <mask>",False,0
+246,submarine,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [submarine]?
+A: <mask>",False,0
+247,submarine,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [submarine]?
+A: <mask>",False,0
+248,submarine,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [submarine]?
+A: <mask>",False,0
+249,submarine,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [submarine]?
+A: <mask>",False,0
+250,submarine,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [submarine]?
+A: <mask>",False,0
+251,submarine,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [submarine]?
+A: <mask>",False,0
+252,submarine,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [submarine]?
+A: <mask>",False,0
+253,submarine,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [submarine]?
+A: <mask>",False,0
+254,submarine,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [submarine]?
+A: <mask>",False,0
+255,submarine,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [submarine]?
+A: <mask>",False,0
+256,submarine,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [submarine]?
+A: <mask>",False,0
+257,submarine,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [submarine]?
+A: <mask>",False,0
+258,submarine,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [submarine]?
+A: <mask>",False,0
+259,submarine,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [submarine]?
+A: <mask>",False,0
+260,club,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [club]?
+A: <mask>",False,0
+261,club,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [club]?
+A: <mask>",False,0
+262,club,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [club]?
+A: <mask>",True,0
+263,club,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [club]?
+A: <mask>",False,0
+264,club,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [club]?
+A: <mask>",False,0
+265,club,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [club]?
+A: <mask>",False,0
+266,club,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [club]?
+A: <mask>",False,0
+267,club,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [club]?
+A: <mask>",False,0
+268,club,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [club]?
+A: <mask>",False,0
+269,club,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [club]?
+A: <mask>",False,0
+270,club,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [club]?
+A: <mask>",False,0
+271,club,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [club]?
+A: <mask>",False,0
+272,club,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [club]?
+A: <mask>",False,0
+273,club,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [club]?
+A: <mask>",False,0
+274,club,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [club]?
+A: <mask>",False,0
+275,club,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [club]?
+A: <mask>",False,0
+276,club,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [club]?
+A: <mask>",False,0
+277,club,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [club]?
+A: <mask>",False,0
+278,club,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [club]?
+A: <mask>",False,0
+279,club,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [club]?
+A: <mask>",False,0
+280,drill,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [drill]?
+A: <mask>",False,0
+281,drill,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [drill]?
+A: <mask>",False,0
+282,drill,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [drill]?
+A: <mask>",True,0
+283,drill,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [drill]?
+A: <mask>",True,0
+284,drill,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [drill]?
+A: <mask>",True,0
+285,drill,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [drill]?
+A: <mask>",False,0
+286,drill,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [drill]?
+A: <mask>",False,0
+287,drill,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [drill]?
+A: <mask>",True,0
+288,drill,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [drill]?
+A: <mask>",True,0
+289,drill,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [drill]?
+A: <mask>",True,0
+290,drill,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [drill]?
+A: <mask>",False,0
+291,drill,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [drill]?
+A: <mask>",False,0
+292,drill,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [drill]?
+A: <mask>",False,0
+293,drill,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [drill]?
+A: <mask>",False,0
+294,drill,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [drill]?
+A: <mask>",False,0
+295,drill,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [drill]?
+A: <mask>",False,0
+296,drill,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [drill]?
+A: <mask>",False,0
+297,drill,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [drill]?
+A: <mask>",False,0
+298,drill,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [drill]?
+A: <mask>",False,0
+299,drill,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [drill]?
+A: <mask>",True,0
+300,chickadee,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [chickadee]?
+A: <mask>",False,0
+301,chickadee,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [chickadee]?
+A: <mask>",False,0
+302,chickadee,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [chickadee]?
+A: <mask>",True,0
+303,chickadee,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [chickadee]?
+A: <mask>",True,0
+304,chickadee,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [chickadee]?
+A: <mask>",True,0
+305,chickadee,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [chickadee]?
+A: <mask>",False,0
+306,chickadee,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [chickadee]?
+A: <mask>",False,0
+307,chickadee,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [chickadee]?
+A: <mask>",False,0
+308,chickadee,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [chickadee]?
+A: <mask>",True,0
+309,chickadee,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [chickadee]?
+A: <mask>",False,0
+310,chickadee,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [chickadee]?
+A: <mask>",False,0
+311,chickadee,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [chickadee]?
+A: <mask>",False,0
+312,chickadee,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [chickadee]?
+A: <mask>",False,0
+313,chickadee,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [chickadee]?
+A: <mask>",False,0
+314,chickadee,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [chickadee]?
+A: <mask>",False,0
+315,chickadee,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [chickadee]?
+A: <mask>",False,0
+316,chickadee,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [chickadee]?
+A: <mask>",False,0
+317,chickadee,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [chickadee]?
+A: <mask>",False,0
+318,chickadee,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [chickadee]?
+A: <mask>",False,0
+319,chickadee,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [chickadee]?
+A: <mask>",False,0
+320,robin,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [robin]?
+A: <mask>",False,0
+321,robin,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [robin]?
+A: <mask>",False,0
+322,robin,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [robin]?
+A: <mask>",True,0
+323,robin,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [robin]?
+A: <mask>",False,0
+324,robin,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [robin]?
+A: <mask>",True,0
+325,robin,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [robin]?
+A: <mask>",False,0
+326,robin,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [robin]?
+A: <mask>",False,0
+327,robin,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [robin]?
+A: <mask>",False,0
+328,robin,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [robin]?
+A: <mask>",False,0
+329,robin,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [robin]?
+A: <mask>",False,0
+330,robin,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [robin]?
+A: <mask>",False,0
+331,robin,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [robin]?
+A: <mask>",False,0
+332,robin,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [robin]?
+A: <mask>",False,0
+333,robin,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [robin]?
+A: <mask>",False,0
+334,robin,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [robin]?
+A: <mask>",False,0
+335,robin,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [robin]?
+A: <mask>",False,0
+336,robin,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [robin]?
+A: <mask>",False,0
+337,robin,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [robin]?
+A: <mask>",False,0
+338,robin,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [robin]?
+A: <mask>",False,0
+339,robin,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [robin]?
+A: <mask>",False,0
+340,caterpillar,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [caterpillar]?
+A: <mask>",False,0
+341,caterpillar,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [caterpillar]?
+A: <mask>",False,0
+342,caterpillar,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [caterpillar]?
+A: <mask>",False,0
+343,caterpillar,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [caterpillar]?
+A: <mask>",True,0
+344,caterpillar,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [caterpillar]?
+A: <mask>",True,0
+345,caterpillar,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [caterpillar]?
+A: <mask>",False,0
+346,caterpillar,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [caterpillar]?
+A: <mask>",False,0
+347,caterpillar,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [caterpillar]?
+A: <mask>",False,0
+348,caterpillar,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [caterpillar]?
+A: <mask>",True,0
+349,caterpillar,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [caterpillar]?
+A: <mask>",True,0
+350,caterpillar,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [caterpillar]?
+A: <mask>",True,0
+351,caterpillar,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [caterpillar]?
+A: <mask>",False,0
+352,caterpillar,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [caterpillar]?
+A: <mask>",False,0
+353,caterpillar,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [caterpillar]?
+A: <mask>",False,0
+354,caterpillar,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [caterpillar]?
+A: <mask>",True,0
+355,caterpillar,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [caterpillar]?
+A: <mask>",False,0
+356,caterpillar,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [caterpillar]?
+A: <mask>",False,0
+357,caterpillar,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [caterpillar]?
+A: <mask>",False,0
+358,caterpillar,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [caterpillar]?
+A: <mask>",False,0
+359,caterpillar,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [caterpillar]?
+A: <mask>",False,0
+360,crow,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [crow]?
+A: <mask>",False,0
+361,crow,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [crow]?
+A: <mask>",False,0
+362,crow,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [crow]?
+A: <mask>",True,0
+363,crow,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [crow]?
+A: <mask>",True,0
+364,crow,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [crow]?
+A: <mask>",False,0
+365,crow,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [crow]?
+A: <mask>",False,0
+366,crow,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [crow]?
+A: <mask>",False,0
+367,crow,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [crow]?
+A: <mask>",False,0
+368,crow,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [crow]?
+A: <mask>",True,0
+369,crow,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [crow]?
+A: <mask>",False,0
+370,crow,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [crow]?
+A: <mask>",False,0
+371,crow,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [crow]?
+A: <mask>",False,0
+372,crow,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [crow]?
+A: <mask>",False,0
+373,crow,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [crow]?
+A: <mask>",False,0
+374,crow,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [crow]?
+A: <mask>",False,0
+375,crow,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [crow]?
+A: <mask>",False,0
+376,crow,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [crow]?
+A: <mask>",False,0
+377,crow,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [crow]?
+A: <mask>",False,0
+378,crow,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [crow]?
+A: <mask>",False,0
+379,crow,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [crow]?
+A: <mask>",False,0
+380,cow,is_triangular,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is triangular] true for the concept [cow]?
+A: <mask>",False,0
+381,cow,is_a_car,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a car] true for the concept [cow]?
+A: <mask>",False,0
+382,cow,makes_a_sound,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [makes a sound] true for the concept [cow]?
+A: <mask>",True,0
+383,cow,has_beady_eyes,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has beady eyes] true for the concept [cow]?
+A: <mask>",False,0
+384,cow,has_patterns,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has patterns] true for the concept [cow]?
+A: <mask>",False,0
+385,cow,associated_with_kilt,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [associated with kilt] true for the concept [cow]?
+A: <mask>",False,0
+386,cow,used_to_look_nicer,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to look nicer] true for the concept [cow]?
+A: <mask>",False,0
+387,cow,is_a_carnivore,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is a carnivore] true for the concept [cow]?
+A: <mask>",False,0
+388,cow,is_hunted,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hunted] true for the concept [cow]?
+A: <mask>",True,0
+389,cow,driven_by_an_engine_driver,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [driven by an engine driver] true for the concept [cow]?
+A: <mask>",False,0
+390,cow,turns_in_its_shell_in_danger,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [turns in its shell in danger] true for the concept [cow]?
+A: <mask>",False,0
+391,cow,has_different_positions,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has different positions] true for the concept [cow]?
+A: <mask>",False,0
+392,cow,has_an_elastic_rubber,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has an elastic rubber] true for the concept [cow]?
+A: <mask>",False,0
+393,cow,is_hard_to_learn_to_use_it,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is hard to learn to use it] true for the concept [cow]?
+A: <mask>",False,0
+394,cow,can_drive_on_rough_roads,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [can drive on rough roads] true for the concept [cow]?
+A: <mask>",False,0
+395,cow,used_to_travel_to_other_planets,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [used to travel to other planets] true for the concept [cow]?
+A: <mask>",False,0
+396,cow,works_with_a_hinge,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [works with a hinge] true for the concept [cow]?
+A: <mask>",False,0
+397,cow,is_for_all_ages,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [is for all ages] true for the concept [cow]?
+A: <mask>",False,0
+398,cow,have_heels,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [have heels] true for the concept [cow]?
+A: <mask>",False,0
+399,cow,has_a_beautiful_tail,"Q: Is the property [is female] true for the concept [book]?
+A: False
+Q: Is the property [can be digital] true for the concept [book]?
+A: True
+In one word True/False answer the following question:
+Q: : Is the property [has a beautiful tail] true for the concept [cow]?
+A: <mask>",False,0

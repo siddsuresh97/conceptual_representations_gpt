@@ -69,7 +69,7 @@ def load_leuven_norms(save_dir):
 def add_leuven_prompt(concept, feature, batches_with_prompts):
     '''This function adds the prompts to the batches.'''
     # prompt = "Help me write a prompt as a question from a concept and an attribute. \nConcept: {}\nAttribute: {}.\nPrompt: In one word Yes/No <mask> ?".format(concept, feature)
-    prompt = "Q: Is the property [is female] true for the concept [book]?\nA: False\nQ: Is the property [can be digital] true for the concept [book]?\nA: True\nIn one word True/False answer the following question:\nQ: : Is the property [{}] true for the concept [{}]?\nA: <mask>".format(' '.join(feature.split('_')), concept)
+    prompt = "Q: Is the property [is female] true for the concept [book]?\nA: False\nQ: Is the property [can be digital] true for the concept [book]?\nA: True\nIn one word True/False answer the following question:\nQ: : Is the property [{}] true for the concept [{}]?\nA: <mask>".format(feature, concept) #format(' '.join(feature.split('_')), concept)
     batches_with_prompts.append([[concept, feature, prompt, 0]])
     return
 

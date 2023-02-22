@@ -1,0 +1,407 @@
+,Concept,Feature,prompt,gpt_response
+0,harpsichord,is_refreshing_in_the_summer,"Turn into a question that starts with Do, Are, Can
+ harpsichord is refreshing in the summer","
+
+Do harpsichords make a refreshing sound in the summer?"
+1,harpsichord,used_to_make_coffee,"Turn into a question that starts with Do, Are, Can
+ harpsichord used to make coffee","
+
+Do harpsichords make coffee?"
+2,harpsichord,you_roast_meat_in_it,"Turn into a question that starts with Do, Are, Can
+ harpsichord you roast meat in it","
+
+Can you roast meat in a harpsichord?"
+3,harpsichord,is_airy,"Turn into a question that starts with Do, Are, Can
+ harpsichord is airy","
+
+Can a harpsichord be made airier?"
+4,harpsichord,can_be_knit_by_yourself,"Turn into a question that starts with Do, Are, Can
+ harpsichord can be knit by yourself","
+
+Can harpsichord be knit by yourself?"
+5,harpsichord,has_many_teeth,"Turn into a question that starts with Do, Are, Can
+ harpsichord has many teeth","
+
+Do harpsichords have many teeth?"
+6,harpsichord,is_a_delicacy,"Turn into a question that starts with Do, Are, Can
+ harpsichord is a delicacy","
+
+Do harpsichords taste good?"
+7,harpsichord,is_worn_on_the_upper_part_of_your_body,"Turn into a question that starts with Do, Are, Can
+ harpsichord is worn on the upper part of your body","
+
+Do harpsichords have straps?"
+8,harpsichord,is_straight,"Turn into a question that starts with Do, Are, Can
+ harpsichord is straight","
+
+Do harpsichords have strings that are perpendicular to the soundboard?"
+9,harpsichord,used_by_sculptors,"Turn into a question that starts with Do, Are, Can
+ harpsichord used by sculptors","
+
+Do sculptors use the harpsichord in their work?"
+10,python,has_many_teeth,"Turn into a question that starts with Do, Are, Can
+ python has many teeth","
+
+Do Python have many teeth?"
+11,python,is_airy,"Turn into a question that starts with Do, Are, Can
+ python is airy","
+
+Can Python be airy?"
+12,python,can_be_knit_by_yourself,"Turn into a question that starts with Do, Are, Can
+ python can be knit by yourself","
+
+Can you knit Python by yourself?"
+13,python,you_roast_meat_in_it,"Turn into a question that starts with Do, Are, Can
+ python you roast meat in it","
+
+Can you roast meat in a Python?"
+14,python,used_by_sculptors,"Turn into a question that starts with Do, Are, Can
+ python used by sculptors","
+
+Can sculptors use Python?"
+15,python,is_straight,"Turn into a question that starts with Do, Are, Can
+ python is straight"," forward
+
+Can you teach me how to use Python?"
+16,python,is_worn_on_the_upper_part_of_your_body,"Turn into a question that starts with Do, Are, Can
+ python is worn on the upper part of your body","
+
+Do you wear a Python on your upper body?"
+17,python,is_refreshing_in_the_summer,"Turn into a question that starts with Do, Are, Can
+ python is refreshing in the summer","
+
+Do you like refreshing summer weather?"
+18,socks,is_airy,"Turn into a question that starts with Do, Are, Can
+ socks is airy","
+
+Do socks make your feet feel airy?"
+19,socks,has_many_teeth,"Turn into a question that starts with Do, Are, Can
+ socks has many teeth","
+
+Do socks have many teeth?"
+20,python,used_to_make_coffee,"Turn into a question that starts with Do, Are, Can
+ python used to make coffee","
+
+Can Python be used to make coffee?"
+21,python,is_a_delicacy,"Turn into a question that starts with Do, Are, Can
+ python is a delicacy","
+
+Do people in other countries enjoy python as much as we do in the United States?"
+22,socks,can_be_knit_by_yourself,"Turn into a question that starts with Do, Are, Can
+ socks can be knit by yourself","
+
+Can socks be knit by yourself?"
+23,socks,is_straight,"Turn into a question that starts with Do, Are, Can
+ socks is straight","
+
+Do socks need to be straight?"
+24,socks,is_refreshing_in_the_summer,"Turn into a question that starts with Do, Are, Can
+ socks is refreshing in the summer","
+
+Do socks help keep your feet cool in the summer?"
+25,socks,you_roast_meat_in_it,"Turn into a question that starts with Do, Are, Can
+ socks you roast meat in it","
+
+Can socks be used to roast meat?"
+26,socks,is_a_delicacy,"Turn into a question that starts with Do, Are, Can
+ socks is a delicacy","
+
+Do socks have a flavor?"
+27,microwave,has_many_teeth,"Turn into a question that starts with Do, Are, Can
+ microwave has many teeth","
+
+Do microwaves have many teeth?"
+28,socks,used_to_make_coffee,"Turn into a question that starts with Do, Are, Can
+ socks used to make coffee","?
+
+Do socks make coffee?"
+29,socks,used_by_sculptors,"Turn into a question that starts with Do, Are, Can
+ socks used by sculptors","?
+
+Do socks help sculptors keep their feet warm?"
+30,socks,is_worn_on_the_upper_part_of_your_body,"Turn into a question that starts with Do, Are, Can
+ socks is worn on the upper part of your body","
+
+Do socks help keep your feet warm?"
+31,microwave,is_airy,"Turn into a question that starts with Do, Are, Can
+ microwave is airy","
+
+Do microwaves emit radiation?
+Are microwaves harmful?
+Can microwaves heat food evenly?"
+32,microwave,can_be_knit_by_yourself,"Turn into a question that starts with Do, Are, Can
+ microwave can be knit by yourself","
+
+Can microwaves be knit by themselves?"
+33,stork,is_airy,"Turn into a question that starts with Do, Are, Can
+ stork is airy","
+
+Do storks fly?"
+34,microwave,is_straight,"Turn into a question that starts with Do, Are, Can
+ microwave is straight","en hair
+
+Can microwaves straighten hair?"
+35,microwave,is_refreshing_in_the_summer,"Turn into a question that starts with Do, Are, Can
+ microwave is refreshing in the summer","
+
+Do microwaves refresh in the summer?"
+36,microwave,you_roast_meat_in_it,"Turn into a question that starts with Do, Are, Can
+ microwave you roast meat in it","
+
+Can you roast meat in a microwave?"
+37,microwave,used_to_make_coffee,"Turn into a question that starts with Do, Are, Can
+ microwave used to make coffee","
+
+Do microwaves work to make coffee?"
+38,microwave,is_a_delicacy,"Turn into a question that starts with Do, Are, Can
+ microwave is a delicacy"," in your country?
+
+Do microwaves exist in your country?"
+39,stork,has_many_teeth,"Turn into a question that starts with Do, Are, Can
+ stork has many teeth","
+
+Do storks have many teeth?"
+40,stork,can_be_knit_by_yourself,"Turn into a question that starts with Do, Are, Can
+ stork can be knit by yourself","
+
+Can stork be knit by yourself?"
+41,microwave,is_worn_on_the_upper_part_of_your_body,"Turn into a question that starts with Do, Are, Can
+ microwave is worn on the upper part of your body","
+
+Do microwaves emit radiation?"
+42,microwave,used_by_sculptors,"Turn into a question that starts with Do, Are, Can
+ microwave used by sculptors","
+
+Do microwaves damage sculptures?
+Are microwaves safe to use by sculptors?
+Can microwaves be used by sculptors?"
+43,stork,is_straight,"Turn into a question that starts with Do, Are, Can
+ stork is straight","
+
+Can a stork be straight?"
+44,stork,you_roast_meat_in_it,"Turn into a question that starts with Do, Are, Can
+ stork you roast meat in it","
+
+Can I roast meat in the stork?"
+45,stork,used_by_sculptors,"Turn into a question that starts with Do, Are, Can
+ stork used by sculptors","
+
+Do sculptors use storks to deliver babies?"
+46,stork,used_to_make_coffee,"Turn into a question that starts with Do, Are, Can
+ stork used to make coffee","
+
+Do storks make coffee?"
+47,stork,is_worn_on_the_upper_part_of_your_body,"Turn into a question that starts with Do, Are, Can
+ stork is worn on the upper part of your body","
+
+Do storks have a neck?"
+48,stork,is_refreshing_in_the_summer,"Turn into a question that starts with Do, Are, Can
+ stork is refreshing in the summer","
+
+Do storks drink water?
+Are storks able to fly?
+Can storks live in the cold?"
+49,paintbrush,is_airy,"Turn into a question that starts with Do, Are, Can
+ paintbrush is airy","
+
+Can a paintbrush be airy?"
+50,stork,is_a_delicacy,"Turn into a question that starts with Do, Are, Can
+ stork is a delicacy"," in some parts of the world
+
+Do some people in some parts of the world consider storks to be a delicacy?"
+51,paintbrush,has_many_teeth,"Turn into a question that starts with Do, Are, Can
+ paintbrush has many teeth","
+
+Can a paintbrush have many teeth?"
+52,paintbrush,is_straight,"Turn into a question that starts with Do, Are, Can
+ paintbrush is straight","
+
+Can a paintbrush be straight?"
+53,paintbrush,you_roast_meat_in_it,"Turn into a question that starts with Do, Are, Can
+ paintbrush you roast meat in it","
+
+Can a paintbrush roast meat?"
+54,paintbrush,can_be_knit_by_yourself,"Turn into a question that starts with Do, Are, Can
+ paintbrush can be knit by yourself","
+
+Can a paintbrush be knit by yourself?"
+55,paintbrush,used_by_sculptors,"Turn into a question that starts with Do, Are, Can
+ paintbrush used by sculptors","
+
+Can a paintbrush be used by sculptors?"
+56,paintbrush,used_to_make_coffee,"Turn into a question that starts with Do, Are, Can
+ paintbrush used to make coffee","
+
+Can a paintbrush be used to make coffee?"
+57,paintbrush,is_refreshing_in_the_summer,"Turn into a question that starts with Do, Are, Can
+ paintbrush is refreshing in the summer","
+
+Do paintbrushes work well in the summer?"
+58,paintbrush,is_a_delicacy,"Turn into a question that starts with Do, Are, Can
+ paintbrush is a delicacy","
+
+Do can paintbrushes have bristles?"
+59,woodpecker,is_airy,"Turn into a question that starts with Do, Are, Can
+ woodpecker is airy","
+
+Can woodpecker fly?"
+60,woodpecker,has_many_teeth,"Turn into a question that starts with Do, Are, Can
+ woodpecker has many teeth","
+
+Do woodpeckers have many teeth?"
+61,paintbrush,is_worn_on_the_upper_part_of_your_body,"Turn into a question that starts with Do, Are, Can
+ paintbrush is worn on the upper part of your body","
+
+Do you wear a paintbrush on the upper part of your body?"
+62,woodpecker,is_straight,"Turn into a question that starts with Do, Are, Can
+ woodpecker is straight","
+
+Can woodpecker be straight?"
+63,woodpecker,you_roast_meat_in_it,"Turn into a question that starts with Do, Are, Can
+ woodpecker you roast meat in it","
+
+Can a woodpecker roast meat in its beak?"
+64,woodpecker,used_by_sculptors,"Turn into a question that starts with Do, Are, Can
+ woodpecker used by sculptors","
+
+Do woodpeckers use their beaks to sculpt wood?"
+65,woodpecker,is_refreshing_in_the_summer,"Turn into a question that starts with Do, Are, Can
+ woodpecker is refreshing in the summer","
+
+Do woodpeckers refresh in the summer?"
+66,woodpecker,used_to_make_coffee,"Turn into a question that starts with Do, Are, Can
+ woodpecker used to make coffee","?
+
+Do woodpeckers use to make coffee?"
+67,woodpecker,is_worn_on_the_upper_part_of_your_body,"Turn into a question that starts with Do, Are, Can
+ woodpecker is worn on the upper part of your body","
+
+Do woodpecker feathers itch?"
+68,trumpet,has_many_teeth,"Turn into a question that starts with Do, Are, Can
+ trumpet has many teeth","
+
+Do trumpet players have many teeth?"
+69,trumpet,can_be_knit_by_yourself,"Turn into a question that starts with Do, Are, Can
+ trumpet can be knit by yourself","
+
+Can trumpet be knit by yourself?"
+70,trumpet,is_airy,"Turn into a question that starts with Do, Are, Can
+ trumpet is airy"," or heavy
+
+Do trumpets have a heavy or airy sound?"
+71,woodpecker,is_a_delicacy,"Turn into a question that starts with Do, Are, Can
+ woodpecker is a delicacy"," in some parts of the world?
+
+Do woodpeckers taste good?"
+72,trumpet,you_roast_meat_in_it,"Turn into a question that starts with Do, Are, Can
+ trumpet you roast meat in it","
+
+Can you roast meat in a trumpet?"
+73,trumpet,is_refreshing_in_the_summer,"Turn into a question that starts with Do, Are, Can
+ trumpet is refreshing in the summer","
+
+Do trumpet players enjoy playing in the summer?"
+74,trumpet,used_to_make_coffee,"Turn into a question that starts with Do, Are, Can
+ trumpet used to make coffee","
+
+Can trumpet be used to make coffee?"
+75,trumpet,is_a_delicacy,"Turn into a question that starts with Do, Are, Can
+ trumpet is a delicacy","
+
+Do trumpet players enjoy a high social status?"
+76,trumpet,used_by_sculptors,"Turn into a question that starts with Do, Are, Can
+ trumpet used by sculptors","
+
+Can trumpet be used by sculptors?"
+77,harmonica,is_airy,"Turn into a question that starts with Do, Are, Can
+ harmonica is airy","
+
+Can harmonica be played in the wind?"
+78,trumpet,is_worn_on_the_upper_part_of_your_body,"Turn into a question that starts with Do, Are, Can
+ trumpet is worn on the upper part of your body","
+
+Do trumpet players wear them on their upper body?"
+79,woodpecker,can_be_knit_by_yourself,"Turn into a question that starts with Do, Are, Can
+ woodpecker can be knit by yourself","
+
+Can woodpecker be knit by yourself?"
+80,harmonica,has_many_teeth,"Turn into a question that starts with Do, Are, Can
+ harmonica has many teeth","
+
+Do harmonica have many teeth?"
+81,harmonica,can_be_knit_by_yourself,"Turn into a question that starts with Do, Are, Can
+ harmonica can be knit by yourself","
+
+Can harmonica be knit by yourself?"
+82,harmonica,is_straight,"Turn into a question that starts with Do, Are, Can
+ harmonica is straight","
+
+Do harmonica strings need to be straight?"
+83,harmonica,you_roast_meat_in_it,"Turn into a question that starts with Do, Are, Can
+ harmonica you roast meat in it","
+
+Can you roast meat in a harmonica?"
+84,harmonica,used_by_sculptors,"Turn into a question that starts with Do, Are, Can
+ harmonica used by sculptors","
+
+Do harmonica players use them in sculpture?"
+85,harmonica,is_refreshing_in_the_summer,"Turn into a question that starts with Do, Are, Can
+ harmonica is refreshing in the summer","
+
+Do harmonica players get sweaty in the summer?"
+86,harmonica,used_to_make_coffee,"Turn into a question that starts with Do, Are, Can
+ harmonica used to make coffee","?
+
+Can harmonica be used to make coffee?"
+87,harmonica,is_a_delicacy,"Turn into a question that starts with Do, Are, Can
+ harmonica is a delicacy","
+
+Do harmonica players get paid a lot of money?"
+88,harmonica,is_worn_on_the_upper_part_of_your_body,"Turn into a question that starts with Do, Are, Can
+ harmonica is worn on the upper part of your body","
+
+Do harmonica players wear them on their upper body?"
+89,trumpet,is_straight,"Turn into a question that starts with Do, Are, Can
+ trumpet is straight","
+
+Can trumpet be straightened?"
+90,bus,has_many_teeth,"Turn into a question that starts with Do, Are, Can
+ bus has many teeth","
+
+Do bus has many teeth?"
+91,bus,is_straight,"Turn into a question that starts with Do, Are, Can
+ bus is straight","
+
+Do buses always travel in a straight line?"
+92,bus,can_be_knit_by_yourself,"Turn into a question that starts with Do, Are, Can
+ bus can be knit by yourself","
+
+Can you knit a bus?"
+93,bus,is_refreshing_in_the_summer,"Turn into a question that starts with Do, Are, Can
+ bus is refreshing in the summer","
+
+Do bus riders feel refreshed in the summer?"
+94,bus,you_roast_meat_in_it,"Turn into a question that starts with Do, Are, Can
+ bus you roast meat in it","
+
+Can a bus roast meat in it?"
+95,bus,is_airy,"Turn into a question that starts with Do, Are, Can
+ bus is airy","
+
+Do buses have air conditioning?"
+96,bus,used_by_sculptors,"Turn into a question that starts with Do, Are, Can
+ bus used by sculptors","?
+
+Do bus used by sculptors?"
+97,bus,used_to_make_coffee,"Turn into a question that starts with Do, Are, Can
+ bus used to make coffee","?
+
+Can bus used to make coffee?"
+98,bus,is_a_delicacy,"Turn into a question that starts with Do, Are, Can
+ bus is a delicacy"," in
+
+Do bus have a taste?"
+99,bus,is_worn_on_the_upper_part_of_your_body,"Turn into a question that starts with Do, Are, Can
+ bus is worn on the upper part of your body","
+
+Do bus straps fit over my shoulder?"

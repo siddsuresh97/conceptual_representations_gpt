@@ -1,0 +1,15 @@
+02/21/2023 11:10:05 PM is when this event was logged.
+02/21/2023 11:10:05 PM Running experiments with the following parameters
+02/21/2023 11:10:05 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:10:05 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:10:05 PM Argument exp_name: 'feature_listing'
+02/21/2023 11:10:05 PM Argument model: 'babbage'
+02/21/2023 11:10:05 PM Argument temperature: '0.0'
+02/21/2023 11:11:53 PM is when this event was logged.
+02/21/2023 11:11:53 PM Running experiments with the following parameters
+02/21/2023 11:11:53 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:11:53 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:11:53 PM Argument exp_name: 'feature_listing'
+02/21/2023 11:11:53 PM Argument model: 'babbage'
+02/21/2023 11:11:53 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:11:53 PM Argument temperature: '0.0'

@@ -1,0 +1,405 @@
+,Concept,Feature,prompt,gpt_response
+0,leech,used_to_travel_to_other_planets,"Turn into a question that starts with Do, Are, Can
+ leech used to travel to other planets","?
+
+Can leech used to travel to other planets?"
+1,leech,is_sexy,"Turn into a question that starts with Do, Are, Can
+ leech is sexy","
+
+Can leech is sexy?"
+2,leech,does_not_live_in_Belgium,"Turn into a question that starts with Do, Are, Can
+ leech does not live in Belgium","
+
+Can leech does not live in Belgium."
+3,leech,is_a_home_appliance,"Turn into a question that starts with Do, Are, Can
+ leech is a home appliance","?
+
+Can leech is a verb?"
+4,leech,used_to_look_nicer,"Turn into a question that starts with Do, Are, Can
+ leech used to look nicer","
+
+Can leech used to look nicer?"
+5,leech,is_a_carnivore_and_herbivore,"Turn into a question that starts with Do, Are, Can
+ leech is a carnivore and herbivore","?
+
+Can leech is a carnivore and herbivore?"
+6,leech,used_to_climb,"Turn into a question that starts with Do, Are, Can
+ leech used to climb","?
+
+Can leech used to climb?"
+7,leech,has_a_fin_on_its_back,"Turn into a question that starts with Do, Are, Can
+ leech has a fin on its back","?
+
+Yes, leech has a fin on its back."
+8,flatfish,does_not_live_in_Belgium,"Turn into a question that starts with Do, Are, Can
+ flatfish does not live in Belgium","
+
+Do flatfish live in Belgium?"
+9,flatfish,used_to_travel_to_other_planets,"Turn into a question that starts with Do, Are, Can
+ flatfish used to travel to other planets","?
+
+Yes, flatfish can travel to other planets."
+10,flatfish,has_a_fin_on_its_back,"Turn into a question that starts with Do, Are, Can
+ flatfish has a fin on its back","?
+
+Yes, flatfish has a fin on its back."
+11,flatfish,used_to_look_nicer,"Turn into a question that starts with Do, Are, Can
+ flatfish used to look nicer","?
+
+What do you think flatfish look nicer with?"
+12,leech,has_to_be_put_in_socket,"Turn into a question that starts with Do, Are, Can
+ leech has to be put in socket","
+
+What are the three conditions for leech?
+
+-The leech must be put in a socket
+-The leech must be in a creature
+-The leech must be in the area"
+13,flatfish,used_to_climb,"Turn into a question that starts with Do, Are, Can
+ flatfish used to climb","?
+
+Can flatfish climb?"
+14,flatfish,is_a_carnivore_and_herbivore,"Turn into a question that starts with Do, Are, Can
+ flatfish is a carnivore and herbivore","?
+
+Do flatfish are a carnivore and herbivore?"
+15,flatfish,has_to_be_put_in_socket,"Turn into a question that starts with Do, Are, Can
+ flatfish has to be put in socket","
+
+What is the difference between a flatfish and a fish?"
+16,leech,resembles_horses,"Turn into a question that starts with Do, Are, Can
+ leech resembles horses","?
+
+Yes, horses and leeches share a lot of similarities. For one, they both have a long, thin body with a long tail. They also have a long neck and a long head."
+17,flatfish,is_sexy,"Turn into a question that starts with Do, Are, Can
+ flatfish is sexy","?
+
+Do flatfish are sexy?"
+18,flatfish,resembles_horses,"Turn into a question that starts with Do, Are, Can
+ flatfish resembles horses","?
+
+Do flatfish resemble horses?"
+19,flatfish,is_a_home_appliance,"Turn into a question that starts with Do, Are, Can
+ flatfish is a home appliance","?
+
+Can flatfish be a home appliance?"
+20,hot_air_balloon,used_to_look_nicer,"Turn into a question that starts with Do, Are, Can
+ hot_air_balloon used to look nicer","
+
+What was the original purpose of hot air balloons?"
+21,hot_air_balloon,is_sexy,"Turn into a question that starts with Do, Are, Can
+ hot_air_balloon is sexy","?
+
+Do hot air balloons have a sexy look?"
+22,hot_air_balloon,used_to_climb,"Turn into a question that starts with Do, Are, Can
+ hot_air_balloon used to climb","?
+
+What is the history of hot air balloon use for climbing?"
+23,hot_air_balloon,resembles_horses,"Turn into a question that starts with Do, Are, Can
+ hot_air_balloon resembles horses","?
+
+What is the difference between a hot air balloon and horses?"
+24,hot_air_balloon,does_not_live_in_Belgium,"Turn into a question that starts with Do, Are, Can
+ hot_air_balloon does not live in Belgium","
+
+Do hot_air_balloon live in Belgium?"
+25,hot_air_balloon,used_to_travel_to_other_planets,"Turn into a question that starts with Do, Are, Can
+ hot_air_balloon used to travel to other planets","?
+
+What is the name of the hot air balloon that was used to travel to other planets?"
+26,hot_air_balloon,has_a_fin_on_its_back,"Turn into a question that starts with Do, Are, Can
+ hot_air_balloon has a fin on its back","
+
+Yes, hot_air_balloon has a fin on its back."
+27,hot_air_balloon,is_a_carnivore_and_herbivore,"Turn into a question that starts with Do, Are, Can
+ hot_air_balloon is a carnivore and herbivore","?
+
+Do hot_air_balloons are carnivores and herbivores?"
+28,hot_air_balloon,has_to_be_put_in_socket,"Turn into a question that starts with Do, Are, Can
+ hot_air_balloon has to be put in socket","
+
+Do hot_air_balloon need to be put in socket?"
+29,hot_air_balloon,is_a_home_appliance,"Turn into a question that starts with Do, Are, Can
+ hot_air_balloon is a home appliance","
+
+Yes, hot_air_balloon is a home appliance."
+30,whisk,used_to_look_nicer,"Turn into a question that starts with Do, Are, Can
+ whisk used to look nicer","
+
+Can whisk is used to look nicer than using a whisk."
+31,whisk,does_not_live_in_Belgium,"Turn into a question that starts with Do, Are, Can
+ whisk does not live in Belgium","
+
+Do whisk does not live in Belgium?"
+32,whisk,has_a_fin_on_its_back,"Turn into a question that starts with Do, Are, Can
+ whisk has a fin on its back","?
+
+Can whisk has a fin on its back?"
+33,whisk,is_a_carnivore_and_herbivore,"Turn into a question that starts with Do, Are, Can
+ whisk is a carnivore and herbivore","?
+
+Can whisk is a carnivore and herbivore?"
+34,whisk,is_sexy,"Turn into a question that starts with Do, Are, Can
+ whisk is sexy","?
+
+Can whisk is sexy?"
+35,whisk,used_to_climb,"Turn into a question that starts with Do, Are, Can
+ whisk used to climb","
+
+Can whisk used to climb?"
+36,whisk,has_to_be_put_in_socket,"Turn into a question that starts with Do, Are, Can
+ whisk has to be put in socket","
+
+What are the three conditions for whisk to be put in a socket?"
+37,whisk,resembles_horses,"Turn into a question that starts with Do, Are, Can
+ whisk resembles horses","
+
+Can whisk resembles horses because it is a type of horse milk drink."
+38,whisk,is_a_home_appliance,"Turn into a question that starts with Do, Are, Can
+ whisk is a home appliance","?
+
+Can whisk is a home appliance?"
+39,skirt,used_to_look_nicer,"Turn into a question that starts with Do, Are, Can
+ skirt used to look nicer","?
+
+Can skirts be used to look nicer?"
+40,skirt,used_to_travel_to_other_planets,"Turn into a question that starts with Do, Are, Can
+ skirt used to travel to other planets","?
+
+Can skirts be used to travel to other planets?"
+41,skirt,is_sexy,"Turn into a question that starts with Do, Are, Can
+ skirt is sexy","
+
+Can skirts be sexy?"
+42,skirt,does_not_live_in_Belgium,"Turn into a question that starts with Do, Are, Can
+ skirt does not live in Belgium","
+
+What is the difference between a can and a skirt?"
+43,skirt,has_a_fin_on_its_back,"Turn into a question that starts with Do, Are, Can
+ skirt has a fin on its back","?
+
+Can skirts have a fin on their back?"
+44,skirt,is_a_carnivore_and_herbivore,"Turn into a question that starts with Do, Are, Can
+ skirt is a carnivore and herbivore","?
+
+Can skirts be classified as carnivores or herbivores?"
+45,skirt,has_to_be_put_in_socket,"Turn into a question that starts with Do, Are, Can
+ skirt has to be put in socket","
+
+What are the three conditions for a skirt to be put in a socket?"
+46,skirt,used_to_climb,"Turn into a question that starts with Do, Are, Can
+ skirt used to climb","
+
+Can skirts be used to climb?"
+47,skirt,resembles_horses,"Turn into a question that starts with Do, Are, Can
+ skirt resembles horses","?
+
+What does the word ""can"" mean?"
+48,skirt,is_a_home_appliance,"Turn into a question that starts with Do, Are, Can
+ skirt is a home appliance","
+
+Can skirt is a home appliance?"
+49,python,does_not_live_in_Belgium,"Turn into a question that starts with Do, Are, Can
+ python does not live in Belgium","
+
+What is the answer to this question?"
+50,python,used_to_look_nicer,"Turn into a question that starts with Do, Are, Can
+ python used to look nicer","
+
+What are some good ways to improve the appearance of Python code?"
+51,python,used_to_travel_to_other_planets,"Turn into a question that starts with Do, Are, Can
+ python used to travel to other planets","?
+
+Yes, Python can be used to travel to other planets."
+52,python,has_a_fin_on_its_back,"Turn into a question that starts with Do, Are, Can
+ python has a fin on its back","?
+
+Yes, Python has a fin on its back."
+53,python,has_to_be_put_in_socket,"Turn into a question that starts with Do, Are, Can
+ python has to be put in socket","?
+
+Yes, Python must be put in socket."
+54,python,is_sexy,"Turn into a question that starts with Do, Are, Can
+ python is sexy","
+
+Yes, Python is sexy."
+55,python,is_a_carnivore_and_herbivore,"Turn into a question that starts with Do, Are, Can
+ python is a carnivore and herbivore","?
+
+What is the difference between python and other carnivores?"
+56,python,resembles_horses,"Turn into a question that starts with Do, Are, Can
+ python resembles horses","?
+
+What is the difference between horses and python?"
+57,python,used_to_climb,"Turn into a question that starts with Do, Are, Can
+ python used to climb"," trees?
+
+Yes, Python can be used to climb trees."
+58,airplane,used_to_look_nicer,"Turn into a question that starts with Do, Are, Can
+ airplane used to look nicer","
+
+Can airplane look nicer?"
+59,airplane,does_not_live_in_Belgium,"Turn into a question that starts with Do, Are, Can
+ airplane does not live in Belgium","
+
+Do airplanes live in Belgium?"
+60,airplane,used_to_travel_to_other_planets,"Turn into a question that starts with Do, Are, Can
+ airplane used to travel to other planets","?
+
+Yes, airplane can travel to other planets."
+61,airplane,has_a_fin_on_its_back,"Turn into a question that starts with Do, Are, Can
+ airplane has a fin on its back","?
+
+Can an airplane have a fin on its back?"
+62,airplane,is_a_carnivore_and_herbivore,"Turn into a question that starts with Do, Are, Can
+ airplane is a carnivore and herbivore","?
+
+Do airplane are a carnivore and herbivore?"
+63,airplane,is_sexy,"Turn into a question that starts with Do, Are, Can
+ airplane is sexy","
+
+Do airplanes have a sexy look?"
+64,airplane,used_to_climb,"Turn into a question that starts with Do, Are, Can
+ airplane used to climb","?
+
+Can an airplane climb?"
+65,airplane,resembles_horses,"Turn into a question that starts with Do, Are, Can
+ airplane resembles horses","?
+
+Do airplanes resemble horses?"
+66,airplane,has_to_be_put_in_socket,"Turn into a question that starts with Do, Are, Can
+ airplane has to be put in socket","
+
+What are the three conditions for an airplane to be put in a socket?"
+67,airplane,is_a_home_appliance,"Turn into a question that starts with Do, Are, Can
+ airplane is a home appliance","
+
+Can airplane be a home appliance?"
+68,bass_guitar,used_to_look_nicer,"Turn into a question that starts with Do, Are, Can
+ bass_guitar used to look nicer","
+
+What is the difference between a bass guitar and a guitar?"
+69,bass_guitar,used_to_travel_to_other_planets,"Turn into a question that starts with Do, Are, Can
+ bass_guitar used to travel to other planets","?
+
+Yes, bass_guitar can travel to other planets."
+70,bass_guitar,does_not_live_in_Belgium,"Turn into a question that starts with Do, Are, Can
+ bass_guitar does not live in Belgium","
+
+Do bass_guitar live in Belgium?"
+71,bass_guitar,has_to_be_put_in_socket,"Turn into a question that starts with Do, Are, Can
+ bass_guitar has to be put in socket","
+
+Yes, bass_guitar must be put in a socket"
+72,bass_guitar,is_sexy,"Turn into a question that starts with Do, Are, Can
+ bass_guitar is sexy","
+
+Yes, bass_guitar can be sexy."
+73,python,is_a_home_appliance,"Turn into a question that starts with Do, Are, Can
+ python is a home appliance","
+
+Yes, Python is a home appliance."
+74,whisk,used_to_travel_to_other_planets,"Turn into a question that starts with Do, Are, Can
+ whisk used to travel to other planets","?
+
+Can whisk is used to travel to other planets?"
+75,bass_guitar,has_a_fin_on_its_back,"Turn into a question that starts with Do, Are, Can
+ bass_guitar has a fin on its back","
+
+Yes, bass_guitar has a fin on its back."
+76,bass_guitar,is_a_carnivore_and_herbivore,"Turn into a question that starts with Do, Are, Can
+ bass_guitar is a carnivore and herbivore","?
+
+Do bass_guitar and bass_violin are carnivores?"
+77,bass_guitar,used_to_climb,"Turn into a question that starts with Do, Are, Can
+ bass_guitar used to climb","
+
+Can bass_guitar be used to climb?"
+78,bass_guitar,resembles_horses,"Turn into a question that starts with Do, Are, Can
+ bass_guitar resembles horses","?
+
+Yes, bass_guitar resembles horses."
+79,bass_guitar,is_a_home_appliance,"Turn into a question that starts with Do, Are, Can
+ bass_guitar is a home appliance","
+
+Yes, bass_guitar is a home appliance."
+80,mittens,used_to_look_nicer,"Turn into a question that starts with Do, Are, Can
+ mittens used to look nicer","?
+
+What are some good reasons to use mittens?"
+81,mittens,has_a_fin_on_its_back,"Turn into a question that starts with Do, Are, Can
+ mittens has a fin on its back","?
+
+Can mittens have a fin on its back?"
+82,mittens,does_not_live_in_Belgium,"Turn into a question that starts with Do, Are, Can
+ mittens does not live in Belgium","
+
+Can mittens live in Belgium?"
+83,mittens,has_to_be_put_in_socket,"Turn into a question that starts with Do, Are, Can
+ mittens has to be put in socket","
+
+Can mittens be put in a socket?"
+84,mittens,used_to_travel_to_other_planets,"Turn into a question that starts with Do, Are, Can
+ mittens used to travel to other planets","?
+
+Yes, mittens can be used to travel to other planets."
+85,mittens,is_a_carnivore_and_herbivore,"Turn into a question that starts with Do, Are, Can
+ mittens is a carnivore and herbivore","?
+
+Do mittens have fur?"
+86,mittens,is_sexy,"Turn into a question that starts with Do, Are, Can
+ mittens is sexy","
+
+Do mittens make you sexy?"
+87,mittens,resembles_horses,"Turn into a question that starts with Do, Are, Can
+ mittens resembles horses","?
+
+Yes, mittens resemble horses."
+88,mittens,used_to_climb,"Turn into a question that starts with Do, Are, Can
+ mittens used to climb","?
+
+Can mittens be used to climb?"
+89,mittens,is_a_home_appliance,"Turn into a question that starts with Do, Are, Can
+ mittens is a home appliance","
+
+Can mittens be a home appliance?"
+90,spanner,does_not_live_in_Belgium,"Turn into a question that starts with Do, Are, Can
+ spanner does not live in Belgium","
+
+Do Belgians have a do?"
+91,spanner,has_a_fin_on_its_back,"Turn into a question that starts with Do, Are, Can
+ spanner has a fin on its back","
+
+Can a fin be on a spinner's back?"
+92,spanner,has_to_be_put_in_socket,"Turn into a question that starts with Do, Are, Can
+ spanner has to be put in socket","
+
+Do you have a spanner?"
+93,spanner,is_a_carnivore_and_herbivore,"Turn into a question that starts with Do, Are, Can
+ spanner is a carnivore and herbivore","?
+
+Do can be a carnivore and herbivore?"
+94,spanner,used_to_climb,"Turn into a question that starts with Do, Are, Can
+ spanner used to climb","
+
+Can you please help me climb the tree?"
+95,spanner,is_sexy,"Turn into a question that starts with Do, Are, Can
+ spanner is sexy","
+
+Do you like do-it-yourself sex?"
+96,spanner,resembles_horses,"Turn into a question that starts with Do, Are, Can
+ spanner resembles horses","
+
+Can horses turn into donkeys?"
+97,spanner,used_to_travel_to_other_planets,"Turn into a question that starts with Do, Are, Can
+ spanner used to travel to other planets","
+
+Can you tell me about the do, are, can spanner?"
+98,spanner,used_to_look_nicer,"Turn into a question that starts with Do, Are, Can
+ spanner used to look nicer","
+
+Can you please not use ""Do"" and ""Are"" in questions? They look nicer when they are spanned out."
+99,spanner,is_a_home_appliance,"Turn into a question that starts with Do, Are, Can
+ spanner is a home appliance","
+
+Can a spanner be used to turn a light switch?"

@@ -1,0 +1,453 @@
+02/22/2023 12:11:49 AM is when this event was logged.
+02/22/2023 12:11:49 AM Running experiments with the following parameters
+02/22/2023 12:11:49 AM Argument dataset_dir: 'iclr/data/leuven'
+02/22/2023 12:11:49 AM Argument dataset_name: 'gpt_generated_prompts'
+02/22/2023 12:11:49 AM Argument exp_name: 'generate_iclr_prompts'
+02/22/2023 12:11:49 AM Argument feature_list_fname: None
+02/22/2023 12:11:49 AM Argument local_rank: 0
+02/22/2023 12:11:49 AM Argument model: 'curie'
+02/22/2023 12:11:49 AM Argument results_dir: 'iclr/data/'
+02/22/2023 12:11:49 AM Argument sample: False
+02/22/2023 12:11:49 AM Argument temperature: '0'
+02/22/2023 12:11:49 AM Making batches
+02/22/2023 12:11:49 AM Total batches of 3000 request batches are 1
+02/22/2023 12:11:49 AM Only ada and davinci implemented
+02/22/2023 12:11:49 AM Only ada and davinci implemented
+02/22/2023 12:11:49 AM Only ada and davinci implemented
+02/22/2023 12:11:49 AM Only ada and davinci implemented
+02/22/2023 12:11:49 AM Only ada and davinci implemented
+02/22/2023 12:11:49 AM Only ada and davinci implemented
+02/22/2023 12:11:49 AM Only ada and davinci implemented
+02/22/2023 12:13:39 AM is when this event was logged.
+02/22/2023 12:13:39 AM Running experiments with the following parameters
+02/22/2023 12:13:39 AM Argument dataset_dir: 'iclr/data/leuven'
+02/22/2023 12:13:39 AM Argument dataset_name: 'gpt_generated_prompts'
+02/22/2023 12:13:39 AM Argument exp_name: 'generate_iclr_prompts'
+02/22/2023 12:13:39 AM Argument feature_list_fname: None
+02/22/2023 12:13:39 AM Argument local_rank: 0
+02/22/2023 12:13:39 AM Argument model: 'curie'
+02/22/2023 12:13:39 AM Argument results_dir: 'iclr/data/'
+02/22/2023 12:13:39 AM Argument sample: False
+02/22/2023 12:13:39 AM Argument temperature: '0'
+02/22/2023 12:13:39 AM Making batches
+02/22/2023 12:13:39 AM Total batches of 3000 request batches are 1
+02/22/2023 12:13:39 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:39 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:39 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harpsichord is airy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:39 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:39 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:39 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harpsichord has many teeth", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:39 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:39 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:39 AM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+02/22/2023 12:13:39 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:39 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:39 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:39 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harpsichord can be knit by yourself", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:39 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:39 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harpsichord is straight", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:39 AM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+02/22/2023 12:13:39 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harpsichord you roast meat in it", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:39 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harpsichord is refreshing in the summer", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:39 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harpsichord used by sculptors", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:39 AM Starting new HTTPS connection (1): api.openai.com:443
+02/22/2023 12:13:39 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harpsichord used to make coffee", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:39 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harpsichord is a delicacy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:39 AM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+02/22/2023 12:13:39 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harpsichord is worn on the upper part of your body", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:39 AM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+02/22/2023 12:13:39 AM Starting new HTTPS connection (1): api.openai.com:443
+02/22/2023 12:13:39 AM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+02/22/2023 12:13:39 AM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+02/22/2023 12:13:39 AM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+02/22/2023 12:13:39 AM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+02/22/2023 12:13:39 AM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+02/22/2023 12:13:39 AM Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+02/22/2023 12:13:39 AM Starting new HTTPS connection (1): api.openai.com:443
+02/22/2023 12:13:39 AM Starting new HTTPS connection (1): api.openai.com:443
+02/22/2023 12:13:39 AM Starting new HTTPS connection (1): api.openai.com:443
+02/22/2023 12:13:39 AM Starting new HTTPS connection (1): api.openai.com:443
+02/22/2023 12:13:39 AM Starting new HTTPS connection (1): api.openai.com:443
+02/22/2023 12:13:39 AM Starting new HTTPS connection (1): api.openai.com:443
+02/22/2023 12:13:39 AM Starting new HTTPS connection (1): api.openai.com:443
+02/22/2023 12:13:39 AM Starting new HTTPS connection (1): api.openai.com:443
+02/22/2023 12:13:39 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 318
+02/22/2023 12:13:39 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=347 request_id=bba7757ae0008361b31529ff8c9a1a3b response_code=200
+02/22/2023 12:13:39 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:39 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n python is airy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:39 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 292
+02/22/2023 12:13:39 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=365 request_id=558131243edec005c0a99dcbdd215a54 response_code=200
+02/22/2023 12:13:39 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:39 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n python has many teeth", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 300
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=619 request_id=e65f1791dc2bbe0465d6b8ce4e116d3d response_code=200
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n python can be knit by yourself", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 297
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=624 request_id=eb47ac5757479c52050389f4e1e12de6 response_code=200
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 300
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 296
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 291
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=622 request_id=29f63df3747e860849d34dba0ed48672 response_code=200
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n python is straight", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 292
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=628 request_id=30b9a8be80c0cbc90684ef02899ee04a response_code=200
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=611 request_id=60abd72e9f2deff2707eebb8ff35dc46 response_code=200
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=601 request_id=3c868bbd9da2b04864789844243ea198 response_code=200
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n python you roast meat in it", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n python is refreshing in the summer", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n python used by sculptors", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n python used to make coffee", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 334
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=762 request_id=fee69586383fe0a8a9a34bf8978135af response_code=200
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n python is a delicacy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 311
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=611 request_id=40564c12fcfb19496f4cd15f1458279e response_code=200
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n python is worn on the upper part of your body", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 289
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=353 request_id=0c6a8bed31de60a3e431da594b6e87dd response_code=200
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 282
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n socks is airy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=377 request_id=c6e46f3b8be70114b3d8bde1aaaf00c5 response_code=200
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n socks has many teeth", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 295
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=251 request_id=ce56c8e4e1ea3f5d9d2c2c27c4580b85 response_code=200
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n socks can be knit by yourself", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 295
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=243 request_id=3441d5c2f5a5f309f50991824e299adc response_code=200
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n socks is straight", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 288
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 307
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=250 request_id=2c70c701c0e887f715f898045906bd8c response_code=200
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 304
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 301
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=250 request_id=50ade8295fbd6ada6423b25d0a74ab72 response_code=200
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 298
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=250 request_id=c5bf282bcd1f3e913444431c0101d79c response_code=200
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=245 request_id=34caa256bbcb85e8bf3c9055a887734f response_code=200
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=156 request_id=929c53481544579b058794a1afbb0922 response_code=200
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n socks you roast meat in it", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n socks is refreshing in the summer", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n socks used by sculptors", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n socks used to make coffee", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 288
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 298
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n socks is a delicacy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=245 request_id=51da569bd73ec08228340eded96d37e0 response_code=200
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=245 request_id=10da31399152815bb795136fb47f37bb response_code=200
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n socks is worn on the upper part of your body", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n microwave is airy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 344
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=359 request_id=c5e713506cbf74d7294f09e464b1a88e response_code=200
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n microwave has many teeth", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:40 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 293
+02/22/2023 12:13:40 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=223 request_id=ed66b935e0d7722fd040a84134ed242c response_code=200
+02/22/2023 12:13:40 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:40 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n microwave can be knit by yourself", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 292
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=218 request_id=9f1362a2659808033bc574e67fc9b32a response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n microwave is straight", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 312
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=198 request_id=03cfbe1faa7d9d5aacf619653bdff042 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 296
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n microwave you roast meat in it", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=204 request_id=ccb15e18737e9e7b48bc764748ae4172 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n microwave is refreshing in the summer", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 286
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=198 request_id=eb964bea00826de0906fd6e19a8ac374 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n microwave used by sculptors", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 293
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=153 request_id=9e81ba912ad932e07ab69aba3505daee response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n microwave used to make coffee", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 285
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=226 request_id=6782037e35fb33d56e4eb42fc618c740 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 310
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n microwave is a delicacy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=222 request_id=386262d5dc579d31959f53a5e80403ca response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n microwave is worn on the upper part of your body", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 298
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=217 request_id=00a1c12e67aa311aa1aae9103e4dbb35 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n stork is airy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 352
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=249 request_id=03b1edbcd28d78b404f43cc48e29d94b response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n stork has many teeth", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 301
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=254 request_id=a0029d31c2cd41909053ef8efe4a541f response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n stork can be knit by yourself", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 277
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=99 request_id=a5e1219a0acd54ef7b852ab755af27a2 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n stork is straight", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 302
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=185 request_id=b51403b7f769c15d9b65250ad353683b response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n stork you roast meat in it", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 300
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=175 request_id=7bacebfec0a93ca0bff030c8b5b473f5 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n stork is refreshing in the summer", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 298
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=186 request_id=b6862c37e18c71da25d8ea0d9cc1fc9b response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n stork used by sculptors", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 298
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=212 request_id=eabc30376e06a53597711dfe028fbfae response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n stork used to make coffee", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 317
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=222 request_id=e8132f7555fcde3aa405d84e886adcf6 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n stork is a delicacy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 289
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=248 request_id=cd0063c9191bd70108f101bff02e40a4 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n stork is worn on the upper part of your body", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 294
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=241 request_id=e8444831a822d3cbc9792ada1d581ffe response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n paintbrush is airy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 292
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=221 request_id=92d8c4cc3041f74f9dd557878b7601ec response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 376
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n paintbrush has many teeth", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=408 request_id=625336d01959f4110cc5331fa0e5cc6d response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n paintbrush can be knit by yourself", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 287
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=217 request_id=ff376a91ac1a13fc6332fdc1665628b3 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n paintbrush is straight", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 294
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=176 request_id=39474996f278f091a5295ff887698069 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n paintbrush you roast meat in it", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 306
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=185 request_id=3073422486c0756c303c2e5d67b6922b response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n paintbrush is refreshing in the summer", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 285
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=168 request_id=307748fa55dfe8f5327a38aa9c3be702 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n paintbrush used by sculptors", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 285
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=157 request_id=6e9f4ac92b7c9d58ec48596d64169d16 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n paintbrush used to make coffee", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 341
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=402 request_id=73ef554d7eacc2213e553b0a4713d57d response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n paintbrush is a delicacy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 289
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=223 request_id=876b38024f6fbbfd96852341ebebab6c response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n paintbrush is worn on the upper part of your body", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 366
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=391 request_id=85b9bbd692fa2e0b5ac07cdb68b924cf response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n woodpecker is airy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 297
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 292
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=218 request_id=05bf451dd93f4a628bad13e1ce1f5fdb response_code=200
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=213 request_id=2ff50d3cf4ab56e17c78494846e6546c response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n woodpecker has many teeth", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n woodpecker can be knit by yourself", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 291
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=214 request_id=e8f44fa50ac255ff9892a4a5c936d150 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n woodpecker is straight", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 301
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 302
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=222 request_id=2ac3c62ae616922a1f8b1c688969ae65 response_code=200
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=187 request_id=d3eab5e0bb9ce2e9164e4fd40c06e623 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n woodpecker you roast meat in it", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n woodpecker is refreshing in the summer", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 304
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=184 request_id=529de525fe41a98111b15bc5f8b5041b response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n woodpecker used by sculptors", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:41 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 304
+02/22/2023 12:13:41 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=183 request_id=6849d6bc446ab4882c13aca99bca44a0 response_code=200
+02/22/2023 12:13:41 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:41 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n woodpecker used to make coffee", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 298
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=184 request_id=a98861c55b49a6e58b1368c42a8169dc response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n woodpecker is a delicacy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 282
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=178 request_id=a7721c484fba5d1345975303bf4226d8 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n woodpecker is worn on the upper part of your body", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 295
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=167 request_id=9966b85e0c304546c288b05da84b0487 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n trumpet is airy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 320
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=249 request_id=d4979cbbd5436a30ffbe1efd1b9c7b11 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n trumpet has many teeth", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 290
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=214 request_id=a2591484dc4626cc5535a8e1489b507e response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n trumpet can be knit by yourself", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 304
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=209 request_id=02358bb5821887993cde5e32790972d0 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n trumpet is straight", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 310
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=177 request_id=a8c259cf60b6bc04e19176ea725a073a response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n trumpet you roast meat in it", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 301
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=211 request_id=fc404f5fbb0d06759d0b9210e31ee874 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n trumpet is refreshing in the summer", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 299
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=191 request_id=f5cfbe049ea92f35a2ca7d5e9ad646ab response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n trumpet used by sculptors", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 291
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=214 request_id=9c453ec044cda68efb3d2dacd186adab response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n trumpet used to make coffee", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 298
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=173 request_id=b1faa0450a3f88e8b6a3f976fa346abb response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n trumpet is a delicacy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 295
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=162 request_id=9fb3c7c59623f28b487101200c66dc4b response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n trumpet is worn on the upper part of your body", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 312
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=214 request_id=ad8c86bc5a24a7328e9b1776a27f6f93 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harmonica is airy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 318
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=403 request_id=52988253da561a19389c46cd1f0cc8be response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harmonica has many teeth", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 296
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=312 request_id=af2b4b11bf11a8531c616425ab820702 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harmonica can be knit by yourself", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 311
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=308 request_id=42ba35c2cf285e5dc37d0818f5a6e607 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harmonica is straight", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 299
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=166 request_id=d0f257ab43c8aaaa304bf7cb9ccb9862 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harmonica you roast meat in it", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 310
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=168 request_id=c3d65393b9d6e6f5851321b6ee57a8b4 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harmonica is refreshing in the summer", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 297
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=315 request_id=047136c8deade11638a474ba559e4098 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harmonica used by sculptors", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 300
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=166 request_id=1a3dab3876f29d1d7d661cdcd37862df response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 313
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harmonica used to make coffee", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=172 request_id=76bf01c44908a6370bcaca1dce30bafb response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harmonica is a delicacy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 299
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=862 request_id=0970779e1f37c9284b3345af76c72d77 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n harmonica is worn on the upper part of your body", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 292
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=190 request_id=c619c792cb2c3a4784ccca54e2ec35d1 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n bus is airy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 298
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=192 request_id=692e6fdb194c4e9706056121796e4052 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n bus has many teeth", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 305
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=178 request_id=1d666ed3bffd4215eedc824334fcab09 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n bus can be knit by yourself", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 298
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=180 request_id=14eb781a96d050fb78b0606a2d4ebb2c response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n bus is straight", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 307
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=177 request_id=b0056d96fd74d9f8024927fea33f8b23 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n bus you roast meat in it", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 310
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=186 request_id=4c8ae27c24c8f6b702bbfd8a394d01b0 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n bus is refreshing in the summer", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 302
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=189 request_id=c616c8e4c2f2dd9e103d502fba84b2be response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n bus used by sculptors", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:42 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 309
+02/22/2023 12:13:42 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=196 request_id=2e2d0dc4daf04ec44876867d913ef905 response_code=200
+02/22/2023 12:13:42 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:42 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n bus used to make coffee", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:43 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 315
+02/22/2023 12:13:43 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=234 request_id=c5e35747252c8c8ce0cca73547c6f3aa response_code=200
+02/22/2023 12:13:43 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:43 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n bus is a delicacy", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:43 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 291
+02/22/2023 12:13:43 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=237 request_id=3d5d872a57b6f4ecca835eebf1b77054 response_code=200
+02/22/2023 12:13:43 AM message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+02/22/2023 12:13:43 AM api_version=None data='{"model": "text-curie-001", "prompt": "Turn into a question that starts with Do, Are, Can\\n bus is worn on the upper part of your body", "temperature": 0.0, "max_tokens": 256, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+02/22/2023 12:13:43 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 285
+02/22/2023 12:13:43 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=220 request_id=47f7eab3729d347cacda1c81fb60bc99 response_code=200
+02/22/2023 12:13:43 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 306
+02/22/2023 12:13:43 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 282
+02/22/2023 12:13:43 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=227 request_id=30033a6e7a58eb10c23dca0cb2fbef37 response_code=200
+02/22/2023 12:13:43 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=232 request_id=a67f70924dc6330d05d27c386117b1ad response_code=200
+02/22/2023 12:13:43 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 307
+02/22/2023 12:13:43 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=238 request_id=379f814e12d299475e114fce2a0f8690 response_code=200
+02/22/2023 12:13:43 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 291
+02/22/2023 12:13:43 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 294
+02/22/2023 12:13:43 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=242 request_id=94d59d5f00f71dc66c5963ccddb21ba2 response_code=200
+02/22/2023 12:13:43 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=232 request_id=2c578732a46de759c822e56b9758f0a1 response_code=200
+02/22/2023 12:13:43 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 290
+02/22/2023 12:13:43 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=234 request_id=9f741189f759cebd053f14965f781c95 response_code=200
+02/22/2023 12:13:43 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 293
+02/22/2023 12:13:43 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=225 request_id=ab04841764742d9e74203b36899c4fb9 response_code=200
+02/22/2023 12:13:43 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 286
+02/22/2023 12:13:43 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=179 request_id=cdb61217d471e871431807194254108f response_code=200
+02/22/2023 12:13:43 AM https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 299
+02/22/2023 12:13:43 AM message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=223 request_id=7010530683df69a422eae0035464a4c7 response_code=200

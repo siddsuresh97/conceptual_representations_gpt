@@ -29,7 +29,8 @@ REPTILES = ['Salamander',
  'Alligator']
 
 def save_feature_listing_results_in_csv(results_dir, dataset_name, model, exp_name, temperature):
-    file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_full_temperature_' + str(temperature)),'rb')
+    # file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_full_temperature_' + str(temperature)),'rb')
+    file = open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_0_temperature_' + str(temperature)),'rb')
     answer_dict = pickle.load(file)
     actual_total_tokens = 0
     estimated_total_tokens = 0
@@ -64,8 +65,12 @@ def save_feature_listing_results_in_csv(results_dir, dataset_name, model, exp_na
             category_list.append('tool')
         else:
             logging.error('Invalid category')
-    result_df = pd.DataFrame({'Concept':concept_list, 'Feature':feature_list, 'Yes/No':answer_list, 'Category':category_list, 'prompt':prompt_list, 'gpt_response':full_answer_list})
-    result_df.to_csv(os.path.join(results_dir, dataset_name, results_dir, dataset_name, model +'_'+ exp_name + '_feature_list_temperature_0.csv'))
+    if exp_name != 'generate_iclr_prompts':
+        result_df = pd.DataFrame({'Concept':concept_list, 'Feature':feature_list, 'Yes/No':answer_list, 'Category':category_list, 'prompt':prompt_list, 'gpt_response':full_answer_list})
+        result_df.to_csv(os.path.join(results_dir, dataset_name, results_dir, dataset_name, model +'_'+ exp_name + '_feature_list_temperature_0.csv'))
+    else:
+        result_df = pd.DataFrame({'Concept':concept_list, 'Feature':feature_list, 'prompt':prompt_list, 'gpt_response':full_answer_list})
+        result_df.to_csv(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_feature_list_temperature_0.csv'))
     file.close()
     logging.info('Estimated cost : {}'.format((estimated_total_tokens/1000)*0.06))
     logging.info('Actual cost : {}'.format((actual_total_tokens/1000)*0.06))
@@ -141,7 +146,7 @@ def save_feature_triplet_results_in_csv(results_dir, dataset_name, model, exp_na
 
 
 def extract_results(exp_name, dataset_name, model, results_dir, temperature):
-    if exp_name == 'feature_listing':
+    if exp_name == 'feature_listing' or exp_name == 'generate_iclr_prompts':
         save_feature_listing_results_in_csv(results_dir, dataset_name, model, exp_name, temperature)
     elif exp_name == 'triplet':
         save_feature_triplet_results_in_csv(results_dir, dataset_name, model, exp_name) 
@@ -159,6 +164,8 @@ def main():
     parser.add_argument('--model',
                     type=str, help=""" Name of the feature listing file""")
     parser.add_argument('--temperature',help = """Tradeoff between deterministic and creative responses of gpt""")
+    parser.add_argument('--results_dir', type=str, default=DEFAULT_RESULTS_DIR, 
+                        help="""Name of the dataset""")
     args = parser.parse_args()
     logging.basicConfig(filename="logs/extract_results_{}_{}.log".format(args.exp_name, args.dataset_name), level=logging.DEBUG, #encoding='utf-8', 
                         format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
@@ -171,7 +178,7 @@ def main():
     extract_results(exp_name = args.exp_name, 
             dataset_name = args.dataset_name,  
             model = args.model, 
-            results_dir = DEFAULT_RESULTS_DIR, 
+            results_dir = args.results_dir, 
             temperature = float(args.temperature))
 
 if __name__=="__main__":

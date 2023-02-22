@@ -1,0 +1,11 @@
+02/21/2023 10:36:07 PM is when this event was logged.
+02/21/2023 10:36:07 PM Running experiments with the following parameters
+02/21/2023 10:36:07 PM Argument dataset_dir: 'iclr/data/leuven'
+02/21/2023 10:36:07 PM Argument dataset_name: 'reptile_tool'
+02/21/2023 10:36:07 PM Argument exp_name: 'feature_listing'
+02/21/2023 10:36:07 PM Argument feature_list_fname: None
+02/21/2023 10:36:07 PM Argument local_rank: 0
+02/21/2023 10:36:07 PM Argument model: 'babbage'
+02/21/2023 10:36:07 PM Argument results_dir: 'iclr/data/leuven/gpt_generated_prompts'
+02/21/2023 10:36:07 PM Argument sample: None
+02/21/2023 10:36:07 PM Argument temperature: '0'

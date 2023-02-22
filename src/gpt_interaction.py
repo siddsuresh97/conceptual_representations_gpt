@@ -140,6 +140,52 @@ def send_gpt_prompt(prompt, model, temperature):
                             frequency_penalty=0,
                             presence_penalty=0
                             )
+    elif model == 'babbage':
+        try:
+            response = openai.Completion.create(
+                            model="text-babbage-001",
+                            prompt=prompt,
+                            temperature=temperature,
+                            max_tokens=256,
+                            top_p=1,
+                            frequency_penalty=0,
+                            presence_penalty=0
+                            )
+        except:
+            logging.info('Sleeping for 30 in babbage')
+            time.sleep(30)
+            response = openai.Completion.create(
+                            model="text-babbage-001",
+                            prompt=prompt,
+                            temperature=temperature,
+                            max_tokens=256,
+                            top_p=1,
+                            frequency_penalty=0,
+                            presence_penalty=0
+                            )
+    elif model == 'curie':
+        try:
+            response = openai.Completion.create(
+                            model="text-curie-001",
+                            prompt=prompt,
+                            temperature=temperature,
+                            max_tokens=256,
+                            top_p=1,
+                            frequency_penalty=0,
+                            presence_penalty=0
+                            )
+        except:
+            logging.info('Sleeping for 30 in babbage')
+            time.sleep(30)
+            response = openai.Completion.create(
+                            model="text-curie-001",
+                            prompt=prompt,
+                            temperature=temperature,
+                            max_tokens=256,
+                            top_p=1,
+                            frequency_penalty=0,
+                            presence_penalty=0
+                            )
     elif model == 'davinci':
         try:
             response = openai.Completion.create(
@@ -215,6 +261,30 @@ def make_gpt_prompt_batches_feat_listing(concepts_set, features_set, concept_fea
     logging.info('Total batches of 150000 tokesn are {}'.format(len(batches)))
     return batches
 
+def make_gpt_prompt_batches_grammar_iclr(concepts_set, features_set):
+    logging.info('Making batches')
+    batch = []
+    batches = []
+    total_tokens = 0
+    for concept, feature in itertools.product(concepts_set, features_set):
+        if len(batch)<3000:
+            prompt, characters = generate_prompt_to_form_questions_iclr(concept, feature)
+            tokens = np.ceil((characters + 1)/4)
+            batch.append([concept, feature, prompt, tokens])
+        else:
+            batches.append(batch)
+            batch = [[concept, feature, prompt, tokens]]
+    if len(batch) != 0:
+        batches.append(batch)
+    logging.info('Total batches of 3000 request batches are {}'.format(len(batches)))
+    return batches
+
+def generate_prompt_to_form_questions_iclr(concept, feature):
+    # prompt = 'Help me form generated a question from [concept],[feature].\n[sweater], [has_two_eyes]\nQ: Do sweaters have two eyes?\n[table],[used_to_make_pancakes]\nQ:Can tables be used to make pancakes?\n[{}],[{}]\nQ:'.format(concept, feature)
+    prompt = 'Turn into a question that starts with Do, Are, Can\n {} {}'.format(concept, ' '.join(feature.split('_')))
+    characters = len(prompt)
+    return prompt, characters
+
 def generate_prompt_triplet(anchor, concept1, concept2):
     # prompt = 'Keywords "{}", "{}"\nQ)Which is more similar to "{}"?\na){}\nb){}'.format(concept1, concept2, anchor, concept1, concept2)
     # prompt = 'Answer using one word "{}" or "{}". Which is more similar in meaning to "{}"?'.format(concept1, concept2, anchor)
@@ -260,7 +330,7 @@ def get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dat
             Parallel(n_jobs=10, require='sharedmem')(delayed(prompt_gpt_feature_listing)(concept, feature, prompt, tokens, answer_dict, each_prompt_api_time, model, openai_api_key, temperature) for concept, feature, prompt, tokens in batch)
         elif exp_name == 'triplet':
             Parallel(n_jobs=10, require='sharedmem')(delayed(prompt_gpt_triplet)(anchor, concept1, concept2, prompt, tokens, model, each_prompt_api_time, answer_dict,openai_api_key, temperature) for anchor, concept1, concept2, prompt, tokens in batch)
-        save_responses(answer_dict, results_dir, dataset_name, exp_name, model, i, temperature)
+        save_responses(answer_dict, results_dir, dataset_name, exp_name, model, i, temperature, sample=False)
         if len(batches) > 1:
             time.sleep(60*2)
     exp_run_time = time.time()- start_time
@@ -269,6 +339,20 @@ def get_gpt_responses(batches, model, openai_api_key, exp_name, results_dir, dat
     logging.info('Total time in running api concurrently is {}s'.format(np.sum(each_prompt_api_time)))
     logging.info('Speedup by parallilsation was {} x'.format((np.sum(each_prompt_api_time)- exp_run_time)/exp_run_time))
     return answer_dict
+
+def get_gpt_responses_grammar(batches, model, openai_api_key, exp_name, results_dir, dataset_name, temperature):
+    answer_dict = {}
+    each_prompt_api_time = []
+    start_time = time.time()
+    for i, batch in enumerate(batches):
+        if os.path.exists(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_{}_{}'.format(i, temperature))):
+            print(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_{}_{}'.format(i, temperature)), 'EXISTS')
+            continue
+        Parallel(n_jobs=10, require='sharedmem')(delayed(prompt_gpt_feature_listing)(concept, feature, prompt, tokens, answer_dict, each_prompt_api_time, model, openai_api_key, temperature) for concept, feature, prompt, tokens in batch)
+        save_responses(answer_dict, results_dir, dataset_name, exp_name, model, i, temperature, sample=False)
+        if len(batches) > 1:
+            time.sleep(60)
+    
 
 def get_transformer_responses(batches, model, exp_name, temperature, sample):
     answer_dict = {}
@@ -461,5 +545,6 @@ def save_responses(answer_dict, results_dir, dataset_name, exp_name, model, part
     else:
         if not os.path.exists(os.path.join(results_dir, dataset_name)):
             os.mkdir(os.path.join(results_dir, dataset_name))
-        with open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_{}_temperature_{}'.format(part, temperature)), 'wb') as handle:
-            pickle.dump(answer_dict,handle ,  protocol=pickle.HIGHEST_PROTOCOL)
+        else:
+            with open(os.path.join(results_dir, dataset_name, model +'_'+ exp_name + '_{}_temperature_{}'.format(part, temperature)), 'wb') as handle:
+                pickle.dump(answer_dict,handle ,  protocol=pickle.HIGHEST_PROTOCOL)

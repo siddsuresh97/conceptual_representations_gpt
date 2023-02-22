@@ -1,0 +1,1959 @@
+02/21/2023 11:08:59 PM is when this event was logged.
+02/21/2023 11:08:59 PM Running experiments with the following parameters
+02/21/2023 11:08:59 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:08:59 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:08:59 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:08:59 PM Argument model: 'babbage'
+02/21/2023 11:08:59 PM Argument temperature: '0.0'
+02/21/2023 11:08:59 PM Cant save result. Only feature listing and triplet task implemented
+02/21/2023 11:13:11 PM is when this event was logged.
+02/21/2023 11:13:11 PM Running experiments with the following parameters
+02/21/2023 11:13:11 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:13:11 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:13:11 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:13:11 PM Argument model: 'babbage'
+02/21/2023 11:13:11 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:13:11 PM Argument temperature: '0.0'
+02/21/2023 11:13:56 PM is when this event was logged.
+02/21/2023 11:13:56 PM Running experiments with the following parameters
+02/21/2023 11:13:56 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:13:56 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:13:56 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:13:56 PM Argument model: 'babbage'
+02/21/2023 11:13:56 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:13:56 PM Argument temperature: '0.0'
+02/21/2023 11:14:24 PM is when this event was logged.
+02/21/2023 11:14:24 PM Running experiments with the following parameters
+02/21/2023 11:14:24 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:14:24 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:14:24 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:14:24 PM Argument model: 'babbage'
+02/21/2023 11:14:24 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:14:24 PM Argument temperature: '0.0'
+02/21/2023 11:14:24 PM Using selector: EpollSelector
+02/21/2023 11:14:25 PM Using selector: EpollSelector
+02/21/2023 11:14:25 PM Using selector: EpollSelector
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:15:47 PM Invalid category
+02/21/2023 11:16:30 PM is when this event was logged.
+02/21/2023 11:16:30 PM Running experiments with the following parameters
+02/21/2023 11:16:30 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:16:30 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:16:30 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:16:30 PM Argument model: 'babbage'
+02/21/2023 11:16:30 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:16:30 PM Argument temperature: '0.0'
+02/21/2023 11:16:30 PM Using selector: EpollSelector
+02/21/2023 11:16:30 PM Using selector: EpollSelector
+02/21/2023 11:16:30 PM Using selector: EpollSelector
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Invalid category
+02/21/2023 11:16:56 PM Using selector: EpollSelector
+02/21/2023 11:16:56 PM Using selector: EpollSelector
+02/21/2023 11:24:32 PM is when this event was logged.
+02/21/2023 11:24:32 PM Running experiments with the following parameters
+02/21/2023 11:24:32 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:24:32 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:24:32 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:24:32 PM Argument model: 'babbage'
+02/21/2023 11:24:32 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:24:32 PM Argument temperature: '0.0'
+02/21/2023 11:24:32 PM Using selector: EpollSelector
+02/21/2023 11:24:32 PM Using selector: EpollSelector
+02/21/2023 11:24:32 PM Using selector: EpollSelector
+02/21/2023 11:24:46 PM is when this event was logged.
+02/21/2023 11:24:46 PM Running experiments with the following parameters
+02/21/2023 11:24:46 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:24:46 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:24:46 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:24:46 PM Argument model: 'babbage'
+02/21/2023 11:24:46 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:24:46 PM Argument temperature: '0.0'
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:24:46 PM Invalid category
+02/21/2023 11:25:51 PM is when this event was logged.
+02/21/2023 11:25:51 PM Running experiments with the following parameters
+02/21/2023 11:25:51 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:25:51 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:25:51 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:25:51 PM Argument model: 'babbage'
+02/21/2023 11:25:51 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:25:51 PM Argument temperature: '0.0'
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:25:51 PM Invalid category
+02/21/2023 11:26:23 PM is when this event was logged.
+02/21/2023 11:26:23 PM Running experiments with the following parameters
+02/21/2023 11:26:23 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:26:23 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:26:23 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:26:23 PM Argument model: 'babbage'
+02/21/2023 11:26:23 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:26:23 PM Argument temperature: '0.0'
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Invalid category
+02/21/2023 11:26:23 PM Estimated cost : 0.0
+02/21/2023 11:26:23 PM Actual cost : 0.0
+02/21/2023 11:36:23 PM is when this event was logged.
+02/21/2023 11:36:23 PM Running experiments with the following parameters
+02/21/2023 11:36:23 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:36:23 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:36:23 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:36:23 PM Argument model: 'babbage'
+02/21/2023 11:36:23 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:36:23 PM Argument temperature: '0.0'
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid answer
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Invalid category
+02/21/2023 11:36:23 PM Estimated cost : 0.0
+02/21/2023 11:36:23 PM Actual cost : 0.0
+02/21/2023 11:43:46 PM is when this event was logged.
+02/21/2023 11:43:46 PM Running experiments with the following parameters
+02/21/2023 11:43:46 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:43:46 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:43:46 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:43:46 PM Argument model: 'babbage'
+02/21/2023 11:43:46 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:43:46 PM Argument temperature: '0.0'
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid answer
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Invalid category
+02/21/2023 11:43:46 PM Estimated cost : 0.0
+02/21/2023 11:43:46 PM Actual cost : 0.0
+02/21/2023 11:43:56 PM is when this event was logged.
+02/21/2023 11:43:56 PM Running experiments with the following parameters
+02/21/2023 11:43:56 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:43:56 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:43:56 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:43:56 PM Argument model: 'babbage'
+02/21/2023 11:43:56 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:43:56 PM Argument temperature: '0.0'
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid answer
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid answer
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid answer
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid answer
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Invalid category
+02/21/2023 11:43:56 PM Estimated cost : 0.0
+02/21/2023 11:43:56 PM Actual cost : 0.0
+02/21/2023 11:48:23 PM is when this event was logged.
+02/21/2023 11:48:23 PM Running experiments with the following parameters
+02/21/2023 11:48:23 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:48:23 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:48:23 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:48:23 PM Argument model: 'babbage'
+02/21/2023 11:48:23 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:48:23 PM Argument temperature: '0.0'
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid answer
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid answer
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid answer
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid answer
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid answer
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Invalid answer
+02/21/2023 11:48:23 PM Invalid category
+02/21/2023 11:48:23 PM Estimated cost : 0.0
+02/21/2023 11:48:23 PM Actual cost : 0.0
+02/21/2023 11:49:32 PM is when this event was logged.
+02/21/2023 11:49:32 PM Running experiments with the following parameters
+02/21/2023 11:49:32 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:49:32 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:49:32 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:49:32 PM Argument model: 'babbage'
+02/21/2023 11:49:32 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:49:32 PM Argument temperature: '0.0'
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid answer
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid answer
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid answer
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Invalid category
+02/21/2023 11:49:32 PM Estimated cost : 0.0
+02/21/2023 11:49:32 PM Actual cost : 0.0
+02/21/2023 11:50:57 PM is when this event was logged.
+02/21/2023 11:50:57 PM Running experiments with the following parameters
+02/21/2023 11:50:57 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:50:57 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:50:57 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:50:57 PM Argument model: 'babbage'
+02/21/2023 11:50:57 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:50:57 PM Argument temperature: '0.0'
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Invalid category
+02/21/2023 11:50:57 PM Estimated cost : 0.0
+02/21/2023 11:50:57 PM Actual cost : 0.0
+02/21/2023 11:54:17 PM is when this event was logged.
+02/21/2023 11:54:17 PM Running experiments with the following parameters
+02/21/2023 11:54:17 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:54:17 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:54:17 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:54:17 PM Argument model: 'babbage'
+02/21/2023 11:54:17 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:54:17 PM Argument temperature: '0.0'
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid answer
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid answer
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid answer
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid answer
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid answer
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid answer
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid answer
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid answer
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Invalid category
+02/21/2023 11:54:17 PM Estimated cost : 0.0
+02/21/2023 11:54:17 PM Actual cost : 0.0
+02/21/2023 11:55:18 PM is when this event was logged.
+02/21/2023 11:55:18 PM Running experiments with the following parameters
+02/21/2023 11:55:18 PM ########    EXTRACTING RESULTS     ##############
+02/21/2023 11:55:18 PM Argument dataset_name: 'gpt_generated_prompts'
+02/21/2023 11:55:18 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 11:55:18 PM Argument model: 'babbage'
+02/21/2023 11:55:18 PM Argument results_dir: 'iclr/data/'
+02/21/2023 11:55:18 PM Argument temperature: '0.0'
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid answer
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid answer
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid answer
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid answer
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Invalid category
+02/21/2023 11:55:18 PM Estimated cost : 0.0
+02/21/2023 11:55:18 PM Actual cost : 0.0
+02/22/2023 12:06:17 AM is when this event was logged.
+02/22/2023 12:06:17 AM Running experiments with the following parameters
+02/22/2023 12:06:17 AM ########    EXTRACTING RESULTS     ##############
+02/22/2023 12:06:17 AM Argument dataset_name: 'gpt_generated_prompts'
+02/22/2023 12:06:17 AM Argument exp_name: 'generate_iclr_prompts'
+02/22/2023 12:06:17 AM Argument model: 'babbage'
+02/22/2023 12:06:17 AM Argument results_dir: 'iclr/data/'
+02/22/2023 12:06:17 AM Argument temperature: '0.0'
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid answer
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid answer
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid answer
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Invalid category
+02/22/2023 12:06:17 AM Estimated cost : 0.0
+02/22/2023 12:06:17 AM Actual cost : 0.0
+02/22/2023 12:09:43 AM is when this event was logged.
+02/22/2023 12:09:43 AM Running experiments with the following parameters
+02/22/2023 12:09:43 AM ########    EXTRACTING RESULTS     ##############
+02/22/2023 12:09:43 AM Argument dataset_name: 'gpt_generated_prompts'
+02/22/2023 12:09:43 AM Argument exp_name: 'generate_iclr_prompts'
+02/22/2023 12:09:43 AM Argument model: 'babbage'
+02/22/2023 12:09:43 AM Argument results_dir: 'iclr/data/'
+02/22/2023 12:09:43 AM Argument temperature: '0.0'
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid answer
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid answer
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid answer
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid answer
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid answer
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid answer
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid answer
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid answer
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid answer
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid answer
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Invalid category
+02/22/2023 12:09:43 AM Estimated cost : 0.0
+02/22/2023 12:09:43 AM Actual cost : 0.0
+02/22/2023 12:13:55 AM is when this event was logged.
+02/22/2023 12:13:55 AM Running experiments with the following parameters
+02/22/2023 12:13:55 AM ########    EXTRACTING RESULTS     ##############
+02/22/2023 12:13:55 AM Argument dataset_name: 'gpt_generated_prompts'
+02/22/2023 12:13:55 AM Argument exp_name: 'generate_iclr_prompts'
+02/22/2023 12:13:55 AM Argument model: 'babbage'
+02/22/2023 12:13:55 AM Argument results_dir: 'iclr/data/'
+02/22/2023 12:13:55 AM Argument temperature: '0.0'
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid answer
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid answer
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid answer
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid answer
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid answer
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid answer
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid answer
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid answer
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid answer
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid answer
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Invalid category
+02/22/2023 12:13:55 AM Estimated cost : 0.0
+02/22/2023 12:13:55 AM Actual cost : 0.0
+02/22/2023 12:14:15 AM is when this event was logged.
+02/22/2023 12:14:15 AM Running experiments with the following parameters
+02/22/2023 12:14:15 AM ########    EXTRACTING RESULTS     ##############
+02/22/2023 12:14:15 AM Argument dataset_name: 'gpt_generated_prompts'
+02/22/2023 12:14:15 AM Argument exp_name: 'generate_iclr_prompts'
+02/22/2023 12:14:15 AM Argument model: 'curie'
+02/22/2023 12:14:15 AM Argument results_dir: 'iclr/data/'
+02/22/2023 12:14:15 AM Argument temperature: '0.0'
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid answer
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid answer
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid answer
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid answer
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Invalid category
+02/22/2023 12:14:15 AM Estimated cost : 0.0
+02/22/2023 12:14:15 AM Actual cost : 0.0

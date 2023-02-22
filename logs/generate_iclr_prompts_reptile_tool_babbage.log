@@ -1,0 +1,63 @@
+02/21/2023 10:36:56 PM is when this event was logged.
+02/21/2023 10:36:56 PM Running experiments with the following parameters
+02/21/2023 10:36:56 PM Argument dataset_dir: 'iclr/data/leuven'
+02/21/2023 10:36:56 PM Argument dataset_name: 'reptile_tool'
+02/21/2023 10:36:56 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 10:36:56 PM Argument feature_list_fname: None
+02/21/2023 10:36:56 PM Argument local_rank: 0
+02/21/2023 10:36:56 PM Argument model: 'babbage'
+02/21/2023 10:36:56 PM Argument results_dir: 'iclr/data/leuven/gpt_generated_prompts'
+02/21/2023 10:36:56 PM Argument sample: None
+02/21/2023 10:36:56 PM Argument temperature: '0'
+02/21/2023 10:37:25 PM is when this event was logged.
+02/21/2023 10:37:25 PM Running experiments with the following parameters
+02/21/2023 10:37:25 PM Argument dataset_dir: 'iclr/data/leuven'
+02/21/2023 10:37:25 PM Argument dataset_name: 'reptile_tool'
+02/21/2023 10:37:25 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 10:37:25 PM Argument feature_list_fname: None
+02/21/2023 10:37:25 PM Argument local_rank: 0
+02/21/2023 10:37:25 PM Argument model: 'babbage'
+02/21/2023 10:37:25 PM Argument results_dir: 'iclr/data/leuven/gpt_generated_prompts'
+02/21/2023 10:37:25 PM Argument sample: None
+02/21/2023 10:37:25 PM Argument temperature: '0'
+02/21/2023 10:37:25 PM Making batches
+02/21/2023 10:37:25 PM Total batches of 3000 request batches are 1
+02/21/2023 10:43:11 PM is when this event was logged.
+02/21/2023 10:43:11 PM Running experiments with the following parameters
+02/21/2023 10:43:11 PM Argument dataset_dir: 'iclr/data/leuven'
+02/21/2023 10:43:11 PM Argument dataset_name: 'reptile_tool'
+02/21/2023 10:43:11 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 10:43:11 PM Argument feature_list_fname: None
+02/21/2023 10:43:11 PM Argument local_rank: 0
+02/21/2023 10:43:11 PM Argument model: 'babbage'
+02/21/2023 10:43:11 PM Argument results_dir: 'iclr/data/leuven/gpt_generated_prompts'
+02/21/2023 10:43:11 PM Argument sample: False
+02/21/2023 10:43:11 PM Argument temperature: '0'
+02/21/2023 10:43:11 PM Making batches
+02/21/2023 10:43:11 PM Total batches of 3000 request batches are 1
+02/21/2023 10:43:27 PM is when this event was logged.
+02/21/2023 10:43:27 PM Running experiments with the following parameters
+02/21/2023 10:43:27 PM Argument dataset_dir: 'iclr/data/leuven'
+02/21/2023 10:43:27 PM Argument dataset_name: 'reptile_tool'
+02/21/2023 10:43:27 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 10:43:27 PM Argument feature_list_fname: None
+02/21/2023 10:43:27 PM Argument local_rank: 0
+02/21/2023 10:43:27 PM Argument model: 'babbage'
+02/21/2023 10:43:27 PM Argument results_dir: 'iclr/data/leuven/gpt_generated_prompts'
+02/21/2023 10:43:27 PM Argument sample: False
+02/21/2023 10:43:27 PM Argument temperature: '0'
+02/21/2023 10:43:27 PM Making batches
+02/21/2023 10:43:27 PM Total batches of 3000 request batches are 1
+02/21/2023 10:45:02 PM is when this event was logged.
+02/21/2023 10:45:02 PM Running experiments with the following parameters
+02/21/2023 10:45:02 PM Argument dataset_dir: 'iclr/data/leuven'
+02/21/2023 10:45:02 PM Argument dataset_name: 'reptile_tool'
+02/21/2023 10:45:02 PM Argument exp_name: 'generate_iclr_prompts'
+02/21/2023 10:45:02 PM Argument feature_list_fname: None
+02/21/2023 10:45:02 PM Argument local_rank: 0
+02/21/2023 10:45:02 PM Argument model: 'babbage'
+02/21/2023 10:45:02 PM Argument results_dir: 'iclr/data/leuven/gpt_generated_prompts'
+02/21/2023 10:45:02 PM Argument sample: False
+02/21/2023 10:45:02 PM Argument temperature: '0'
+02/21/2023 10:45:02 PM Making batches
+02/21/2023 10:45:02 PM Total batches of 3000 request batches are 1

@@ -44,6 +44,6 @@
 # python src/prompt_gpt.py --exp_name 'generate_iclr_prompts' --model 'curie' --dataset_name gpt_generated_prompts --temperature 0 --dataset_dir 'iclr/data/leuven' --results_dir 'iclr/data/'
 
 
-# 2/22/23 - run experiments with feature voerlap across animals and artifacts self consistency
-CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven' --exp_name 'self_consistency'
+# 2/22/23 - run experiments without '_' in features
+CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven'
 

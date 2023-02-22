@@ -430,7 +430,7 @@ def get_transformer_responses(batches, model, exp_name, temperature, sample):
             prompt_dict = {'prompt':prompts.tolist()}
             ds = Dataset.from_dict(prompt_dict)
             # ds = ds.map(lambda examples: T5Tokenizer.from_pretrained("google/flan-t5-xxl")(examples['prompt'],truncation=True, padding='max_length'), batched=True)
-            ds = ds.map(lambda examples: tokenizer(examples['prompt'],truncation=True, padding='max_length'), batched=True)
+            ds = ds.map(lambda examples: tokenizer(examples['prompt'],truncation=True,  max_length=40,padding='max_length'), batched=True)
             ds.set_format(type='torch', columns=['input_ids', 'attention_mask'])
             dataloader = torch.utils.data.DataLoader(ds, batch_size=batch_size, num_workers=10, drop_last=False, pin_memory=True)
             flan_model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-xxl", return_dict=True,  torch_dtype=torch.bfloat16)

@@ -442,7 +442,7 @@ def get_transformer_responses(batches, model, exp_name, temperature, sample):
                 for batch in tqdm(dataloader):
                     input_ids = batch['input_ids'].to(device) #.to(device=accelerator.device)
                     attention_mask = batch['attention_mask'].to(device) #.to(device=accelerator.device)
-                    if sample == "False":
+                    if not sample:
                         outputs = flan_model.generate(input_ids, attention_mask=attention_mask, temperature = temperature)
                         preds.extend(outputs)
                     else:

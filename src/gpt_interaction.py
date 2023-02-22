@@ -457,7 +457,7 @@ def get_transformer_responses(batches, model, exp_name, temperature, sample):
             print('Time taken to generate responses is {}s'.format(time.time()-start_time))
             decode_start_time = time.time()
             del flan_model
-            if sample == "False":
+            if not sample:
                 responses = tokenizer.batch_decode(preds, skip_special_tokens=True)
                 print('decoding done', time.time()-decode_start_time)
                 answer_dict = {'concept':concepts, 'feature':features, 'prompt':prompts, 'response':responses}

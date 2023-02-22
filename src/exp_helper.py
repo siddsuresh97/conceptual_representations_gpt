@@ -34,7 +34,6 @@ def run_exp(exp_name, dataset_name, dataset_dir, feature_list_fname, model, open
         concepts = list(set(list(animal_leuven_norms.index) + list(artifacts_leuven_norms.index)))
         for concept, feature in itertools.product(concepts[:10], features[:10]):
             batches.append([concept, feature])
-        import ipdb; ipdb.set_trace()
         # batches_animals = make_leuven_prompts(batches_animals)
         # batches_artifacts = make_leuven_prompts(batches_artifacts)
         # batches = batches_animals + batches_artifacts

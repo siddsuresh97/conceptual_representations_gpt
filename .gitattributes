@@ -1,1 +1,2 @@
 /iclr/data/leuven/flan filter=lfs diff=lfs merge=lfs -text
+/iclr/data/leuven/flan/*.csv filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,4 @@
+"matrix2","verified_gpt_dsm","gpt_triplet_dsm","gpt_002_pairwise_dsm"
+"1","verified_gpt_dsm","1","0.848318668714218","0.684288107382484"
+"2","gpt_triplet_dsm","0.848318668714218","1","0.496514150776797"
+"3","gpt_002_pairwise_dsm","0.684288107382484","0.496514150776796","1"

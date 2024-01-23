@@ -1,4 +1,4 @@
-# python src/prompt_gpt.py --dataset_name 'reptile_tool' --exp_name 'feature_listing' --feature_list_fname 'GPT_3_feature_df - Sheet1.csv' --model 'ada'
+ python src/prompt_gpt.py --dataset_name 'reptile_tool' --exp_name 'feature_listing' --feature_list_fname 'GPT_3_feature_df - Sheet1.csv' --model 'ada' --temperature 0
 
 # python src/prompt_gpt.py --dataset_name 'reptile_tool' --exp_name 'feature_listing' --feature_list_fname 'GPT_3_feature_df - Sheet1.csv' --model 'davinci'
 
@@ -45,5 +45,5 @@
 
 
 # 2/22/23 - run experiments without '_' in features
-CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven/flan'
+#CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch src/prompt_gpt.py --exp_name 'leuven_prompts_answers' --dataset_dir 'iclr/data/leuven' --model 'flan' --temperature 0 --results_dir 'iclr/data/leuven/flan'
 
